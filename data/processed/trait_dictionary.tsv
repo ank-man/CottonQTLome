@@ -1,0 +1,2893 @@
+trait_category	trait_harmonized	trait_original	source_db	n_records
+abiotic stress	cold tolerance	ER-CC1	Literature	1
+abiotic stress	cold tolerance	ER-CC4	Literature	826
+abiotic stress	cold tolerance	ER-CC6	Literature	2
+abiotic stress	cold tolerance	ER-DVC1	Literature	1
+abiotic stress	cold tolerance	ER-DVC3	Literature	2
+abiotic stress	cold tolerance	ER-DVC4	Literature	1
+abiotic stress	cold tolerance	ER-DVC5	Literature	1
+abiotic stress	cold tolerance	HL-CC1	Literature	6
+abiotic stress	cold tolerance	HL-CC4	Literature	1
+abiotic stress	cold tolerance	HL-CC5	Literature	2
+abiotic stress	cold tolerance	HL-DVC1	Literature	1
+abiotic stress	cold tolerance	HL-DVC2	Literature	58
+abiotic stress	cold tolerance	HL-DVC3	Literature	2
+abiotic stress	cold tolerance	HL-DVC4	Literature	1
+abiotic stress	cold tolerance	HL-DVC5	Literature	1
+abiotic stress	cold tolerance	TL-CC1	Literature	6
+abiotic stress	cold tolerance	TL-CC2	Literature	19
+abiotic stress	cold tolerance	TL-CC4	Literature	104
+abiotic stress	cold tolerance	TL-CC5	Literature	7
+abiotic stress	cold tolerance	TL-DVC2	Literature	6
+abiotic stress	cold tolerance	TL-DVC3	Literature	21
+abiotic stress	cold tolerance	TL-DVC5	Literature	1
+abiotic stress	drought tolerance	DownWR	CottonGVD	26
+abiotic stress	drought tolerance	DownWaR	CottonGVD	23
+abiotic stress	drought tolerance	RelWatCon_1	CottonGVD	3
+abiotic stress	drought tolerance	RelWatCon_2	CottonGVD	2
+abiotic stress	drought tolerance	RelWatCon_PEGCK	CottonGVD	12
+abiotic stress	drought tolerance	RelWatCon_PEG_vs_CK	CottonGVD	5
+abiotic stress	drought tolerance	RelWatCon_Salt150	CottonGVD	2
+abiotic stress	drought tolerance	RelWatCon_Salt150-2	CottonGVD	2
+abiotic stress	drought tolerance	RelWatCon_SaltCK	CottonGVD	11
+abiotic stress	drought tolerance	RelWatCon_SaltCK-2	CottonGVD	6
+abiotic stress	drought tolerance	SYM	Literature	65
+abiotic stress	drought tolerance	TotWR	CottonGVD	14
+abiotic stress	drought tolerance	TotWaR	CottonGVD	14
+abiotic stress	drought tolerance	UpWR	CottonGVD	10
+abiotic stress	drought tolerance	UpWaR	CottonGVD	10
+abiotic stress	drought tolerance	associated loci with lt	Literature	1
+abiotic stress	drought tolerance	canopy temperature	CottonGen	8
+abiotic stress	drought tolerance	carbon isotope ratio	CottonGen	14
+abiotic stress	drought tolerance	drought-tolerance	Literature	32
+abiotic stress	drought tolerance	loci associated with drought tolerance	Literature	17
+abiotic stress	drought tolerance	loci associated with drought tolerant	Literature	17
+abiotic stress	drought tolerance	osmotic potential	CottonGen	24
+abiotic stress	drought tolerance	relative leaf water content	CottonGen	5
+abiotic stress	drought tolerance	snps associated with drought tolerance	Literature	17
+abiotic stress	nutrient and other abiotic stress	K/Na	Literature	5
+abiotic stress	nutrient and other abiotic stress	phosphorus concentration	CottonGen	5
+abiotic stress	nutrient and other abiotic stress	potassium concentration	CottonGen	4
+abiotic stress	nutrient and other abiotic stress	seven cottonseed nutrient	Literature	47
+abiotic stress	salt tolerance		Literature	46
+abiotic stress	salt tolerance	CHL	Literature	9
+abiotic stress	salt tolerance	CIST	Literature	25
+abiotic stress	salt tolerance	DLW	Literature	13
+abiotic stress	salt tolerance	EC	Literature	13
+abiotic stress	salt tolerance	LFW	Literature	3
+abiotic stress	salt tolerance	RGR	Literature	16
+abiotic stress	salt tolerance	RSL	Literature	12
+abiotic stress	salt tolerance	RSR	Literature	10
+abiotic stress	salt tolerance	RWC	Literature	7
+abiotic stress	salt tolerance	Relative ChlC	Literature	58
+abiotic stress	salt tolerance	Relative SL	Literature	11
+abiotic stress	salt tolerance	Relative WC	Literature	29
+abiotic stress	salt tolerance	SGR	Literature	1
+abiotic stress	salt tolerance	SL	Literature	15
+abiotic stress	salt tolerance	SLW	Literature	15
+abiotic stress	salt tolerance	SSL	Literature	1
+abiotic stress	salt tolerance	STFW	Literature	1
+abiotic stress	salt tolerance	STL	Literature	15
+abiotic stress	salt tolerance	potassium to sodium concentration ratio	CottonGen	5
+abiotic stress	salt tolerance	salt tolerance	Literature	28
+abiotic stress	salt tolerance	salt-tolerance related	Literature	8
+abiotic stress	salt tolerance	salt-tolerant related	Literature	27
+abiotic stress	salt tolerance	sequencing data quality	Literature	18
+abiotic stress	salt tolerance	sodium concentration	CottonGen	4
+biotic stress	bacterial blight resistance	Bacterial blight	CottonGen	14
+biotic stress	bacterial blight resistance	bacterial blight resistance	CottonGen	74
+biotic stress	bacterial blight resistance	the cbb resistance	Literature	107
+biotic stress	bacterial blight resistance	upland cotton	Literature	58
+biotic stress	cotton blue disease resistance	Blue disease	CottonGen	1
+biotic stress	cotton leaf crumple virus resistance	Leaf crumple	CottonGen	1
+biotic stress	cotton leaf crumple virus resistance	cotton leaf crumple virus resistance	CottonGen	2
+biotic stress	cotton leaf curl disease resistance	qtl-associated and flanking markers	Literature	11
+biotic stress	fusarium wilt resistance		Literature	39589
+biotic stress	fusarium wilt resistance	BS, FM, TNSB, FS, LP, FOV, SI, LI	Literature	1
+biotic stress	fusarium wilt resistance	FL, FOV, BW, FMAT, FBN	Literature	1
+biotic stress	fusarium wilt resistance	FOV	Literature	18
+biotic stress	fusarium wilt resistance	FU, LA, FT, CP, FBP, BW, NFFB, FS, FOV	Literature	1
+biotic stress	fusarium wilt resistance	FW	Literature	50
+biotic stress	fusarium wilt resistance	FW resistance	Literature	117
+biotic stress	fusarium wilt resistance	FWDI_AY_14	CottonGVD	2
+biotic stress	fusarium wilt resistance	FWDM_AY_14	CottonGVD	1
+biotic stress	fusarium wilt resistance	Fusarium	Literature	4
+biotic stress	fusarium wilt resistance	Fusarium wilt	CottonGen	2107
+biotic stress	fusarium wilt resistance	Relative FW	Literature	20
+biotic stress	fusarium wilt resistance	fusarium wilt disease incidence	CottonGen	2169
+biotic stress	fusarium wilt resistance	fusarium wilt resistance	CottonGen	8
+biotic stress	insect resistance	L	Literature	2
+biotic stress	insect resistance	MP	Literature	1
+biotic stress	insect resistance	NTM	Literature	5
+biotic stress	insect resistance	SL	Literature	2
+biotic stress	insect resistance	W	Literature	2
+biotic stress	other disease resistance	southwestern cotton rust resistance	CottonGen	1
+biotic stress	reniform nematode resistance	1	Literature	1
+biotic stress	reniform nematode resistance	10	Literature	1
+biotic stress	reniform nematode resistance	11	Literature	1
+biotic stress	reniform nematode resistance	12	Literature	1
+biotic stress	reniform nematode resistance	13	Literature	1
+biotic stress	reniform nematode resistance	14	Literature	1
+biotic stress	reniform nematode resistance	15	Literature	1
+biotic stress	reniform nematode resistance	2	Literature	1
+biotic stress	reniform nematode resistance	3	Literature	1
+biotic stress	reniform nematode resistance	4	Literature	1
+biotic stress	reniform nematode resistance	5	Literature	1
+biotic stress	reniform nematode resistance	6	Literature	1
+biotic stress	reniform nematode resistance	7	Literature	1
+biotic stress	reniform nematode resistance	8	Literature	1
+biotic stress	reniform nematode resistance	9	Literature	1
+biotic stress	reniform nematode resistance	Reniform nematode	CottonGen	4
+biotic stress	reniform nematode resistance	reniform nematode resistance	CottonGen	5
+biotic stress	root-knot nematode resistance	RKN	Literature	12
+biotic stress	root-knot nematode resistance	RKN resistance	Literature	25
+biotic stress	root-knot nematode resistance	Root-knot nematode	CottonGen	2
+biotic stress	root-knot nematode resistance	rootknot nematode resistance	CottonGen	2
+biotic stress	verticillium wilt resistance		Literature	1147
+biotic stress	verticillium wilt resistance	DI	Literature	12
+biotic stress	verticillium wilt resistance	DInc	Literature	33
+biotic stress	verticillium wilt resistance	FDI	Literature	4
+biotic stress	verticillium wilt resistance	FRS	Literature	1
+biotic stress	verticillium wilt resistance	GRS	Literature	2
+biotic stress	verticillium wilt resistance	RelVerWDI_AY_14	CottonGVD	3
+biotic stress	verticillium wilt resistance	V	Literature	7
+biotic stress	verticillium wilt resistance	VD	Literature	6
+biotic stress	verticillium wilt resistance	VL	Literature	9
+biotic stress	verticillium wilt resistance	VLBP	Literature	4
+biotic stress	verticillium wilt resistance	VV	Literature	8
+biotic stress	verticillium wilt resistance	VW	Literature	143
+biotic stress	verticillium wilt resistance	VW resistance	Literature	342
+biotic stress	verticillium wilt resistance	VW07an	Literature	6
+biotic stress	verticillium wilt resistance	VW07ku	Literature	4
+biotic stress	verticillium wilt resistance	VW07nan	Literature	24
+biotic stress	verticillium wilt resistance	VW08an	Literature	5
+biotic stress	verticillium wilt resistance	VW08ku	Literature	1
+biotic stress	verticillium wilt resistance	VW08nan	Literature	53
+biotic stress	verticillium wilt resistance	VW09ku	Literature	4
+biotic stress	verticillium wilt resistance	VW09nan	Literature	3
+biotic stress	verticillium wilt resistance	VWI	Literature	12
+biotic stress	verticillium wilt resistance	VWR	Literature	21
+biotic stress	verticillium wilt resistance	VerWilDM_AY_14	CottonGVD	2
+biotic stress	verticillium wilt resistance	VerWilRat	CottonGVD	2
+biotic stress	verticillium wilt resistance	Verticillium Wilt	Literature	9
+biotic stress	verticillium wilt resistance	Verticillium wilt	CottonGen	119
+biotic stress	verticillium wilt resistance	Weight	Literature	2
+biotic stress	verticillium wilt resistance	cotton resistance to v	Literature	50
+biotic stress	verticillium wilt resistance	disease incidence	Literature	62
+biotic stress	verticillium wilt resistance	disease index	Literature	9
+biotic stress	verticillium wilt resistance	function hotspot and its regulated egenes	Literature	14
+biotic stress	verticillium wilt resistance	qtl mapping	Literature	7
+biotic stress	verticillium wilt resistance	qtls	Literature	27
+biotic stress	verticillium wilt resistance	the core snps	Literature	13
+biotic stress	verticillium wilt resistance	verticillium wilt di	Literature	72
+biotic stress	verticillium wilt resistance	verticillium wilt dinc	Literature	120
+biotic stress	verticillium wilt resistance	verticillium wilt disease	Literature	44
+biotic stress	verticillium wilt resistance	verticillium wilt disease incidence	CottonGen	61
+biotic stress	verticillium wilt resistance	verticillium wilt disease resistance/tolerance	Literature	8
+biotic stress	verticillium wilt resistance	verticillium wilt disease severity	CottonGen	37
+biotic stress	verticillium wilt resistance	verticillium wilt qtls clusters	Literature	68
+biotic stress	verticillium wilt resistance	verticillium wilt resistance	CottonGen	25
+biotic stress	verticillium wilt resistance	vw	Literature	2
+biotic stress	verticillium wilt resistance	vw resistance	Literature	25
+biotic stress	verticillium wilt resistance	vw resistance on the consensus map through meta-analysis	Literature	70
+biotic stress	verticillium wilt resistance	vw-resistance qtls	Literature	6
+fertility	fertility and sterility	BP	Literature	18
+fertility	fertility and sterility	Elg	Literature	12
+fertility	fertility and sterility	SY	Literature	9
+fertility	fertility and sterility	cleistogamy	CottonGen	3
+fertility	fertility and sterility	enhancer/fertility	CottonGen	1
+fertility	fertility and sterility	female sterility	CottonGen	5
+fertility	fertility and sterility	fertility restoration	CottonGen	3
+fertility	fertility and sterility	lethal	CottonGen	4
+fertility	fertility and sterility	male sterility	CottonGen	13
+fertility	fertility and sterility	semigamy	CottonGen	1
+fiber quality	fiber color	EE_F2	Literature	11
+fiber quality	fiber color	Fiber color	Literature	12
+fiber quality	fiber color	LintCol	CottonGVD	8
+fiber quality	fiber color	WH_F2	Literature	8
+fiber quality	fiber color	fiber color and quality	Literature	28
+fiber quality	fiber color	lint color	CottonGen	18
+fiber quality	fiber development	13AY	Literature	139
+fiber quality	fiber development	13LQ	Literature	135
+fiber quality	fiber development	13QZ	Literature	145
+fiber quality	fiber development	14AY	Literature	126
+fiber quality	fiber development	14AYFS	Literature	1
+fiber quality	fiber development	14KEL	Literature	136
+fiber quality	fiber development	14LQ	Literature	165
+fiber quality	fiber development	15ALE	Literature	176
+fiber quality	fiber development	15AY	Literature	136
+fiber quality	fiber development	16AY	Literature	192
+fiber quality	fiber elongation		Literature	178
+fiber quality	fiber elongation	ELO	Literature	108
+fiber quality	fiber elongation	EloRatTR_3dvs2d	CottonGVD	39
+fiber quality	fiber elongation	EloRatTR_5dvs3d	CottonGVD	6
+fiber quality	fiber elongation	EloRatTR_8dvs5d	CottonGVD	1
+fiber quality	fiber elongation	Elongation	Literature	3
+fiber quality	fiber elongation	FE	Literature	9317
+fiber quality	fiber elongation	FE(%)	Literature	1
+fiber quality	fiber elongation	FE+BW+LP	Literature	3
+fiber quality	fiber elongation	FE, RSA, NFBB, RL, PH, TNSB	Literature	1
+fiber quality	fiber elongation	FE-AY-14	Literature	5
+fiber quality	fiber elongation	FE-AY-15	Literature	3
+fiber quality	fiber elongation	FE-C-BLUP	Literature	12
+fiber quality	fiber elongation	FE-C17	Literature	9
+fiber quality	fiber elongation	FE-C18	Literature	15
+fiber quality	fiber elongation	FE-CZ-14	Literature	5
+fiber quality	fiber elongation	FE-CZ-15	Literature	1
+fiber quality	fiber elongation	FE-DH-15	Literature	1
+fiber quality	fiber elongation	FE-JZ-14	Literature	2
+fiber quality	fiber elongation	FE-JZ-15	Literature	6
+fiber quality	fiber elongation	FE-S-BLUP	Literature	6
+fiber quality	fiber elongation	FE-S17	Literature	4
+fiber quality	fiber elongation	FE-S18	Literature	18
+fiber quality	fiber elongation	FE-XJ-14	Literature	1
+fiber quality	fiber elongation	FE-XJ-15	Literature	3
+fiber quality	fiber elongation	FE-YC-14	Literature	3
+fiber quality	fiber elongation	FE-YC-15	Literature	3
+fiber quality	fiber elongation	FE07an	Literature	7
+fiber quality	fiber elongation	FE07ku	Literature	6
+fiber quality	fiber elongation	FE07nan	Literature	12
+fiber quality	fiber elongation	FE08an	Literature	2
+fiber quality	fiber elongation	FE08ku	Literature	10
+fiber quality	fiber elongation	FE08nan	Literature	20
+fiber quality	fiber elongation	FE09an	Literature	5
+fiber quality	fiber elongation	FE09ku	Literature	2
+fiber quality	fiber elongation	FE09nan	Literature	78
+fiber quality	fiber elongation	FE2011XJ	Literature	4
+fiber quality	fiber elongation	FE2012NY	Literature	1
+fiber quality	fiber elongation	FE2012XJ	Literature	1
+fiber quality	fiber elongation	FE2012XX	Literature	1
+fiber quality	fiber elongation	FE2013NY	Literature	1
+fiber quality	fiber elongation	FE2013XJ	Literature	1
+fiber quality	fiber elongation	FE4	Literature	67
+fiber quality	fiber elongation	FE_3	Literature	1
+fiber quality	fiber elongation	FE_4	Literature	1
+fiber quality	fiber elongation	FE_5	Literature	1
+fiber quality	fiber elongation	FE_7	Literature	1
+fiber quality	fiber elongation	FE_8	Literature	1
+fiber quality	fiber elongation	FE_BLUP	Literature	1
+fiber quality	fiber elongation	FE_CM45	Literature	1
+fiber quality	fiber elongation	FE_GCA	Literature	198
+fiber quality	fiber elongation	FE_GH501	Literature	1
+fiber quality	fiber elongation	FE_NAU2631	Literature	1
+fiber quality	fiber elongation	FE_NAU749	Literature	1
+fiber quality	fiber elongation	FE_SCA	Literature	444
+fiber quality	fiber elongation	Fe	Literature	3
+fiber quality	fiber elongation	FibElo_15_16U	CottonGVD	2
+fiber quality	fiber elongation	FibElo_17-18	CottonGVD	5
+fiber quality	fiber elongation	FibElo_AY-SJZ_17_r1	CottonGVD	4
+fiber quality	fiber elongation	FibElo_AY-SJZ_17_r2	CottonGVD	4
+fiber quality	fiber elongation	FibElo_AY_09	CottonGVD	2
+fiber quality	fiber elongation	FibElo_AY_14	CottonGVD	6
+fiber quality	fiber elongation	FibElo_AY_15	CottonGVD	10
+fiber quality	fiber elongation	FibElo_AY_AV	CottonGVD	10
+fiber quality	fiber elongation	FibElo_BLUP17	CottonGVD	5
+fiber quality	fiber elongation	FibElo_BV_14	CottonGVD	7
+fiber quality	fiber elongation	FibElo_BV_15	CottonGVD	3
+fiber quality	fiber elongation	FibElo_BV_AV	CottonGVD	3
+fiber quality	fiber elongation	FibElo_CZ_14	CottonGVD	12
+fiber quality	fiber elongation	FibElo_CZ_15	CottonGVD	1
+fiber quality	fiber elongation	FibElo_CZ_AV	CottonGVD	1
+fiber quality	fiber elongation	FibElo_DH_14	CottonGVD	2
+fiber quality	fiber elongation	FibElo_DH_15	CottonGVD	9
+fiber quality	fiber elongation	FibElo_DH_AV	CottonGVD	10
+fiber quality	fiber elongation	FibElo_HN_14	CottonGVD	2
+fiber quality	fiber elongation	FibElo_JZ_14	CottonGVD	1
+fiber quality	fiber elongation	FibElo_JZ_15	CottonGVD	1
+fiber quality	fiber elongation	FibElo_JZ_AV	CottonGVD	2
+fiber quality	fiber elongation	FibElo_XJ1-XJ2_17_r1	CottonGVD	3
+fiber quality	fiber elongation	FibElo_XJ1-XJ2_17_r2	CottonGVD	4
+fiber quality	fiber elongation	FibElo_XJ4-XJ3_17_r1	CottonGVD	4
+fiber quality	fiber elongation	FibElo_XJ4-XJ3_17_r2	CottonGVD	3
+fiber quality	fiber elongation	FibElo_XJ_15	CottonGVD	9
+fiber quality	fiber elongation	FibElo_XJ_16	CottonGVD	2
+fiber quality	fiber elongation	FibElo_XJ_AV	CottonGVD	1
+fiber quality	fiber elongation	FibElo_YC-CS_17_r1	CottonGVD	3
+fiber quality	fiber elongation	FibElo_YC-CS_17_r2	CottonGVD	5
+fiber quality	fiber elongation	FibElo_YC_14	CottonGVD	6
+fiber quality	fiber elongation	FibElo_YC_15	CottonGVD	7
+fiber quality	fiber elongation	FibElo_YC_AV	CottonGVD	6
+fiber quality	fiber elongation	Fiber Elongation	Literature	23
+fiber quality	fiber elongation	Fiber elongation	Literature	15
+fiber quality	fiber elongation	Fiber elongation (%)	Literature	4
+fiber quality	fiber elongation	Fiber elongation (FE)	CottonMD	1
+fiber quality	fiber elongation	Fiber elongation rate (FE)	CottonMD	3
+fiber quality	fiber elongation	Fiber elongation(FE)	Literature	1
+fiber quality	fiber elongation	Mean elongation (unit)	Literature	23
+fiber quality	fiber elongation	Mean elongation unit	Literature	1
+fiber quality	fiber elongation	PH, BW, NFFB, RV, LP, SI, FE, Oil, FBP	Literature	1
+fiber quality	fiber elongation	fiber elongation	CottonGen	2483
+fiber quality	fiber elongation	fiber elongation	GWAS Atlas	283
+fiber quality	fiber elongation	fiber elongation	Literature	36
+fiber quality	fiber fineness	Arealometer A	CottonGen	6
+fiber quality	fiber fineness	Arealometer AH	CottonGen	6
+fiber quality	fiber fineness	FibFine_HN	CottonGVD	1
+fiber quality	fiber fineness	FibFine_XJ	CottonGVD	1
+fiber quality	fiber fineness	Fiber Fineness mTx, (millitex)	Literature	2
+fiber quality	fiber fineness	Fiber fineness mTx, (millitex)	Literature	46
+fiber quality	fiber fineness	Fiber fineness mTx, millitex	Literature	1
+fiber quality	fiber fineness	Fineness	Literature	12
+fiber quality	fiber fineness	fiber cell wall thickness	CottonGen	8
+fiber quality	fiber fineness	fiber fineness	CottonGen	215
+fiber quality	fiber fineness	fiber perimeter	CottonGen	4
+fiber quality	fiber fineness	standard fineness	CottonGen	13
+fiber quality	fiber fineness	weight fineness	CottonGen	7
+fiber quality	fiber flame resistance		Literature	22
+fiber quality	fiber flame resistance	TableS3	Literature	249
+fiber quality	fiber length		Literature	166
+fiber quality	fiber length	2.5 % fiber span length	Literature	17
+fiber quality	fiber length	2.5 span length	CottonGen	205
+fiber quality	fiber length	5.0 % fiber span length	Literature	22
+fiber quality	fiber length	50 span length	CottonGen	12
+fiber quality	fiber length	AveLengNumCV_AY	CottonGVD	2
+fiber quality	fiber length	AveLengNumCV_HN	CottonGVD	1
+fiber quality	fiber length	AveLengNumCV_XJ	CottonGVD	1
+fiber quality	fiber length	AveLengNum_XJ	CottonGVD	2
+fiber quality	fiber length	AveLengWei_XJ	CottonGVD	2
+fiber quality	fiber length	BW, FE, FL, SI, LOS, OA, BS, NB, LA	Literature	1
+fiber quality	fiber length	BW/FL	Literature	3
+fiber quality	fiber length	CL, FM, FL, FMAT, LP	Literature	1
+fiber quality	fiber length	CL, PB, PH, FE, LP, FL, SI, FB, FM	Literature	1
+fiber quality	fiber length	CO, LI, FL, NFFB, FL, FS, PH, CP	Literature	1
+fiber quality	fiber length	DRC_FUHML	Literature	8
+fiber quality	fiber length	ELO and UHM	Literature	1
+fiber quality	fiber length	FL	Literature	6688
+fiber quality	fiber length	FL + FM + FE	Literature	1
+fiber quality	fiber length	FL QTL	Literature	51
+fiber quality	fiber length	FL(mm)	Literature	1
+fiber quality	fiber length	FL+BN	Literature	7
+fiber quality	fiber length	FL+FE+LP	Literature	24
+fiber quality	fiber length	FL+FM	Literature	5
+fiber quality	fiber length	FL+FS+FM	Literature	1
+fiber quality	fiber length	FL, FM, LP, BN	Literature	1
+fiber quality	fiber length	FL, FS, BS, FE, FBN, LY, NFFB	Literature	1
+fiber quality	fiber length	FL, FT, NFFB	Literature	1
+fiber quality	fiber length	FL-A-19, FL-BV-19	Literature	1
+fiber quality	fiber length	FL-AY-14	Literature	11
+fiber quality	fiber length	FL-AY-15	Literature	8
+fiber quality	fiber length	FL-C-BLUP	Literature	17
+fiber quality	fiber length	FL-C17	Literature	14
+fiber quality	fiber length	FL-C18	Literature	14
+fiber quality	fiber length	FL-CZ-14	Literature	17
+fiber quality	fiber length	FL-CZ-15	Literature	7
+fiber quality	fiber length	FL-DH-14	Literature	23
+fiber quality	fiber length	FL-DH-15	Literature	19
+fiber quality	fiber length	FL-JZ-14	Literature	27
+fiber quality	fiber length	FL-JZ-15	Literature	17
+fiber quality	fiber length	FL-S-BLUP	Literature	16
+fiber quality	fiber length	FL-S17	Literature	8
+fiber quality	fiber length	FL-S18	Literature	17
+fiber quality	fiber length	FL-XJ-14	Literature	8
+fiber quality	fiber length	FL-XJ-15	Literature	8
+fiber quality	fiber length	FL-YC-14	Literature	13
+fiber quality	fiber length	FL-YC-15	Literature	19
+fiber quality	fiber length	FL/FS/MIC	Literature	3
+fiber quality	fiber length	FL/SI/FS	Literature	2
+fiber quality	fiber length	FL07an	Literature	7
+fiber quality	fiber length	FL07ku	Literature	2
+fiber quality	fiber length	FL07nan	Literature	5
+fiber quality	fiber length	FL08an	Literature	8
+fiber quality	fiber length	FL08ku	Literature	3
+fiber quality	fiber length	FL08nan	Literature	5
+fiber quality	fiber length	FL09an	Literature	4
+fiber quality	fiber length	FL09ku	Literature	3
+fiber quality	fiber length	FL09nan	Literature	12
+fiber quality	fiber length	FL2011NY	Literature	1
+fiber quality	fiber length	FL2011XJ	Literature	2
+fiber quality	fiber length	FL2011XX	Literature	1
+fiber quality	fiber length	FL2012NY	Literature	1
+fiber quality	fiber length	FL2012XJ	Literature	1
+fiber quality	fiber length	FL2012XX	Literature	1
+fiber quality	fiber length	FL2013NY	Literature	1
+fiber quality	fiber length	FL2013XJ	Literature	3
+fiber quality	fiber length	FL2013XX	Literature	1
+fiber quality	fiber length	FL_3	Literature	7
+fiber quality	fiber length	FL_4	Literature	6
+fiber quality	fiber length	FL_5	Literature	7
+fiber quality	fiber length	FL_7	Literature	6
+fiber quality	fiber length	FL_8	Literature	9
+fiber quality	fiber length	FL_BNL2449	Literature	1
+fiber quality	fiber length	FL_CM45	Literature	1
+fiber quality	fiber length	FL_DPL513	Literature	1
+fiber quality	fiber length	FL_GCA	Literature	180
+fiber quality	fiber length	FL_GH354	Literature	1
+fiber quality	fiber length	FL_GH454	Literature	1
+fiber quality	fiber length	FL_GH501	Literature	1
+fiber quality	fiber length	FL_HAU2056	Literature	1
+fiber quality	fiber length	FL_NAU2631	Literature	1
+fiber quality	fiber length	FL_NAU3602	Literature	1
+fiber quality	fiber length	FL_NAU749	Literature	1
+fiber quality	fiber length	FL_NAU808	Literature	1
+fiber quality	fiber length	FL_SCA	Literature	299
+fiber quality	fiber length	FL_TMB436	Literature	1
+fiber quality	fiber length	FM, FBN, FL	Literature	1
+fiber quality	fiber length	FM, FL, PH	Literature	1
+fiber quality	fiber length	FM, FMIC, FE, FL, Oil, FMAT, PH, FL, FSFI	Literature	1
+fiber quality	fiber length	FM, PH, FBN, SA, FL, NFFB	Literature	1
+fiber quality	fiber length	FM, SI, FT, PH, FE, FBN, FL	Literature	1
+fiber quality	fiber length	FS, SCW, FL, FE	Literature	1
+fiber quality	fiber length	FUHML	Literature	16
+fiber quality	fiber length	FibLen_15_16U	CottonGVD	5
+fiber quality	fiber length	FibLen_17-18	CottonGVD	10
+fiber quality	fiber length	FibLen_AY-SJZ_17_r1	CottonGVD	5
+fiber quality	fiber length	FibLen_AY-SJZ_17_r2	CottonGVD	7
+fiber quality	fiber length	FibLen_AY_09	CottonGVD	1
+fiber quality	fiber length	FibLen_AY_14	CottonGVD	7
+fiber quality	fiber length	FibLen_AY_15	CottonGVD	10
+fiber quality	fiber length	FibLen_AY_AV	CottonGVD	10
+fiber quality	fiber length	FibLen_BLUP17	CottonGVD	9
+fiber quality	fiber length	FibLen_BLUP18	CottonGVD	10
+fiber quality	fiber length	FibLen_BV_14	CottonGVD	13
+fiber quality	fiber length	FibLen_BV_15	CottonGVD	12
+fiber quality	fiber length	FibLen_BV_AV	CottonGVD	12
+fiber quality	fiber length	FibLen_CZ_14	CottonGVD	10
+fiber quality	fiber length	FibLen_CZ_15	CottonGVD	8
+fiber quality	fiber length	FibLen_CZ_AV	CottonGVD	7
+fiber quality	fiber length	FibLen_DH_14	CottonGVD	5
+fiber quality	fiber length	FibLen_DH_15	CottonGVD	5
+fiber quality	fiber length	FibLen_DH_AV	CottonGVD	8
+fiber quality	fiber length	FibLen_GB_2	CottonGVD	1
+fiber quality	fiber length	FibLen_HN_14	CottonGVD	1
+fiber quality	fiber length	FibLen_JZ_14	CottonGVD	15
+fiber quality	fiber length	FibLen_JZ_15	CottonGVD	6
+fiber quality	fiber length	FibLen_JZ_AV	CottonGVD	7
+fiber quality	fiber length	FibLen_XJ1-XJ2_17_r1	CottonGVD	5
+fiber quality	fiber length	FibLen_XJ1-XJ2_17_r2	CottonGVD	5
+fiber quality	fiber length	FibLen_XJ4-XJ3_17_r1	CottonGVD	4
+fiber quality	fiber length	FibLen_XJ4-XJ3_17_r2	CottonGVD	13
+fiber quality	fiber length	FibLen_XJ_14	CottonGVD	8
+fiber quality	fiber length	FibLen_XJ_15	CottonGVD	17
+fiber quality	fiber length	FibLen_XJ_16	CottonGVD	10
+fiber quality	fiber length	FibLen_XJ_AV	CottonGVD	11
+fiber quality	fiber length	FibLen_YC-CS_17_r1	CottonGVD	3
+fiber quality	fiber length	FibLen_YC-CS_17_r2	CottonGVD	6
+fiber quality	fiber length	FibLen_YC_14	CottonGVD	11
+fiber quality	fiber length	FibLen_YC_15	CottonGVD	15
+fiber quality	fiber length	FibLen_YC_AV	CottonGVD	17
+fiber quality	fiber length	Fiber Length	Literature	200
+fiber quality	fiber length	Fiber length	Literature	28
+fiber quality	fiber length	Fiber length (FL)	CottonMD	10
+fiber quality	fiber length	Fiber length (FL)	Literature	2
+fiber quality	fiber length	Fiber length (inches)	Literature	1
+fiber quality	fiber length	Fiber upper half mean length (FUHML)	CottonMD	7
+fiber quality	fiber length	LP, FL, NFFB, BN	Literature	1
+fiber quality	fiber length	Ln5Perc_HN	CottonGVD	1
+fiber quality	fiber length	Ln5Perc_XJ	CottonGVD	1
+fiber quality	fiber length	Long fiber length trait	Literature	6
+fiber quality	fiber length	MIC, UHM, and ELO	Literature	1
+fiber quality	fiber length	MLN	Literature	26
+fiber quality	fiber length	MLW	Literature	51
+fiber quality	fiber length	MV, NFFB, FE, SI, SH, FL, SDW, RFW, PH, FUHML, NFFB, LI, SFW	Literature	1
+fiber quality	fiber length	Mean fiber length trait	Literature	7
+fiber quality	fiber length	Non-Simu. FL + FS + LP	Literature	60
+fiber quality	fiber length	Non-Simu. FL + LP	Literature	35
+fiber quality	fiber length	QTL_FL	Literature	605
+fiber quality	fiber length	SI/FL/FS	Literature	1
+fiber quality	fiber length	Simu. FL + FS + LP	Literature	11
+fiber quality	fiber length	Simu. FL + LP	Literature	11
+fiber quality	fiber length	Staple length	Literature	18
+fiber quality	fiber length	TopquaLen_XJ	CottonGVD	1
+fiber quality	fiber length	UHM	Literature	642
+fiber quality	fiber length	UHM and ELO	Literature	1
+fiber quality	fiber length	UHM and STR	Literature	1
+fiber quality	fiber length	UHM, ELO, and MIC	Literature	1
+fiber quality	fiber length	UHM, STR, and ELO	Literature	1
+fiber quality	fiber length	UHML	Literature	188
+fiber quality	fiber length	UQL	Literature	54
+fiber quality	fiber length	Upper quartile of fiber length by wt	Literature	24
+fiber quality	fiber length	coefficient variation of length by number	CottonGen	6
+fiber quality	fiber length	fiber length	CottonGen	2656
+fiber quality	fiber length	fiber length	GWAS Atlas	5187
+fiber quality	fiber length	fiber length	Literature	15
+fiber quality	fiber length	fiber length by weight	CottonGen	27
+fiber quality	fiber length	fiber mean length	CottonGen	14
+fiber quality	fiber length	fl-qtls	Literature	14
+fiber quality	fiber length	snps significantly associated with fiber length	Literature	14
+fiber quality	fiber length	snps significantly associated with fl	Literature	12
+fiber quality	fiber length	the stable fl-qtls	Literature	40
+fiber quality	fiber length	upper half mean length	CottonGen	564
+fiber quality	fiber length	upper quartile length by weight	CottonGen	4
+fiber quality	fiber length	–	Literature	2
+fiber quality	fiber maturity		Literature	89
+fiber quality	fiber maturity	10 DPAb, 25 DPAa,b, Maturitya,b,c	Literature	1
+fiber quality	fiber maturity	15 DPAc, 25 DPAa,b, Maturityb,c	Literature	1
+fiber quality	fiber maturity	15 DPAc, 25 DPAb, Maturitya,b	Literature	1
+fiber quality	fiber maturity	20 DPAb, 25 DPAa,b, Maturitya,b,c	Literature	2
+fiber quality	fiber maturity	20 DPAb, 25 DPAa,b, Maturityb,c	Literature	7
+fiber quality	fiber maturity	20 DPAb,c, 25 DPAa, Maturityb,c	Literature	7
+fiber quality	fiber maturity	20 DPAb,c, 25 DPAa,b, Maturityb	Literature	2
+fiber quality	fiber maturity	20 DPAb,c, 25 DPAa,b, Maturityb,c	Literature	2
+fiber quality	fiber maturity	25 DPAa,b, Maturitya,b	Literature	13
+fiber quality	fiber maturity	25 DPAa,b, Maturitya,b,c	Literature	13
+fiber quality	fiber maturity	25 DPAa,b, Maturityb,c	Literature	8
+fiber quality	fiber maturity	25 DPAb,c, Maturitya,b,c	Literature	1
+fiber quality	fiber maturity	FibMatInd_17-18	CottonGVD	3
+fiber quality	fiber maturity	FibMatInd_AY-SJZ_17_r1	CottonGVD	2
+fiber quality	fiber maturity	FibMatInd_AY-SJZ_17_r2	CottonGVD	3
+fiber quality	fiber maturity	FibMatInd_AY_14	CottonGVD	17
+fiber quality	fiber maturity	FibMatInd_AY_15	CottonGVD	27
+fiber quality	fiber maturity	FibMatInd_AY_AV	CottonGVD	23
+fiber quality	fiber maturity	FibMatInd_BLUP17	CottonGVD	3
+fiber quality	fiber maturity	FibMatInd_BV_14	CottonGVD	17
+fiber quality	fiber maturity	FibMatInd_BV_15	CottonGVD	22
+fiber quality	fiber maturity	FibMatInd_BV_AV	CottonGVD	24
+fiber quality	fiber maturity	FibMatInd_CZ_14	CottonGVD	20
+fiber quality	fiber maturity	FibMatInd_CZ_15	CottonGVD	5
+fiber quality	fiber maturity	FibMatInd_CZ_AV	CottonGVD	17
+fiber quality	fiber maturity	FibMatInd_DH_14	CottonGVD	6
+fiber quality	fiber maturity	FibMatInd_DH_15	CottonGVD	17
+fiber quality	fiber maturity	FibMatInd_DH_AV	CottonGVD	12
+fiber quality	fiber maturity	FibMatInd_JZ_14	CottonGVD	3
+fiber quality	fiber maturity	FibMatInd_JZ_15	CottonGVD	12
+fiber quality	fiber maturity	FibMatInd_JZ_AV	CottonGVD	7
+fiber quality	fiber maturity	FibMatInd_XJ1-XJ2_17_r1	CottonGVD	1
+fiber quality	fiber maturity	FibMatInd_XJ1-XJ2_17_r2	CottonGVD	2
+fiber quality	fiber maturity	FibMatInd_XJ4-XJ3_17_r1	CottonGVD	12
+fiber quality	fiber maturity	FibMatInd_XJ4-XJ3_17_r2	CottonGVD	14
+fiber quality	fiber maturity	FibMatInd_XJ_14	CottonGVD	13
+fiber quality	fiber maturity	FibMatInd_XJ_15	CottonGVD	17
+fiber quality	fiber maturity	FibMatInd_XJ_AV	CottonGVD	18
+fiber quality	fiber maturity	FibMatInd_YC-CS_17_r1	CottonGVD	1
+fiber quality	fiber maturity	FibMatInd_YC-CS_17_r2	CottonGVD	3
+fiber quality	fiber maturity	FibMatInd_YC_14	CottonGVD	28
+fiber quality	fiber maturity	FibMatInd_YC_15	CottonGVD	32
+fiber quality	fiber maturity	FibMatInd_YC_AV	CottonGVD	34
+fiber quality	fiber maturity	FibMatRat_AY	CottonGVD	2
+fiber quality	fiber maturity	FibMat_AY_14	CottonGVD	9
+fiber quality	fiber maturity	FibMat_AY_15	CottonGVD	5
+fiber quality	fiber maturity	FibMat_AY_AV	CottonGVD	9
+fiber quality	fiber maturity	FibMat_BV_14	CottonGVD	7
+fiber quality	fiber maturity	FibMat_BV_15	CottonGVD	13
+fiber quality	fiber maturity	FibMat_BV_AV	CottonGVD	8
+fiber quality	fiber maturity	FibMat_CZ_14	CottonGVD	4
+fiber quality	fiber maturity	FibMat_CZ_15	CottonGVD	3
+fiber quality	fiber maturity	FibMat_CZ_AV	CottonGVD	6
+fiber quality	fiber maturity	ImmFib_AY	CottonGVD	1
+fiber quality	fiber maturity	ImmFib_HN	CottonGVD	3
+fiber quality	fiber maturity	Immature fiber content by weight	Literature	37
+fiber quality	fiber maturity	MAT	Literature	28
+fiber quality	fiber maturity	MAT-AY-14	Literature	12
+fiber quality	fiber maturity	MAT-AY-15	Literature	3
+fiber quality	fiber maturity	MAT-CZ-14	Literature	10
+fiber quality	fiber maturity	MAT-CZ-15	Literature	5
+fiber quality	fiber maturity	MAT-DH-14	Literature	3
+fiber quality	fiber maturity	MAT-DH-15	Literature	4
+fiber quality	fiber maturity	MAT-JZ-14	Literature	3
+fiber quality	fiber maturity	MAT-JZ-15	Literature	15
+fiber quality	fiber maturity	MAT-XJ-14	Literature	8
+fiber quality	fiber maturity	MAT-XJ-15	Literature	3
+fiber quality	fiber maturity	MAT-YC-14	Literature	28
+fiber quality	fiber maturity	MAT-YC-15	Literature	8
+fiber quality	fiber maturity	MR	Literature	26
+fiber quality	fiber maturity	MatureRatio_XJ	CottonGVD	1
+fiber quality	fiber maturity	Maturity ratio (unit)	Literature	50
+fiber quality	fiber maturity	Maturity ratio unit	Literature	3
+fiber quality	fiber maturity	fiber immature content	CottonGen	9
+fiber quality	fiber maturity	fiber maturity	CottonGen	141
+fiber quality	fiber maturity	fiber maturity	GWAS Atlas	2736
+fiber quality	fiber neps	FibNepNum_HN	CottonGVD	1
+fiber quality	fiber neps	FibNepNum_XJ	CottonGVD	6
+fiber quality	fiber neps	FibNepSize_HN	CottonGVD	10
+fiber quality	fiber neps	Nep Size g. (no. g)	Literature	1
+fiber quality	fiber neps	Nep size g. (no. g)	Literature	32
+fiber quality	fiber neps	Number of neps (g-1)	Literature	9
+fiber quality	fiber neps	TotNepNum_AY	CottonGVD	3
+fiber quality	fiber neps	TotNepNum_HN	CottonGVD	2
+fiber quality	fiber neps	TotNepNum_XJ	CottonGVD	1
+fiber quality	fiber neps	fiber nep size	CottonGen	3
+fiber quality	fiber reflectance	FibRel_AY_15	CottonGVD	1
+fiber quality	fiber reflectance	FibRel_BV_14	CottonGVD	3
+fiber quality	fiber reflectance	FibRel_BV_15	CottonGVD	1
+fiber quality	fiber reflectance	FibRel_BV_AV	CottonGVD	1
+fiber quality	fiber reflectance	FibRel_DH_14	CottonGVD	2
+fiber quality	fiber reflectance	FibRel_JZ_15	CottonGVD	1
+fiber quality	fiber reflectance	FibRel_XJ_14	CottonGVD	1
+fiber quality	fiber reflectance	FibRel_XJ_15	CottonGVD	4
+fiber quality	fiber reflectance	FibRel_XJ_AV	CottonGVD	1
+fiber quality	fiber reflectance	reflectance	CottonGen	49
+fiber quality	fiber strength	BW+FS	Literature	2
+fiber quality	fiber strength	BW, SI, RV, FS, LP, RL, LA, NFFB	Literature	1
+fiber quality	fiber strength	DRC_FS	Literature	12
+fiber quality	fiber strength	ELO and STR	Literature	2
+fiber quality	fiber strength	ELO, STR, and MIC	Literature	1
+fiber quality	fiber strength	FBN, SCY, FS, BN, FS, PH	Literature	1
+fiber quality	fiber strength	FBN, STr, VR, FS, PH, FM	Literature	1
+fiber quality	fiber strength	FBP, FM, FS, LP, FBN, RV, FT, BW, FB	Literature	1
+fiber quality	fiber strength	FE, FS, SI, PH, BN	Literature	1
+fiber quality	fiber strength	FE, PH, LY, FS, SCY	Literature	1
+fiber quality	fiber strength	FEL	Literature	1
+fiber quality	fiber strength	FS	Literature	24572
+fiber quality	fiber strength	FS QTL	Literature	70
+fiber quality	fiber strength	FS(cN/tex)	Literature	1
+fiber quality	fiber strength	FS+FE+LP	Literature	9
+fiber quality	fiber strength	FS, BW	Literature	1
+fiber quality	fiber strength	FS, NFFB	Literature	1
+fiber quality	fiber strength	FS, Sci, CP, Tci, Tcond, FE	Literature	1
+fiber quality	fiber strength	FS-A-18	Literature	245
+fiber quality	fiber strength	FS-A-18, FS-A-AV	Literature	11
+fiber quality	fiber strength	FS-A-AV	Literature	7
+fiber quality	fiber strength	FS-AY-14	Literature	7
+fiber quality	fiber strength	FS-AY-15	Literature	4
+fiber quality	fiber strength	FS-BV-18	Literature	1
+fiber quality	fiber strength	FS-C-BLUP	Literature	23
+fiber quality	fiber strength	FS-C17	Literature	13
+fiber quality	fiber strength	FS-C18	Literature	16
+fiber quality	fiber strength	FS-CZ-14	Literature	11
+fiber quality	fiber strength	FS-DH-14	Literature	5
+fiber quality	fiber strength	FS-DH-15	Literature	6
+fiber quality	fiber strength	FS-JZ-14	Literature	3
+fiber quality	fiber strength	FS-JZ-15	Literature	4
+fiber quality	fiber strength	FS-S-BLUP	Literature	16
+fiber quality	fiber strength	FS-S17	Literature	15
+fiber quality	fiber strength	FS-S18	Literature	18
+fiber quality	fiber strength	FS-XJ-14	Literature	3
+fiber quality	fiber strength	FS-YC-14	Literature	3
+fiber quality	fiber strength	FS-YC-15	Literature	2
+fiber quality	fiber strength	FS/SI	Literature	6
+fiber quality	fiber strength	FS/SI/FE	Literature	1
+fiber quality	fiber strength	FS07an	Literature	24
+fiber quality	fiber strength	FS07ku	Literature	30
+fiber quality	fiber strength	FS07nan	Literature	56
+fiber quality	fiber strength	FS08an	Literature	28
+fiber quality	fiber strength	FS08ku	Literature	19
+fiber quality	fiber strength	FS08nan	Literature	60
+fiber quality	fiber strength	FS09an	Literature	35
+fiber quality	fiber strength	FS09ku	Literature	72
+fiber quality	fiber strength	FS09nan	Literature	39
+fiber quality	fiber strength	FS2011NY	Literature	3
+fiber quality	fiber strength	FS2011XX	Literature	1
+fiber quality	fiber strength	FS2012NY	Literature	1
+fiber quality	fiber strength	FS2012XJ	Literature	1
+fiber quality	fiber strength	FS2013XX	Literature	1
+fiber quality	fiber strength	FS_2	Literature	7
+fiber quality	fiber strength	FS_3	Literature	12
+fiber quality	fiber strength	FS_4	Literature	9
+fiber quality	fiber strength	FS_5	Literature	18
+fiber quality	fiber strength	FS_6	Literature	6
+fiber quality	fiber strength	FS_7	Literature	9
+fiber quality	fiber strength	FS_8	Literature	9
+fiber quality	fiber strength	FS_9	Literature	8
+fiber quality	fiber strength	FS_BLUP	Literature	2
+fiber quality	fiber strength	FS_CM45	Literature	1
+fiber quality	fiber strength	FS_GCA	Literature	195
+fiber quality	fiber strength	FS_GH501	Literature	1
+fiber quality	fiber strength	FS_NAU2631	Literature	1
+fiber quality	fiber strength	FS_NAU3602	Literature	1
+fiber quality	fiber strength	FS_SCA	Literature	325
+fiber quality	fiber strength	FS_blup	Literature	5
+fiber quality	fiber strength	FibStr_15_16U	CottonGVD	5
+fiber quality	fiber strength	FibStr_17-18	CottonGVD	5
+fiber quality	fiber strength	FibStr_AY-SJZ_17_r1	CottonGVD	3
+fiber quality	fiber strength	FibStr_AY-SJZ_17_r2	CottonGVD	4
+fiber quality	fiber strength	FibStr_AY_09	CottonGVD	57
+fiber quality	fiber strength	FibStr_AY_14	CottonGVD	20
+fiber quality	fiber strength	FibStr_AY_15	CottonGVD	2
+fiber quality	fiber strength	FibStr_BLUP17	CottonGVD	3
+fiber quality	fiber strength	FibStr_BLUP18	CottonGVD	1
+fiber quality	fiber strength	FibStr_BV_14	CottonGVD	7
+fiber quality	fiber strength	FibStr_BV_AV	CottonGVD	4
+fiber quality	fiber strength	FibStr_CZ_14	CottonGVD	8
+fiber quality	fiber strength	FibStr_CZ_15	CottonGVD	2
+fiber quality	fiber strength	FibStr_CZ_AV	CottonGVD	7
+fiber quality	fiber strength	FibStr_DH_14	CottonGVD	6
+fiber quality	fiber strength	FibStr_DH_AV	CottonGVD	2
+fiber quality	fiber strength	FibStr_HN_14	CottonGVD	8
+fiber quality	fiber strength	FibStr_JZ_14	CottonGVD	2
+fiber quality	fiber strength	FibStr_JZ_15	CottonGVD	1
+fiber quality	fiber strength	FibStr_XJ1-XJ2_17_r1	CottonGVD	4
+fiber quality	fiber strength	FibStr_XJ1-XJ2_17_r2	CottonGVD	7
+fiber quality	fiber strength	FibStr_XJ4-XJ3_17_r1	CottonGVD	6
+fiber quality	fiber strength	FibStr_XJ4-XJ3_17_r2	CottonGVD	6
+fiber quality	fiber strength	FibStr_XJ_14	CottonGVD	18
+fiber quality	fiber strength	FibStr_XJ_15	CottonGVD	8
+fiber quality	fiber strength	FibStr_XJ_16	CottonGVD	4
+fiber quality	fiber strength	FibStr_XJ_AV	CottonGVD	5
+fiber quality	fiber strength	FibStr_YC-CS_17_r1	CottonGVD	1
+fiber quality	fiber strength	FibStr_YC-CS_17_r2	CottonGVD	1
+fiber quality	fiber strength	FibStr_YC_14	CottonGVD	1
+fiber quality	fiber strength	FibStr_YC_15	CottonGVD	1
+fiber quality	fiber strength	FibStr_YC_AV	CottonGVD	1
+fiber quality	fiber strength	Fiber Strength	Literature	204
+fiber quality	fiber strength	Fiber Strength (FS)	Literature	1
+fiber quality	fiber strength	Fiber bundle strength	Literature	3
+fiber quality	fiber strength	Fiber strength	Literature	34
+fiber quality	fiber strength	Fiber strength (FS)	CottonMD	16
+fiber quality	fiber strength	Fiber strength (FS)	Literature	1
+fiber quality	fiber strength	LP, FM, FS, HSW, SI, FS	Literature	1
+fiber quality	fiber strength	LY, FS, SI, FM	Literature	1
+fiber quality	fiber strength	MIC, STR, and ELO	Literature	1
+fiber quality	fiber strength	Mean tenacity (unit)	Literature	34
+fiber quality	fiber strength	Mean tenacity unit	Literature	2
+fiber quality	fiber strength	Non-Simu. FS + LP	Literature	44
+fiber quality	fiber strength	QTL_FS	Literature	188
+fiber quality	fiber strength	RL, PH, FS, RSA, BW	Literature	1
+fiber quality	fiber strength	SF	Literature	1
+fiber quality	fiber strength	SI, SCW, Bcc, FT, FS, LP	Literature	1
+fiber quality	fiber strength	SI/BW/FS	Literature	1
+fiber quality	fiber strength	SI/FS	Literature	2
+fiber quality	fiber strength	STR	Literature	102
+fiber quality	fiber strength	STR and ELO	Literature	1
+fiber quality	fiber strength	STr	Literature	10
+fiber quality	fiber strength	Simu. FS + LP	Literature	12
+fiber quality	fiber strength	Str	Literature	32
+fiber quality	fiber strength	Strength	Literature	3
+fiber quality	fiber strength	VR, FS, SI, LY	Literature	1
+fiber quality	fiber strength	fiber strength	CottonGen	3430
+fiber quality	fiber strength	fiber strength	GWAS Atlas	1418
+fiber quality	fiber strength	str-gwas	Literature	204
+fiber quality	fiber uniformity	DRC_FU	Literature	16
+fiber quality	fiber uniformity	ELO, STR, MIC, and UI	Literature	1
+fiber quality	fiber uniformity	ELO, UHM, STR, and UI	Literature	1
+fiber quality	fiber uniformity	FBP, LY, SI, NFFB, LP, SCY, FE, SCW, FN, FU	Literature	1
+fiber quality	fiber uniformity	FBP, NRF, FU, PH, FM	Literature	1
+fiber quality	fiber uniformity	FL + FS + FM + FE + FU	Literature	2
+fiber quality	fiber uniformity	FL + FS + FM + FU	Literature	1
+fiber quality	fiber uniformity	FL+FM+FU+LP+BW	Literature	3
+fiber quality	fiber uniformity	FL+FS+FM+FE+FU+LP	Literature	2
+fiber quality	fiber uniformity	FL+FS+FU+BW	Literature	1
+fiber quality	fiber uniformity	FL+FS+FU+FE	Literature	8
+fiber quality	fiber uniformity	FL+FU+BW	Literature	1
+fiber quality	fiber uniformity	FL, BS, BW, SCY, CO, FU	Literature	1
+fiber quality	fiber uniformity	FL, FS, FU, BW, BS, SI, PH, CL, SW	Literature	1
+fiber quality	fiber uniformity	FL, FS, PH, FU, BW, PH, LP, BS	Literature	1
+fiber quality	fiber uniformity	FL, NRT, RL, NFFB, PH, RSA, BW, LP, FE, NRF, PB, FU	Literature	1
+fiber quality	fiber uniformity	FL, SDW, FM, FU, MV, LY, SCI	Literature	1
+fiber quality	fiber uniformity	FM+FU+BN+BW+LP	Literature	2
+fiber quality	fiber uniformity	FM, FL, PH, LI, FU, FBN, FE	Literature	1
+fiber quality	fiber uniformity	FM, FS, FL, FU	Literature	1
+fiber quality	fiber uniformity	FM, FU, FL, PH, VR, CP,	Literature	1
+fiber quality	fiber uniformity	FS + FE + FU	Literature	1
+fiber quality	fiber uniformity	FS+FM+FU+BW	Literature	5
+fiber quality	fiber uniformity	FS, FM, FU, FL, LP, SY, PH, TNS,	Literature	1
+fiber quality	fiber uniformity	FS, Fl, FE, PH, SCI, FU, Oil	Literature	1
+fiber quality	fiber uniformity	FS, OA, FU, NB, BW	Literature	1
+fiber quality	fiber uniformity	FS, PH, FL, FU, FBP, VR	Literature	1
+fiber quality	fiber uniformity	FU	Literature	3790
+fiber quality	fiber uniformity	FU(%)	Literature	1
+fiber quality	fiber uniformity	FU+FE+BN	Literature	16
+fiber quality	fiber uniformity	FU, Bcc, SCW, FM	Literature	1
+fiber quality	fiber uniformity	FU, FBN, LP, RWC	Literature	1
+fiber quality	fiber uniformity	FU, FE, Cl, FB, FL, PH, PB	Literature	1
+fiber quality	fiber uniformity	FU, FS, SCY, BW, FBP	Literature	1
+fiber quality	fiber uniformity	FU, LP, FM, FU, FS, BW, FB	Literature	1
+fiber quality	fiber uniformity	FU, PH, FS, SI, FSCI, FU, FM, SCY	Literature	1
+fiber quality	fiber uniformity	FU, SI, FB, FL, FE, PH, PB	Literature	1
+fiber quality	fiber uniformity	FU-C-BLUP	Literature	7
+fiber quality	fiber uniformity	FU-C17	Literature	3
+fiber quality	fiber uniformity	FU-C18	Literature	2
+fiber quality	fiber uniformity	FU-S-BLUP	Literature	12
+fiber quality	fiber uniformity	FU-S17	Literature	9
+fiber quality	fiber uniformity	FU-S18	Literature	5
+fiber quality	fiber uniformity	FU07an	Literature	73
+fiber quality	fiber uniformity	FU07ku	Literature	5
+fiber quality	fiber uniformity	FU07nan	Literature	91
+fiber quality	fiber uniformity	FU08an	Literature	13
+fiber quality	fiber uniformity	FU08ku	Literature	8
+fiber quality	fiber uniformity	FU08nan	Literature	5
+fiber quality	fiber uniformity	FU09an	Literature	15
+fiber quality	fiber uniformity	FU09ku	Literature	13
+fiber quality	fiber uniformity	FU09nan	Literature	13
+fiber quality	fiber uniformity	FU2011NY	Literature	2
+fiber quality	fiber uniformity	FU2011XJ	Literature	2
+fiber quality	fiber uniformity	FU2011XX	Literature	1
+fiber quality	fiber uniformity	FU2012NY	Literature	3
+fiber quality	fiber uniformity	FU2012XJ	Literature	4
+fiber quality	fiber uniformity	FU2012XX	Literature	3
+fiber quality	fiber uniformity	FU2013NY	Literature	1
+fiber quality	fiber uniformity	FUI_CM45	Literature	1
+fiber quality	fiber uniformity	FUI_GH501	Literature	1
+fiber quality	fiber uniformity	FUI_HAU2056	Literature	1
+fiber quality	fiber uniformity	FUI_NAU2631	Literature	1
+fiber quality	fiber uniformity	FUI_NAU3602	Literature	1
+fiber quality	fiber uniformity	FU_GCA	Literature	184
+fiber quality	fiber uniformity	FU_NAU3307	Literature	1
+fiber quality	fiber uniformity	FU_NAU874	Literature	1
+fiber quality	fiber uniformity	FU_SCA	Literature	332
+fiber quality	fiber uniformity	FibLenUni_15_16U	CottonGVD	2
+fiber quality	fiber uniformity	FibLenUni_AY_09	CottonGVD	3
+fiber quality	fiber uniformity	FibLenUni_AY_14	CottonGVD	3
+fiber quality	fiber uniformity	FibLenUni_AY_15	CottonGVD	10
+fiber quality	fiber uniformity	FibLenUni_AY_AV	CottonGVD	14
+fiber quality	fiber uniformity	FibLenUni_BV_14	CottonGVD	3
+fiber quality	fiber uniformity	FibLenUni_BV_15	CottonGVD	2
+fiber quality	fiber uniformity	FibLenUni_BV_AV	CottonGVD	3
+fiber quality	fiber uniformity	FibLenUni_CZ_14	CottonGVD	4
+fiber quality	fiber uniformity	FibLenUni_CZ_15	CottonGVD	1
+fiber quality	fiber uniformity	FibLenUni_CZ_AV	CottonGVD	4
+fiber quality	fiber uniformity	FibLenUni_DH_14	CottonGVD	1
+fiber quality	fiber uniformity	FibLenUni_DH_15	CottonGVD	1
+fiber quality	fiber uniformity	FibLenUni_DH_AV	CottonGVD	1
+fiber quality	fiber uniformity	FibLenUni_GB2	CottonGVD	52
+fiber quality	fiber uniformity	FibLenUni_JZ_14	CottonGVD	3
+fiber quality	fiber uniformity	FibLenUni_JZ_15	CottonGVD	7
+fiber quality	fiber uniformity	FibLenUni_JZ_AV	CottonGVD	5
+fiber quality	fiber uniformity	FibLenUni_XJ_14	CottonGVD	1
+fiber quality	fiber uniformity	FibLenUni_XJ_15	CottonGVD	7
+fiber quality	fiber uniformity	FibLenUni_XJ_16	CottonGVD	4
+fiber quality	fiber uniformity	FibLenUni_XJ_AV	CottonGVD	1
+fiber quality	fiber uniformity	FibLenUni_YC_14	CottonGVD	4
+fiber quality	fiber uniformity	FibLenUni_YC_15	CottonGVD	1
+fiber quality	fiber uniformity	FibLenUni_YC_AV	CottonGVD	7
+fiber quality	fiber uniformity	FibUni_17-18	CottonGVD	11
+fiber quality	fiber uniformity	FibUni_AY-SJZ_17_r1	CottonGVD	4
+fiber quality	fiber uniformity	FibUni_AY-SJZ_17_r2	CottonGVD	4
+fiber quality	fiber uniformity	FibUni_BLUP17	CottonGVD	7
+fiber quality	fiber uniformity	FibUni_BLUP18	CottonGVD	2
+fiber quality	fiber uniformity	FibUni_XJ1-XJ2_17_r1	CottonGVD	5
+fiber quality	fiber uniformity	FibUni_XJ1-XJ2_17_r2	CottonGVD	1
+fiber quality	fiber uniformity	FibUni_XJ4-XJ3_17_r1	CottonGVD	14
+fiber quality	fiber uniformity	FibUni_XJ4-XJ3_17_r2	CottonGVD	25
+fiber quality	fiber uniformity	FibUni_YC-CS_17_r1	CottonGVD	3
+fiber quality	fiber uniformity	FibUni_YC-CS_17_r2	CottonGVD	1
+fiber quality	fiber uniformity	Fiber Uniformity	Literature	13
+fiber quality	fiber uniformity	Fiber uniformity	Literature	6
+fiber quality	fiber uniformity	Fiber uniformity (%)	Literature	2
+fiber quality	fiber uniformity	Fiber uniformity (FU)	CottonMD	8
+fiber quality	fiber uniformity	LI, FMAT, FU, BW, FM	Literature	1
+fiber quality	fiber uniformity	MIC and UI	Literature	1
+fiber quality	fiber uniformity	NB, SCY, LP, FU, FS	Literature	1
+fiber quality	fiber uniformity	NFFB, FU, FL, TCi, PH	Literature	1
+fiber quality	fiber uniformity	NFFB, FU, FS, FB, FT, FM	Literature	1
+fiber quality	fiber uniformity	PH, FM, FS, FU, PH, LI, FE	Literature	1
+fiber quality	fiber uniformity	SCY, FBN, FM, FE, LP, FU	Literature	1
+fiber quality	fiber uniformity	STR, MIC, ELO, and UI	Literature	1
+fiber quality	fiber uniformity	STr, SA, FU, TTr, LP, FS, BW, FE, RWC	Literature	1
+fiber quality	fiber uniformity	UHM, ELO, STR, MIC, and UI	Literature	1
+fiber quality	fiber uniformity	UHM, ELO, STR, and UI	Literature	1
+fiber quality	fiber uniformity	UHM, UI, MIC, STR, and ELO	Literature	1
+fiber quality	fiber uniformity	UI	Literature	366
+fiber quality	fiber uniformity	UI, UHM, and MIC	Literature	2
+fiber quality	fiber uniformity	UR	Literature	1
+fiber quality	fiber uniformity	Uniformity Ratio (UR)	Literature	1
+fiber quality	fiber uniformity	Uniformity index	Literature	15
+fiber quality	fiber uniformity	fiber length uniformity	GWAS Atlas	782
+fiber quality	fiber uniformity	fiber uniformity	CottonGen	1440
+fiber quality	fiber uniformity	fiber uniformity index	CottonGen	244
+fiber quality	fiber whiteness and colorimetry	CC_AL_18_AV	CottonGVD	54
+fiber quality	fiber whiteness and colorimetry	CC_AL_18_R1	CottonGVD	67
+fiber quality	fiber whiteness and colorimetry	CC_AL_18_R2	CottonGVD	43
+fiber quality	fiber whiteness and colorimetry	CC_AL_19_AV	CottonGVD	74
+fiber quality	fiber whiteness and colorimetry	CC_AL_19_R1	CottonGVD	68
+fiber quality	fiber whiteness and colorimetry	CC_AL_19_R2	CottonGVD	78
+fiber quality	fiber whiteness and colorimetry	CC_AY_18_AV	CottonGVD	62
+fiber quality	fiber whiteness and colorimetry	CC_AY_18_R1	CottonGVD	74
+fiber quality	fiber whiteness and colorimetry	CC_AY_18_R2	CottonGVD	56
+fiber quality	fiber whiteness and colorimetry	CC_AY_19_AV	CottonGVD	64
+fiber quality	fiber whiteness and colorimetry	CC_AY_19_R1	CottonGVD	74
+fiber quality	fiber whiteness and colorimetry	CC_AY_19_R2	CottonGVD	35
+fiber quality	fiber whiteness and colorimetry	CC_BLUP_1	CottonGVD	55
+fiber quality	fiber whiteness and colorimetry	CC_KT_18_AV	CottonGVD	62
+fiber quality	fiber whiteness and colorimetry	CC_KT_18_R1	CottonGVD	72
+fiber quality	fiber whiteness and colorimetry	CC_KT_18_R2	CottonGVD	50
+fiber quality	fiber whiteness and colorimetry	CC_KT_19_AV	CottonGVD	85
+fiber quality	fiber whiteness and colorimetry	CC_KT_19_R1	CottonGVD	52
+fiber quality	fiber whiteness and colorimetry	CC_KT_19_R2	CottonGVD	73
+fiber quality	fiber whiteness and colorimetry	EE_AL_18_AV	CottonGVD	45
+fiber quality	fiber whiteness and colorimetry	EE_AL_18_R1	CottonGVD	53
+fiber quality	fiber whiteness and colorimetry	EE_AL_18_R2	CottonGVD	41
+fiber quality	fiber whiteness and colorimetry	EE_AL_19_AV	CottonGVD	77
+fiber quality	fiber whiteness and colorimetry	EE_AL_19_R1	CottonGVD	63
+fiber quality	fiber whiteness and colorimetry	EE_AL_19_R2	CottonGVD	74
+fiber quality	fiber whiteness and colorimetry	EE_AY_18_AV	CottonGVD	59
+fiber quality	fiber whiteness and colorimetry	EE_AY_18_R1	CottonGVD	43
+fiber quality	fiber whiteness and colorimetry	EE_AY_18_R2	CottonGVD	50
+fiber quality	fiber whiteness and colorimetry	EE_AY_19_AV	CottonGVD	88
+fiber quality	fiber whiteness and colorimetry	EE_AY_19_R1	CottonGVD	72
+fiber quality	fiber whiteness and colorimetry	EE_AY_19_R2	CottonGVD	48
+fiber quality	fiber whiteness and colorimetry	EE_BLUP_1	CottonGVD	62
+fiber quality	fiber whiteness and colorimetry	EE_KT_18_AV	CottonGVD	52
+fiber quality	fiber whiteness and colorimetry	EE_KT_18_R1	CottonGVD	43
+fiber quality	fiber whiteness and colorimetry	EE_KT_18_R2	CottonGVD	45
+fiber quality	fiber whiteness and colorimetry	EE_KT_19_AV	CottonGVD	98
+fiber quality	fiber whiteness and colorimetry	EE_KT_19_R1	CottonGVD	61
+fiber quality	fiber whiteness and colorimetry	EE_KT_19_R2	CottonGVD	70
+fiber quality	fiber whiteness and colorimetry	FibCol_HN_14	CottonGVD	45
+fiber quality	fiber whiteness and colorimetry	FibCol_XJ_16	CottonGVD	5
+fiber quality	fiber whiteness and colorimetry	HH_AL_18_AV	CottonGVD	7
+fiber quality	fiber whiteness and colorimetry	HH_AL_18_R1	CottonGVD	1
+fiber quality	fiber whiteness and colorimetry	HH_AL_18_R2	CottonGVD	5
+fiber quality	fiber whiteness and colorimetry	HH_AL_19_AV	CottonGVD	42
+fiber quality	fiber whiteness and colorimetry	HH_AL_19_R1	CottonGVD	27
+fiber quality	fiber whiteness and colorimetry	HH_AL_19_R2	CottonGVD	29
+fiber quality	fiber whiteness and colorimetry	HH_AY_18_AV	CottonGVD	23
+fiber quality	fiber whiteness and colorimetry	HH_AY_18_R1	CottonGVD	16
+fiber quality	fiber whiteness and colorimetry	HH_AY_18_R2	CottonGVD	8
+fiber quality	fiber whiteness and colorimetry	HH_AY_19_AV	CottonGVD	37
+fiber quality	fiber whiteness and colorimetry	HH_AY_19_R1	CottonGVD	22
+fiber quality	fiber whiteness and colorimetry	HH_AY_19_R2	CottonGVD	36
+fiber quality	fiber whiteness and colorimetry	HH_BLUP_1	CottonGVD	39
+fiber quality	fiber whiteness and colorimetry	HH_KT_18_AV	CottonGVD	6
+fiber quality	fiber whiteness and colorimetry	HH_KT_18_R1	CottonGVD	3
+fiber quality	fiber whiteness and colorimetry	HH_KT_18_R2	CottonGVD	4
+fiber quality	fiber whiteness and colorimetry	HH_KT_19_AV	CottonGVD	29
+fiber quality	fiber whiteness and colorimetry	HH_KT_19_R1	CottonGVD	41
+fiber quality	fiber whiteness and colorimetry	HH_KT_19_R2	CottonGVD	11
+fiber quality	fiber whiteness and colorimetry	LL_AL_18_AV	CottonGVD	9
+fiber quality	fiber whiteness and colorimetry	LL_AL_18_R1	CottonGVD	1
+fiber quality	fiber whiteness and colorimetry	LL_AL_18_R2	CottonGVD	5
+fiber quality	fiber whiteness and colorimetry	LL_AL_19_AV	CottonGVD	42
+fiber quality	fiber whiteness and colorimetry	LL_AL_19_R1	CottonGVD	27
+fiber quality	fiber whiteness and colorimetry	LL_AL_19_R2	CottonGVD	29
+fiber quality	fiber whiteness and colorimetry	LL_AY_18_AV	CottonGVD	22
+fiber quality	fiber whiteness and colorimetry	LL_AY_18_R1	CottonGVD	16
+fiber quality	fiber whiteness and colorimetry	LL_AY_18_R2	CottonGVD	8
+fiber quality	fiber whiteness and colorimetry	LL_AY_19_AV	CottonGVD	38
+fiber quality	fiber whiteness and colorimetry	LL_AY_19_R1	CottonGVD	22
+fiber quality	fiber whiteness and colorimetry	LL_AY_19_R2	CottonGVD	37
+fiber quality	fiber whiteness and colorimetry	LL_BLUP_1	CottonGVD	4
+fiber quality	fiber whiteness and colorimetry	LL_KT_18_AV	CottonGVD	6
+fiber quality	fiber whiteness and colorimetry	LL_KT_18_R1	CottonGVD	3
+fiber quality	fiber whiteness and colorimetry	LL_KT_18_R2	CottonGVD	4
+fiber quality	fiber whiteness and colorimetry	LL_KT_19_AV	CottonGVD	33
+fiber quality	fiber whiteness and colorimetry	LL_KT_19_R1	CottonGVD	41
+fiber quality	fiber whiteness and colorimetry	LL_KT_19_R2	CottonGVD	18
+fiber quality	fiber whiteness and colorimetry	R457_AL_18_AV	CottonGVD	61
+fiber quality	fiber whiteness and colorimetry	R457_AL_18_R1	CottonGVD	73
+fiber quality	fiber whiteness and colorimetry	R457_AL_18_R2	CottonGVD	46
+fiber quality	fiber whiteness and colorimetry	R457_AL_19_AV	CottonGVD	82
+fiber quality	fiber whiteness and colorimetry	R457_AL_19_R1	CottonGVD	79
+fiber quality	fiber whiteness and colorimetry	R457_AL_19_R2	CottonGVD	60
+fiber quality	fiber whiteness and colorimetry	R457_AY_18_AV	CottonGVD	62
+fiber quality	fiber whiteness and colorimetry	R457_AY_18_R1	CottonGVD	66
+fiber quality	fiber whiteness and colorimetry	R457_AY_18_R2	CottonGVD	52
+fiber quality	fiber whiteness and colorimetry	R457_AY_19_AV	CottonGVD	78
+fiber quality	fiber whiteness and colorimetry	R457_AY_19_R1	CottonGVD	70
+fiber quality	fiber whiteness and colorimetry	R457_AY_19_R2	CottonGVD	65
+fiber quality	fiber whiteness and colorimetry	R457_BLUP_1	CottonGVD	61
+fiber quality	fiber whiteness and colorimetry	R457_KT_18_AV	CottonGVD	73
+fiber quality	fiber whiteness and colorimetry	R457_KT_18_R1	CottonGVD	66
+fiber quality	fiber whiteness and colorimetry	R457_KT_18_R2	CottonGVD	64
+fiber quality	fiber whiteness and colorimetry	R457_KT_19_AV	CottonGVD	69
+fiber quality	fiber whiteness and colorimetry	R457_KT_19_R1	CottonGVD	66
+fiber quality	fiber whiteness and colorimetry	R457_KT_19_R2	CottonGVD	54
+fiber quality	fiber whiteness and colorimetry	Rx_AL_18_AV	CottonGVD	63
+fiber quality	fiber whiteness and colorimetry	Rx_AL_18_R1	CottonGVD	76
+fiber quality	fiber whiteness and colorimetry	Rx_AL_18_R2	CottonGVD	40
+fiber quality	fiber whiteness and colorimetry	Rx_AL_19_AV	CottonGVD	74
+fiber quality	fiber whiteness and colorimetry	Rx_AL_19_R1	CottonGVD	85
+fiber quality	fiber whiteness and colorimetry	Rx_AL_19_R2	CottonGVD	56
+fiber quality	fiber whiteness and colorimetry	Rx_AY_18_AV	CottonGVD	53
+fiber quality	fiber whiteness and colorimetry	Rx_AY_18_R1	CottonGVD	51
+fiber quality	fiber whiteness and colorimetry	Rx_AY_18_R2	CottonGVD	45
+fiber quality	fiber whiteness and colorimetry	Rx_AY_19_AV	CottonGVD	81
+fiber quality	fiber whiteness and colorimetry	Rx_AY_19_R1	CottonGVD	77
+fiber quality	fiber whiteness and colorimetry	Rx_AY_19_R2	CottonGVD	59
+fiber quality	fiber whiteness and colorimetry	Rx_BLUP_1	CottonGVD	57
+fiber quality	fiber whiteness and colorimetry	Rx_KT_18_AV	CottonGVD	57
+fiber quality	fiber whiteness and colorimetry	Rx_KT_18_R1	CottonGVD	54
+fiber quality	fiber whiteness and colorimetry	Rx_KT_18_R2	CottonGVD	51
+fiber quality	fiber whiteness and colorimetry	Rx_KT_19_AV	CottonGVD	70
+fiber quality	fiber whiteness and colorimetry	Rx_KT_19_R1	CottonGVD	69
+fiber quality	fiber whiteness and colorimetry	Rx_KT_19_R2	CottonGVD	65
+fiber quality	fiber whiteness and colorimetry	Ry_AL_18_AV	CottonGVD	61
+fiber quality	fiber whiteness and colorimetry	Ry_AL_18_R1	CottonGVD	80
+fiber quality	fiber whiteness and colorimetry	Ry_AL_18_R2	CottonGVD	47
+fiber quality	fiber whiteness and colorimetry	Ry_AL_19_AV	CottonGVD	72
+fiber quality	fiber whiteness and colorimetry	Ry_AL_19_R1	CottonGVD	82
+fiber quality	fiber whiteness and colorimetry	Ry_AL_19_R2	CottonGVD	53
+fiber quality	fiber whiteness and colorimetry	Ry_AY_18_AV	CottonGVD	60
+fiber quality	fiber whiteness and colorimetry	Ry_AY_18_R1	CottonGVD	61
+fiber quality	fiber whiteness and colorimetry	Ry_AY_18_R2	CottonGVD	45
+fiber quality	fiber whiteness and colorimetry	Ry_AY_19_AV	CottonGVD	82
+fiber quality	fiber whiteness and colorimetry	Ry_AY_19_R1	CottonGVD	72
+fiber quality	fiber whiteness and colorimetry	Ry_AY_19_R2	CottonGVD	59
+fiber quality	fiber whiteness and colorimetry	Ry_BLUP_1	CottonGVD	54
+fiber quality	fiber whiteness and colorimetry	Ry_KT_18_AV	CottonGVD	61
+fiber quality	fiber whiteness and colorimetry	Ry_KT_18_R1	CottonGVD	58
+fiber quality	fiber whiteness and colorimetry	Ry_KT_18_R2	CottonGVD	53
+fiber quality	fiber whiteness and colorimetry	Ry_KT_19_AV	CottonGVD	71
+fiber quality	fiber whiteness and colorimetry	Ry_KT_19_R1	CottonGVD	70
+fiber quality	fiber whiteness and colorimetry	Ry_KT_19_R2	CottonGVD	58
+fiber quality	fiber whiteness and colorimetry	Rz_AL_18_AV	CottonGVD	60
+fiber quality	fiber whiteness and colorimetry	Rz_AL_18_R1	CottonGVD	73
+fiber quality	fiber whiteness and colorimetry	Rz_AL_18_R2	CottonGVD	45
+fiber quality	fiber whiteness and colorimetry	Rz_AL_19_AV	CottonGVD	81
+fiber quality	fiber whiteness and colorimetry	Rz_AL_19_R1	CottonGVD	79
+fiber quality	fiber whiteness and colorimetry	Rz_AL_19_R2	CottonGVD	61
+fiber quality	fiber whiteness and colorimetry	Rz_AY_18_AV	CottonGVD	62
+fiber quality	fiber whiteness and colorimetry	Rz_AY_18_R1	CottonGVD	66
+fiber quality	fiber whiteness and colorimetry	Rz_AY_18_R2	CottonGVD	51
+fiber quality	fiber whiteness and colorimetry	Rz_AY_19_AV	CottonGVD	79
+fiber quality	fiber whiteness and colorimetry	Rz_AY_19_R1	CottonGVD	70
+fiber quality	fiber whiteness and colorimetry	Rz_AY_19_R2	CottonGVD	64
+fiber quality	fiber whiteness and colorimetry	Rz_BLUP_1	CottonGVD	61
+fiber quality	fiber whiteness and colorimetry	Rz_KT_18_AV	CottonGVD	72
+fiber quality	fiber whiteness and colorimetry	Rz_KT_18_R1	CottonGVD	66
+fiber quality	fiber whiteness and colorimetry	Rz_KT_18_R2	CottonGVD	64
+fiber quality	fiber whiteness and colorimetry	Rz_KT_19_AV	CottonGVD	69
+fiber quality	fiber whiteness and colorimetry	Rz_KT_19_R1	CottonGVD	66
+fiber quality	fiber whiteness and colorimetry	Rz_KT_19_R2	CottonGVD	55
+fiber quality	fiber whiteness and colorimetry	W10_AL_18_AV	CottonGVD	11
+fiber quality	fiber whiteness and colorimetry	W10_AL_18_R1	CottonGVD	1
+fiber quality	fiber whiteness and colorimetry	W10_AL_18_R2	CottonGVD	1
+fiber quality	fiber whiteness and colorimetry	W10_AL_19_AV	CottonGVD	30
+fiber quality	fiber whiteness and colorimetry	W10_AL_19_R1	CottonGVD	19
+fiber quality	fiber whiteness and colorimetry	W10_AL_19_R2	CottonGVD	24
+fiber quality	fiber whiteness and colorimetry	W10_AY_18_AV	CottonGVD	31
+fiber quality	fiber whiteness and colorimetry	W10_AY_18_R1	CottonGVD	14
+fiber quality	fiber whiteness and colorimetry	W10_AY_18_R2	CottonGVD	8
+fiber quality	fiber whiteness and colorimetry	W10_AY_19_AV	CottonGVD	32
+fiber quality	fiber whiteness and colorimetry	W10_AY_19_R1	CottonGVD	21
+fiber quality	fiber whiteness and colorimetry	W10_AY_19_R2	CottonGVD	17
+fiber quality	fiber whiteness and colorimetry	W10_KT_18_AV	CottonGVD	7
+fiber quality	fiber whiteness and colorimetry	W10_KT_18_R1	CottonGVD	3
+fiber quality	fiber whiteness and colorimetry	W10_KT_18_R2	CottonGVD	5
+fiber quality	fiber whiteness and colorimetry	W10_KT_19_AV	CottonGVD	30
+fiber quality	fiber whiteness and colorimetry	W10_KT_19_R1	CottonGVD	37
+fiber quality	fiber whiteness and colorimetry	W10_KT_19_R2	CottonGVD	18
+fiber quality	fiber whiteness and colorimetry	WF_AL_18_AV	CottonGVD	44
+fiber quality	fiber whiteness and colorimetry	WF_AL_18_R1	CottonGVD	69
+fiber quality	fiber whiteness and colorimetry	WF_AL_18_R2	CottonGVD	41
+fiber quality	fiber whiteness and colorimetry	WF_AL_19_AV	CottonGVD	41
+fiber quality	fiber whiteness and colorimetry	WF_AL_19_R1	CottonGVD	75
+fiber quality	fiber whiteness and colorimetry	WF_AL_19_R2	CottonGVD	20
+fiber quality	fiber whiteness and colorimetry	WF_AY_18_AV	CottonGVD	64
+fiber quality	fiber whiteness and colorimetry	WF_AY_18_R1	CottonGVD	73
+fiber quality	fiber whiteness and colorimetry	WF_AY_18_R2	CottonGVD	70
+fiber quality	fiber whiteness and colorimetry	WF_AY_19_AV	CottonGVD	20
+fiber quality	fiber whiteness and colorimetry	WF_AY_19_R1	CottonGVD	54
+fiber quality	fiber whiteness and colorimetry	WF_AY_19_R2	CottonGVD	23
+fiber quality	fiber whiteness and colorimetry	WF_BLUP_1	CottonGVD	45
+fiber quality	fiber whiteness and colorimetry	WF_KT_18_AV	CottonGVD	61
+fiber quality	fiber whiteness and colorimetry	WF_KT_18_R1	CottonGVD	69
+fiber quality	fiber whiteness and colorimetry	WF_KT_18_R2	CottonGVD	53
+fiber quality	fiber whiteness and colorimetry	WF_KT_19_AV	CottonGVD	88
+fiber quality	fiber whiteness and colorimetry	WF_KT_19_R1	CottonGVD	76
+fiber quality	fiber whiteness and colorimetry	WF_KT_19_R2	CottonGVD	92
+fiber quality	fiber whiteness and colorimetry	WH_AL_18_AV	CottonGVD	44
+fiber quality	fiber whiteness and colorimetry	WH_AL_18_R1	CottonGVD	68
+fiber quality	fiber whiteness and colorimetry	WH_AL_18_R2	CottonGVD	44
+fiber quality	fiber whiteness and colorimetry	WH_AL_19_AV	CottonGVD	79
+fiber quality	fiber whiteness and colorimetry	WH_AL_19_R1	CottonGVD	78
+fiber quality	fiber whiteness and colorimetry	WH_AL_19_R2	CottonGVD	72
+fiber quality	fiber whiteness and colorimetry	WH_AY_18_AV	CottonGVD	64
+fiber quality	fiber whiteness and colorimetry	WH_AY_18_R1	CottonGVD	74
+fiber quality	fiber whiteness and colorimetry	WH_AY_18_R2	CottonGVD	67
+fiber quality	fiber whiteness and colorimetry	WH_AY_19_AV	CottonGVD	80
+fiber quality	fiber whiteness and colorimetry	WH_AY_19_R1	CottonGVD	80
+fiber quality	fiber whiteness and colorimetry	WH_AY_19_R2	CottonGVD	77
+fiber quality	fiber whiteness and colorimetry	WH_BLUP_1	CottonGVD	61
+fiber quality	fiber whiteness and colorimetry	WH_KT_18_AV	CottonGVD	65
+fiber quality	fiber whiteness and colorimetry	WH_KT_18_R1	CottonGVD	66
+fiber quality	fiber whiteness and colorimetry	WH_KT_18_R2	CottonGVD	53
+fiber quality	fiber whiteness and colorimetry	WH_KT_19_AV	CottonGVD	85
+fiber quality	fiber whiteness and colorimetry	WH_KT_19_R1	CottonGVD	85
+fiber quality	fiber whiteness and colorimetry	WH_KT_19_R2	CottonGVD	91
+fiber quality	fiber whiteness and colorimetry	aa_AL_18_AV	CottonGVD	55
+fiber quality	fiber whiteness and colorimetry	aa_AL_18_R1	CottonGVD	62
+fiber quality	fiber whiteness and colorimetry	aa_AL_18_R2	CottonGVD	54
+fiber quality	fiber whiteness and colorimetry	aa_AL_19_AV	CottonGVD	59
+fiber quality	fiber whiteness and colorimetry	aa_AL_19_R1	CottonGVD	59
+fiber quality	fiber whiteness and colorimetry	aa_AL_19_R2	CottonGVD	60
+fiber quality	fiber whiteness and colorimetry	aa_AY_18_AV	CottonGVD	63
+fiber quality	fiber whiteness and colorimetry	aa_AY_18_R1	CottonGVD	50
+fiber quality	fiber whiteness and colorimetry	aa_AY_18_R2	CottonGVD	72
+fiber quality	fiber whiteness and colorimetry	aa_AY_19_AV	CottonGVD	50
+fiber quality	fiber whiteness and colorimetry	aa_AY_19_R1	CottonGVD	53
+fiber quality	fiber whiteness and colorimetry	aa_AY_19_R2	CottonGVD	40
+fiber quality	fiber whiteness and colorimetry	aa_BLUP_1	CottonGVD	48
+fiber quality	fiber whiteness and colorimetry	aa_KT_18_AV	CottonGVD	48
+fiber quality	fiber whiteness and colorimetry	aa_KT_18_R1	CottonGVD	53
+fiber quality	fiber whiteness and colorimetry	aa_KT_18_R2	CottonGVD	44
+fiber quality	fiber whiteness and colorimetry	aa_KT_19_AV	CottonGVD	47
+fiber quality	fiber whiteness and colorimetry	aa_KT_19_R1	CottonGVD	46
+fiber quality	fiber whiteness and colorimetry	aa_KT_19_R2	CottonGVD	35
+fiber quality	fiber whiteness and colorimetry	bb_AL_18_AV	CottonGVD	59
+fiber quality	fiber whiteness and colorimetry	bb_AL_18_R1	CottonGVD	66
+fiber quality	fiber whiteness and colorimetry	bb_AL_18_R2	CottonGVD	44
+fiber quality	fiber whiteness and colorimetry	bb_AL_19_AV	CottonGVD	76
+fiber quality	fiber whiteness and colorimetry	bb_AL_19_R1	CottonGVD	70
+fiber quality	fiber whiteness and colorimetry	bb_AL_19_R2	CottonGVD	80
+fiber quality	fiber whiteness and colorimetry	bb_AY_18_AV	CottonGVD	62
+fiber quality	fiber whiteness and colorimetry	bb_AY_18_R1	CottonGVD	69
+fiber quality	fiber whiteness and colorimetry	bb_AY_18_R2	CottonGVD	56
+fiber quality	fiber whiteness and colorimetry	bb_AY_19_AV	CottonGVD	71
+fiber quality	fiber whiteness and colorimetry	bb_AY_19_R1	CottonGVD	73
+fiber quality	fiber whiteness and colorimetry	bb_AY_19_R2	CottonGVD	35
+fiber quality	fiber whiteness and colorimetry	bb_BLUP_1	CottonGVD	59
+fiber quality	fiber whiteness and colorimetry	bb_KT_18_AV	CottonGVD	63
+fiber quality	fiber whiteness and colorimetry	bb_KT_18_R1	CottonGVD	71
+fiber quality	fiber whiteness and colorimetry	bb_KT_18_R2	CottonGVD	57
+fiber quality	fiber whiteness and colorimetry	bb_KT_19_AV	CottonGVD	82
+fiber quality	fiber whiteness and colorimetry	bb_KT_19_R1	CottonGVD	47
+fiber quality	fiber whiteness and colorimetry	bb_KT_19_R2	CottonGVD	76
+fiber quality	fiber yellowness	FibYel_BV	CottonGVD	1
+fiber quality	fiber yellowness	FibYel_DH_14	CottonGVD	1
+fiber quality	fiber yellowness	FibYel_XJ_AV	CottonGVD	1
+fiber quality	fiber yellowness	FibYel_YC_15	CottonGVD	1
+fiber quality	fiber yellowness	FibYel_YC_AV	CottonGVD	2
+fiber quality	fiber yellowness	yellowness	CottonGen	46
+fiber quality	lint visible foreign matter	lint visible foreign matter	CottonGen	4
+fiber quality	micronaire		Literature	33
+fiber quality	micronaire	16AyxtMIC	Literature	5
+fiber quality	micronaire	16HnMIC	Literature	3
+fiber quality	micronaire	16xjal-MIC	Literature	1
+fiber quality	micronaire	17AyncMIC	Literature	1
+fiber quality	micronaire	17HbMIC	Literature	2
+fiber quality	micronaire	17XjalMIC	Literature	3
+fiber quality	micronaire	17XjshzMIC	Literature	2
+fiber quality	micronaire	DRC_MV	Literature	1
+fiber quality	micronaire	ELO and MIC	Literature	1
+fiber quality	micronaire	FE+FM	Literature	4
+fiber quality	micronaire	FM	Literature	21529
+fiber quality	micronaire	FM QTL	Literature	42
+fiber quality	micronaire	FM(unit)	Literature	1
+fiber quality	micronaire	FM, FBN, PH, TPn, Sci,	Literature	1
+fiber quality	micronaire	FM, LP, FB, FM, SI	Literature	1
+fiber quality	micronaire	FM, PA, FT	Literature	1
+fiber quality	micronaire	FM-AY-14	Literature	3
+fiber quality	micronaire	FM-AY-15	Literature	1
+fiber quality	micronaire	FM-CZ-14	Literature	2
+fiber quality	micronaire	FM-CZ-15	Literature	4
+fiber quality	micronaire	FM-DH-14	Literature	1
+fiber quality	micronaire	FM-DH-15	Literature	4
+fiber quality	micronaire	FM-JZ-14	Literature	1
+fiber quality	micronaire	FM-JZ-15	Literature	6
+fiber quality	micronaire	FM-XJ-14	Literature	1
+fiber quality	micronaire	FM-XJ-15	Literature	3
+fiber quality	micronaire	FM-YC-14	Literature	8
+fiber quality	micronaire	FM-YC-15	Literature	4
+fiber quality	micronaire	FM07an	Literature	16
+fiber quality	micronaire	FM07ku	Literature	11
+fiber quality	micronaire	FM07nan	Literature	6
+fiber quality	micronaire	FM08an	Literature	14
+fiber quality	micronaire	FM08ku	Literature	7
+fiber quality	micronaire	FM08nan	Literature	5
+fiber quality	micronaire	FM09an	Literature	5
+fiber quality	micronaire	FM09ku	Literature	1
+fiber quality	micronaire	FM09ku3	Literature	8
+fiber quality	micronaire	FM09nan	Literature	8
+fiber quality	micronaire	FM2011NY	Literature	9
+fiber quality	micronaire	FM2011XX	Literature	1
+fiber quality	micronaire	FM2012NY	Literature	2
+fiber quality	micronaire	FM2012XJ	Literature	3
+fiber quality	micronaire	FM2012XX	Literature	3
+fiber quality	micronaire	FM2013XX	Literature	1
+fiber quality	micronaire	FM_1	Literature	2
+fiber quality	micronaire	FM_9	Literature	3
+fiber quality	micronaire	FT, NFB, STLH, MIC, PH, Oil	Literature	1
+fiber quality	micronaire	FT, NFFB, SI, FM, PH	Literature	1
+fiber quality	micronaire	FibMic_15_16U	CottonGVD	18
+fiber quality	micronaire	FibMic_17-18	CottonGVD	4
+fiber quality	micronaire	FibMic_AY-SJZ_17_r1	CottonGVD	1
+fiber quality	micronaire	FibMic_AY-SJZ_17_r2	CottonGVD	1
+fiber quality	micronaire	FibMic_AY_09	CottonGVD	4
+fiber quality	micronaire	FibMic_AY_14	CottonGVD	1
+fiber quality	micronaire	FibMic_BLUP17	CottonGVD	4
+fiber quality	micronaire	FibMic_DH_14	CottonGVD	3
+fiber quality	micronaire	FibMic_DH_15	CottonGVD	6
+fiber quality	micronaire	FibMic_DH_AV	CottonGVD	6
+fiber quality	micronaire	FibMic_HN_14	CottonGVD	11
+fiber quality	micronaire	FibMic_JZ_14	CottonGVD	1
+fiber quality	micronaire	FibMic_JZ_15	CottonGVD	11
+fiber quality	micronaire	FibMic_JZ_AV	CottonGVD	5
+fiber quality	micronaire	FibMic_XJ1-XJ2_17_r1	CottonGVD	1
+fiber quality	micronaire	FibMic_XJ1-XJ2_17_r2	CottonGVD	1
+fiber quality	micronaire	FibMic_XJ4-XJ3_17_r1	CottonGVD	2
+fiber quality	micronaire	FibMic_XJ4-XJ3_17_r2	CottonGVD	3
+fiber quality	micronaire	FibMic_XJ_14	CottonGVD	6
+fiber quality	micronaire	FibMic_XJ_15	CottonGVD	24
+fiber quality	micronaire	FibMic_XJ_16	CottonGVD	10
+fiber quality	micronaire	FibMic_XJ_AV	CottonGVD	9
+fiber quality	micronaire	FibMic_YC-CS_17_r1	CottonGVD	5
+fiber quality	micronaire	FibMic_YC-CS_17_r2	CottonGVD	2
+fiber quality	micronaire	FibMic_YC_14	CottonGVD	12
+fiber quality	micronaire	FibMic_YC_15	CottonGVD	16
+fiber quality	micronaire	FibMic_YC_AV	CottonGVD	18
+fiber quality	micronaire	Fiber Micronaire	Literature	17
+fiber quality	micronaire	Fiber fineness (micronaire)	Literature	12
+fiber quality	micronaire	Fiber maturity (FM)	Literature	1
+fiber quality	micronaire	Fiber micronair	Literature	25
+fiber quality	micronaire	LP, FN, FM, LY, FM, FE, SCW	Literature	1
+fiber quality	micronaire	MIC	Literature	1856
+fiber quality	micronaire	MIC-C-BLUP	Literature	8
+fiber quality	micronaire	MIC-C17	Literature	18
+fiber quality	micronaire	MIC-C18	Literature	9
+fiber quality	micronaire	MIC-S-BLUP	Literature	8
+fiber quality	micronaire	MIC-S17	Literature	6
+fiber quality	micronaire	MIC-S18	Literature	9
+fiber quality	micronaire	MIC_DPL513	Literature	1
+fiber quality	micronaire	MIC_GCA	Literature	221
+fiber quality	micronaire	MIC_NAU749	Literature	1
+fiber quality	micronaire	MIC_SCA	Literature	398
+fiber quality	micronaire	MIC_TMB10	Literature	1
+fiber quality	micronaire	MV	Literature	47
+fiber quality	micronaire	Mic	Literature	254
+fiber quality	micronaire	Micronaire	Literature	268
+fiber quality	micronaire	Micronaire (Mic)	Literature	1
+fiber quality	micronaire	Micronaire Value	GWAS Atlas	824
+fiber quality	micronaire	Micronaire value	Literature	8
+fiber quality	micronaire	Micronaire value (MV)	CottonMD	1
+fiber quality	micronaire	QTL_MIC	Literature	308
+fiber quality	micronaire	blup_all	Literature	7
+fiber quality	micronaire	blup_part1	Literature	9
+fiber quality	micronaire	blup_part2	Literature	6
+fiber quality	micronaire	micronaire	CottonGen	19083
+fiber quality	seed fuzz	FuzzCol	CottonGVD	56
+fiber quality	seed fuzz	SeedFuzCol	CottonGVD	4
+fiber quality	seed fuzz	SeedFuz_1	CottonGVD	4
+fiber quality	seed fuzz	SeedFuz_2	CottonGVD	6
+fiber quality	seed fuzz	SeedFuzz	CottonGVD	6
+fiber quality	seed fuzz	SeedFuzz_3	CottonGVD	5
+fiber quality	seed fuzz	SeedFuzz_4	CottonGVD	6
+fiber quality	seed fuzz	SeedFuzz_XJ_16	CottonGVD	1
+fiber quality	seed fuzz	seed fuzz color	CottonGen	15
+fiber quality	seed fuzz	seed fuzz grade	CottonGen	31
+fiber quality	short fiber content	BW, LP, FMIC, FMAT, FU, PH, LY, SCY, PH, SI, FE, FR, FS, LI, RL, FB	Literature	1
+fiber quality	short fiber content	FR	Literature	25
+fiber quality	short fiber content	SCW, FMAT, LP, FMIC, FE, FR, PH, NB	Literature	1
+fiber quality	short fiber content	SFC	Literature	240
+fiber quality	short fiber content	SFCN	Literature	22
+fiber quality	short fiber content	SFCW	Literature	28
+fiber quality	short fiber content	SFCn	Literature	1
+fiber quality	short fiber content	SFCn_AY	CottonGVD	12
+fiber quality	short fiber content	SFCn_XJ	CottonGVD	1
+fiber quality	short fiber content	SFCw	Literature	1
+fiber quality	short fiber content	SFCw_AY	CottonGVD	16
+fiber quality	short fiber content	SFCw_HN	CottonGVD	2
+fiber quality	short fiber content	SFCw_XJ	CottonGVD	3
+fiber quality	short fiber content	SFI	Literature	14
+fiber quality	short fiber content	ShorFibInd_17-18	CottonGVD	2
+fiber quality	short fiber content	ShorFibInd_AY-SJZ_17_r1	CottonGVD	2
+fiber quality	short fiber content	ShorFibInd_AY-SJZ_17_r2	CottonGVD	7
+fiber quality	short fiber content	ShorFibInd_BLUP17	CottonGVD	1
+fiber quality	short fiber content	ShorFibInd_BLUP18	CottonGVD	1
+fiber quality	short fiber content	ShorFibInd_XJ1-XJ2_17_r1	CottonGVD	7
+fiber quality	short fiber content	ShorFibInd_XJ1-XJ2_17_r2	CottonGVD	2
+fiber quality	short fiber content	ShorFibInd_XJ4-XJ3_17_r1	CottonGVD	1
+fiber quality	short fiber content	ShorFibInd_XJ4-XJ3_17_r2	CottonGVD	6
+fiber quality	short fiber content	ShorFibInd_YC-CS_17_r1	CottonGVD	1
+fiber quality	short fiber content	ShorFibInd_YC-CS_17_r2	CottonGVD	1
+fiber quality	short fiber content	Short Fiber content by weight g (kg-1)	Literature	1
+fiber quality	short fiber content	Short fiber content by weight	Literature	1
+fiber quality	short fiber content	Short fiber content by weight g (kg-1)	Literature	36
+fiber quality	short fiber content	Short fiber length trait	Literature	3
+fiber quality	short fiber content	Short fiber rate (FR)	CottonMD	3
+fiber quality	short fiber content	VR, FR, FS, NFFB, LI, FU, LP	Literature	1
+fiber quality	short fiber content	short fiber content	CottonGen	153
+fiber quality	short fiber content	short fiber content by number	CottonGen	9
+fiber quality	short fiber content	short fiber content by weight	CottonGen	1
+fiber quality	short fiber content	short fiber index	CottonGen	193
+fiber quality	spinning consistency index	FibSpiConInd_AY_14	CottonGVD	4
+fiber quality	spinning consistency index	FibSpiConInd_AY_15	CottonGVD	10
+fiber quality	spinning consistency index	FibSpiConInd_AY_AV	CottonGVD	10
+fiber quality	spinning consistency index	FibSpiConInd_BV_14	CottonGVD	7
+fiber quality	spinning consistency index	FibSpiConInd_BV_15	CottonGVD	5
+fiber quality	spinning consistency index	FibSpiConInd_BV_AV	CottonGVD	8
+fiber quality	spinning consistency index	FibSpiConInd_CZ_14	CottonGVD	11
+fiber quality	spinning consistency index	FibSpiConInd_CZ_15	CottonGVD	4
+fiber quality	spinning consistency index	FibSpiConInd_CZ_AV	CottonGVD	11
+fiber quality	spinning consistency index	FibSpiConInd_DH_14	CottonGVD	6
+fiber quality	spinning consistency index	FibSpiConInd_DH_15	CottonGVD	3
+fiber quality	spinning consistency index	FibSpiConInd_DH_AV	CottonGVD	12
+fiber quality	spinning consistency index	FibSpiConInd_JZ_14	CottonGVD	5
+fiber quality	spinning consistency index	FibSpiConInd_JZ_15	CottonGVD	3
+fiber quality	spinning consistency index	FibSpiConInd_JZ_AV	CottonGVD	2
+fiber quality	spinning consistency index	FibSpiConInd_XJ_14	CottonGVD	4
+fiber quality	spinning consistency index	FibSpiConInd_XJ_15	CottonGVD	2
+fiber quality	spinning consistency index	FibSpiConInd_XJ_AV	CottonGVD	6
+fiber quality	spinning consistency index	FibSpiConInd_YC_14	CottonGVD	2
+fiber quality	spinning consistency index	FibSpiConInd_YC_15	CottonGVD	5
+fiber quality	spinning consistency index	FibSpiConInd_YC_AV	CottonGVD	6
+fiber quality	spinning consistency index	SCI	Literature	719
+fiber quality	spinning consistency index	SCI-AY-14	Literature	11
+fiber quality	spinning consistency index	SCI-AY-15	Literature	3
+fiber quality	spinning consistency index	SCI-CZ-14	Literature	25
+fiber quality	spinning consistency index	SCI-CZ-15	Literature	1
+fiber quality	spinning consistency index	SCI-DH-14	Literature	10
+fiber quality	spinning consistency index	SCI-DH-15	Literature	4
+fiber quality	spinning consistency index	SCI-JZ-14	Literature	4
+fiber quality	spinning consistency index	SCI-JZ-15	Literature	7
+fiber quality	spinning consistency index	SCI-XJ-14	Literature	14
+fiber quality	spinning consistency index	SCI-XJ-15	Literature	5
+fiber quality	spinning consistency index	SCI-YC-14	Literature	7
+fiber quality	spinning consistency index	SCI-YC-15	Literature	9
+fiber quality	spinning consistency index	SCI_GCA	Literature	469
+fiber quality	spinning consistency index	SCI_SCA	Literature	3
+fiber quality	spinning consistency index	SCi	Literature	5
+fiber quality	spinning consistency index	SpinConInd_17-18	CottonGVD	13
+fiber quality	spinning consistency index	SpinConInd_AY-SJZ_17_r1	CottonGVD	1
+fiber quality	spinning consistency index	SpinConInd_AY-SJZ_17_r2	CottonGVD	1
+fiber quality	spinning consistency index	SpinConInd_BLUP18	CottonGVD	1
+fiber quality	spinning consistency index	SpinConInd_XJ1-XJ2_17_r1	CottonGVD	5
+fiber quality	spinning consistency index	SpinConInd_XJ1-XJ2_17_r2	CottonGVD	5
+fiber quality	spinning consistency index	SpinConInd_XJ4-XJ3_17_r1	CottonGVD	4
+fiber quality	spinning consistency index	SpinConInd_XJ4-XJ3_17_r2	CottonGVD	6
+fiber quality	spinning consistency index	SpinConInd_YC-CS_17_r1	CottonGVD	2
+fiber quality	spinning consistency index	SpinConInd_YC-CS_17_r2	CottonGVD	3
+fiber quality	spinning consistency index	fiber spin consistency index	CottonGen	31
+fiber quality	spinning consistency index	spinning consistency index	GWAS Atlas	2856
+growth and vigor	germination and seedling vigor	GI	Literature	673
+growth and vigor	germination and seedling vigor	GI-DVC1	Literature	183
+growth and vigor	germination and seedling vigor	GI-DVC2	Literature	6
+growth and vigor	germination and seedling vigor	GR	Literature	84
+growth and vigor	germination and seedling vigor	GR (%)	Literature	2
+growth and vigor	germination and seedling vigor	GR-DVC1	Literature	1
+growth and vigor	germination and seedling vigor	GerRat_PEGCK	CottonGVD	1
+growth and vigor	germination and seedling vigor	GerRat_PEG_vs_CK	CottonGVD	3
+growth and vigor	germination and seedling vigor	GerRat_Salt150_vs_CK	CottonGVD	1
+growth and vigor	germination and seedling vigor	GerRat_Salt150_vs_CK-2	CottonGVD	1
+growth and vigor	germination and seedling vigor	GerRat_SaltCK	CottonGVD	1
+growth and vigor	germination and seedling vigor	GerRat_SaltCK-2	CottonGVD	1
+growth and vigor	germination and seedling vigor	SeedSur_ST09_r1	CottonGVD	1
+growth and vigor	germination and seedling vigor	Survival	Literature	2
+growth and vigor	germination and seedling vigor	VI	Literature	337
+growth and vigor	germination and seedling vigor	relative germination rate	GWAS Atlas	1
+growth and vigor	plant biomass	2022-RRDW	Literature	7
+growth and vigor	plant biomass	2022-RSDW	Literature	13
+growth and vigor	plant biomass	2022-RSFW	Literature	1348
+growth and vigor	plant biomass	2023-RRDW	Literature	40
+growth and vigor	plant biomass	2023-RSDW	Literature	13
+growth and vigor	plant biomass	2023-RSFW	Literature	31
+growth and vigor	plant biomass	BLUE-RRDW	Literature	41
+growth and vigor	plant biomass	BLUE-RSFW	Literature	77
+growth and vigor	plant biomass	BLUE_RSDW	Literature	23
+growth and vigor	plant biomass	DW-CC2	Literature	1659
+growth and vigor	plant biomass	DW-CC3	Literature	2
+growth and vigor	plant biomass	DW-CC4	Literature	2
+growth and vigor	plant biomass	DW-CC5	Literature	413
+growth and vigor	plant biomass	DW-CC6	Literature	2
+growth and vigor	plant biomass	DW-DVC2	Literature	5
+growth and vigor	plant biomass	DW-DVC3	Literature	1
+growth and vigor	plant biomass	DW-DVC4	Literature	1
+growth and vigor	plant biomass	DW-DVC5	Literature	11
+growth and vigor	plant biomass	DW-DVC6	Literature	688
+growth and vigor	plant biomass	DownDrW	CottonGVD	18
+growth and vigor	plant biomass	Dry Shoot weight(DSW)	Literature	1
+growth and vigor	plant biomass	Dry shoot weight (SDW(	Literature	1
+growth and vigor	plant biomass	Dry shoot weight DSW	Literature	6
+growth and vigor	plant biomass	Fresh shoot weightFSW	Literature	25
+growth and vigor	plant biomass	Main stem dry weight	CottonGen	274
+growth and vigor	plant biomass	RFW	Literature	10
+growth and vigor	plant biomass	RSDW	Literature	9
+growth and vigor	plant biomass	RSFW	Literature	7
+growth and vigor	plant biomass	RSL+RFW	Literature	4
+growth and vigor	plant biomass	RelFreWei_1	CottonGVD	4
+growth and vigor	plant biomass	RelFreWei_2	CottonGVD	4
+growth and vigor	plant biomass	SDW	Literature	7
+growth and vigor	plant biomass	SFW	Literature	2
+growth and vigor	plant biomass	ShoLen_PEG_vs_CK	CottonGVD	1
+growth and vigor	plant biomass	ShoLen_Salt150-2	CottonGVD	1
+growth and vigor	plant biomass	ShoLen_Salt150_vs_CK-2	CottonGVD	1
+growth and vigor	plant biomass	Shoot dry weight	CottonGen	34
+growth and vigor	plant biomass	TFW	Literature	2
+growth and vigor	plant biomass	TotDryWei	CottonGVD	15
+growth and vigor	plant biomass	UpDryWei	CottonGVD	12
+growth and vigor	plant biomass	dry matter yield	CottonGen	8
+growth and vigor	plant biomass	total shoot weight	CottonGen	9
+growth and vigor	tissue culture response	embryogenic callus formation	CottonGen	6
+morphology	boll morphology	BolCol_AY_16	CottonGVD	249
+morphology	boll morphology	BolCol_HN_14	CottonGVD	250
+morphology	boll morphology	BolCol_XJ_15	CottonGVD	249
+morphology	boll morphology	BolCol_XJ_16	CottonGVD	136
+morphology	boll morphology	BollShap	CottonGVD	9
+morphology	boll morphology	boll shape	CottonGen	1
+morphology	flower morphology		Literature	3
+morphology	flower morphology	AntCol	CottonGVD	13
+morphology	flower morphology	BraNec_AY_16	CottonGVD	177
+morphology	flower morphology	BraNec_XJ_15	CottonGVD	177
+morphology	flower morphology	BraNec_XJ_16	CottonGVD	237
+morphology	flower morphology	BraShape	CottonGVD	30
+morphology	flower morphology	CorCol	CottonGVD	28
+morphology	flower morphology	CorCol_AY_16	CottonGVD	249
+morphology	flower morphology	CorCol_HN_14	CottonGVD	249
+morphology	flower morphology	CorCol_XJ_15	CottonGVD	249
+morphology	flower morphology	LeafNec	CottonGVD	17
+morphology	flower morphology	PetCol	CottonGVD	51
+morphology	flower morphology	PetSpo_1	CottonGVD	50
+morphology	flower morphology	PetSpo_2	CottonGVD	40
+morphology	flower morphology	Petal Color	Literature	4
+morphology	flower morphology	Petal Spot	Literature	4
+morphology	flower morphology	Pollen Color	Literature	2
+morphology	flower morphology	StigLenXJ_16	CottonGVD	50
+morphology	flower morphology	StigLen_AY_16	CottonGVD	6
+morphology	flower morphology	StigLen_XJ_15	CottonGVD	6
+morphology	flower morphology	boll nectaries	CottonGen	3
+morphology	flower morphology	bract length	CottonGen	13
+morphology	flower morphology	bract shape	CottonGen	3
+morphology	flower morphology	bract type	CottonGen	1
+morphology	flower morphology	filament color	CottonGen	1
+morphology	flower morphology	gynoecium length	CottonGen	10
+morphology	flower morphology	open bud	CottonGen	3
+morphology	flower morphology	petal color	CottonGen	3
+morphology	flower morphology	petal length	CottonGen	17
+morphology	flower morphology	petal spot	CottonGen	3
+morphology	flower morphology	plant nectaries	CottonGen	3
+morphology	flower morphology	pollen color	CottonGen	4
+morphology	flower morphology	stigma exsertion	CottonGen	4
+morphology	flower morphology	stigma length	CottonGen	12
+morphology	flower morphology	stigma protrusion length	CottonGen	7
+morphology	leaf morphology	Leaf Area LAI	Literature	6
+morphology	leaf morphology	Leaf Morphology	Literature	3
+morphology	leaf morphology	Leaf area	CottonGen	48
+morphology	leaf morphology	LeafAre_PEG	CottonGVD	1
+morphology	leaf morphology	LeafBasSpo	CottonGVD	22
+morphology	leaf morphology	LeafBasSpo_AY_16	CottonGVD	1
+morphology	leaf morphology	LeafBasSpo_HN_14	CottonGVD	5
+morphology	leaf morphology	LeafBasSpo_XJ_15	CottonGVD	1
+morphology	leaf morphology	LeafBasSpo_XJ_16	CottonGVD	2
+morphology	leaf morphology	LeafCha_AY_16	CottonGVD	264
+morphology	leaf morphology	LeafCha_HN_14	CottonGVD	267
+morphology	leaf morphology	LeafCha_XJ_15	CottonGVD	264
+morphology	leaf morphology	LeafCha_XJ_16	CottonGVD	264
+morphology	leaf morphology	LeafCol-XJ_15	CottonGVD	240
+morphology	leaf morphology	LeafCol_AY_16	CottonGVD	240
+morphology	leaf morphology	LeafCol_HN_14	CottonGVD	62
+morphology	leaf morphology	LeafCol_XJ_16	CottonGVD	249
+morphology	leaf morphology	LeafDryWei_PEG	CottonGVD	79
+morphology	leaf morphology	LeafDryWei_PEGCK	CottonGVD	1
+morphology	leaf morphology	LeafDryWei_PEG_vs_CK	CottonGVD	74
+morphology	leaf morphology	LeafFreWei_PEGCK	CottonGVD	6
+morphology	leaf morphology	LeafFreWei_PEG_vs_CK	CottonGVD	1
+morphology	leaf morphology	LeafFreWei_Salt150	CottonGVD	2
+morphology	leaf morphology	LeafFreWei_Salt150-2	CottonGVD	2
+morphology	leaf morphology	LeafFreWei_SaltCK	CottonGVD	72
+morphology	leaf morphology	LeafFreWei_SaltCK-2	CottonGVD	73
+morphology	leaf morphology	LeafHaiNum_AY_16	CottonGVD	22
+morphology	leaf morphology	LeafHaiNum_XJ_15	CottonGVD	40
+morphology	leaf morphology	LeafHaiNum_XJ_16	CottonGVD	21
+morphology	leaf morphology	LeafLen_PEG	CottonGVD	1
+morphology	leaf morphology	LeafLen_PEGCK	CottonGVD	1
+morphology	leaf morphology	LeafSha	CottonGVD	179
+morphology	leaf morphology	LeafSpo	CottonGVD	60
+morphology	leaf morphology	LeafThi	CottonGVD	4
+morphology	leaf morphology	LeafThi_PEG	CottonGVD	47
+morphology	leaf morphology	LeafThi_PEGCK	CottonGVD	1
+morphology	leaf morphology	LeafThi_PEG_vs_CK	CottonGVD	22
+morphology	leaf morphology	LeafTurWei_PEG	CottonGVD	1
+morphology	leaf morphology	LeafTurWei_PEGCK	CottonGVD	7
+morphology	leaf morphology	LeafTurWei_PEG_vs_CK	CottonGVD	1
+morphology	leaf morphology	LeafWid_PEG	CottonGVD	1
+morphology	leaf morphology	all traits	Literature	27
+morphology	leaf morphology	health leaf number	CottonGen	6
+morphology	leaf morphology	leaf 2nd lobe length	CottonGen	9
+morphology	leaf morphology	leaf 2nd lobe width	CottonGen	9
+morphology	leaf morphology	leaf 3rd lobe length	CottonGen	8
+morphology	leaf morphology	leaf 3rd lobe width	CottonGen	5
+morphology	leaf morphology	leaf angle between 2nd and 3rd lobes	CottonGen	5
+morphology	leaf morphology	leaf angle between main and 2nd lobes	CottonGen	8
+morphology	leaf morphology	leaf color	CottonGen	17
+morphology	leaf morphology	leaf depth between 2nd and 3rd lobes	CottonGen	1
+morphology	leaf morphology	leaf depth between main and 2nd lobes	CottonGen	1
+morphology	leaf morphology	leaf lobe number	CottonGen	4
+morphology	leaf morphology	leaf main lobe length	CottonGen	6
+morphology	leaf morphology	leaf main lobe width	CottonGen	5
+morphology	leaf morphology	leaf shape	CottonGen	82
+morphology	leaf morphology	leaf size	CottonGen	1
+morphology	leaf morphology	leaf sublobe number on main lobe	CottonGen	1
+morphology	leaf morphology	leaf weight	CottonGen	8
+morphology	seed type	seed type	CottonGen	3
+morphology	stem and plant color	AccHardLow	CottonGVD	3
+morphology	stem and plant color	AccHardUp	CottonGVD	2
+morphology	stem and plant color	ComHardLow_AY	CottonGVD	2
+morphology	stem and plant color	ComHardUp_AY	CottonGVD	1
+morphology	stem and plant color	SteCol	CottonGVD	17
+morphology	stem and plant color	StemCol_1	CottonGVD	59
+morphology	stem and plant color	StemCol_2	CottonGVD	3
+morphology	stem and plant color	StemCol_3	CottonGVD	15
+morphology	stem and plant color	StemCol_AY_16	CottonGVD	196
+morphology	stem and plant color	StemCol_HN_14	CottonGVD	167
+morphology	stem and plant color	StemCol_XJ_15	CottonGVD	196
+morphology	stem and plant color	StemCol_XJ_16	CottonGVD	224
+morphology	stem and plant color	StemHar_XJ_16	CottonGVD	7
+morphology	stem and plant color	plant color	CottonGen	27
+morphology	stem and plant color	stem tumor	CottonGen	1
+morphology	stem weight	stem weight	CottonGen	9
+morphology	trichome and pubescence	AG	Literature	2
+morphology	trichome and pubescence	AR	Literature	1
+morphology	trichome and pubescence	Average of leaf pubescence amount (AVG.LPA)	CottonMD	10
+morphology	trichome and pubescence	BLUP of leaf pubescence amount (BLUP.LPA)	CottonMD	19
+morphology	trichome and pubescence	LPA	Literature	273
+morphology	trichome and pubescence	Leaf Hair	Literature	2
+morphology	trichome and pubescence	LeafPub_AVE	CottonGVD	8
+morphology	trichome and pubescence	LeafPub_AY_15	CottonGVD	21
+morphology	trichome and pubescence	LeafPub_DH_15	CottonGVD	8
+morphology	trichome and pubescence	LeafPub_JZ_15	CottonGVD	4
+morphology	trichome and pubescence	SPA	Literature	2
+morphology	trichome and pubescence	SeedHair_AY_16	CottonGVD	6
+morphology	trichome and pubescence	SeedHair_XJ_16	CottonGVD	9
+morphology	trichome and pubescence	StePub	CottonGVD	3
+morphology	trichome and pubescence	Stem Hair	Literature	2
+morphology	trichome and pubescence	StemHair_AY_16	CottonGVD	1
+morphology	trichome and pubescence	StemHair_HN_14	CottonGVD	2
+morphology	trichome and pubescence	StemHair_XJ_14	CottonGVD	4
+morphology	trichome and pubescence	StemHair_XJ_15	CottonGVD	1
+morphology	trichome and pubescence	StemPub_AY_14	CottonGVD	1
+morphology	trichome and pubescence	StemPub_BV_14	CottonGVD	3
+morphology	trichome and pubescence	StemPub_DH_14	CottonGVD	13
+morphology	trichome and pubescence	StemPub_JZ_14	CottonGVD	7
+morphology	trichome and pubescence	StemPub_JZ_15	CottonGVD	6
+morphology	trichome and pubescence	StemPub_JZ_AV	CottonGVD	9
+morphology	trichome and pubescence	qtls associated with types i, iii and iv stem trichomes	Literature	4
+morphology	trichome and pubescence	trichome density on boll	CottonGen	1
+morphology	trichome and pubescence	trichome density on leaf	CottonGen	22
+morphology	trichome and pubescence	trichome density on leaf by number	CottonGen	24377
+morphology	trichome and pubescence	trichome density on plant	CottonGen	5
+morphology	trichome and pubescence	trichome density on stem	CottonGen	3
+phenology	flower rate	flower rate	CottonGen	2
+phenology	flowering time		Literature	456
+phenology	flowering time	BLUP of flowering day (BLUP.FD)	CottonMD	15
+phenology	flowering time	DFF	Literature	1
+phenology	flowering time	FD	Literature	83
+phenology	flowering time	FD-AY-14	Literature	10
+phenology	flowering time	FD-AY-15	Literature	2
+phenology	flowering time	FD-CZ-14	Literature	4
+phenology	flowering time	FD-CZ-15	Literature	1
+phenology	flowering time	FD-DH-14	Literature	6
+phenology	flowering time	FD-DH-15	Literature	2
+phenology	flowering time	FD-JZ-15	Literature	3
+phenology	flowering time	FD-YC-14	Literature	2
+phenology	flowering time	FD-YC-15	Literature	17
+phenology	flowering time	FD_3	Literature	3
+phenology	flowering time	FD_4	Literature	2
+phenology	flowering time	FP	Literature	13
+phenology	flowering time	FT	Literature	105
+phenology	flowering time	FWPB	Literature	3
+phenology	flowering time	FlowDat_AY_14	CottonGVD	7
+phenology	flowering time	FlowDat_AY_15	CottonGVD	17
+phenology	flowering time	FlowDat_AY_AV	CottonGVD	12
+phenology	flowering time	FlowDat_BV_14	CottonGVD	8
+phenology	flowering time	FlowDat_BV_15	CottonGVD	10
+phenology	flowering time	FlowDat_BV_AV	CottonGVD	7
+phenology	flowering time	FlowDat_CZ_14	CottonGVD	6
+phenology	flowering time	FlowDat_CZ_15	CottonGVD	2
+phenology	flowering time	FlowDat_CZ_AV	CottonGVD	8
+phenology	flowering time	FlowDat_DH_14	CottonGVD	4
+phenology	flowering time	FlowDat_DH_AV	CottonGVD	12
+phenology	flowering time	FlowDat_XJ_14	CottonGVD	9
+phenology	flowering time	FlowDat_XJ_15	CottonGVD	1
+phenology	flowering time	FlowDat_YC_14	CottonGVD	4
+phenology	flowering time	FlowDat_YC_15	CottonGVD	10
+phenology	flowering time	FlowDat_YC_AV	CottonGVD	10
+phenology	flowering time	Flowering period (FP)	CottonMD	1
+phenology	flowering time	M	Literature	4
+phenology	flowering time	QTL_FD	Literature	559
+phenology	flowering time	SowFlo_HN_14	CottonGVD	2
+phenology	flowering time	bud period	GWAS Atlas	71
+phenology	flowering time	days of flowering stage	CottonGen	79
+phenology	flowering time	days to first flower	CottonGen	2
+phenology	flowering time	days to flowering trait	GWAS Atlas	3614
+phenology	flowering time	distributions of significant snps	Literature	10
+phenology	flowering time	ft and ph	Literature	5
+phenology	flowering time	significant snps within genes	Literature	28
+phenology	growth period and maturity		Literature	82
+phenology	growth period and maturity	Chla_FBP	Literature	2
+phenology	growth period and maturity	Chlb_FBP	Literature	3
+phenology	growth period and maturity	DOF	Literature	20
+phenology	growth period and maturity	F	Literature	28
+phenology	growth period and maturity	FBP	Literature	74
+phenology	growth period and maturity	FBP, TNMB, CO, OA, CP	Literature	1
+phenology	growth period and maturity	FBP_blup	Literature	48
+phenology	growth period and maturity	GB	Literature	2
+phenology	growth period and maturity	GP	Literature	13524
+phenology	growth period and maturity	GP (%)	Literature	3
+phenology	growth period and maturity	GroSta_HN_14	CottonGVD	70
+phenology	growth period and maturity	GroSta_XJ_15	CottonGVD	8
+phenology	growth period and maturity	GroSta_XJ_16	CottonGVD	4
+phenology	growth period and maturity	H	Literature	36
+phenology	growth period and maturity	M	Literature	14
+phenology	growth period and maturity	MC	Literature	8
+phenology	growth period and maturity	NOBL	Literature	2
+phenology	growth period and maturity	NSB	Literature	1
+phenology	growth period and maturity	PPS	Literature	3
+phenology	growth period and maturity	Total_ab_FBP	Literature	1
+phenology	growth period and maturity	Trait	Literature	1
+phenology	growth period and maturity	WGP	Literature	120
+phenology	growth period and maturity	WhoGroPer_14	CottonGVD	8
+phenology	growth period and maturity	WhoGroPer_15	CottonGVD	11
+phenology	growth period and maturity	WhoGroPer_AY_14	CottonGVD	14
+phenology	growth period and maturity	WhoGroPer_AY_15	CottonGVD	14
+phenology	growth period and maturity	WhoGroPer_AY_AV	CottonGVD	9
+phenology	growth period and maturity	WhoGroPer_BV_14	CottonGVD	8
+phenology	growth period and maturity	WhoGroPer_BV_15	CottonGVD	11
+phenology	growth period and maturity	WhoGroPer_BV_AV	CottonGVD	11
+phenology	growth period and maturity	WhoGroPer_CZ_14	CottonGVD	2
+phenology	growth period and maturity	WhoGroPer_CZ_15	CottonGVD	2
+phenology	growth period and maturity	WhoGroPer_CZ_AV	CottonGVD	2
+phenology	growth period and maturity	WhoGroPer_DH_14	CottonGVD	3
+phenology	growth period and maturity	WhoGroPer_DH_15	CottonGVD	1
+phenology	growth period and maturity	WhoGroPer_DH_AV	CottonGVD	2
+phenology	growth period and maturity	WhoGroPer_XJ_14	CottonGVD	14
+phenology	growth period and maturity	WhoGroPer_XJ_AV	CottonGVD	2
+phenology	growth period and maturity	WhoGroPer_YC_14	CottonGVD	2
+phenology	growth period and maturity	WhoGroPer_YC_AV	CottonGVD	1
+phenology	growth period and maturity	Whole growth period (WGP)	CottonMD	3
+phenology	growth period and maturity	days flowering to boll open	CottonGen	54
+phenology	growth period and maturity	days to 50% boll opening	CottonGen	80
+phenology	growth period and maturity	early maturity-related	Literature	24
+phenology	growth period and maturity	flower and boll period	GWAS Atlas	65
+phenology	growth period and maturity	growing stage	CottonGen	589
+phenology	growth period and maturity	growth period	GWAS Atlas	22
+phenology	growth period and maturity	known early maturity-related qtls during domestication	Literature	1
+phenology	growth period and maturity	photoperiod	CottonGen	1
+phenology	growth period and maturity	photoperiod response	Literature	10
+phenology	growth period and maturity	photoperiod response through a gwas	Literature	3
+phenology	growth period and maturity	plant architectural and early maturity	Literature	7
+phenology	growth period and maturity	plant maturity	CottonGen	8
+phenology	growth period and maturity	seedling period	GWAS Atlas	3
+phenology	growth period and maturity	seven early maturity-related	Literature	40
+phenology	growth period and maturity	ssr markers and photoperiod-related qtls	Literature	22
+phenology	growth period and maturity	the mapped qtl	Literature	3
+phenology	growth period and maturity	the mtas of photoperiod response	Literature	14
+physiology	chlorophyll content	ChlCon_Salt150	CottonGVD	2
+physiology	chlorophyll content	ChlCon_Salt150-2	CottonGVD	28
+physiology	chlorophyll content	ChlCon_Salt150_vs_CK-2	CottonGVD	1
+physiology	chlorophyll content	ChlCon_SaltCK	CottonGVD	1
+physiology	chlorophyll content	ChlCon_SaltCK-2	CottonGVD	68
+physiology	chlorophyll content	Chlorophyll contentCC	Literature	18
+physiology	chlorophyll content	D_SPAD_AY16	Literature	96
+physiology	chlorophyll content	D_SPAD_AY17	Literature	64
+physiology	chlorophyll content	D_SPAD_HG17	Literature	27
+physiology	chlorophyll content	D_SPAD_blup	Literature	58
+physiology	chlorophyll content	RelChlCont_1	CottonGVD	2
+physiology	chlorophyll content	RelChlCont_2	CottonGVD	1
+physiology	chlorophyll content	SPAD0d_blup	Literature	18
+physiology	chlorophyll content	SPAD10d_blup	Literature	17
+physiology	chlorophyll content	SPAD20d_blup	Literature	17
+physiology	chlorophyll content	SPAD_FBP_HG16	Literature	8
+physiology	chlorophyll content	SPAD_FBP_HG17	Literature	2
+physiology	chlorophyll content	chlorophyll stability index	CottonGen	4
+physiology	chlorophyll content	leaf chlorophyll content	CottonGen	12
+physiology	chlorophyll content	leaf chlorophyll-a content	CottonGen	3
+physiology	chlorophyll content	leaf chlorophyll-b content	CottonGen	3
+physiology	chlorophyll content	relative chlorophyll content	GWAS Atlas	2
+physiology	chlorophyll content	total chlorophyll content	CottonGen	1
+physiology	mineral content	B	Literature	5
+physiology	mineral content	Ca	Literature	107
+physiology	mineral content	Cu	Literature	4
+physiology	mineral content	Iron concentration	CottonGen	3
+physiology	mineral content	K	Literature	185
+physiology	mineral content	Mg	Literature	152
+physiology	mineral content	Mn	Literature	4
+physiology	mineral content	N	Literature	4
+physiology	mineral content	Na	Literature	4
+physiology	mineral content	P	Literature	5
+physiology	mineral content	S	Literature	2
+physiology	mineral content	Zn	Literature	4
+physiology	mineral content	bor trait	Literature	169
+physiology	mineral content	boron concentration	CottonGen	5
+physiology	mineral content	calcium concentration	CottonGen	3
+physiology	mineral content	copper concentration	CottonGen	4
+physiology	mineral content	magnesium concentration	CottonGen	4
+physiology	mineral content	manganese concentration	CottonGen	4
+physiology	mineral content	sulfur concentration	CottonGen	2
+physiology	mineral content	zinc concentration	CottonGen	4
+physiology	photosynthesis and gas exchange	Photosynthetic rate (Pn)	Literature	1
+physiology	photosynthesis and gas exchange	Photosynthetic ratePn	Literature	1
+physiology	photosynthesis and gas exchange	Pn	Literature	3
+physiology	photosynthesis and gas exchange	Stomatal conductanceSC	Literature	7
+physiology	photosynthesis and gas exchange	TranspirationTR	Literature	6
+physiology	senescence and stay-green	BOP_blup	Literature	17
+physiology	senescence and stay-green	C2013NAWF0d	Literature	6
+physiology	senescence and stay-green	C2013NAWF7d	Literature	7
+physiology	senescence and stay-green	C2013NB	Literature	3
+physiology	senescence and stay-green	C2013RSPAD	Literature	6
+physiology	senescence and stay-green	C2013SPAD0d	Literature	7
+physiology	senescence and stay-green	C2013SPAD10d	Literature	13
+physiology	senescence and stay-green	C2013SPAD20d	Literature	4
+physiology	senescence and stay-green	C2014NAWF0d	Literature	10
+physiology	senescence and stay-green	C2014NAWF7d	Literature	5
+physiology	senescence and stay-green	C2014NB	Literature	6
+physiology	senescence and stay-green	C2014RDBW	Literature	5
+physiology	senescence and stay-green	C2014RSPAD	Literature	5
+physiology	senescence and stay-green	C2014SPAD0d	Literature	6
+physiology	senescence and stay-green	C2014SPAD10d	Literature	11
+physiology	senescence and stay-green	C2014SPAD20d	Literature	6
+physiology	senescence and stay-green	Chla_BOP	Literature	6
+physiology	senescence and stay-green	Chlb_BOP	Literature	10
+physiology	senescence and stay-green	D_chla	Literature	6
+physiology	senescence and stay-green	D_chlb	Literature	11
+physiology	senescence and stay-green	D_ratio_ab	Literature	17
+physiology	senescence and stay-green	D_total_ab	Literature	5
+physiology	senescence and stay-green	NAWF0d_blup	Literature	14
+physiology	senescence and stay-green	NAWF7d_blup	Literature	26
+physiology	senescence and stay-green	RSPAD_blup	Literature	4
+physiology	senescence and stay-green	Ratio_ab_BOP	Literature	96
+physiology	senescence and stay-green	Ratio_ab_FBP	Literature	21
+physiology	senescence and stay-green	SPAD_BOP_AY16	Literature	60
+physiology	senescence and stay-green	SPAD_BOP_AY17	Literature	15
+physiology	senescence and stay-green	SPAD_BOP_HG16	Literature	7
+physiology	senescence and stay-green	Total_ab_BOP	Literature	5
+physiology	senescence and stay-green	X2013RSPAD	Literature	9
+physiology	senescence and stay-green	X2013SPAD0d	Literature	8
+physiology	senescence and stay-green	X2013SPAD10d	Literature	10
+physiology	senescence and stay-green	X2013SPAD20d	Literature	9
+physiology	senescence and stay-green	X2014NAWF0d	Literature	6
+physiology	senescence and stay-green	X2014NAWF7d	Literature	8
+physiology	senescence and stay-green	X2014NB	Literature	8
+physiology	senescence and stay-green	X2014RDBW	Literature	2
+physiology	senescence and stay-green	X2014RSPAD	Literature	7
+physiology	senescence and stay-green	X2014SPAD0d	Literature	6
+physiology	senescence and stay-green	X2014SPAD10d	Literature	6
+physiology	senescence and stay-green	X2014SPAD20d	Literature	7
+physiology	senescence and stay-green	genomic regions associated with cotton senescence	Literature	61
+physiology	senescence and stay-green	nb_blup	Literature	4
+physiology	stress indicators (MDA, electrolyte leakage, proline)	MDA	Literature	21
+physiology	stress indicators (MDA, electrolyte leakage, proline)	MDA_Salt150	CottonGVD	2
+physiology	stress indicators (MDA, electrolyte leakage, proline)	MDA_Salt150-2	CottonGVD	2
+physiology	stress indicators (MDA, electrolyte leakage, proline)	MDA_Salt150_vs_CK-2	CottonGVD	50
+physiology	stress indicators (MDA, electrolyte leakage, proline)	MDA_SaltCK	CottonGVD	1
+physiology	stress indicators (MDA, electrolyte leakage, proline)	MDA_SaltCK-2	CottonGVD	1
+physiology	stress indicators (MDA, electrolyte leakage, proline)	RelEleCon_1	CottonGVD	1
+physiology	stress indicators (MDA, electrolyte leakage, proline)	RelEleCon_2	CottonGVD	29
+physiology	stress indicators (MDA, electrolyte leakage, proline)	RelEleCon_Salt150	CottonGVD	3
+physiology	stress indicators (MDA, electrolyte leakage, proline)	RelEleCon_Salt150-2	CottonGVD	3
+physiology	stress indicators (MDA, electrolyte leakage, proline)	RelEleCon_Salt150_CK	CottonGVD	65
+physiology	stress indicators (MDA, electrolyte leakage, proline)	RelEleCon_Salt150_vs_CK-2	CottonGVD	66
+physiology	stress indicators (MDA, electrolyte leakage, proline)	RelEleCon_SaltCK	CottonGVD	2
+physiology	stress indicators (MDA, electrolyte leakage, proline)	RelEleCon_SaltCK-2	CottonGVD	2
+physiology	stress indicators (MDA, electrolyte leakage, proline)	RelMDA_1	CottonGVD	4
+physiology	stress indicators (MDA, electrolyte leakage, proline)	RelMDA_2	CottonGVD	1
+physiology	stress indicators (MDA, electrolyte leakage, proline)	leaf proline content	CottonGen	4
+physiology	stress indicators (MDA, electrolyte leakage, proline)	nitrate reductase activity	CottonGen	5
+physiology	stress indicators (MDA, electrolyte leakage, proline)	relative malondialdehvde content	GWAS Atlas	5
+plant architecture	branch traits		Literature	55
+plant architecture	branch traits	2019_EFBN	Literature	4
+plant architecture	branch traits	2020_EFBN	Literature	4
+plant architecture	branch traits	2020_FBN	Literature	46
+plant architecture	branch traits	BollSettyp	CottonGVD	7
+plant architecture	branch traits	EFBN	Literature	261
+plant architecture	branch traits	FBN	Literature	14395
+plant architecture	branch traits	FBT	Literature	8
+plant architecture	branch traits	FBT-K-15	Literature	3409
+plant architecture	branch traits	FSBN	Literature	1
+plant architecture	branch traits	FruBraNum_15_16U	CottonGVD	4
+plant architecture	branch traits	FruBraNum_AY_14	CottonGVD	6
+plant architecture	branch traits	FruBraNum_AY_AV	CottonGVD	3
+plant architecture	branch traits	FruBraNum_BV_14	CottonGVD	4
+plant architecture	branch traits	FruBraNum_BV_AV	CottonGVD	2
+plant architecture	branch traits	FruBraNum_DH_14	CottonGVD	1
+plant architecture	branch traits	FruBraNum_DH_15	CottonGVD	2
+plant architecture	branch traits	FruBraNum_JZ_14	CottonGVD	1
+plant architecture	branch traits	FruBraNum_JZ_15	CottonGVD	1
+plant architecture	branch traits	FruBraNum_XJ_15	CottonGVD	5
+plant architecture	branch traits	FruBraNum_XJ_16	CottonGVD	15
+plant architecture	branch traits	FruBraNum_YC_14	CottonGVD	1
+plant architecture	branch traits	FruBraNum_YC_AV	CottonGVD	3
+plant architecture	branch traits	Fruit branch number	Literature	23
+plant architecture	branch traits	Fruit spur branch number (FSBN)	CottonMD	1
+plant architecture	branch traits	Fruiting Branch Node	Literature	3
+plant architecture	branch traits	Fruiting Branch Number	Literature	4
+plant architecture	branch traits	Number of fruit branches (BFN)	CottonMD	1
+plant architecture	branch traits	SymBraTyp	CottonGVD	1
+plant architecture	branch traits	branch angle	GWAS Atlas	6
+plant architecture	branch traits	fbn detected	Literature	7
+plant architecture	branch traits	fbn,	Literature	78
+plant architecture	branch traits	fruit branch length	GWAS Atlas	11
+plant architecture	branch traits	fruit branch node number	CottonGen	3
+plant architecture	branch traits	fruit branch number	CottonGen	56
+plant architecture	branch traits	fruit branch type	CottonGen	101
+plant architecture	branch traits	monopodial branch number	CottonGen	10
+plant architecture	branch traits	number of sympodial branch nodes	CottonGen	5
+plant architecture	branch traits	sympodial branch number	CottonGen	577
+plant architecture	first fruiting branch position	FFBN	Literature	227
+plant architecture	first fruiting branch position	FFBP	Literature	1
+plant architecture	first fruiting branch position	FFSH	Literature	4
+plant architecture	first fruiting branch position	First fruit branch position (FFBP)	CottonMD	1
+plant architecture	first fruiting branch position	First fruit spur height (FFSH)	CottonMD	1
+plant architecture	first fruiting branch position	FruBraNod_AY_14	CottonGVD	6
+plant architecture	first fruiting branch position	FruBraNod_AY_15	CottonGVD	8
+plant architecture	first fruiting branch position	FruBraNod_AY_AV	CottonGVD	9
+plant architecture	first fruiting branch position	FruBraNod_BV_14	CottonGVD	11
+plant architecture	first fruiting branch position	FruBraNod_BV_15	CottonGVD	9
+plant architecture	first fruiting branch position	FruBraNod_BV_AV	CottonGVD	12
+plant architecture	first fruiting branch position	FruBraNod_CZ_14	CottonGVD	1
+plant architecture	first fruiting branch position	FruBraNod_CZ_15	CottonGVD	4
+plant architecture	first fruiting branch position	FruBraNod_CZ_AV	CottonGVD	1
+plant architecture	first fruiting branch position	FruBraNod_DH_15	CottonGVD	1
+plant architecture	first fruiting branch position	FruBraNod_DH_AV	CottonGVD	1
+plant architecture	first fruiting branch position	FruBraNod_JZ_14	CottonGVD	1
+plant architecture	first fruiting branch position	FruBraNod_JZ_15	CottonGVD	1
+plant architecture	first fruiting branch position	FruBraNod_JZ_AV	CottonGVD	2
+plant architecture	first fruiting branch position	FruBraNod_YC_14	CottonGVD	1
+plant architecture	first fruiting branch position	HFFBN	Literature	167
+plant architecture	first fruiting branch position	HNFFB	Literature	341
+plant architecture	first fruiting branch position	NFFB	Literature	169
+plant architecture	first fruiting branch position	SymBraNod	CottonGVD	2
+plant architecture	first fruiting branch position	SymBraNod_AY_14	CottonGVD	2
+plant architecture	first fruiting branch position	SymBraNod_XJ_14	CottonGVD	2
+plant architecture	first fruiting branch position	first fruit branch position	CottonGen	113
+plant architecture	first fruiting branch position	first fruit branch position by node	CottonGen	722
+plant architecture	plant height and stature		Literature	98
+plant architecture	plant height and stature	2019_PH	Literature	8
+plant architecture	plant height and stature	2020_PH	Literature	3
+plant architecture	plant height and stature	2022-RPH	Literature	1425
+plant architecture	plant height and stature	2023-RPH	Literature	14
+plant architecture	plant height and stature	BLUE-RPH	Literature	130
+plant architecture	plant height and stature	Main stem diameter (mm)	Literature	10
+plant architecture	plant height and stature	PH	Literature	12718
+plant architecture	plant height and stature	PH07an	Literature	1
+plant architecture	plant height and stature	PH07ku	Literature	1
+plant architecture	plant height and stature	PH07nan	Literature	4
+plant architecture	plant height and stature	PH08an	Literature	3
+plant architecture	plant height and stature	PH08ku	Literature	15
+plant architecture	plant height and stature	PH08nan	Literature	5
+plant architecture	plant height and stature	PH09an	Literature	2
+plant architecture	plant height and stature	PH09ku	Literature	4
+plant architecture	plant height and stature	PH09nan	Literature	1
+plant architecture	plant height and stature	PH1	Literature	2
+plant architecture	plant height and stature	PH2	Literature	6
+plant architecture	plant height and stature	PH5	Literature	1
+plant architecture	plant height and stature	PH_NAU2631	Literature	1
+plant architecture	plant height and stature	PH_NAU3602	Literature	1
+plant architecture	plant height and stature	PlaHei_15_16U	CottonGVD	2
+plant architecture	plant height and stature	PlaHei_17-18	CottonGVD	2
+plant architecture	plant height and stature	PlaHei_AY_14	CottonGVD	2
+plant architecture	plant height and stature	PlaHei_AY_15	CottonGVD	5
+plant architecture	plant height and stature	PlaHei_AY_AV	CottonGVD	3
+plant architecture	plant height and stature	PlaHei_BLUP17	CottonGVD	1
+plant architecture	plant height and stature	PlaHei_BLUP18	CottonGVD	1
+plant architecture	plant height and stature	PlaHei_BV_15	CottonGVD	2
+plant architecture	plant height and stature	PlaHei_BV_AV	CottonGVD	1
+plant architecture	plant height and stature	PlaHei_CZ_14	CottonGVD	1
+plant architecture	plant height and stature	PlaHei_CZ_AV	CottonGVD	1
+plant architecture	plant height and stature	PlaHei_DH_15	CottonGVD	3
+plant architecture	plant height and stature	PlaHei_DH_AV	CottonGVD	2
+plant architecture	plant height and stature	PlaHei_JZ_14	CottonGVD	1
+plant architecture	plant height and stature	PlaHei_JZ_15	CottonGVD	1
+plant architecture	plant height and stature	PlaHei_SF	CottonGVD	3
+plant architecture	plant height and stature	PlaHei_XJ_15	CottonGVD	2
+plant architecture	plant height and stature	PlaHei_XJ_16	CottonGVD	4
+plant architecture	plant height and stature	PlaHei_YC_15	CottonGVD	1
+plant architecture	plant height and stature	PlaTyp	CottonGVD	3
+plant architecture	plant height and stature	PlaTyp_HN_14	CottonGVD	1
+plant architecture	plant height and stature	PlaTyp_XJ_16	CottonGVD	1
+plant architecture	plant height and stature	Plant Height	Literature	4
+plant architecture	plant height and stature	Plant height (PH)	CottonMD	1
+plant architecture	plant height and stature	Plant height (cm)	Literature	7
+plant architecture	plant height and stature	Plant heightPH	Literature	3
+plant architecture	plant height and stature	RPH	Literature	13
+plant architecture	plant height and stature	RelSteLen_1	CottonGVD	6
+plant architecture	plant height and stature	RelSteLen_2	CottonGVD	4
+plant architecture	plant height and stature	SteLen	CottonGVD	1
+plant architecture	plant height and stature	StemDia_PEG	CottonGVD	2
+plant architecture	plant height and stature	StemDia_PEGCK	CottonGVD	2
+plant architecture	plant height and stature	StemLen_Salt150	CottonGVD	1
+plant architecture	plant height and stature	StemLen_Salt150_vs_CK	CottonGVD	1
+plant architecture	plant height and stature	plant height	CottonGen	514
+plant architecture	plant height and stature	plant height	GWAS Atlas	8
+plant architecture	plant height and stature	plant height	Literature	170
+plant architecture	plant height and stature	stem diameter	CottonGen	28
+plant architecture	plant height and stature	stem height to node ratio	CottonGen	2
+plant architecture	plant height and stature	stem node number	CottonGen	13
+plant architecture	root system traits	AdvrootNum_PEG	CottonGVD	1
+plant architecture	root system traits	AdvrootNum_PEG_vs_CK	CottonGVD	79
+plant architecture	root system traits	Dry root weight (RDW)	Literature	6
+plant architecture	root system traits	Dry root weightDRW	Literature	7
+plant architecture	root system traits	Fresh Root weightFRW	Literature	1
+plant architecture	root system traits	Fresh root weightFRW	Literature	6
+plant architecture	root system traits	Lateral root length	CottonGen	55
+plant architecture	root system traits	Lateral root surface area	CottonGen	20
+plant architecture	root system traits	Lateral root volume	CottonGen	5
+plant architecture	root system traits	MainRootLen_10d	CottonGVD	3
+plant architecture	root system traits	MainRootLen_15d	CottonGVD	4
+plant architecture	root system traits	MainRootLen_2d	CottonGVD	1
+plant architecture	root system traits	MainRootLen_3d	CottonGVD	1
+plant architecture	root system traits	MainRootLen_5d	CottonGVD	1
+plant architecture	root system traits	MainRootLen_8d	CottonGVD	3
+plant architecture	root system traits	Primary root average diameter	CottonGen	1
+plant architecture	root system traits	Primary root length	CottonGen	3
+plant architecture	root system traits	Primary root projected area	CottonGen	15
+plant architecture	root system traits	Primary root surface area	CottonGen	15
+plant architecture	root system traits	Primary root volume	CottonGen	26
+plant architecture	root system traits	RL-CC1	Literature	1
+plant architecture	root system traits	RL-CC2	Literature	52
+plant architecture	root system traits	RL-CC4	Literature	2
+plant architecture	root system traits	RL-CC5	Literature	69
+plant architecture	root system traits	RL-CC6	Literature	42
+plant architecture	root system traits	RL-DVC2	Literature	1
+plant architecture	root system traits	RL-DVC3	Literature	39
+plant architecture	root system traits	RL-DVC5	Literature	4
+plant architecture	root system traits	RelRootLen_PEG_vs_CK	CottonGVD	2
+plant architecture	root system traits	Root dry weight	CottonGen	72
+plant architecture	root system traits	RootCol4d	CottonGVD	32
+plant architecture	root system traits	RootCol6d	CottonGVD	12
+plant architecture	root system traits	RootCol9d	CottonGVD	22
+plant architecture	root system traits	Root_vs_Shoot_PEG	CottonGVD	2
+plant architecture	root system traits	Root_vs_Shoot_PEGCK	CottonGVD	1
+plant architecture	root system traits	Root_vs_Shoot_PEG_vs_CK	CottonGVD	2
+plant architecture	root system traits	Standard root length	CottonGen	7
+plant architecture	root system traits	Total length of 0-0.5 mm diameter roots of the primary root	CottonGen	166
+plant architecture	root system traits	Total length of 2.0-4.5 mm diameter roots of the primary root	CottonGen	1
+plant architecture	root system traits	Total projected area of roots with diameters 0-0.5 mm	CottonGen	8
+plant architecture	root system traits	Total projected area of roots with diameters 0.5-2 mm	CottonGen	161
+plant architecture	root system traits	Total projected area of roots with diameters 2.0-4.5 mm	CottonGen	1
+plant architecture	root system traits	Total root length	CottonGen	29
+plant architecture	root system traits	Total root length of 0-0.5 mm diameter roots	CottonGen	32
+plant architecture	root system traits	Total root length of 0.5-2.0 mm diameter roots	CottonGen	98
+plant architecture	root system traits	Total root length of 2.0-4.5 mm diameter roots	CottonGen	1
+plant architecture	root system traits	Total root projected area	CottonGen	27
+plant architecture	root system traits	Total root surface area	CottonGen	27
+plant architecture	root system traits	Total root volume	CottonGen	136
+plant architecture	root system traits	Total shaded area of 0-0.5 mm diameter roots of the primary root	CottonGen	136
+plant architecture	root system traits	Total surface area of 0-0.5 mm diameter roots	CottonGen	8
+plant architecture	root system traits	Total surface area of 0-0.5 mm diameter roots of the primary root	CottonGen	136
+plant architecture	root system traits	Total surface area of 0.5-2 mm diameter roots	CottonGen	161
+plant architecture	root system traits	Total surface area of 2.0-4.5 mm diameter roots	CottonGen	1
+plant architecture	root system traits	Total volume of 0-0.5 mm diameter roots of the primary root	CottonGen	154
+plant architecture	root system traits	Total volume of 2.0-4.5 mm diameter roots of the primary root	CottonGen	11
+plant architecture	root system traits	Total volume of roots with a diameter of 0-0.5 mm	CottonGen	1
+plant architecture	root system traits	Total volume of roots with a diameter of 0.5-2.0 mm	CottonGen	205
+plant architecture	root system traits	Total volume of roots with a diameter of 2.0-4.5 mm	CottonGen	4
+plant architecture	root system traits	cracked root	CottonGen	1
+seed quality	gossypol and glands	BPIT	Literature	2
+seed quality	gossypol and glands	BPNT	Literature	4
+seed quality	gossypol and glands	BRT	Literature	1
+seed quality	gossypol and glands	GC	Literature	5
+seed quality	gossypol and glands	Gossypol_AVE	CottonGVD	5
+seed quality	gossypol and glands	Gossypol_AY_15	CottonGVD	6
+seed quality	gossypol and glands	Gossypol_JZ_15	CottonGVD	2
+seed quality	gossypol and glands	LeafGla_15	CottonGVD	1
+seed quality	gossypol and glands	LeafGla_16	CottonGVD	1
+seed quality	gossypol and glands	NS	Literature	2
+seed quality	gossypol and glands	PigGla_AY_16	CottonGVD	279
+seed quality	gossypol and glands	PigGla_HN_14	CottonGVD	193
+seed quality	gossypol and glands	PigGla_XJ_15	CottonGVD	279
+seed quality	gossypol and glands	PigGla_XJ_16	CottonGVD	187
+seed quality	gossypol and glands	PlaPigGla	CottonGVD	27
+seed quality	gossypol and glands	SC	Literature	2
+seed quality	gossypol and glands	SeedPigGla	CottonGVD	14
+seed quality	gossypol and glands	boll gossypol glands	CottonGen	2
+seed quality	gossypol and glands	plant gossypol glands	CottonGen	6
+seed quality	gossypol and glands	raimondal	CottonGen	1
+seed quality	gossypol and glands	terpenoids	CottonGen	1
+seed quality	seed oil and fatty acids	C14_0	CottonGVD	16
+seed quality	seed oil and fatty acids	C16_0	CottonGVD	3
+seed quality	seed oil and fatty acids	C16_1	CottonGVD	1
+seed quality	seed oil and fatty acids	C17_0	CottonGVD	3
+seed quality	seed oil and fatty acids	C18_2	CottonGVD	1
+seed quality	seed oil and fatty acids	GhPA	Literature	1
+seed quality	seed oil and fatty acids	GhSA	Literature	1
+seed quality	seed oil and fatty acids	GhTA	Literature	1
+seed quality	seed oil and fatty acids	KOC	Literature	16
+seed quality	seed oil and fatty acids	OC	Literature	33
+seed quality	seed oil and fatty acids	OIL	Literature	11
+seed quality	seed oil and fatty acids	Oil	Literature	24
+seed quality	seed oil and fatty acids	SOC	Literature	15
+seed quality	seed oil and fatty acids	dow reg genes 119 D03(c17)	Literature	24
+seed quality	seed oil and fatty acids	genes up 14 cluster1 D03(c17)	Literature	5
+seed quality	seed oil and fatty acids	kernel oil content	Literature	65
+seed quality	seed oil and fatty acids	koc in at least two environments using models glm and mlm	Literature	14
+seed quality	seed oil and fatty acids	oil	Literature	11
+seed quality	seed oil and fatty acids	protein and oil content	Literature	13
+seed quality	seed oil and fatty acids	qFE-C14-1	Literature	12
+seed quality	seed oil and fatty acids	qFE-C14-2	Literature	9
+seed quality	seed oil and fatty acids	qFE-C14-3	Literature	12
+seed quality	seed oil and fatty acids	qFE-C14-4	Literature	9
+seed quality	seed oil and fatty acids	qFE-C14-5	Literature	3
+seed quality	seed oil and fatty acids	qFE-C15-1	Literature	4
+seed quality	seed oil and fatty acids	qFE-C15-2	Literature	4
+seed quality	seed oil and fatty acids	qFE-C15-3	Literature	2
+seed quality	seed oil and fatty acids	qFL-C14-1	Literature	24
+seed quality	seed oil and fatty acids	qFL-C14-2	Literature	18
+seed quality	seed oil and fatty acids	qFL-C14-3	Literature	9
+seed quality	seed oil and fatty acids	qFL-C14-4	Literature	3
+seed quality	seed oil and fatty acids	qFL-C16-1	Literature	7
+seed quality	seed oil and fatty acids	qFL-C18-1	Literature	2
+seed quality	seed oil and fatty acids	qFL-C18-2	Literature	2
+seed quality	seed oil and fatty acids	qFL-C18-3	Literature	8
+seed quality	seed oil and fatty acids	qFM-C14-1	Literature	6
+seed quality	seed oil and fatty acids	qFM-C14-2	Literature	12
+seed quality	seed oil and fatty acids	qFM-C14-3	Literature	12
+seed quality	seed oil and fatty acids	qFM-C15-1	Literature	2
+seed quality	seed oil and fatty acids	qFM-C15-2	Literature	2
+seed quality	seed oil and fatty acids	qFM-C16-1	Literature	5
+seed quality	seed oil and fatty acids	qFM-C16-2	Literature	2
+seed quality	seed oil and fatty acids	qFM-C16-3	Literature	6
+seed quality	seed oil and fatty acids	qFM-C16-4	Literature	2
+seed quality	seed oil and fatty acids	qFM-C16-5	Literature	2
+seed quality	seed oil and fatty acids	qFM-C17-1	Literature	2
+seed quality	seed oil and fatty acids	qFM-C20-1	Literature	2
+seed quality	seed oil and fatty acids	qFM-C20-2	Literature	2
+seed quality	seed oil and fatty acids	qFS-C14-1	Literature	3
+seed quality	seed oil and fatty acids	qFS-C14-2	Literature	3
+seed quality	seed oil and fatty acids	qFS-C14-3	Literature	24
+seed quality	seed oil and fatty acids	qFS-C14-4	Literature	12
+seed quality	seed oil and fatty acids	qFS-C14-5	Literature	3
+seed quality	seed oil and fatty acids	qFS-C18-1	Literature	4
+seed quality	seed oil and fatty acids	qFS-C18-2	Literature	2
+seed quality	seed oil and fatty acids	qFS-C18-3	Literature	2
+seed quality	seed oil and fatty acids	qFU-C14-1	Literature	2
+seed quality	seed oil and fatty acids	qFU-C14-2	Literature	15
+seed quality	seed oil and fatty acids	qFU-C14-3	Literature	12
+seed quality	seed oil and fatty acids	qFU-C14-4	Literature	6
+seed quality	seed oil and fatty acids	qFU-C14-5	Literature	5
+seed quality	seed oil and fatty acids	qFU-C14-6	Literature	3
+seed quality	seed oil and fatty acids	qFU-C14-7	Literature	3
+seed quality	seed oil and fatty acids	qFU-C16-1	Literature	2
+seed quality	seed oil and fatty acids	qFU-C16-2	Literature	3
+seed quality	seed oil and fatty acids	qFU-C16-3	Literature	3
+seed quality	seed oil and fatty acids	qFU-C18-1	Literature	2
+seed quality	seed oil and fatty acids	seed heptadecanoic acid content	CottonGen	4
+seed quality	seed oil and fatty acids	seed linoleic acid content	CottonGen	1
+seed quality	seed oil and fatty acids	seed linolenic acid content	CottonGen	8
+seed quality	seed oil and fatty acids	seed myristic acid content	CottonGen	31
+seed quality	seed oil and fatty acids	seed oil content	CottonGen	61
+seed quality	seed oil and fatty acids	seed oleic acid content	CottonGen	11
+seed quality	seed oil and fatty acids	seed palmitic acid content	CottonGen	18
+seed quality	seed oil and fatty acids	seed palmitoleic acid content	CottonGen	6
+seed quality	seed oil and fatty acids	seed stearic acid content	CottonGen	13
+seed quality	seed oil and fatty acids	significant snps associated with kernel oil content	Literature	15
+seed quality	seed physical traits	SeedCoaN_AY	CottonGVD	6
+seed quality	seed physical traits	SeedCoaN_HN	CottonGVD	2
+seed quality	seed physical traits	SeedCoaN_XJ	CottonGVD	1
+seed quality	seed physical traits	seed coat percentage	CottonGen	5
+seed quality	seed physical traits	seed kernel content	CottonGen	1
+seed quality	seed protein and amino acids	Amino Acid	Literature	2
+seed quality	seed protein and amino acids	PC	Literature	39
+seed quality	seed protein and amino acids	Protein	Literature	42
+seed quality	seed protein and amino acids	cottonseed protein content	Literature	29
+seed quality	seed protein and amino acids	lead snp	Literature	14
+seed quality	seed protein and amino acids	qtl for nine amino acids of cottonseed	Literature	66
+seed quality	seed protein and amino acids	seed arginine content	CottonGen	1
+seed quality	seed protein and amino acids	seed aspartate content	CottonGen	1
+seed quality	seed protein and amino acids	seed cysteine content	CottonGen	2
+seed quality	seed protein and amino acids	seed glycine content	CottonGen	2
+seed quality	seed protein and amino acids	seed isoleucine content	CottonGen	1
+seed quality	seed protein and amino acids	seed leucine content	CottonGen	3
+seed quality	seed protein and amino acids	seed phenylalanine content	CottonGen	1
+seed quality	seed protein and amino acids	seed protein content	CottonGen	235
+seed quality	seed protein and amino acids	seed serine content	CottonGen	1
+seed quality	seed protein and amino acids	significant gwas loci	Literature	211
+seed quality	seed protein and amino acids	the cottonseed protein content	Literature	7
+seed quality	seed protein and amino acids	the qtls for essential amino acid content	Literature	35
+seed quality	seed size and shape	ASAS	Literature	20
+seed quality	seed size and shape	DTF	Literature	6
+seed quality	seed size and shape	HKW	Literature	31
+seed quality	seed size and shape	HT	Literature	4
+seed quality	seed size and shape	KA	Literature	17
+seed quality	seed size and shape	KD	Literature	23
+seed quality	seed size and shape	KG	Literature	7
+seed quality	seed size and shape	KL	Literature	5
+seed quality	seed size and shape	KLW	Literature	15
+seed quality	seed size and shape	KPC	Literature	14
+seed quality	seed size and shape	KR	Literature	19
+seed quality	seed size and shape	KW	Literature	13
+seed quality	seed size and shape	TKL	Literature	12
+seed quality	seed size and shape	TKW	Literature	12
+seed quality	seed size and shape	qtl clusters for seed size and shape-related	Literature	7
+unclassified	1	1	Literature	109
+unclassified	2	2	Literature	14
+unclassified	3	3	Literature	11
+unclassified	4	4	Literature	3
+unclassified	47	[47]	Literature	1
+unclassified	5	5	Literature	2
+unclassified	8	8	Literature	5
+unclassified	9	9	Literature	2
+unclassified	all traits	All traits	Literature	1
+unclassified	bc	BC	Literature	1
+unclassified	ben har low	BenHarLow_AY	CottonGVD	1
+unclassified	ben har up	BenHarUp_AY	CottonGVD	2
+unclassified	bln	BLN	Literature	7
+unclassified	blup	BLUP	Literature	4
+unclassified	bp	BP	Literature	7
+unclassified	branch position	branch position	GWAS Atlas	5
+unclassified	bwt	BWT	Literature	14
+unclassified	car	Car	Literature	2
+unclassified	cb	Cb	Literature	2
+unclassified	chl a	Chl a	Literature	5
+unclassified	chl a/b	Chl a/b	Literature	3
+unclassified	chl b	Chl b	Literature	4
+unclassified	chr	Chr	Literature	1
+unclassified	cl	CL	Literature	3
+unclassified	cl	Cl	Literature	7
+unclassified	cnh	CNH	Literature	2
+unclassified	color	Color	Literature	4
+unclassified	cs	CS	Literature	3
+unclassified	d	D	Literature	4
+unclassified	d1	D1	Literature	2
+unclassified	d10fl07ku	D10FL07ku	Literature	1
+unclassified	d10fs07an	D10FS07an	Literature	1
+unclassified	d10fs09ku	D10FS09ku	Literature	2
+unclassified	d10fu07an	D10FU07an	Literature	1
+unclassified	d10fu07nan	D10FU07nan	Literature	2
+unclassified	d10fu08ku	D10FU08ku	Literature	1
+unclassified	d10lp09an	D10LP09an	Literature	1
+unclassified	d2	D2	Literature	1
+unclassified	f	F	Literature	1
+unclassified	f2 8 nemx x sj-2	F2:8 (NemX x SJ-2)	Literature	14
+unclassified	f2 nemx x sj-2	F2 (NemX x SJ-2)	Literature	12
+unclassified	f2 pima s-7 x sj-2	F2 (Pima S-7 x SJ-2)	Literature	6
+unclassified	fb1	FB1	Literature	1
+unclassified	fbff	FBFF	Literature	1
+unclassified	fel	FEL	Literature	22
+unclassified	ff	FF	Literature	58
+unclassified	ffb	FFB	Literature	6
+unclassified	ffbh	FFBH	Literature	1
+unclassified	ffsbn	FFSBN	Literature	2
+unclassified	fg	FG	Literature	10
+unclassified	fibertrait	FiberTrait	Literature	60
+unclassified	fine	Fine	Literature	1
+unclassified	fir fru bra	FirFruBra_15_16U	CottonGVD	4
+unclassified	fir fru bra	FirFruBra_HN_14	CottonGVD	1
+unclassified	fir fru bra	FirFruBra_XJ_15	CottonGVD	7
+unclassified	fir fru bra	FirFruBra_XJ_16	CottonGVD	12
+unclassified	fmic	FMIC	Literature	2
+unclassified	fmic	FMic	Literature	7
+unclassified	fn	FN	Literature	15
+unclassified	fnc	FNC	Literature	6
+unclassified	fnms	FNMS	Literature	13
+unclassified	fruiting habit	fruiting habit	CottonGen	4
+unclassified	fsci	FSCI	Literature	4
+unclassified	ftlh	FTLH	Literature	1
+unclassified	fwpb	FWPB	Literature	14
+unclassified	fy	FY	Literature	589
+unclassified	gb and gh gwas panels	gb and gh gwas panels	Literature	5
+unclassified	ghpgip1	GhPGIP1	Literature	2
+unclassified	ghsobir1b	GhSOBIR1b	Literature	1
+unclassified	ghwakl	GhWAKL	Literature	3
+unclassified	gn	GN	Literature	7
+unclassified	gos num	GosNum_AY_16	CottonGVD	2
+unclassified	gos num	GosNum_XJ_15	CottonGVD	4
+unclassified	gossypium barbadense background	Gossypium barbadense background	Literature	8
+unclassified	gossypium hirsutum background	Gossypium hirsutum background	Literature	5
+unclassified	gs	GS	Literature	7
+unclassified	gs 4	GS_4	Literature	1
+unclassified	gs blup	GS_BLUP	Literature	1
+unclassified	if	IF	Literature	19
+unclassified	ifc	IFC	Literature	2
+unclassified	l25n	L25n	Literature	2
+unclassified	l5n	L5n	Literature	4
+unclassified	la	LA	Literature	26
+unclassified	lb	LB	Literature	2
+unclassified	lbs	LBS	Literature	6
+unclassified	lc	LC	Literature	2
+unclassified	length	Length	Literature	7
+unclassified	lh	LH	Literature	12
+unclassified	lintpc	LintPC	Literature	4
+unclassified	ln	Ln	Literature	1
+unclassified	lncv	LnCV	Literature	2
+unclassified	mc	MC	Literature	40
+unclassified	mfvd	MFVD	Literature	15
+unclassified	mi	MI	Literature	24
+unclassified	mon	MON	Literature	8
+unclassified	mqtls co-located with snps and resistance genes	mqtls co-located with snps and resistance genes	Literature	8
+unclassified	multiple traits (not specified)	Clu	Literature	66
+unclassified	multiple traits (not specified)	all qtls of the eight fibre quality and five yield	Literature	157
+unclassified	multiple traits (not specified)	all the qtls of the six fiber quality and yield	Literature	240
+unclassified	multiple traits (not specified)	clusters and hotspots over genome	Literature	81
+unclassified	multiple traits (not specified)	co-qtl clusters	Literature	8
+unclassified	multiple traits (not specified)	fiber quality	Literature	305
+unclassified	multiple traits (not specified)	fiber quality and yield	Literature	41
+unclassified	multiple traits (not specified)	fiber quality qtls	Literature	9
+unclassified	multiple traits (not specified)	fiber quality-related	Literature	42
+unclassified	multiple traits (not specified)	lint percentage and fiber quality	Literature	11
+unclassified	multiple traits (not specified)	qtl clusters	Literature	10
+unclassified	multiple traits (not specified)	qtl clusters for fiber quality	Literature	215
+unclassified	multiple traits (not specified)	qtls for fiber quality and yield	Literature	44
+unclassified	multiple traits (not specified)	represntative fiber quality and yield	Literature	47
+unclassified	multiple traits (not specified)	the stable qtls for fibre quality and yield	Literature	138
+unclassified	nf	NF	Literature	1
+unclassified	oa	OA	Literature	20
+unclassified	occhip	OCchip	Literature	35
+unclassified	ocslaf	OCslaf	Literature	60
+unclassified	pa	PA	Literature	19
+unclassified	percent fiber	Percent Fiber	Literature	4
+unclassified	pf	PF	Literature	19
+unclassified	phfb1	PHFB1	Literature	1
+unclassified	phtn	PHTN	Literature	1
+unclassified	plantarchitecture	PlantArchitecture	Literature	39
+unclassified	pleiotropic snpqtls	pleiotropic snpqtls	Literature	14
+unclassified	ps	PS	Literature	2
+unclassified	qbw-chr10-1	qBW-chr10-1	Literature	1
+unclassified	qbw-chr10-2	qBW-chr10-2	Literature	15
+unclassified	qbw-chr11	qBW-chr11	Literature	6
+unclassified	qbw-chr14	qBW-chr14	Literature	1
+unclassified	qbw-chr15	qBW-chr15	Literature	1
+unclassified	qbw-chr16	qBW-chr16	Literature	1
+unclassified	qbw-chr20	qBW-chr20	Literature	1
+unclassified	qbw-chr4-1	qBW-chr4-1	Literature	1
+unclassified	qbw-chr4-2	qBW-chr4-2	Literature	3
+unclassified	qbw-chr7-1	qBW-chr7-1	Literature	7
+unclassified	qbw-chr7-2	qBW-chr7-2	Literature	1
+unclassified	qbw-chr7-3	qBW-chr7-3	Literature	9
+unclassified	qfe-c10-1	qFE-C10-1	Literature	2
+unclassified	qfe-c13-1	qFE-C13-1	Literature	3
+unclassified	qfe-c19-1	qFE-C19-1	Literature	2
+unclassified	qfe-c19-2	qFE-C19-2	Literature	4
+unclassified	qfe-c21-1	qFE-C21-1	Literature	3
+unclassified	qfe-c22-1	qFE-C22-1	Literature	6
+unclassified	qfe-c23-1	qFE-C23-1	Literature	2
+unclassified	qfe-c25-1	qFE-C25-1	Literature	2
+unclassified	qfe-c25-2	qFE-C25-2	Literature	2
+unclassified	qfe-c25-3	qFE-C25-3	Literature	6
+unclassified	qfe-c25-4	qFE-C25-4	Literature	9
+unclassified	qfe-c25-5	qFE-C25-5	Literature	12
+unclassified	qfe-c25-6	qFE-C25-6	Literature	9
+unclassified	qfe-c25-7	qFE-C25-7	Literature	3
+unclassified	qfe-c25-8	qFE-C25-8	Literature	3
+unclassified	qfe-c26-1	qFE-C26-1	Literature	2
+unclassified	qfe-c3-1	qFE-C3-1	Literature	2
+unclassified	qfe-c3-2	qFE-C3-2	Literature	3
+unclassified	qfe-c4-1	qFE-C4-1	Literature	3
+unclassified	qfe-c4-2	qFE-C4-2	Literature	9
+unclassified	qfe-c4-3	qFE-C4-3	Literature	15
+unclassified	qfe-c4-4	qFE-C4-4	Literature	3
+unclassified	qfe-c7-1	qFE-C7-1	Literature	3
+unclassified	qfe-c7-2	qFE-C7-2	Literature	3
+unclassified	qfl-c21-1	qFL-C21-1	Literature	14
+unclassified	qfl-c21-2	qFL-C21-2	Literature	4
+unclassified	qfl-c21-3	qFL-C21-3	Literature	3
+unclassified	qfl-c22-1	qFL-C22-1	Literature	2
+unclassified	qfl-c23-1	qFL-C23-1	Literature	2
+unclassified	qfl-c23-2	qFL-C23-2	Literature	6
+unclassified	qfl-c24-1	qFL-C24-1	Literature	2
+unclassified	qfl-c25-1	qFL-C25-1	Literature	6
+unclassified	qfl-c25-2	qFL-C25-2	Literature	12
+unclassified	qfl-c25-3	qFL-C25-3	Literature	18
+unclassified	qfl-c25-4	qFL-C25-4	Literature	15
+unclassified	qfl-c25-5	qFL-C25-5	Literature	15
+unclassified	qfl-c25-6	qFL-C25-6	Literature	9
+unclassified	qfl-c4-1	qFL-C4-1	Literature	3
+unclassified	qfl-c4-2	qFL-C4-2	Literature	9
+unclassified	qfl-c4-3	qFL-C4-3	Literature	3
+unclassified	qfl-c4-4	qFL-C4-4	Literature	3
+unclassified	qfl-c4-5	qFL-C4-5	Literature	2
+unclassified	qfl-c6-1	qFL-C6-1	Literature	3
+unclassified	qfl-c7-1	qFL-C7-1	Literature	9
+unclassified	qfl-c7-2	qFL-C7-2	Literature	6
+unclassified	qfl-c7-3	qFL-C7-3	Literature	6
+unclassified	qfl-c7-4	qFL-C7-4	Literature	6
+unclassified	qfl-chr10-1	qFL-chr10-1	Literature	1
+unclassified	qfl-chr10-2	qFL-chr10-2	Literature	5
+unclassified	qfl-chr11	qFL-chr11	Literature	2
+unclassified	qfl-chr16	qFL-chr16	Literature	1
+unclassified	qfl-chr19	qFL-chr19	Literature	1
+unclassified	qfl-chr20	qFL-chr20	Literature	1
+unclassified	qfl-chr21	qFL-chr21	Literature	2
+unclassified	qfl-chr23	qFL-chr23	Literature	2
+unclassified	qfl-chr24	qFL-chr24	Literature	1
+unclassified	qfl-chr25	qFL-chr25	Literature	1
+unclassified	qfl-chr4-1	qFL-chr4-1	Literature	1
+unclassified	qfl-chr4-2	qFL-chr4-2	Literature	1
+unclassified	qfl-chr4-3	qFL-chr4-3	Literature	2
+unclassified	qfl-chr5	qFL-chr5	Literature	1
+unclassified	qfm-c10-1	qFM-C10-1	Literature	3
+unclassified	qfm-c13-1	qFM-C13-1	Literature	2
+unclassified	qfm-c21-1	qFM-C21-1	Literature	4
+unclassified	qfm-c23-1	qFM-C23-1	Literature	2
+unclassified	qfm-c24-1	qFM-C24-1	Literature	2
+unclassified	qfm-c25-1	qFM-C25-1	Literature	8
+unclassified	qfm-c25-2	qFM-C25-2	Literature	15
+unclassified	qfm-c25-3	qFM-C25-3	Literature	3
+unclassified	qfm-c25-4	qFM-C25-4	Literature	9
+unclassified	qfm-c25-5	qFM-C25-5	Literature	12
+unclassified	qfm-c25-6	qFM-C25-6	Literature	3
+unclassified	qfm-c3-1	qFM-C3-1	Literature	9
+unclassified	qfm-c4-1	qFM-C4-1	Literature	3
+unclassified	qfm-c4-2	qFM-C4-2	Literature	12
+unclassified	qfm-c4-3	qFM-C4-3	Literature	3
+unclassified	qfm-c5-1	qFM-C5-1	Literature	2
+unclassified	qfm-c5-2	qFM-C5-2	Literature	4
+unclassified	qfm-c6-1	qFM-C6-1	Literature	6
+unclassified	qfm-c6-2	qFM-C6-2	Literature	4
+unclassified	qfm-c6-3	qFM-C6-3	Literature	6
+unclassified	qfm-c6-4	qFM-C6-4	Literature	2
+unclassified	qfm-c7-1	qFM-C7-1	Literature	15
+unclassified	qfm-chr10	qFM-chr10	Literature	5
+unclassified	qfm-chr13	qFM-chr13	Literature	1
+unclassified	qfm-chr14	qFM-chr14	Literature	1
+unclassified	qfm-chr15-1	qFM-chr15-1	Literature	2
+unclassified	qfm-chr15-2	qFM-chr15-2	Literature	3
+unclassified	qfm-chr16-1	qFM-chr16-1	Literature	1
+unclassified	qfm-chr16-2	qFM-chr16-2	Literature	1
+unclassified	qfm-chr16-3	qFM-chr16-3	Literature	1
+unclassified	qfm-chr16-4	qFM-chr16-4	Literature	1
+unclassified	qfm-chr18	qFM-chr18	Literature	1
+unclassified	qfm-chr19	qFM-chr19	Literature	1
+unclassified	qfm-chr22	qFM-chr22	Literature	1
+unclassified	qfm-chr5	qFM-chr5	Literature	2
+unclassified	qfm-chr6	qFM-chr6	Literature	1
+unclassified	qfm-chr7-1	qFM-chr7-1	Literature	4
+unclassified	qfm-chr7-2	qFM-chr7-2	Literature	2
+unclassified	qfm-chr7-3	qFM-chr7-3	Literature	2
+unclassified	qfm-chr7-4	qFM-chr7-4	Literature	1
+unclassified	qfm-chr7-5	qFM-chr7-5	Literature	1
+unclassified	qfs-c11-1	qFS-C11-1	Literature	2
+unclassified	qfs-c12-1	qFS-C12-1	Literature	3
+unclassified	qfs-c13-1	qFS-C13-1	Literature	6
+unclassified	qfs-c13-2	qFS-C13-2	Literature	6
+unclassified	qfs-c19-1	qFS-C19-1	Literature	2
+unclassified	qfs-c21-1	qFS-C21-1	Literature	2
+unclassified	qfs-c21-2	qFS-C21-2	Literature	3
+unclassified	qfs-c23-1	qFS-C23-1	Literature	2
+unclassified	qfs-c23-2	qFS-C23-2	Literature	4
+unclassified	qfs-c23-3	qFS-C23-3	Literature	2
+unclassified	qfs-c23-4	qFS-C23-4	Literature	2
+unclassified	qfs-c25-1	qFS-C25-1	Literature	3
+unclassified	qfs-c25-2	qFS-C25-2	Literature	6
+unclassified	qfs-c25-3	qFS-C25-3	Literature	9
+unclassified	qfs-c25-4	qFS-C25-4	Literature	15
+unclassified	qfs-c25-5	qFS-C25-5	Literature	18
+unclassified	qfs-c25-6	qFS-C25-6	Literature	21
+unclassified	qfs-c25-7	qFS-C25-7	Literature	3
+unclassified	qfs-c4-1	qFS-C4-1	Literature	3
+unclassified	qfs-c4-2	qFS-C4-2	Literature	3
+unclassified	qfs-c4-3	qFS-C4-3	Literature	3
+unclassified	qfs-c6-1	qFS-C6-1	Literature	2
+unclassified	qfs-c7-1	qFS-C7-1	Literature	30
+unclassified	qfs-c7-2	qFS-C7-2	Literature	21
+unclassified	qfs-c7-3	qFS-C7-3	Literature	6
+unclassified	qfs-c7-4	qFS-C7-4	Literature	3
+unclassified	qfs-c9-1	qFS-C9-1	Literature	2
+unclassified	qfs-chr14-1	qFS-chr14-1	Literature	2
+unclassified	qfs-chr14-2	qFS-chr14-2	Literature	1
+unclassified	qfs-chr14-3	qFS-chr14-3	Literature	2
+unclassified	qfs-chr16-1	qFS-chr16-1	Literature	1
+unclassified	qfs-chr16-2	qFS-chr16-2	Literature	2
+unclassified	qfs-chr16-3	qFS-chr16-3	Literature	1
+unclassified	qfs-chr16-4	qFS-chr16-4	Literature	1
+unclassified	qfs-chr17	qFS-chr17	Literature	1
+unclassified	qfs-chr4	qFS-chr4	Literature	3
+unclassified	qfs-chr6	qFS-chr6	Literature	6
+unclassified	qfs-chr8-1	qFS-chr8-1	Literature	1
+unclassified	qfs-chr8-2	qFS-chr8-2	Literature	2
+unclassified	qfu-23-1	qFU-23-1	Literature	1
+unclassified	qfu-c10-1	qFU-C10-1	Literature	3
+unclassified	qfu-c10-2	qFU-C10-2	Literature	3
+unclassified	qfu-c10-3	qFU-C10-3	Literature	2
+unclassified	qfu-c12-1	qFU-C12-1	Literature	3
+unclassified	qfu-c13-1	qFU-C13-1	Literature	7
+unclassified	qfu-c19-1	qFU-C19-1	Literature	2
+unclassified	qfu-c2-1	qFU-C2-1	Literature	2
+unclassified	qfu-c23-1	qFU-C23-1	Literature	1
+unclassified	qfu-c25-1	qFU-C25-1	Literature	2
+unclassified	qfu-c25-2	qFU-C25-2	Literature	4
+unclassified	qfu-c25-3	qFU-C25-3	Literature	6
+unclassified	qfu-c25-4	qFU-C25-4	Literature	6
+unclassified	qfu-c25-5	qFU-C25-5	Literature	12
+unclassified	qfu-c25-6	qFU-C25-6	Literature	5
+unclassified	qfu-c25-7	qFU-C25-7	Literature	6
+unclassified	qfu-c4-1	qFU-C4-1	Literature	3
+unclassified	qfu-c4-2	qFU-C4-2	Literature	3
+unclassified	qfu-c5-1	qFU-C5-1	Literature	2
+unclassified	qfu-c6-1	qFU-C6-1	Literature	3
+unclassified	qfu-c7-1	qFU-C7-1	Literature	18
+unclassified	qfu-c7-2	qFU-C7-2	Literature	3
+unclassified	qlp-chr10	qLP-chr10	Literature	1
+unclassified	qlp-chr12	qLP-chr12	Literature	1
+unclassified	qlp-chr13	qLP-chr13	Literature	1
+unclassified	qlp-chr15	qLP-chr15	Literature	1
+unclassified	qlp-chr16-1	qLP-chr16-1	Literature	1
+unclassified	qlp-chr16-2	qLP-chr16-2	Literature	1
+unclassified	qlp-chr3	qLP-chr3	Literature	1
+unclassified	qlp-chr4	qLP-chr4	Literature	1
+unclassified	qlp-chr5-1	qLP-chr5-1	Literature	2
+unclassified	qlp-chr5-2	qLP-chr5-2	Literature	1
+unclassified	qlp-chr5-3	qLP-chr5-3	Literature	1
+unclassified	qlp-chr9	qLP-chr9	Literature	1
+unclassified	qsi-chr1	qSI-chr1	Literature	1
+unclassified	qsi-chr10-1	qSI-chr10-1	Literature	1
+unclassified	qsi-chr10-2	qSI-chr10-2	Literature	1
+unclassified	qsi-chr10-3	qSI-chr10-3	Literature	10
+unclassified	qsi-chr12	qSI-chr12	Literature	1
+unclassified	qsi-chr2	qSI-chr2	Literature	1
+unclassified	qsi-chr23-1	qSI-chr23-1	Literature	1
+unclassified	qsi-chr23-2	qSI-chr23-2	Literature	1
+unclassified	qsi-chr26-1	qSI-chr26-1	Literature	1
+unclassified	qsi-chr26-2	qSI-chr26-2	Literature	2
+unclassified	qsi-chr6	qSI-chr6	Literature	1
+unclassified	qsi-chr9	qSI-chr9	Literature	2
+unclassified	quantitative	quantitative	Literature	20
+unclassified	resistance	Resistance	Literature	1
+unclassified	rn-nematode	RN-Nematode	Literature	14
+unclassified	sa	SA	Literature	19
+unclassified	scond	SCond	Literature	6
+unclassified	sf	SF	Literature	2
+unclassified	sh	SH	Literature	12
+unclassified	sla	SLA	Literature	1
+unclassified	sm	SM	Literature	1
+unclassified	sn	SN	Literature	1
+unclassified	sp	SP	Literature	9
+unclassified	spn	SPn	Literature	4
+unclassified	stlh	STLH	Literature	4
+unclassified	sy	SY	Literature	13
+unclassified	sym	SYM	Literature	6
+unclassified	tci	TCi	Literature	4
+unclassified	tcond	TCond	Literature	3
+unclassified	testcross nemx x f1 pima s-7 x sj-2	Testcross NemX x F1 (Pima S-7 x SJ-2)	Literature	18
+unclassified	three years data	three years data	Literature	10
+unclassified	tn	TN	Literature	3
+unclassified	tnfb	TNFB	Literature	1
+unclassified	total chl	Total Chl	Literature	3
+unclassified	tpn	TPn	Literature	3
+unclassified	trs	TrS	Literature	1
+unclassified	ttr	TTr	Literature	1
+unclassified	undefined trait	_undefined_trait	CottonGen	1
+unclassified	unspecified		Literature	2974
+unclassified	unspecified	Trait	Literature	9
+unclassified	uqlw	UQLw	Literature	4
+unclassified	yieldtrait	YieldTrait	Literature	29
+unclassified	ypbf	YPBF	Literature	14
+yield	boll number	2019_EBN	Literature	16
+yield	boll number	2020_BN	Literature	56
+yield	boll number	2020_EBN	Literature	2
+yield	boll number	BN	Literature	5014
+yield	boll number	BN, SCY	Literature	3
+yield	boll number	BN-2018Wuhan	Literature	42
+yield	boll number	BN-2019Ezhou	Literature	39
+yield	boll number	BN-2019Wuhan	Literature	52
+yield	boll number	BN-BLUP	Literature	52
+yield	boll number	BN07an	Literature	13
+yield	boll number	BN07ku	Literature	6
+yield	boll number	BN07nan	Literature	4
+yield	boll number	BN08an	Literature	4
+yield	boll number	BN08ku	Literature	12
+yield	boll number	BN08nan	Literature	8
+yield	boll number	BN09an	Literature	5
+yield	boll number	BN09ku	Literature	8
+yield	boll number	BN09nan	Literature	5
+yield	boll number	BNP	Literature	134
+yield	boll number	BNP (S1N1)	Literature	2
+yield	boll number	BNP (S2N2)	Literature	2
+yield	boll number	Boll Number	Literature	4
+yield	boll number	Boll number	Literature	7
+yield	boll number	BollNumPer_15_16	CottonGVD	1
+yield	boll number	BollNumPer_17-18	CottonGVD	4
+yield	boll number	BollNumPer_AY_09	CottonGVD	1
+yield	boll number	BollNumPer_AY_14	CottonGVD	2
+yield	boll number	BollNumPer_AY_15	CottonGVD	1
+yield	boll number	BollNumPer_AY_AV	CottonGVD	1
+yield	boll number	BollNumPer_BLUP18	CottonGVD	4
+yield	boll number	BollNumPer_BV_14	CottonGVD	3
+yield	boll number	BollNumPer_BV_AV	CottonGVD	2
+yield	boll number	BollNumPer_CZ_14	CottonGVD	2
+yield	boll number	BollNumPer_CZ_AV	CottonGVD	1
+yield	boll number	BollNumPer_DH_14	CottonGVD	1
+yield	boll number	BollNumPer_DH_AV	CottonGVD	3
+yield	boll number	BollNumPer_HN_14	CottonGVD	2
+yield	boll number	BollNumPer_JZ_15	CottonGVD	1
+yield	boll number	BollNumPer_JZ_AV	CottonGVD	1
+yield	boll number	BollNumPer_SF	CottonGVD	2
+yield	boll number	BollNumPer_XJ_15	CottonGVD	2
+yield	boll number	BollNumPer_XJ_16	CottonGVD	3
+yield	boll number	BollNumPer_YC_14	CottonGVD	1
+yield	boll number	BollNumPer_YC_15	CottonGVD	1
+yield	boll number	BollNumPer_YC_AV	CottonGVD	5
+yield	boll number	DRC_EBN	Literature	8
+yield	boll number	EBN	Literature	365
+yield	boll number	EBN,BN	Literature	1
+yield	boll number	Effective boll number (EBN)	CottonMD	1
+yield	boll number	FruBolNum_AY_09	CottonGVD	1
+yield	boll number	FruBolNum_HN_14	CottonGVD	32
+yield	boll number	FruBolNum_XJ_14	CottonGVD	1
+yield	boll number	Log (locule number) / Log (boll number)	CottonGen	2
+yield	boll number	boll number	CottonGen	192
+yield	boll number	ph and bn	Literature	24
+yield	boll retention	BollSet_AY_16	CottonGVD	3
+yield	boll retention	BollSet_HN_14	CottonGVD	1
+yield	boll retention	BollSet_XJ_16	CottonGVD	2
+yield	boll weight		Literature	117
+yield	boll weight	2019_SBW	Literature	3
+yield	boll weight	2020_SBW	Literature	8
+yield	boll weight	Average boll weight	Literature	13
+yield	boll weight	BN,BW	Literature	1
+yield	boll weight	BS	Literature	11
+yield	boll weight	BW	Literature	3295
+yield	boll weight	BW (S1N1)	Literature	3
+yield	boll weight	BW (S2N2)	Literature	4
+yield	boll weight	BW(g)	Literature	1
+yield	boll weight	BW, SCY	Literature	1
+yield	boll weight	BW,LC	Literature	1
+yield	boll weight	BW,SC	Literature	5
+yield	boll weight	BW,SC,LC	Literature	1
+yield	boll weight	BW-2018Wuhan	Literature	40
+yield	boll weight	BW-2019Ezhou	Literature	57
+yield	boll weight	BW-2019Wuhan	Literature	40
+yield	boll weight	BW-AY-14	Literature	2
+yield	boll weight	BW-AY-15	Literature	2
+yield	boll weight	BW-BLUP	Literature	106
+yield	boll weight	BW-CZ-14	Literature	2
+yield	boll weight	BW-DH-15	Literature	5
+yield	boll weight	BW-JZ-14	Literature	1
+yield	boll weight	BW-JZ-15	Literature	3
+yield	boll weight	BW-QEI	Literature	19
+yield	boll weight	BW-XJ-14	Literature	1
+yield	boll weight	BW-XJ-15	Literature	3
+yield	boll weight	BW-YC-14	Literature	1
+yield	boll weight	BW07an	Literature	4
+yield	boll weight	BW07ku	Literature	27
+yield	boll weight	BW07nan	Literature	10
+yield	boll weight	BW08an	Literature	14
+yield	boll weight	BW08ku	Literature	37
+yield	boll weight	BW08nan	Literature	2
+yield	boll weight	BW09an	Literature	6
+yield	boll weight	BW09ku	Literature	9
+yield	boll weight	BW09nan	Literature	8
+yield	boll weight	BW17-Loc1	Literature	38
+yield	boll weight	BW17-Loc2	Literature	32
+yield	boll weight	BW18-Loc1	Literature	56
+yield	boll weight	BW18-Loc2	Literature	73
+yield	boll weight	BW_1	Literature	7
+yield	boll weight	BW_2	Literature	4
+yield	boll weight	BW_3	Literature	9
+yield	boll weight	BW_4	Literature	1
+yield	boll weight	BW_5	Literature	11
+yield	boll weight	BW_8	Literature	2
+yield	boll weight	BW_9	Literature	8
+yield	boll weight	BW_CIR328	Literature	1
+yield	boll weight	BW_DPL752	Literature	1
+yield	boll weight	BW_GCA	Literature	197
+yield	boll weight	BW_HAU1952	Literature	1
+yield	boll weight	BW_NAU1255	Literature	1
+yield	boll weight	BW_SCA	Literature	432
+yield	boll weight	BW_blup	Literature	3
+yield	boll weight	Boll Weight	CottonGen	66
+yield	boll weight	Boll Weight	Literature	9
+yield	boll weight	Boll Weight (BW)	Literature	1
+yield	boll weight	Boll weight	GWAS Atlas	105
+yield	boll weight	Boll weight	Literature	181
+yield	boll weight	BollWei_15_16	CottonGVD	1
+yield	boll weight	BollWei_17-18	CottonGVD	4
+yield	boll weight	BollWei_AY_09	CottonGVD	1
+yield	boll weight	BollWei_AY_14	CottonGVD	7
+yield	boll weight	BollWei_AY_15	CottonGVD	1
+yield	boll weight	BollWei_BLUP17	CottonGVD	6
+yield	boll weight	BollWei_BLUP18	CottonGVD	2
+yield	boll weight	BollWei_BV_15	CottonGVD	3
+yield	boll weight	BollWei_BV_AV	CottonGVD	2
+yield	boll weight	BollWei_CZ_14	CottonGVD	1
+yield	boll weight	BollWei_CZ_15	CottonGVD	4
+yield	boll weight	BollWei_CZ_AV	CottonGVD	2
+yield	boll weight	BollWei_DH_15	CottonGVD	4
+yield	boll weight	BollWei_HN_14	CottonGVD	4
+yield	boll weight	BollWei_JZ_15	CottonGVD	1
+yield	boll weight	BollWei_SF	CottonGVD	1
+yield	boll weight	BollWei_XJ_14	CottonGVD	6
+yield	boll weight	BollWei_XJ_15	CottonGVD	1
+yield	boll weight	BollWei_XJ_16	CottonGVD	1
+yield	boll weight	BollWei_YC_14	CottonGVD	2
+yield	boll weight	BollWei_YC_15	CottonGVD	1
+yield	boll weight	BollWei_YC_AV	CottonGVD	1
+yield	boll weight	DRC_BW	Literature	6
+yield	boll weight	QTL_BW	Literature	176
+yield	boll weight	SBW	Literature	5842
+yield	boll weight	SBW16-1	Literature	18
+yield	boll weight	SBW16-2	Literature	19
+yield	boll weight	SBW16-3	Literature	20
+yield	boll weight	SBW16-4	Literature	20
+yield	boll weight	SBW16-5	Literature	7
+yield	boll weight	SBW16-6	Literature	33
+yield	boll weight	SBW16-7	Literature	15
+yield	boll weight	SBW16-8	Literature	21
+yield	boll weight	SBW17-1	Literature	15
+yield	boll weight	SBW17-2	Literature	19
+yield	boll weight	SBW17-3	Literature	3
+yield	boll weight	SBW17-4	Literature	21
+yield	boll weight	SBW17-5	Literature	5
+yield	boll weight	SBW17-6	Literature	15
+yield	boll weight	SBW17-7	Literature	11
+yield	boll weight	SBW17-8	Literature	12
+yield	boll weight	SBW_BLUP-A	Literature	32
+yield	boll weight	SBW_BLUP-B	Literature	26
+yield	boll weight	SBW_BLUP-C	Literature	16
+yield	boll weight	SBW_BLUP-D	Literature	28
+yield	boll weight	SC,BW	Literature	1
+yield	boll weight	boll size	CottonGen	8
+yield	boll weight	boll weight	Literature	19
+yield	boll weight	seed cotton weight per boll	CottonGen	533
+yield	harvest index	HI	Literature	5
+yield	harvest index	harvest index	CottonGen	24
+yield	harvest index	seed harvest index	GWAS Atlas	267
+yield	lint index	LI	Literature	689
+yield	lint index	LI, SI	Literature	2
+yield	lint index	LI-AY-14	Literature	2
+yield	lint index	LI-AY-15	Literature	4
+yield	lint index	LI-CZ-14	Literature	1
+yield	lint index	LI-CZ-15	Literature	8
+yield	lint index	LI-DH-14	Literature	8
+yield	lint index	LI-DH-15	Literature	4
+yield	lint index	LI-JZ-14	Literature	4
+yield	lint index	LI-JZ-15	Literature	5
+yield	lint index	LI-XJ-14	Literature	3
+yield	lint index	LI-XJ-15	Literature	2
+yield	lint index	LI-YC-14	Literature	21
+yield	lint index	LI-YC-15	Literature	3
+yield	lint index	Lint Index	Literature	1
+yield	lint index	Lint index	Literature	19
+yield	lint index	Lint index (LI)	CottonMD	1
+yield	lint index	LintInd_14	CottonGVD	13
+yield	lint index	LintInd_15	CottonGVD	8
+yield	lint index	LintInd_AY_14	CottonGVD	1
+yield	lint index	LintInd_AY_15	CottonGVD	6
+yield	lint index	LintInd_AY_AV	CottonGVD	8
+yield	lint index	LintInd_BV_AV	CottonGVD	12
+yield	lint index	LintInd_CZ_15	CottonGVD	13
+yield	lint index	LintInd_DH_14	CottonGVD	3
+yield	lint index	LintInd_DH_15	CottonGVD	8
+yield	lint index	LintInd_DH_AV	CottonGVD	2
+yield	lint index	LintInd_JZ_14	CottonGVD	8
+yield	lint index	LintInd_JZ_15	CottonGVD	1
+yield	lint index	LintInd_JZ_AV	CottonGVD	7
+yield	lint index	LintInd_XJ_14	CottonGVD	3
+yield	lint index	LintInd_XJ_15	CottonGVD	4
+yield	lint index	LintInd_XJ_AV	CottonGVD	6
+yield	lint index	LintInd_YC_14	CottonGVD	17
+yield	lint index	LintInd_YC_15	CottonGVD	20
+yield	lint index	LintInd_YC_AV	CottonGVD	19
+yield	lint index	SI, LI	Literature	1
+yield	lint index	lint index	CottonGen	95
+yield	lint index	lint index	GWAS Atlas	649
+yield	lint percentage		Literature	164
+yield	lint percentage	1	Literature	1
+yield	lint percentage	2	Literature	2
+yield	lint percentage	BN+BW+LP	Literature	1
+yield	lint percentage	BN,BW,LP	Literature	1
+yield	lint percentage	BN,LP	Literature	1
+yield	lint percentage	BW+LP	Literature	1
+yield	lint percentage	BW,LP	Literature	1
+yield	lint percentage	BW,LP,SI	Literature	2
+yield	lint percentage	DRC_LP	Literature	7
+yield	lint percentage	GOT	Literature	31
+yield	lint percentage	GOT %	Literature	18
+yield	lint percentage	GhLP	Literature	11
+yield	lint percentage	Gin turn out	Literature	18
+yield	lint percentage	LP	Literature	6665
+yield	lint percentage	LP (S2N2)	Literature	2
+yield	lint percentage	LP(%)	Literature	1
+yield	lint percentage	LP(S1N1)	Literature	2
+yield	lint percentage	LP, BN	Literature	1
+yield	lint percentage	LP,SI	Literature	7
+yield	lint percentage	LP-AY-14	Literature	6
+yield	lint percentage	LP-AY-15	Literature	18
+yield	lint percentage	LP-BLUP	Literature	113
+yield	lint percentage	LP-CZ-14	Literature	4
+yield	lint percentage	LP-CZ-15	Literature	4
+yield	lint percentage	LP-DH-14	Literature	6
+yield	lint percentage	LP-DH-15	Literature	15
+yield	lint percentage	LP-JZ-14	Literature	10
+yield	lint percentage	LP-JZ-15	Literature	14
+yield	lint percentage	LP-QEI	Literature	16
+yield	lint percentage	LP-RDW	Literature	40
+yield	lint percentage	LP-RSR	Literature	42
+yield	lint percentage	LP-SDW	Literature	43
+yield	lint percentage	LP-XJ-14	Literature	8
+yield	lint percentage	LP-XJ-15	Literature	3
+yield	lint percentage	LP-YC-14	Literature	7
+yield	lint percentage	LP-YC-15	Literature	11
+yield	lint percentage	LP07an	Literature	28
+yield	lint percentage	LP07ku	Literature	12
+yield	lint percentage	LP07nan	Literature	23
+yield	lint percentage	LP08an	Literature	37
+yield	lint percentage	LP08ku	Literature	17
+yield	lint percentage	LP08nan	Literature	25
+yield	lint percentage	LP09an	Literature	24
+yield	lint percentage	LP09ku	Literature	23
+yield	lint percentage	LP09nan	Literature	20
+yield	lint percentage	LP16-1	Literature	26
+yield	lint percentage	LP16-2	Literature	100
+yield	lint percentage	LP16-3	Literature	137
+yield	lint percentage	LP16-4	Literature	103
+yield	lint percentage	LP16-5	Literature	24
+yield	lint percentage	LP16-6	Literature	137
+yield	lint percentage	LP16-7	Literature	28
+yield	lint percentage	LP16-8	Literature	42
+yield	lint percentage	LP17-1	Literature	28
+yield	lint percentage	LP17-2	Literature	18
+yield	lint percentage	LP17-4	Literature	18
+yield	lint percentage	LP17-5	Literature	15
+yield	lint percentage	LP17-6	Literature	14
+yield	lint percentage	LP17-7	Literature	10
+yield	lint percentage	LP17-8	Literature	33
+yield	lint percentage	LP17-Loc1	Literature	68
+yield	lint percentage	LP17-Loc2	Literature	57
+yield	lint percentage	LP18-Loc1	Literature	96
+yield	lint percentage	LP18-Loc2	Literature	74
+yield	lint percentage	LP2011NY	Literature	1
+yield	lint percentage	LP2011XJ	Literature	3
+yield	lint percentage	LP2011XX	Literature	1
+yield	lint percentage	LP2012NY	Literature	1
+yield	lint percentage	LP2012XJ	Literature	2
+yield	lint percentage	LP2012XX	Literature	3
+yield	lint percentage	LP2013NY	Literature	2
+yield	lint percentage	LP2013XJ	Literature	3
+yield	lint percentage	LP2013XX	Literature	3
+yield	lint percentage	LP4	Literature	1
+yield	lint percentage	LP_1	Literature	4
+yield	lint percentage	LP_2	Literature	1
+yield	lint percentage	LP_3	Literature	5
+yield	lint percentage	LP_4	Literature	5
+yield	lint percentage	LP_6	Literature	1
+yield	lint percentage	LP_7	Literature	3
+yield	lint percentage	LP_9	Literature	1
+yield	lint percentage	LP_BLUP-A	Literature	43
+yield	lint percentage	LP_BLUP-B	Literature	37
+yield	lint percentage	LP_BLUP-C	Literature	47
+yield	lint percentage	LP_BLUP-D	Literature	47
+yield	lint percentage	LP_DPL212	Literature	1
+yield	lint percentage	LP_GCA	Literature	179
+yield	lint percentage	LP_NAU3325	Literature	1
+yield	lint percentage	LP_SCA	Literature	371
+yield	lint percentage	LP_blup	Literature	1
+yield	lint percentage	Lint Percent	Literature	15
+yield	lint percentage	Lint Percent (LP)	Literature	1
+yield	lint percentage	Lint percentage	Literature	32
+yield	lint percentage	Lint percentage (%)	Literature	4
+yield	lint percentage	Lint percentage (LP)	CottonMD	2
+yield	lint percentage	LintPer	CottonGVD	2
+yield	lint percentage	LintPer_15_16U	CottonGVD	3
+yield	lint percentage	LintPer_17-18	CottonGVD	4
+yield	lint percentage	LintPer_AY_14	CottonGVD	6
+yield	lint percentage	LintPer_AY_15	CottonGVD	19
+yield	lint percentage	LintPer_AY_AV	CottonGVD	21
+yield	lint percentage	LintPer_BLUP17	CottonGVD	3
+yield	lint percentage	LintPer_BLUP18	CottonGVD	3
+yield	lint percentage	LintPer_BV_14	CottonGVD	30
+yield	lint percentage	LintPer_BV_15	CottonGVD	32
+yield	lint percentage	LintPer_BV_AV	CottonGVD	30
+yield	lint percentage	LintPer_CZ_14	CottonGVD	33
+yield	lint percentage	LintPer_CZ_15	CottonGVD	24
+yield	lint percentage	LintPer_CZ_AV	CottonGVD	25
+yield	lint percentage	LintPer_DH_14	CottonGVD	23
+yield	lint percentage	LintPer_DH_15	CottonGVD	8
+yield	lint percentage	LintPer_DH_AV	CottonGVD	18
+yield	lint percentage	LintPer_HN_14	CottonGVD	2
+yield	lint percentage	LintPer_JZ_14	CottonGVD	18
+yield	lint percentage	LintPer_JZ_15	CottonGVD	3
+yield	lint percentage	LintPer_JZ_AV	CottonGVD	16
+yield	lint percentage	LintPer_SF	CottonGVD	1
+yield	lint percentage	LintPer_XJ_14	CottonGVD	4
+yield	lint percentage	LintPer_XJ_15	CottonGVD	16
+yield	lint percentage	LintPer_XJ_16	CottonGVD	3
+yield	lint percentage	LintPer_XJ_AV	CottonGVD	15
+yield	lint percentage	LintPer_YC_14	CottonGVD	16
+yield	lint percentage	LintPer_YC_15	CottonGVD	50
+yield	lint percentage	LintPer_YC_AV	CottonGVD	42
+yield	lint percentage	QTL_LP	Literature	363
+yield	lint percentage	TL	Literature	10
+yield	lint percentage	gin turnout	CottonGen	3
+yield	lint percentage	lint percentage	CottonGen	689
+yield	lint percentage	lint percentage	GWAS Atlas	2163
+yield	lint weight per boll	DRC_LW	Literature	2
+yield	lint weight per boll	FibWeiPerBol_14	CottonGVD	3
+yield	lint weight per boll	FibWeiPerBol_15	CottonGVD	6
+yield	lint weight per boll	FibWeiPerBol_AY_14	CottonGVD	2
+yield	lint weight per boll	FibWeiPerBol_AY_15	CottonGVD	4
+yield	lint weight per boll	FibWeiPerBol_AY_AV	CottonGVD	4
+yield	lint weight per boll	FibWeiPerBol_BV_AV	CottonGVD	8
+yield	lint weight per boll	FibWeiPerBol_CZ_14	CottonGVD	5
+yield	lint weight per boll	FibWeiPerBol_CZ_15	CottonGVD	5
+yield	lint weight per boll	FibWeiPerBol_CZ_AV	CottonGVD	11
+yield	lint weight per boll	FibWeiPerBol_DH_15	CottonGVD	1
+yield	lint weight per boll	FibWeiPerBol_DH_AV	CottonGVD	2
+yield	lint weight per boll	FibWeiPerBol_JZ_15	CottonGVD	3
+yield	lint weight per boll	FibWeiPerBol_JZ_AV	CottonGVD	3
+yield	lint weight per boll	FibWeiPerBol_XJ_15	CottonGVD	3
+yield	lint weight per boll	FibWeiPerBol_XJ_AV	CottonGVD	4
+yield	lint weight per boll	FibWeiPerBol_YC_14	CottonGVD	14
+yield	lint weight per boll	FibWeiPerBol_YC_15	CottonGVD	12
+yield	lint weight per boll	FibWeiPerBol_YC_AV	CottonGVD	14
+yield	lint weight per boll	LW	Literature	146
+yield	lint weight per boll	Lint weight (LW)	CottonMD	45
+yield	lint weight per boll	Lint weight per plant (g)	Literature	6
+yield	lint weight per boll	Lw	Literature	5
+yield	lint weight per boll	UQLw, Lw	Literature	3
+yield	lint weight per boll	fiber weight per boll	GWAS Atlas	872
+yield	lint yield	BNPP16-1	Literature	13
+yield	lint yield	BNPP16-2	Literature	15
+yield	lint yield	BNPP16-3	Literature	8
+yield	lint yield	BNPP16-4	Literature	7
+yield	lint yield	BNPP16-5	Literature	13
+yield	lint yield	BNPP16-6	Literature	11
+yield	lint yield	BNPP16-7	Literature	13
+yield	lint yield	BNPP16-8	Literature	5
+yield	lint yield	BNPP17-2	Literature	19
+yield	lint yield	BNPP17-3	Literature	11
+yield	lint yield	BNPP17-4	Literature	20
+yield	lint yield	BNPP17-5	Literature	5
+yield	lint yield	BNPP17-6	Literature	12
+yield	lint yield	BNPP17-7	Literature	12
+yield	lint yield	BNPP17-8	Literature	9
+yield	lint yield	BNPP_BLUP-A	Literature	6
+yield	lint yield	BNPP_BLUP-B	Literature	14
+yield	lint yield	BNPP_BLUP-C	Literature	9
+yield	lint yield	BNPP_BLUP-D	Literature	20
+yield	lint yield	DF	Literature	13
+yield	lint yield	LY	Literature	231
+yield	lint yield	LY (S1N1)	Literature	2
+yield	lint yield	LY (S2N2)	Literature	2
+yield	lint yield	Lint Yield (LY)	Literature	1
+yield	lint yield	Lint yield (lb)	Literature	3
+yield	lint yield	NB	Literature	24
+yield	lint yield	NM	Literature	31
+yield	lint yield	lint yield	CottonGen	104
+yield	lint yield	lint yield	Literature	4
+yield	lint yield	seed-cotton and lint yields	Literature	11
+yield	seed cotton yield		Literature	88
+yield	seed cotton yield	2019_SC	Literature	3
+yield	seed cotton yield	2020_SC	Literature	6
+yield	seed cotton yield	Average Length of all fiber by weight	Literature	1
+yield	seed cotton yield	Average length of all fiber by weight	Literature	21
+yield	seed cotton yield	FN	Literature	2
+yield	seed cotton yield	Fiber fneness mTx, (millitex)	Literature	1
+yield	seed cotton yield	Inter-node length (cm)	Literature	11
+yield	seed cotton yield	LC	Literature	301
+yield	seed cotton yield	NB	Literature	3
+yield	seed cotton yield	PB	Literature	3
+yield	seed cotton yield	SC	Literature	344
+yield	seed cotton yield	SCW	Literature	127
+yield	seed cotton yield	SCY	Literature	143
+yield	seed cotton yield	SCY/P	Literature	32
+yield	seed cotton yield	SW	Literature	8
+yield	seed cotton yield	SY	Literature	120
+yield	seed cotton yield	SeedCotYie_BLUP17	CottonGVD	1
+yield	seed cotton yield	SeedCotYie_BLUP18	CottonGVD	1
+yield	seed cotton yield	Seedcotton yield (SCY)	Literature	1
+yield	seed cotton yield	VFM percent	Literature	24
+yield	seed cotton yield	Yeild	CottonMD	12
+yield	seed cotton yield	epistatic qtls for yield and yield-component	Literature	11
+yield	seed cotton yield	five yield and yield-component	Literature	58
+yield	seed cotton yield	seed cotton yield	CottonGen	123
+yield	seed cotton yield	seed yield	CottonGen	6
+yield	seed cotton yield	yield and yield-component	Literature	69
+yield	seed cotton yield	yield and yield-components	Literature	17
+yield	seed index	BW,SI	Literature	2
+yield	seed index	BW/SI	Literature	2
+yield	seed index	FT, NFFB, PH, FBP, SI	Literature	1
+yield	seed index	HSW	Literature	21
+yield	seed index	SI	Literature	7885
+yield	seed index	SI-AY-14	Literature	4
+yield	seed index	SI-AY-15	Literature	2
+yield	seed index	SI-CZ-14	Literature	2
+yield	seed index	SI-CZ-15	Literature	2
+yield	seed index	SI-DH-15	Literature	2
+yield	seed index	SI-JZ-14	Literature	2
+yield	seed index	SI-XJ-14	Literature	2
+yield	seed index	SI-XJ-15	Literature	2
+yield	seed index	SI-YC-14	Literature	1
+yield	seed index	SI-YC-15	Literature	1
+yield	seed index	SI/BW	Literature	2
+yield	seed index	SI07an	Literature	13
+yield	seed index	SI07ku	Literature	87
+yield	seed index	SI07nan	Literature	164
+yield	seed index	SI08an	Literature	26
+yield	seed index	SI08ku	Literature	81
+yield	seed index	SI08nan	Literature	131
+yield	seed index	SI09an	Literature	54
+yield	seed index	SI09ku	Literature	21
+yield	seed index	SI09nan	Literature	193
+yield	seed index	SI2011NY	Literature	1
+yield	seed index	SI2011XJ	Literature	1
+yield	seed index	SI2012NY	Literature	1
+yield	seed index	SI2013XJ	Literature	2
+yield	seed index	SI4	Literature	2
+yield	seed index	SI_1	Literature	32
+yield	seed index	SI_2	Literature	3
+yield	seed index	SI_4	Literature	15
+yield	seed index	SI_5	Literature	10
+yield	seed index	SI_6	Literature	5
+yield	seed index	SI_7	Literature	9
+yield	seed index	SI_8	Literature	16
+yield	seed index	SI_9	Literature	4
+yield	seed index	SI_BLUP	Literature	2
+yield	seed index	SI_blup	Literature	5
+yield	seed index	Seed Index	Literature	11
+yield	seed index	Seed Weight	Literature	1
+yield	seed index	Seed index	Literature	150
+yield	seed index	Seed index (SI)	CottonMD	54
+yield	seed index	Seed weight per plant (g)	Literature	4
+yield	seed index	SeedInd_14	CottonGVD	1
+yield	seed index	SeedInd_15	CottonGVD	2
+yield	seed index	SeedInd_17-18	CottonGVD	7
+yield	seed index	SeedInd_AY_14	CottonGVD	1
+yield	seed index	SeedInd_AY_15	CottonGVD	1
+yield	seed index	SeedInd_AY_AV	CottonGVD	2
+yield	seed index	SeedInd_BLUP17	CottonGVD	8
+yield	seed index	SeedInd_BLUP18	CottonGVD	8
+yield	seed index	SeedInd_BV_14	CottonGVD	1
+yield	seed index	SeedInd_BV_15	CottonGVD	2
+yield	seed index	SeedInd_BV_AV	CottonGVD	1
+yield	seed index	SeedInd_CZ_15	CottonGVD	1
+yield	seed index	SeedInd_DH_14	CottonGVD	2
+yield	seed index	SeedInd_DH_15	CottonGVD	2
+yield	seed index	SeedInd_DH_AV	CottonGVD	2
+yield	seed index	SeedInd_JZ_14	CottonGVD	3
+yield	seed index	SeedInd_JZ_15	CottonGVD	3
+yield	seed index	SeedInd_JZ_AV	CottonGVD	2
+yield	seed index	SeedInd_XJ_14	CottonGVD	3
+yield	seed index	SeedInd_XJ_15	CottonGVD	3
+yield	seed index	SeedInd_XJ_AV	CottonGVD	3
+yield	seed index	SeedInd_YC_14	CottonGVD	1
+yield	seed index	seed index	CottonGen	450
+yield	seed number per boll	seed number per boll	CottonGen	9
+yield	seed number per boll	seed number per plant	CottonGen	1

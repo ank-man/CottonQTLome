@@ -1,0 +1,301 @@
+CHR	BP	SNP	TRAIT	BETA	P
+Chr12	97000387	demo_snp_1	salt tolerance	-0.590	4.07e-4
+Chr11	107552214	demo_snp_2	salt tolerance	0.914	9.66e-4
+Chr02	20679316	demo_snp_3	plant height	-0.101	7.58e-4
+Chr09	66580578	demo_snp_4	seed oil content	-0.590	8.75e-4
+Chr22	31726597	demo_snp_5	Verticillium wilt resistance	0.221	5.02e-4
+Chr19	66391247	demo_snp_6	fiber length	0.312	2.13e-15
+Chr26	33307572	demo_snp_7	seed oil content	0.104	5.96e-4
+Chr22	28773833	demo_snp_8	salt tolerance	0.061	1.11e-10
+Chr25	48039160	demo_snp_9	boll weight	-0.267	4.78e-9
+Chr07	15939762	demo_snp_10	days to flowering	-0.071	3.81e-4
+Chr12	53324900	demo_snp_11	Verticillium wilt resistance	0.264	5.71e-5
+Chr05	58219940	demo_snp_12	fiber strength	0.167	9.15e-7
+Chr12	7496165	demo_snp_13	micronaire	-0.019	7.98e-4
+Chr26	15788305	demo_snp_14	seed oil content	0.735	2.23e-5
+Chr11	87954720	demo_snp_15	micronaire	0.089	1.23e-4
+Chr07	34028238	demo_snp_16	seed oil content	0.141	1.31e-6
+Chr21	70694571	demo_snp_17	fiber strength	0.187	9.59e-8
+Chr13	15971207	demo_snp_18	salt tolerance	0.822	9.85e-4
+Chr05	66591927	demo_snp_19	plant height	-0.112	7.14e-4
+Chr19	12541626	demo_snp_20	seed oil content	0.540	4.45e-8
+Chr07	88588818	demo_snp_21	seed oil content	0.615	1.37e-4
+Chr19	26118356	demo_snp_22	Verticillium wilt resistance	0.589	6.96e-4
+Chr01	3036717	demo_snp_23	plant height	-0.147	8.61e-4
+Chr14	41559369	demo_snp_24	micronaire	0.307	9.13e-7
+Chr11	85218307	demo_snp_25	boll weight	-0.325	2.27e-7
+Chr06	12783080	demo_snp_26	boll weight	-0.374	6.01e-6
+Chr26	32681759	demo_snp_27	fiber length	-0.071	5.33e-5
+Chr02	104227213	demo_snp_28	seed oil content	0.220	7.11e-4
+Chr01	34694822	demo_snp_29	Verticillium wilt resistance	0.551	9.78e-4
+Chr21	67919651	demo_snp_30	fiber strength	-0.531	4.87e-7
+Chr18	42210773	demo_snp_31	salt tolerance	0.772	4.80e-4
+Chr21	8804145	demo_snp_32	days to flowering	0.976	9.98e-4
+Chr16	41371285	demo_snp_33	salt tolerance	0.141	5.23e-10
+Chr20	33536198	demo_snp_34	micronaire	0.862	2.05e-5
+Chr10	56580435	demo_snp_35	micronaire	0.856	9.28e-6
+Chr03	3810814	demo_snp_36	boll weight	-0.190	6.80e-4
+Chr22	5780995	demo_snp_37	lint percentage	-0.425	3.77e-7
+Chr23	25780015	demo_snp_38	days to flowering	0.699	2.45e-4
+Chr12	20555057	demo_snp_39	salt tolerance	-0.765	9.89e-4
+Chr19	28845085	demo_snp_40	days to flowering	0.047	3.19e-4
+Chr17	30159447	demo_snp_41	Verticillium wilt resistance	0.112	1.30e-10
+Chr21	23698335	demo_snp_42	boll weight	0.300	4.78e-13
+Chr16	18239960	demo_snp_43	fiber length	0.011	7.26e-4
+Chr15	17816152	demo_snp_44	fiber strength	0.506	1.97e-4
+Chr22	35215972	demo_snp_45	micronaire	0.682	1.52e-4
+Chr14	26737251	demo_snp_46	salt tolerance	-0.838	6.98e-4
+Chr19	11959118	demo_snp_47	fiber strength	-0.976	9.74e-4
+Chr16	42793314	demo_snp_48	seed oil content	0.150	2.89e-4
+Chr08	97509908	demo_snp_49	fiber length	-0.142	1.24e-8
+Chr18	37528369	demo_snp_50	lint percentage	0.863	9.98e-4
+Chr24	37915333	demo_snp_51	lint percentage	-0.196	1.34e-8
+Chr10	60229789	demo_snp_52	seed oil content	-0.103	9.79e-4
+Chr04	60302934	demo_snp_53	salt tolerance	-0.453	1.71e-7
+Chr17	24279455	demo_snp_54	plant height	0.259	5.48e-9
+Chr10	45630822	demo_snp_55	fiber strength	0.316	9.06e-4
+Chr03	82595345	demo_snp_56	fiber length	-0.001	9.96e-4
+Chr22	23305081	demo_snp_57	boll weight	0.171	1.97e-15
+Chr19	46015165	demo_snp_58	micronaire	-0.360	7.48e-10
+Chr08	53635273	demo_snp_59	micronaire	0.525	3.63e-15
+Chr23	18669574	demo_snp_60	micronaire	-0.113	2.11e-5
+Chr10	28817773	demo_snp_61	plant height	-0.377	5.40e-6
+Chr17	40942613	demo_snp_62	fiber strength	-0.008	5.77e-12
+Chr05	100437479	demo_snp_63	salt tolerance	-0.686	9.40e-4
+Chr20	6566213	demo_snp_64	boll weight	-0.110	7.67e-4
+Chr17	50786696	demo_snp_65	boll weight	0.782	6.54e-4
+Chr20	9786478	demo_snp_66	salt tolerance	0.032	1.89e-4
+Chr09	51312728	demo_snp_67	fiber strength	-0.211	7.58e-8
+Chr06	68134262	demo_snp_68	fiber length	0.749	1.88e-4
+Chr18	5315758	demo_snp_69	seed oil content	0.864	6.45e-4
+Chr06	53076235	demo_snp_70	micronaire	0.167	9.99e-4
+Chr22	5319053	demo_snp_71	lint percentage	0.500	9.99e-4
+Chr14	20524984	demo_snp_72	fiber strength	-0.694	7.88e-12
+Chr16	24247926	demo_snp_73	fiber strength	0.392	3.18e-8
+Chr11	5812213	demo_snp_74	salt tolerance	-0.975	5.18e-4
+Chr15	51211861	demo_snp_75	micronaire	0.603	5.17e-9
+Chr24	65217623	demo_snp_76	lint percentage	-0.700	2.50e-6
+Chr07	89290548	demo_snp_77	fiber length	0.070	1.76e-9
+Chr11	69540329	demo_snp_78	Verticillium wilt resistance	0.733	3.24e-5
+Chr26	19109248	demo_snp_79	Verticillium wilt resistance	-0.487	9.99e-4
+Chr21	2533585	demo_snp_80	fiber strength	0.660	2.06e-6
+Chr15	1785279	demo_snp_81	fiber length	0.334	9.98e-4
+Chr24	58497267	demo_snp_82	seed oil content	-0.420	3.30e-5
+Chr24	6223348	demo_snp_83	salt tolerance	0.053	2.80e-5
+Chr02	4954463	demo_snp_84	salt tolerance	-0.796	1.45e-6
+Chr02	83049455	demo_snp_85	plant height	0.865	6.49e-6
+Chr20	15933968	demo_snp_86	salt tolerance	-0.769	9.33e-4
+Chr20	29658630	demo_snp_87	lint percentage	0.654	3.44e-6
+Chr22	24662859	demo_snp_88	plant height	-0.842	6.21e-6
+Chr08	111809831	demo_snp_89	seed oil content	-0.143	4.87e-8
+Chr09	3596700	demo_snp_90	salt tolerance	0.152	8.55e-4
+Chr14	18409307	demo_snp_91	boll weight	0.623	9.24e-4
+Chr06	2264238	demo_snp_92	Verticillium wilt resistance	-0.608	1.08e-8
+Chr18	52467742	demo_snp_93	boll weight	-0.709	4.46e-4
+Chr10	53492933	demo_snp_94	salt tolerance	-0.618	3.10e-4
+Chr14	21486824	demo_snp_95	seed oil content	-0.985	1.74e-6
+Chr21	33569959	demo_snp_96	fiber length	0.785	1.18e-4
+Chr14	6995797	demo_snp_97	fiber length	-0.963	9.58e-4
+Chr18	2159939	demo_snp_98	lint percentage	-0.660	1.48e-5
+Chr08	84716054	demo_snp_99	Verticillium wilt resistance	0.140	7.80e-4
+Chr21	25056590	demo_snp_100	seed oil content	0.619	9.03e-4
+Chr23	13447496	demo_snp_101	fiber length	-0.971	8.53e-6
+Chr25	19047063	demo_snp_102	salt tolerance	0.791	1.37e-4
+Chr02	83760595	demo_snp_103	plant height	-0.767	1.60e-8
+Chr17	14183634	demo_snp_104	plant height	0.420	9.97e-4
+Chr16	18581125	demo_snp_105	Verticillium wilt resistance	-0.686	9.78e-4
+Chr05	105429934	demo_snp_106	Verticillium wilt resistance	-0.348	9.98e-4
+Chr23	9410351	demo_snp_107	salt tolerance	0.332	9.75e-4
+Chr21	2461072	demo_snp_108	days to flowering	0.136	6.99e-9
+Chr26	48602388	demo_snp_109	salt tolerance	0.251	3.41e-10
+Chr13	725533	demo_snp_110	fiber strength	-0.220	9.60e-4
+Chr20	55778496	demo_snp_111	seed oil content	0.868	1.90e-6
+Chr26	47762093	demo_snp_112	seed oil content	0.075	1.00e-3
+Chr04	34470947	demo_snp_113	seed oil content	-0.354	9.92e-4
+Chr15	39132992	demo_snp_114	fiber strength	0.401	3.31e-15
+Chr23	40813247	demo_snp_115	seed oil content	0.028	5.50e-7
+Chr15	24448174	demo_snp_116	plant height	0.493	2.15e-11
+Chr03	17353680	demo_snp_117	Verticillium wilt resistance	0.090	8.09e-4
+Chr03	34707665	demo_snp_118	days to flowering	-0.655	3.50e-7
+Chr17	13744173	demo_snp_119	fiber strength	0.405	5.93e-4
+Chr08	1565190	demo_snp_120	plant height	-0.744	1.39e-14
+Chr08	61553016	demo_snp_121	boll weight	0.302	9.77e-9
+Chr12	51319228	demo_snp_122	fiber strength	-0.275	4.96e-4
+Chr23	50845644	demo_snp_123	salt tolerance	0.969	1.12e-9
+Chr18	16746969	demo_snp_124	boll weight	0.463	1.33e-7
+Chr05	28708018	demo_snp_125	seed oil content	0.738	2.60e-7
+Chr20	38399421	demo_snp_126	salt tolerance	0.238	2.46e-14
+Chr03	41223329	demo_snp_127	micronaire	-0.110	8.07e-6
+Chr19	4239005	demo_snp_128	salt tolerance	-0.546	1.68e-8
+Chr23	24172401	demo_snp_129	boll weight	0.266	1.91e-4
+Chr13	85410245	demo_snp_130	boll weight	-0.272	5.45e-8
+Chr21	7424009	demo_snp_131	seed oil content	0.252	5.86e-4
+Chr19	3779048	demo_snp_132	micronaire	0.094	8.73e-7
+Chr20	20658900	demo_snp_133	Verticillium wilt resistance	-0.831	1.71e-10
+Chr13	21703148	demo_snp_134	days to flowering	-0.826	8.66e-4
+Chr14	25461433	demo_snp_135	fiber strength	0.176	4.94e-7
+Chr14	24058309	demo_snp_136	seed oil content	0.754	4.90e-4
+Chr13	53666345	demo_snp_137	Verticillium wilt resistance	0.276	1.34e-6
+Chr10	64553173	demo_snp_138	seed oil content	0.757	6.57e-4
+Chr18	35637540	demo_snp_139	fiber length	-0.605	1.71e-4
+Chr04	7445873	demo_snp_140	plant height	-0.117	1.39e-4
+Chr16	27361644	demo_snp_141	days to flowering	0.487	6.25e-4
+Chr04	3447480	demo_snp_142	fiber length	0.164	3.15e-6
+Chr17	30421819	demo_snp_143	plant height	0.805	5.19e-6
+Chr03	69674080	demo_snp_144	lint percentage	0.580	1.30e-5
+Chr07	17152896	demo_snp_145	days to flowering	-0.518	4.07e-10
+Chr23	48928304	demo_snp_146	days to flowering	0.788	1.64e-15
+Chr21	27222761	demo_snp_147	salt tolerance	0.028	2.49e-13
+Chr12	64633891	demo_snp_148	days to flowering	0.080	1.38e-14
+Chr08	97518560	demo_snp_149	fiber length	0.897	7.50e-5
+Chr20	56647718	demo_snp_150	fiber strength	0.970	1.20e-10
+Chr22	28185652	demo_snp_151	micronaire	0.514	3.50e-11
+Chr09	51510722	demo_snp_152	fiber strength	0.550	2.96e-11
+Chr12	86171320	demo_snp_153	fiber length	-0.267	9.99e-4
+Chr18	11822429	demo_snp_154	Verticillium wilt resistance	-0.049	8.36e-4
+Chr03	22687274	demo_snp_155	fiber strength	0.213	5.39e-13
+Chr04	30897317	demo_snp_156	plant height	0.110	8.14e-4
+Chr10	39785187	demo_snp_157	micronaire	0.305	4.96e-4
+Chr07	72004672	demo_snp_158	plant height	0.687	3.77e-4
+Chr04	63342328	demo_snp_159	salt tolerance	0.359	8.62e-4
+Chr25	1310687	demo_snp_160	Verticillium wilt resistance	-0.527	2.04e-5
+Chr22	52292462	demo_snp_161	boll weight	-0.516	5.22e-6
+Chr01	39995582	demo_snp_162	fiber strength	0.174	9.75e-7
+Chr17	37128211	demo_snp_163	salt tolerance	-0.621	4.28e-8
+Chr22	44894240	demo_snp_164	Verticillium wilt resistance	0.128	2.22e-5
+Chr11	113275177	demo_snp_165	fiber strength	0.538	9.87e-4
+Chr04	79104485	demo_snp_166	lint percentage	0.454	9.04e-4
+Chr26	32850957	demo_snp_167	boll weight	-0.525	9.20e-4
+Chr22	14771495	demo_snp_168	plant height	0.454	1.64e-12
+Chr02	36032773	demo_snp_169	days to flowering	-0.666	1.26e-15
+Chr14	17572494	demo_snp_170	days to flowering	-0.051	1.30e-4
+Chr23	44402786	demo_snp_171	salt tolerance	-0.104	8.04e-15
+Chr10	74580505	demo_snp_172	lint percentage	0.690	7.32e-4
+Chr01	82723547	demo_snp_173	plant height	-0.804	9.36e-4
+Chr09	10737381	demo_snp_174	Verticillium wilt resistance	-0.720	9.14e-4
+Chr03	46126520	demo_snp_175	lint percentage	-0.551	9.83e-4
+Chr16	36005503	demo_snp_176	Verticillium wilt resistance	0.140	4.83e-5
+Chr15	27542081	demo_snp_177	boll weight	-0.813	1.91e-9
+Chr17	9790845	demo_snp_178	fiber length	0.231	1.49e-14
+Chr21	10060987	demo_snp_179	fiber length	-0.741	8.20e-9
+Chr08	38401892	demo_snp_180	days to flowering	0.557	3.43e-7
+Chr11	61160408	demo_snp_181	salt tolerance	-0.882	2.57e-15
+Chr21	45958993	demo_snp_182	salt tolerance	-0.992	2.93e-4
+Chr17	20333306	demo_snp_183	salt tolerance	-0.672	8.24e-13
+Chr25	4946201	demo_snp_184	salt tolerance	0.076	2.21e-7
+Chr11	69865953	demo_snp_185	boll weight	-0.966	2.04e-5
+Chr26	17764905	demo_snp_186	fiber strength	-0.544	3.09e-4
+Chr17	34208862	demo_snp_187	fiber strength	0.911	5.90e-7
+Chr25	39056687	demo_snp_188	micronaire	0.622	7.91e-4
+Chr02	24794540	demo_snp_189	plant height	-0.513	9.82e-4
+Chr20	50014181	demo_snp_190	fiber length	0.389	3.51e-9
+Chr23	1648946	demo_snp_191	fiber length	-0.753	9.95e-4
+Chr15	46240560	demo_snp_192	fiber length	0.199	4.08e-5
+Chr06	12178315	demo_snp_193	seed oil content	-0.637	1.56e-7
+Chr22	7303083	demo_snp_194	lint percentage	-0.317	1.06e-14
+Chr21	34618864	demo_snp_195	Verticillium wilt resistance	-0.321	1.00e-3
+Chr22	6017776	demo_snp_196	salt tolerance	-0.044	9.92e-4
+Chr23	37440081	demo_snp_197	seed oil content	0.546	9.79e-4
+Chr06	96251937	demo_snp_198	seed oil content	0.296	1.46e-4
+Chr21	39763408	demo_snp_199	fiber length	0.682	5.32e-5
+Chr10	62481384	demo_snp_200	micronaire	0.448	1.73e-14
+Chr10	58418135	demo_snp_201	fiber length	-0.800	2.56e-13
+Chr11	41744610	demo_snp_202	plant height	-0.132	1.69e-5
+Chr02	76961159	demo_snp_203	salt tolerance	-0.155	5.94e-4
+Chr06	30091340	demo_snp_204	salt tolerance	-0.013	1.37e-12
+Chr13	69753713	demo_snp_205	micronaire	-0.048	2.06e-8
+Chr10	103762819	demo_snp_206	seed oil content	0.053	8.27e-8
+Chr16	21058386	demo_snp_207	boll weight	-0.672	1.62e-7
+Chr15	65016420	demo_snp_208	fiber length	0.503	7.84e-5
+Chr09	74313539	demo_snp_209	plant height	-0.239	1.00e-3
+Chr17	14801381	demo_snp_210	fiber length	0.254	4.81e-4
+Chr05	60732772	demo_snp_211	lint percentage	-0.168	8.94e-4
+Chr13	70557608	demo_snp_212	boll weight	0.803	6.65e-4
+Chr03	20063757	demo_snp_213	plant height	0.742	7.59e-4
+Chr10	18947316	demo_snp_214	days to flowering	0.892	9.40e-4
+Chr22	41843107	demo_snp_215	salt tolerance	0.606	2.93e-12
+Chr07	6541523	demo_snp_216	Verticillium wilt resistance	-0.349	1.48e-7
+Chr26	49649690	demo_snp_217	fiber length	-0.257	8.72e-4
+Chr16	45017288	demo_snp_218	seed oil content	-0.106	2.32e-8
+Chr20	40936177	demo_snp_219	seed oil content	-0.473	6.76e-4
+Chr19	19347619	demo_snp_220	fiber strength	-0.429	2.94e-8
+Chr10	68313927	demo_snp_221	Verticillium wilt resistance	0.937	7.46e-4
+Chr19	34157386	demo_snp_222	plant height	0.534	4.70e-4
+Chr12	9889547	demo_snp_223	seed oil content	-0.211	8.19e-4
+Chr06	99784888	demo_snp_224	salt tolerance	0.769	2.27e-7
+Chr10	44178919	demo_snp_225	fiber length	0.232	6.72e-4
+Chr07	90533870	demo_snp_226	fiber length	-0.705	3.06e-4
+Chr13	102646214	demo_snp_227	micronaire	0.217	4.91e-4
+Chr10	22023365	demo_snp_228	Verticillium wilt resistance	-0.905	9.49e-4
+Chr23	10745993	demo_snp_229	lint percentage	0.760	1.29e-4
+Chr04	72573214	demo_snp_230	Verticillium wilt resistance	0.900	7.93e-4
+Chr17	15524838	demo_snp_231	micronaire	0.757	1.50e-9
+Chr01	51895433	demo_snp_232	fiber strength	0.442	1.40e-4
+Chr10	93513314	demo_snp_233	boll weight	-0.760	9.33e-4
+Chr05	1171964	demo_snp_234	fiber length	0.184	1.29e-15
+Chr15	52062409	demo_snp_235	Verticillium wilt resistance	-0.842	1.99e-11
+Chr22	27271757	demo_snp_236	salt tolerance	0.488	6.41e-4
+Chr14	63575606	demo_snp_237	plant height	-0.514	2.52e-6
+Chr08	5833329	demo_snp_238	lint percentage	0.939	2.05e-11
+Chr14	32918347	demo_snp_239	Verticillium wilt resistance	-0.621	4.91e-4
+Chr22	18392950	demo_snp_240	plant height	-0.802	1.53e-4
+Chr13	107103969	demo_snp_241	lint percentage	-0.141	1.00e-3
+Chr09	33579174	demo_snp_242	boll weight	0.409	3.45e-4
+Chr13	48172364	demo_snp_243	Verticillium wilt resistance	0.765	9.01e-11
+Chr09	19027900	demo_snp_244	salt tolerance	-0.027	2.48e-6
+Chr22	35568709	demo_snp_245	boll weight	-0.086	4.17e-4
+Chr16	30784494	demo_snp_246	Verticillium wilt resistance	0.586	5.76e-4
+Chr16	54605342	demo_snp_247	micronaire	-0.492	9.28e-4
+Chr11	122612376	demo_snp_248	boll weight	-0.125	4.53e-15
+Chr26	40032499	demo_snp_249	salt tolerance	0.057	1.76e-14
+Chr24	34197990	demo_snp_250	plant height	-0.048	2.84e-8
+Chr10	42835572	demo_snp_251	seed oil content	0.430	9.60e-4
+Chr16	47199595	demo_snp_252	fiber length	-0.190	8.09e-11
+Chr23	26012223	demo_snp_253	Verticillium wilt resistance	0.465	9.48e-4
+Chr02	14775460	demo_snp_254	Verticillium wilt resistance	-0.155	5.73e-7
+Chr01	88173933	demo_snp_255	days to flowering	-0.378	2.35e-14
+Chr08	17731279	demo_snp_256	fiber strength	0.103	9.80e-5
+Chr04	69259794	demo_snp_257	fiber length	0.076	4.56e-4
+Chr09	74283385	demo_snp_258	lint percentage	0.078	3.23e-4
+Chr03	85705369	demo_snp_259	lint percentage	0.963	4.77e-4
+Chr23	36373860	demo_snp_260	lint percentage	-0.656	9.63e-4
+Chr03	109366059	demo_snp_261	days to flowering	0.903	2.34e-4
+Chr08	94914626	demo_snp_262	lint percentage	0.996	2.43e-15
+Chr19	10412381	demo_snp_263	Verticillium wilt resistance	0.067	9.55e-4
+Chr24	572259	demo_snp_264	micronaire	0.927	1.00e-3
+Chr07	25167429	demo_snp_265	salt tolerance	-0.523	2.81e-4
+Chr03	39040947	demo_snp_266	fiber length	-0.398	7.34e-8
+Chr09	39817767	demo_snp_267	days to flowering	-0.342	3.85e-5
+Chr19	61259260	demo_snp_268	plant height	0.186	9.16e-4
+Chr03	60253950	demo_snp_269	seed oil content	-0.314	7.70e-6
+Chr14	37562924	demo_snp_270	plant height	-0.075	1.81e-14
+Chr07	83654705	demo_snp_271	fiber length	0.942	6.48e-4
+Chr21	25967737	demo_snp_272	seed oil content	-0.466	1.18e-6
+Chr12	91028003	demo_snp_273	boll weight	-0.204	2.48e-11
+Chr24	11287902	demo_snp_274	fiber strength	0.283	2.00e-4
+Chr13	106386010	demo_snp_275	boll weight	-0.018	9.64e-4
+Chr26	14554740	demo_snp_276	lint percentage	-0.492	8.33e-4
+Chr23	29553222	demo_snp_277	Verticillium wilt resistance	0.935	6.88e-4
+Chr17	24330540	demo_snp_278	salt tolerance	0.586	9.82e-4
+Chr16	55700679	demo_snp_279	fiber length	0.604	4.98e-12
+Chr23	615180	demo_snp_280	days to flowering	0.126	3.95e-5
+Chr07	48309357	demo_snp_281	boll weight	0.826	2.11e-12
+Chr18	16836514	demo_snp_282	fiber length	-0.651	8.33e-4
+Chr26	60788086	demo_snp_283	salt tolerance	-0.104	4.64e-10
+Chr02	47813371	demo_snp_284	seed oil content	-0.527	3.39e-8
+Chr07	47120471	demo_snp_285	plant height	-0.965	2.89e-5
+Chr07	80574981	demo_snp_286	boll weight	0.574	7.15e-4
+Chr18	58066628	demo_snp_287	lint percentage	0.791	9.46e-4
+Chr19	64397089	demo_snp_288	seed oil content	0.902	5.03e-5
+Chr01	5826033	demo_snp_289	micronaire	0.535	1.12e-4
+Chr26	34661335	demo_snp_290	plant height	-0.866	4.52e-5
+Chr05	5894379	demo_snp_291	fiber strength	0.796	1.19e-4
+Chr22	41471776	demo_snp_292	fiber length	0.782	1.00e-3
+Chr25	30349430	demo_snp_293	Verticillium wilt resistance	0.854	9.99e-4
+Chr03	96872843	demo_snp_294	Verticillium wilt resistance	-0.156	1.07e-4
+Chr17	9582176	demo_snp_295	salt tolerance	0.381	1.68e-4
+Chr05	6634598	demo_snp_296	lint percentage	-0.827	3.51e-4
+Chr05	13047778	demo_snp_297	fiber strength	0.593	3.09e-4
+Chr21	21998877	demo_snp_298	fiber strength	-0.147	1.10e-14
+Chr04	83385648	demo_snp_299	plant height	-0.927	1.00e-3
+Chr22	11586894	demo_snp_300	micronaire	0.355	1.20e-5

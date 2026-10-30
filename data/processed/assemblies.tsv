@@ -1,0 +1,13 @@
+assembly	label	source	available	anchors	records_published_on_it	note
+Gh_UTX_v2.1	G. hirsutum TM-1 UTX v2.1 (Chen et al. 2020)	NCBI GCF_007990345.1	yes	hub	1173	
+Gh_UTX_v3.0	G. hirsutum TM-1 UTX v3.0 (HudsonAlpha)	NCBI GCA_007990345.2	yes	43581	0	
+Gh_T2T_ZJU	G. hirsutum TM-1 T2T (ZJU)	NCBI GCA_046843835.1	yes	43394	0	
+Gh_ZJU_v2.1	G. hirsutum TM-1 ZJU v2.1 (Hu et al. 2019)	cotton.zju.edu.cn TM-1_V2.1.fa.gz	yes	42036	14	
+Gh_HAU_v1.1	G. hirsutum TM-1 HAU v1.1 (Wang et al. 2019)	CottonGen (manual download)	no	0	1756	
+Gh_NAU_v1.1	G. hirsutum TM-1 NAU-NBI v1.1 (Zhang et al. 2015)	CoGe genome 28813	yes	32579	28017	
+Gh_CRI_v1	G. hirsutum TM-1 CRI v1 (Yang et al. 2019)	NCBI GCA_006980745.1	yes	42404	22287	
+Gh_BGI_v1	G. hirsutum TM-1 BGI v1 (Li et al. 2015)	NCBI GCF_000987745.1	no	0	138	NCBI GCF_000987745.1 chromosomes do not match published BGI v1 coordinates (numbering differs from A01-D13 and, on 9 of 26 chromosomes, published positions run past the sequence length)
+Gh_WHU_v1	G. hirsutum TM-1 WHU v1 (Huang et al. 2020)	CottonMD/CottonGen (manual download)	no	0	203	
+Gb_HAU_v2	G. barbadense 3-79 HAU v2 (Wang et al. 2019)	CottonGen (manual download)	no	0	54794	
+Gb_HGS_v1.1	G. barbadense 3-79 HGS v1.1 (Chen et al. 2020)	NCBI GCA_008761655.1	yes	36492	19	
+Gb_ZJU_v1.1	G. barbadense Hai7124 ZJU v1.1 (Hu et al. 2019)	cotton.zju.edu.cn Hai7124_V1.1.fa.gz	yes	36640	1030	

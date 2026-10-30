@@ -1,0 +1,205 @@
+{
+  "note": "Synthetic demo data for the CottonQTLome map upload. Not real results. Positions are Mb intervals.",
+  "loci": [
+    {
+      "chromosome": "A10",
+      "position": "107.28-109.55",
+      "unit": "Mb",
+      "name": "demo_qOC-A10.26",
+      "trait": "seed oil content",
+      "lod": 4.47
+    },
+    {
+      "chromosome": "A03",
+      "position": "62.72-63.89",
+      "unit": "Mb",
+      "name": "demo_qLP-A03.27",
+      "trait": "lint percentage",
+      "lod": 2.97
+    },
+    {
+      "chromosome": "A03",
+      "position": "13.37-14.54",
+      "unit": "Mb",
+      "name": "demo_qDF-A03.28",
+      "trait": "days to flowering",
+      "lod": 6.8
+    },
+    {
+      "chromosome": "A04",
+      "position": "44.42-47.80",
+      "unit": "Mb",
+      "name": "demo_qPH-A04.29",
+      "trait": "plant height",
+      "lod": 11.35
+    },
+    {
+      "chromosome": "A11",
+      "position": "89.84-90.72",
+      "unit": "Mb",
+      "name": "demo_qOC-A11.30",
+      "trait": "seed oil content",
+      "lod": 6.79
+    },
+    {
+      "chromosome": "A12",
+      "position": "35.52-38.93",
+      "unit": "Mb",
+      "name": "demo_qVW-A12.31",
+      "trait": "Verticillium wilt resistance",
+      "lod": 3.57
+    },
+    {
+      "chromosome": "D08",
+      "position": "29.26-32.35",
+      "unit": "Mb",
+      "name": "demo_qDF-D08.32",
+      "trait": "days to flowering",
+      "lod": 9.6
+    },
+    {
+      "chromosome": "D09",
+      "position": "3.68-5.45",
+      "unit": "Mb",
+      "name": "demo_qST-D09.33",
+      "trait": "salt tolerance",
+      "lod": 5.03
+    },
+    {
+      "chromosome": "A10",
+      "position": "75.01-78.86",
+      "unit": "Mb",
+      "name": "demo_qOC-A10.34",
+      "trait": "seed oil content",
+      "lod": 8.54
+    },
+    {
+      "chromosome": "D08",
+      "position": "19.70-21.97",
+      "unit": "Mb",
+      "name": "demo_qFS-D08.35",
+      "trait": "fiber strength",
+      "lod": 2.71
+    },
+    {
+      "chromosome": "A04",
+      "position": "81.44-84.87",
+      "unit": "Mb",
+      "name": "demo_qVW-A04.36",
+      "trait": "Verticillium wilt resistance",
+      "lod": 8.73
+    },
+    {
+      "chromosome": "A06",
+      "position": "89.03-90.41",
+      "unit": "Mb",
+      "name": "demo_qFM-A06.37",
+      "trait": "micronaire",
+      "lod": 3.08
+    },
+    {
+      "chromosome": "D04",
+      "position": "28.15-30.12",
+      "unit": "Mb",
+      "name": "demo_qFM-D04.38",
+      "trait": "micronaire",
+      "lod": 8.35
+    },
+    {
+      "chromosome": "D06",
+      "position": "0.46-4.63",
+      "unit": "Mb",
+      "name": "demo_qFM-D06.39",
+      "trait": "micronaire",
+      "lod": 3.84
+    },
+    {
+      "chromosome": "A03",
+      "position": "59.59-60.17",
+      "unit": "Mb",
+      "name": "demo_qDF-A03.40",
+      "trait": "days to flowering",
+      "lod": 5.92
+    },
+    {
+      "chromosome": "D12",
+      "position": "6.68-7.93",
+      "unit": "Mb",
+      "name": "demo_qST-D12.41",
+      "trait": "salt tolerance",
+      "lod": 3.25
+    },
+    {
+      "chromosome": "A10",
+      "position": "3.11-4.41",
+      "unit": "Mb",
+      "name": "demo_qST-A10.42",
+      "trait": "salt tolerance",
+      "lod": 5.38
+    },
+    {
+      "chromosome": "D11",
+      "position": "68.42-71.08",
+      "unit": "Mb",
+      "name": "demo_qVW-D11.43",
+      "trait": "Verticillium wilt resistance",
+      "lod": 10.81
+    },
+    {
+      "chromosome": "A10",
+      "position": "21.89-26.13",
+      "unit": "Mb",
+      "name": "demo_qBW-A10.44",
+      "trait": "boll weight",
+      "lod": 10.97
+    },
+    {
+      "chromosome": "A01",
+      "position": "26.97-28.07",
+      "unit": "Mb",
+      "name": "demo_qLP-A01.45",
+      "trait": "lint percentage",
+      "lod": 7.42
+    },
+    {
+      "chromosome": "A11",
+      "position": "26.09-26.91",
+      "unit": "Mb",
+      "name": "demo_qFL-A11.46",
+      "trait": "fiber length",
+      "lod": 6.12
+    },
+    {
+      "chromosome": "A03",
+      "position": "104.16-106.68",
+      "unit": "Mb",
+      "name": "demo_qVW-A03.47",
+      "trait": "Verticillium wilt resistance",
+      "lod": 3.41
+    },
+    {
+      "chromosome": "D06",
+      "position": "61.67-65.06",
+      "unit": "Mb",
+      "name": "demo_qDF-D06.48",
+      "trait": "days to flowering",
+      "lod": 2.81
+    },
+    {
+      "chromosome": "A04",
+      "position": "16.26-18.74",
+      "unit": "Mb",
+      "name": "demo_qPH-A04.49",
+      "trait": "plant height",
+      "lod": 3.02
+    },
+    {
+      "chromosome": "A11",
+      "position": "58.04-58.62",
+      "unit": "Mb",
+      "name": "demo_qFM-A11.50",
+      "trait": "micronaire",
+      "lod": 7.17
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+# Not published: unrelated projects, reference copies, local logs, unsubmitted manuscript
+/CitrusQTLDb/
+/reference/
+/logs/
+/manuscript/
+.DS_Store
+__pycache__/
+*.pyc
+~$*
+
+# Raw downloads, genomes and full-text papers (re-downloadable; see README)
+/data/raw/
+/data/genomes/
+/data/liftover/
+/data/literature/papers/
+/data/literature/springer_esm/
+/data/processed.zip
+
+# Large build outputs: attached to the GitHub release instead
+/data/processed/records_all.tsv
+/data/processed/records_deduplicated.tsv
+/data/processed/loci_nonredundant.tsv
+/data/processed/cotton_qtl.sqlite
+/data/processed/by_type/
+/data/literature/extracted/literature_records.tsv
+/data/literature/extracted/literature_primers.tsv
+/data/literature/extracted/literature_maps.tsv
+/analysis/tables/coordinates_lifted.tsv
+
+# Website build
+/website/node_modules/
+/website/dist/
+*.tsbuildinfo

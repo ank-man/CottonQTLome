@@ -1,0 +1,32 @@
+{
+ "assembly": "Gh_UTX_v2.1",
+ "n_genes": 74902,
+ "n_shards": 64,
+ "columns": [
+  "id",
+  "start",
+  "end",
+  "strand",
+  "locus_tag",
+  "refseq",
+  "ncbi_gene_id",
+  "symbol",
+  "arabidopsis",
+  "description"
+ ],
+ "with_refseq": 60746,
+ "with_arabidopsis": 21754,
+ "candidate_gene_mentions": 16293,
+ "intervals": 41935,
+ "interval_columns": [
+  "kind",
+  "id",
+  "trait",
+  "category",
+  "start",
+  "end",
+  "support",
+  "method"
+ ],
+ "sources": "JGI Gossypium hirsutum UTX v2.1 (Gohir), GenBank GCA_007990345.1 (ERO13), RefSeq GCF_007990345.1 (LOC, matched by overlap), BLASTP best hits to Arabidopsis and Swiss-Prot"
+}

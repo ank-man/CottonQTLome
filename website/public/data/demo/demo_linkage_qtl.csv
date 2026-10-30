@@ -1,0 +1,46 @@
+qtl,linkage_group,start_cM,end_cM,peak_cM,trait,LOD
+demo_qFL-LG26.1,LG26,28.5,33.6,33.5,fiber length,3.41
+demo_qFL-LG02.2,LG02,82.1,88.6,84.4,fiber length,9.40
+demo_qBW-LG18.3,LG18,41.7,52.1,43.3,boll weight,8.95
+demo_qSOC-LG03.4,LG03,133.4,137.8,134.3,seed oil content,7.63
+demo_qFL-LG26.5,LG26,146.8,155.7,148.6,fiber length,3.75
+demo_qFL-LG18.6,LG18,75.3,82.0,80.2,fiber length,8.88
+demo_qBW-LG23.7,LG23,20.5,26.9,24.5,boll weight,5.01
+demo_qPH-LG06.8,LG06,13.2,20.0,14.9,plant height,8.26
+demo_qLP-LG20.9,LG20,76.8,82.7,80.7,lint percentage,2.95
+demo_qVWR-LG01.10,LG01,80.2,86.2,81.1,Verticillium wilt resistance,6.57
+demo_qLP-LG06.11,LG06,84.9,99.4,91.2,lint percentage,6.34
+demo_qM-LG17.12,LG17,62.1,74.9,74.9,micronaire,5.62
+demo_qFS-LG25.13,LG25,31.7,36.8,34.0,fiber strength,4.70
+demo_qLP-LG21.14,LG21,28.9,42.2,33.3,lint percentage,5.44
+demo_qM-LG23.15,LG23,49.9,60.1,49.9,micronaire,8.57
+demo_qFS-LG23.16,LG23,48.3,54.1,49.9,fiber strength,8.02
+demo_qPH-LG19.17,LG19,12.7,26.4,23.2,plant height,7.10
+demo_qFS-LG11.18,LG11,52.8,60.3,55.3,fiber strength,9.16
+demo_qBW-LG09.19,LG09,73.9,84.6,76.0,boll weight,10.46
+demo_qFS-LG08.20,LG08,7.3,19.0,11.8,fiber strength,3.44
+demo_qM-LG04.21,LG04,1.4,6.6,4.2,micronaire,3.44
+demo_qFL-LG26.22,LG26,41.6,51.4,48.5,fiber length,8.40
+demo_qSOC-LG14.23,LG14,23.7,29.1,27.8,seed oil content,4.27
+demo_qFS-LG15.24,LG15,75.7,87.5,85.5,fiber strength,7.74
+demo_qVWR-LG18.25,LG18,48.8,56.4,53.7,Verticillium wilt resistance,4.38
+demo_qBW-LG13.26,LG13,49.4,60.9,51.2,boll weight,5.92
+demo_qFS-LG18.27,LG18,105.3,111.4,109.4,fiber strength,4.86
+demo_qBW-LG25.28,LG25,18.2,21.8,20.2,boll weight,6.94
+demo_qFL-LG19.29,LG19,10.6,21.4,16.3,fiber length,9.46
+demo_qSOC-LG04.30,LG04,63.6,68.5,63.7,seed oil content,10.27
+demo_qBW-LG04.31,LG04,58.9,74.6,74.2,boll weight,7.17
+demo_qBW-LG17.32,LG17,111.4,115.9,113.4,boll weight,8.88
+demo_qBW-LG03.33,LG03,85.6,91.6,88.3,boll weight,6.53
+demo_qFS-LG13.34,LG13,123.1,130.0,126.0,fiber strength,9.36
+demo_qFL-LG09.35,LG09,9.3,21.7,16.7,fiber length,6.83
+demo_qPH-LG06.36,LG06,50.9,67.4,51.2,plant height,4.57
+demo_qLP-LG24.37,LG24,50.8,57.4,51.0,lint percentage,3.74
+demo_qM-LG20.38,LG20,87.0,90.0,88.9,micronaire,3.50
+demo_qVWR-LG25.39,LG25,98.7,102.3,102.1,Verticillium wilt resistance,6.90
+demo_qFS-LG10.40,LG10,96.9,104.8,104.3,fiber strength,3.55
+demo_qVWR-LG11.41,LG11,72.0,81.1,81.0,Verticillium wilt resistance,10.00
+demo_qBW-LG16.42,LG16,21.7,27.7,23.8,boll weight,5.73
+demo_qVWR-LG22.43,LG22,72.1,83.6,83.3,Verticillium wilt resistance,7.14
+demo_qVWR-LG07.44,LG07,17.0,27.4,17.8,Verticillium wilt resistance,3.14
+demo_qFL-LG03.45,LG03,100.3,104.3,102.0,fiber length,7.90

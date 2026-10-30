@@ -1,0 +1,404 @@
+trait_category	trait_harmonized	n_records	n_loci	n_qtl	n_gwas	n_sources	species
+fiber quality	micronaire	25977	4446	5056	20251	5	Gossypium arboreum; Gossypium barbadense; Gossypium barbadense x hirsutum; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium hirsutum x tomentosum; Gossypium spp.
+morphology	trichome and pubescence	24729	202	45	24674	4	Gossypium barbadense; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium spp.
+fiber quality	fiber length	15987	5772	6098	8876	5	Gossypium arboreum; Gossypium barbadense; Gossypium barbadense x hirsutum; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium hirsutum x mustelinum; Gossypium hirsutum x tomentosum; Gossypium spp.
+fiber quality	fiber whiteness and colorimetry	12950	851	0	12950	1	Gossypium barbadense; Gossypium hirsutum
+fiber quality	fiber strength	11613	5680	5152	5804	5	Gossypium arboreum; Gossypium barbadense; Gossypium barbadense x hirsutum; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium hirsutum x tomentosum; Gossypium spp.
+yield	lint percentage	10095	4841	5442	4011	5	Gossypium arboreum; Gossypium barbadense; Gossypium barbadense x hirsutum; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium hirsutum x tomentosum; Gossypium spp.
+fiber quality	fiber elongation	6787	3540	3205	3213	5	Gossypium arboreum; Gossypium barbadense; Gossypium barbadense x hirsutum; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium hirsutum x mustelinum; Gossypium hirsutum x tomentosum; Gossypium spp.
+yield	boll weight	6089	4043	4485	1243	4	Gossypium arboreum; Gossypium barbadense; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium hirsutum x tomentosum; Gossypium spp.
+fiber quality	fiber uniformity	5662	3090	2681	2630	5	Gossypium arboreum; Gossypium barbadense; Gossypium barbadense x hirsutum; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium hirsutum x mustelinum; Gossypium hirsutum x tomentosum
+phenology	flowering time	5223	876	703	4510	5	Gossypium arboreum; Gossypium barbadense; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium hirsutum x darwinii
+biotic stress	fusarium wilt resistance	5216	273	95	4997	3	Gossypium arboreum; Gossypium barbadense; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium spp.
+fiber quality	spinning consistency index	4331	994	1115	3209	4	Gossypium barbadense; Gossypium hirsutum; Gossypium hirsutum x barbadense
+growth and vigor	plant biomass	4194	2584	105	4089	3	Gossypium arboreum; Gossypium barbadense; Gossypium barbadense x hirsutum; Gossypium hirsutum; Gossypium hirsutum x barbadense
+yield	seed index	3916	2556	2152	1507	4	Gossypium arboreum; Gossypium barbadense; Gossypium barbadense x hirsutum; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium spp.
+fiber quality	fiber maturity	3764	592	280	3483	4	Gossypium arboreum; Gossypium barbadense; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium spp.
+plant architecture	plant height and stature	3391	1164	778	2362	5	Gossypium arboreum; Gossypium barbadense; Gossypium barbadense x hirsutum; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium spp.
+unclassified	unspecified	2919	1626	2651	230	1	Gossypium barbadense; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium raimondii
+morphology	leaf morphology	2859	1243	135	2674	3	Gossypium arboreum; Gossypium barbadense; Gossypium barbadense x hirsutum; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium hirsutum x tomentosum; Gossypium spp.
+biotic stress	verticillium wilt resistance	2685	1070	876	1298	3	Gossypium arboreum; Gossypium barbadense; Gossypium hirsutum; Gossypium hirsutum x barbadense
+phenology	growth period and maturity	2653	1290	996	1639	5	Gossypium barbadense; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium hirsutum x darwinii
+plant architecture	root system traits	2105	601	20	2084	3	Gossypium arboreum; Gossypium harknessii; Gossypium hirsutum; Gossypium hirsutum x barbadense
+plant architecture	branch traits	2002	712	700	1295	5	Gossypium arboreum; Gossypium barbadense; Gossypium hirsutum; Gossypium hirsutum x barbadense
+yield	boll number	1942	1307	1130	751	4	Gossypium arboreum; Gossypium barbadense; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium hirsutum x tomentosum
+plant architecture	first fruiting branch position	1811	627	371	1169	4	Gossypium arboreum; Gossypium barbadense; Gossypium hirsutum; Gossypium hirsutum x barbadense
+morphology	flower morphology	1729	773	62	1632	3	Gossypium arboreum; Gossypium arboreum x herbaceum; Gossypium barbadense; Gossypium barbadense x hirsutum; Gossypium darwinii; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium spp.; Gossypium tomentosum
+yield	lint index	1671	783	528	1030	5	Gossypium arboreum; Gossypium barbadense; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium spp.
+yield	seed cotton yield	1512	1114	1303	118	4	Gossypium barbadense; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium spp.
+unclassified	multiple traits (not specified)	1412	1084	734	0	1	Gossypium arboreum; Gossypium hirsutum; Gossypium hirsutum x barbadense
+growth and vigor	germination and seedling vigor	1280	1166	962	318	3	Gossypium hirsutum
+yield	lint weight per boll	1178	281	127	1035	4	Gossypium hirsutum; Gossypium hirsutum x barbadense
+seed quality	gossypol and glands	1020	500	16	994	3	Gossypium arboreum; Gossypium barbadense; Gossypium darwinii; Gossypium hirsutum; Gossypium raimondii; Gossypium spp.
+morphology	stem and plant color	920	512	0	892	2	Gossypium arboreum; Gossypium barbadense; Gossypium hirsutum; Gossypium spp.
+morphology	boll morphology	894	337	0	893	2	Gossypium barbadense; Gossypium hirsutum
+abiotic stress	cold tolerance	852	849	0	852	1	Gossypium hirsutum
+fiber quality	short fiber content	784	505	327	397	4	Gossypium arboreum; Gossypium barbadense x hirsutum; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium hirsutum x mustelinum; Gossypium spp.
+seed quality	seed protein and amino acids	692	335	218	443	2	Gossypium arboreum; Gossypium barbadense; Gossypium hirsutum; Gossypium hirsutum x barbadense
+physiology	mineral content	674	204	75	564	2	Gossypium barbadense; Gossypium hirsutum; Gossypium hirsutum x barbadense
+fiber quality	fiber development	634	626	254	0	1	Gossypium hirsutum
+yield	lint yield	626	409	450	124	2	Gossypium barbadense; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium hirsutum x tomentosum; Gossypium spp.
+seed quality	seed oil and fatty acids	617	528	493	124	3	Gossypium arboreum; Gossypium barbadense; Gossypium hirsutum; Gossypium hirsutum x barbadense
+physiology	senescence and stay-green	571	223	80	491	1	Gossypium hirsutum
+physiology	chlorophyll content	453	167	62	388	4	Gossypium arboreum; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium spp.
+abiotic stress	salt tolerance	389	173	176	168	2	Gossypium arboreum; Gossypium hirsutum; Gossypium hirsutum x barbadense
+abiotic stress	drought tolerance	340	216	112	207	3	Gossypium arboreum; Gossypium hirsutum; Gossypium hirsutum x barbadense
+fiber quality	fiber fineness	322	277	308	2	3	Gossypium arboreum; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium spp.
+yield	harvest index	296	55	29	267	3	Gossypium hirsutum; Gossypium hirsutum x barbadense
+physiology	stress indicators (MDA, electrolyte leakage, proline)	267	166	30	237	4	Gossypium arboreum; Gossypium hirsutum
+fiber quality	fiber flame resistance	258	39	0	22	1	Gossypium hirsutum
+biotic stress	bacterial blight resistance	253	65	14	223	2	Gossypium anomalum; Gossypium arboreum; Gossypium barbadense; Gossypium herbaceum; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium spp.
+seed quality	seed size and shape	204	148	197	0	1	Gossypium hirsutum; Gossypium hirsutum x barbadense
+fiber quality	seed fuzz	134	86	19	108	2	Gossypium arboreum; Gossypium barbadense; Gossypium hirsutum; Gossypium hirsutum x barbadense
+unclassified	1	109	69	0	109	1	Gossypium hirsutum
+fiber quality	fiber color	85	59	58	8	3	Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium raimondii; Gossypium spp.
+fertility	fertility and sterility	69	63	39	0	2	Gossypium barbadense; Gossypium davidsonii; Gossypium harknessii; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium spp.; Gossypium trilobum
+fiber quality	fiber neps	68	66	45	23	3	Gossypium arboreum; Gossypium hirsutum x barbadense; Gossypium spp.
+fiber quality	fiber reflectance	64	50	49	15	2	Gossypium barbadense; Gossypium hirsutum; Gossypium hirsutum x barbadense
+abiotic stress	nutrient and other abiotic stress	61	40	61	0	2	Gossypium barbadense; Gossypium hirsutum; Gossypium hirsutum x barbadense
+unclassified	fibertrait	60	46	8	52	1	Gossypium hirsutum
+unclassified	ocslaf	60	57	60	0	1	Gossypium hirsutum
+unclassified	ff	58	58	58	0	1	Gossypium arboreum
+fiber quality	fiber yellowness	52	37	46	6	2	Gossypium hirsutum; Gossypium hirsutum x barbadense
+biotic stress	root-knot nematode resistance	41	29	0	0	2	Gossypium hirsutum
+unclassified	mc	40	40	40	0	1	Gossypium hirsutum
+unclassified	plantarchitecture	39	28	5	34	1	Gossypium hirsutum
+unclassified	occhip	35	32	35	0	1	Gossypium hirsutum
+unclassified	fy	30	26	30	0	1	Gossypium hirsutum
+unclassified	yieldtrait	28	22	1	27	1	Gossypium hirsutum
+unclassified	la	26	24	23	3	1	Gossypium barbadense; Gossypium hirsutum
+unclassified	mi	24	24	24	0	1	Gossypium hirsutum
+unclassified	fir fru bra	24	13	0	24	1	Gossypium barbadense
+biotic stress	reniform nematode resistance	24	13	9	15	2	Gossypium arboreum; Gossypium hirsutum
+unclassified	fel	22	19	20	0	1	Gossypium barbadense; Gossypium hirsutum x barbadense
+unclassified	qfs-c7-1	20	20	20	0	1	Gossypium hirsutum
+unclassified	oa	20	20	20	0	1	Gossypium hirsutum
+unclassified	sa	19	19	19	0	1	Gossypium hirsutum
+unclassified	pa	19	19	19	0	1	Gossypium hirsutum
+unclassified	if	19	19	19	0	1	Gossypium arboreum
+unclassified	pf	19	13	19	0	1	Gossypium hirsutum x barbadense
+unclassified	testcross nemx x f1 pima s-7 x sj-2	18	1	18	0	1	Gossypium hirsutum x barbadense
+physiology	photosynthesis and gas exchange	18	18	18	0	1	Gossypium hirsutum x barbadense
+unclassified	qbw-chr10-2	15	1	15	0	1	Gossypium hirsutum
+seed quality	seed physical traits	15	14	6	9	2	Gossypium arboreum; Gossypium hirsutum; Gossypium hirsutum x barbadense
+unclassified	fn	15	15	15	0	1	Gossypium arboreum
+unclassified	mfvd	15	15	15	0	1	Gossypium hirsutum
+unclassified	2	14	13	0	14	1	Gossypium hirsutum
+unclassified	ypbf	14	13	14	0	1	Gossypium hirsutum
+unclassified	qfs-c7-2	14	14	14	0	1	Gossypium hirsutum
+unclassified	qfs-c25-6	14	14	14	0	1	Gossypium hirsutum
+unclassified	rn-nematode	14	11	0	0	1	Gossypium hirsutum; Gossypium hirsutum x barbadense
+unclassified	f2 8 nemx x sj-2	14	3	14	0	1	Gossypium hirsutum x barbadense
+unclassified	pleiotropic snpqtls	14	14	0	0	1	Gossypium barbadense
+unclassified	qfl-c21-1	14	14	14	0	1	Gossypium hirsutum
+unclassified	sy	13	11	13	0	1	Gossypium hirsutum
+unclassified	fwpb	13	11	13	0	1	Gossypium hirsutum
+unclassified	fnms	13	13	13	0	1	Gossypium arboreum
+unclassified	bwt	13	10	13	0	1	Gossypium barbadense; Gossypium hirsutum x barbadense
+biotic stress	insect resistance	12	12	12	0	1	Gossypium hirsutum
+unclassified	qfu-c7-1	12	12	12	0	1	Gossypium hirsutum
+unclassified	lh	12	9	0	12	1	Gossypium barbadense
+unclassified	qfs-c25-5	12	12	12	0	1	Gossypium hirsutum
+unclassified	f2 nemx x sj-2	12	3	12	0	1	Gossypium hirsutum x barbadense
+unclassified	qfl-c25-3	12	12	12	0	1	Gossypium hirsutum
+unclassified	sh	12	9	0	12	1	Gossypium barbadense
+unclassified	3	11	7	0	11	1	Gossypium hirsutum
+unclassified	qfs-c25-4	10	10	10	0	1	Gossypium hirsutum
+unclassified	three years data	10	10	0	0	1	Gossypium barbadense
+unclassified	qfe-c4-3	10	10	10	0	1	Gossypium hirsutum
+unclassified	qfl-c25-4	10	10	10	0	1	Gossypium hirsutum
+unclassified	qsi-chr10-3	10	1	10	0	1	Gossypium hirsutum
+unclassified	qfl-c25-5	10	10	10	0	1	Gossypium hirsutum
+unclassified	qfm-c25-2	10	10	10	0	1	Gossypium hirsutum
+unclassified	qfm-c7-1	10	10	10	0	1	Gossypium hirsutum
+yield	seed number per boll	10	10	10	0	1	Gossypium hirsutum x barbadense; Gossypium spp.
+unclassified	cl	10	10	3	0	1	Gossypium hirsutum
+unclassified	fmic	9	9	9	0	1	Gossypium hirsutum; Gossypium hirsutum x barbadense
+morphology	stem weight	9	9	9	0	1	Gossypium barbadense x hirsutum
+unclassified	sp	9	9	9	0	1	Gossypium hirsutum
+unclassified	qbw-chr7-3	9	1	9	0	1	Gossypium hirsutum
+biotic stress	cotton leaf curl disease resistance	9	6	9	0	1	Gossypium hirsutum
+unclassified	qfe-c25-5	8	8	8	0	1	Gossypium hirsutum
+unclassified	fg	8	8	8	0	1	Gossypium hirsutum
+unclassified	qfl-c25-2	8	8	8	0	1	Gossypium hirsutum
+unclassified	mqtls co-located with snps and resistance genes	8	8	0	0	1	Gossypium hirsutum
+unclassified	mon	8	7	6	0	1	Gossypium barbadense
+unclassified	qfm-c25-1	8	8	8	0	1	Gossypium hirsutum
+unclassified	qfm-c25-5	8	8	8	0	1	Gossypium hirsutum
+unclassified	gossypium barbadense background	8	8	8	0	1	Gossypium barbadense
+unclassified	qfm-c4-2	8	8	8	0	1	Gossypium hirsutum
+unclassified	qfu-c25-5	8	8	8	0	1	Gossypium hirsutum
+unclassified	bp	7	7	7	0	1	Gossypium hirsutum
+unclassified	length	7	7	0	0	1	Gossypium hirsutum x barbadense
+unclassified	qbw-chr7-1	7	1	7	0	1	Gossypium hirsutum
+unclassified	gs	7	5	0	7	1	Gossypium barbadense
+unclassified	bln	7	7	7	0	1	Gossypium hirsutum x barbadense
+unclassified	gn	7	4	0	7	1	Gossypium barbadense
+unclassified	qfs-chr6	6	1	6	0	1	Gossypium hirsutum
+unclassified	scond	6	6	6	0	1	Gossypium hirsutum x barbadense
+growth and vigor	tissue culture response	6	6	6	0	1	Gossypium hirsutum
+unclassified	qfe-c22-1	6	6	6	0	1	Gossypium hirsutum
+unclassified	qfe-c25-4	6	6	6	0	1	Gossypium hirsutum
+yield	boll retention	6	5	0	6	1	Gossypium barbadense
+unclassified	qfe-c25-6	6	6	6	0	1	Gossypium hirsutum
+unclassified	qfe-c4-2	6	6	6	0	1	Gossypium hirsutum
+unclassified	qfl-c23-2	6	6	6	0	1	Gossypium hirsutum
+unclassified	sym	6	6	6	0	1	Gossypium barbadense
+unclassified	qfl-c25-6	6	6	6	0	1	Gossypium hirsutum
+unclassified	qfl-c4-2	6	6	6	0	1	Gossypium hirsutum
+unclassified	qfl-c7-1	6	6	6	0	1	Gossypium hirsutum
+unclassified	lbs	6	3	0	6	1	Gossypium barbadense
+unclassified	qfu-c13-1	6	6	6	0	1	Gossypium hirsutum
+unclassified	f2 pima s-7 x sj-2	6	5	6	0	1	Gossypium hirsutum x barbadense
+unclassified	qfm-c25-4	6	6	6	0	1	Gossypium hirsutum
+unclassified	gos num	6	6	0	6	1	Gossypium barbadense
+unclassified	qfm-c3-1	6	6	6	0	1	Gossypium hirsutum
+unclassified	fnc	6	6	6	0	1	Gossypium arboreum
+unclassified	qbw-chr11	6	1	6	0	1	Gossypium hirsutum
+unclassified	qfs-c25-3	6	6	6	0	1	Gossypium hirsutum
+unclassified	ffb	6	5	0	6	1	Gossypium barbadense
+unclassified	quantitative	5	5	5	0	1	Gossypium hirsutum x barbadense
+unclassified	8	5	5	5	0	1	Gossypium hirsutum
+unclassified	chl a	5	5	5	0	1	Gossypium hirsutum x barbadense
+unclassified	branch position	5	1	0	5	1	Gossypium hirsutum
+unclassified	qfl-chr10-2	5	1	5	0	1	Gossypium hirsutum
+unclassified	qfm-chr10	5	1	5	0	1	Gossypium hirsutum
+unclassified	gb and gh gwas panels	5	5	0	5	1	Gossypium hirsutum x barbadense
+unclassified	gossypium hirsutum background	5	5	5	0	1	Gossypium barbadense
+unclassified	qfu-c25-7	4	4	4	0	1	Gossypium hirsutum
+unclassified	stlh	4	4	4	0	1	Gossypium hirsutum x barbadense
+unclassified	spn	4	4	4	0	1	Gossypium hirsutum x barbadense
+unclassified	qfu-c25-2	4	4	4	0	1	Gossypium hirsutum
+unclassified	qfu-c25-3	4	4	4	0	1	Gossypium hirsutum
+unclassified	qfs-c13-2	4	4	4	0	1	Gossypium hirsutum
+unclassified	qfu-c25-4	4	4	4	0	1	Gossypium hirsutum
+unclassified	qfu-c25-6	4	4	4	0	1	Gossypium hirsutum
+unclassified	qfm-chr7-1	4	1	4	0	1	Gossypium hirsutum
+unclassified	qfm-c5-2	4	4	4	0	1	Gossypium hirsutum
+unclassified	d	4	3	4	0	1	Gossypium hirsutum
+unclassified	qfm-c6-3	4	4	4	0	1	Gossypium hirsutum
+unclassified	qfm-c6-2	4	4	4	0	1	Gossypium hirsutum
+unclassified	qfl-c25-1	4	4	4	0	1	Gossypium hirsutum
+unclassified	qfl-c21-2	4	4	4	0	1	Gossypium hirsutum
+unclassified	color	4	4	0	0	1	Gossypium hirsutum x barbadense
+unclassified	blup	4	4	0	4	1	Gossypium barbadense
+unclassified	percent fiber	4	2	0	0	1	Gossypium hirsutum x barbadense
+unclassified	qfe-c25-3	4	4	4	0	1	Gossypium hirsutum
+unclassified	tci	4	4	4	0	1	Gossypium hirsutum x barbadense
+unclassified	qfs-c23-2	4	4	4	0	1	Gossypium hirsutum
+unclassified	qfs-c7-3	4	4	4	0	1	Gossypium hirsutum
+fiber quality	lint visible foreign matter	4	4	4	0	1	Gossypium spp.
+unclassified	fruiting habit	4	4	0	0	1	Gossypium barbadense; Gossypium hirsutum; Gossypium spp.
+unclassified	qfm-c21-1	4	4	4	0	1	Gossypium hirsutum
+unclassified	fsci	4	3	4	0	1	Gossypium hirsutum
+unclassified	l5n	4	4	4	0	1	Gossypium hirsutum
+unclassified	chl b	4	4	4	0	1	Gossypium hirsutum x barbadense
+unclassified	uqlw	4	4	4	0	1	Gossypium hirsutum
+unclassified	qfl-c7-4	4	4	4	0	1	Gossypium hirsutum
+unclassified	qfl-c7-3	4	4	4	0	1	Gossypium hirsutum
+unclassified	qfe-c19-2	4	4	4	0	1	Gossypium hirsutum
+unclassified	qfl-c7-2	4	4	4	0	1	Gossypium hirsutum
+unclassified	qfs-c25-2	4	4	4	0	1	Gossypium hirsutum
+unclassified	lintpc	4	1	0	4	1	Gossypium hirsutum
+unclassified	qfm-c6-1	4	4	4	0	1	Gossypium hirsutum
+unclassified	qfs-chr4	3	1	3	0	1	Gossypium hirsutum
+unclassified	qfu-c10-1	3	3	3	0	1	Gossypium hirsutum
+unclassified	cs	3	3	3	0	1	Gossypium hirsutum
+unclassified	tn	3	3	3	0	1	Gossypium hirsutum
+morphology	seed type	3	3	0	0	1	Gossypium barbadense; Gossypium spp.
+unclassified	total chl	3	3	3	0	1	Gossypium hirsutum x barbadense
+unclassified	4	3	2	0	3	1	Gossypium hirsutum
+unclassified	qfm-chr15-2	3	1	3	0	1	Gossypium hirsutum
+unclassified	qbw-chr4-2	3	1	3	0	1	Gossypium hirsutum
+unclassified	tcond	3	2	3	0	1	Gossypium hirsutum x barbadense
+biotic stress	cotton leaf crumple virus resistance	3	3	0	0	1	Gossypium hirsutum
+unclassified	ghwakl	3	3	0	0	1	Gossypium hirsutum
+unclassified	chl a/b	3	3	3	0	1	Gossypium hirsutum x barbadense
+unclassified	tpn	3	3	3	0	1	Gossypium hirsutum x barbadense
+unclassified	lb	2	2	2	0	1	Gossypium hirsutum x barbadense
+unclassified	car	2	2	2	0	1	Gossypium hirsutum x barbadense
+unclassified	cb	2	1	2	0	1	Gossypium hirsutum
+unclassified	qfm-chr7-2	2	1	2	0	1	Gossypium hirsutum
+unclassified	qfs-c25-7	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfs-c4-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfs-c21-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfm-chr7-3	2	1	2	0	1	Gossypium hirsutum
+unclassified	qfs-c4-3	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfs-c25-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfs-c23-4	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfs-c11-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfs-c23-3	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfs-c12-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfs-c13-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfs-c19-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfs-c23-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfs-c4-2	2	2	2	0	1	Gossypium hirsutum
+unclassified	d1	2	2	2	0	1	Gossypium hirsutum x barbadense
+unclassified	qfs-c6-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfu-c4-2	2	2	2	0	1	Gossypium hirsutum
+phenology	flower rate	2	1	2	0	1	Gossypium hirsutum
+unclassified	5	2	2	0	2	1	Gossypium hirsutum
+unclassified	ffsbn	2	2	2	0	1	Gossypium hirsutum
+unclassified	9	2	2	2	0	1	Gossypium hirsutum
+unclassified	ghpgip1	2	2	0	0	1	Gossypium hirsutum
+unclassified	sf	2	2	1	1	1	Gossypium hirsutum
+unclassified	ben har up	2	2	0	2	1	Gossypium hirsutum
+unclassified	qsi-chr9	2	2	2	0	1	Gossypium hirsutum
+unclassified	qsi-chr26-2	2	1	2	0	1	Gossypium hirsutum
+unclassified	qlp-chr5-1	2	1	2	0	1	Gossypium hirsutum
+unclassified	qfu-c7-2	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfu-c6-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfu-c5-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfu-c4-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	l25n	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfu-c25-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfu-c2-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfm-chr5	2	1	2	0	1	Gossypium hirsutum
+unclassified	qfu-c12-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfu-c10-3	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfu-c10-2	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfs-chr8-2	2	1	2	0	1	Gossypium hirsutum
+unclassified	qfs-chr16-2	2	1	2	0	1	Gossypium hirsutum
+unclassified	qfs-chr14-3	2	1	2	0	1	Gossypium hirsutum
+unclassified	qfs-chr14-1	2	1	2	0	1	Gossypium hirsutum
+unclassified	qfs-c9-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfs-c7-4	2	2	2	0	1	Gossypium hirsutum
+unclassified	ifc	2	2	2	0	1	Gossypium arboreum
+unclassified	qfu-c19-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfs-c21-2	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfl-c23-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfe-c4-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfl-chr11	2	1	2	0	1	Gossypium hirsutum
+unclassified	qfl-c6-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfl-c4-5	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfl-c4-4	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfl-c4-3	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfl-c4-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	cnh	2	2	2	0	1	Gossypium hirsutum x barbadense
+unclassified	d10fu07nan	2	2	0	2	1	Gossypium hirsutum
+unclassified	qfl-c24-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfl-c22-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfe-c7-2	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfe-c7-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfe-c4-4	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfe-c3-2	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfl-chr23	2	1	2	0	1	Gossypium hirsutum
+unclassified	qfe-c3-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfe-c26-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfe-c25-8	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfe-c25-7	2	2	2	0	1	Gossypium hirsutum
+unclassified	d10fs09ku	2	2	0	2	1	Gossypium hirsutum
+unclassified	qfe-c25-2	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfe-c25-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfe-c23-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfe-c21-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfe-c19-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfe-c13-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfe-c10-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	ps	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfl-chr21	2	1	2	0	1	Gossypium hirsutum
+unclassified	qfl-c21-3	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfm-c25-3	2	2	2	0	1	Gossypium hirsutum
+unclassified	lc	2	2	0	2	1	Gossypium barbadense
+unclassified	qfm-c10-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfm-c13-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfm-c4-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfm-c23-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfm-c24-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfm-c25-6	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfm-chr15-1	2	1	2	0	1	Gossypium hirsutum
+unclassified	qfm-c6-4	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfm-c5-1	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfl-chr4-3	2	1	2	0	1	Gossypium hirsutum
+unclassified	qfm-c4-3	2	2	2	0	1	Gossypium hirsutum
+unclassified	lncv	2	2	2	0	1	Gossypium hirsutum
+unclassified	qfm-chr14	1	1	1	0	1	Gossypium hirsutum
+unclassified	all traits	1	1	1	0	1	Gossypium hirsutum
+unclassified	phtn	1	1	1	0	1	Gossypium hirsutum
+unclassified	phfb1	1	1	1	0	1	Gossypium hirsutum
+unclassified	qfl-chr4-1	1	1	1	0	1	Gossypium hirsutum
+unclassified	sn	1	1	1	0	1	Gossypium hirsutum x barbadense
+unclassified	sm	1	1	1	0	1	Gossypium hirsutum x barbadense
+unclassified	qfm-chr7-5	1	1	1	0	1	Gossypium hirsutum
+unclassified	bc	1	1	0	1	1	Gossypium barbadense
+unclassified	qfm-chr13	1	1	1	0	1	Gossypium hirsutum
+unclassified	ghsobir1b	1	1	0	0	1	Gossypium hirsutum
+unclassified	ben har low	1	1	0	1	1	Gossypium hirsutum
+unclassified	resistance	1	1	0	1	1	Gossypium hirsutum
+unclassified	qsi-chr6	1	1	1	0	1	Gossypium hirsutum
+unclassified	qbw-chr10-1	1	1	1	0	1	Gossypium hirsutum
+unclassified	qsi-chr26-1	1	1	1	0	1	Gossypium hirsutum
+unclassified	sla	1	1	1	0	1	Gossypium hirsutum x barbadense
+unclassified	d10fs07an	1	1	0	1	1	Gossypium hirsutum
+unclassified	qfm-chr7-4	1	1	1	0	1	Gossypium hirsutum
+unclassified	qbw-chr7-2	1	1	1	0	1	Gossypium hirsutum
+biotic stress	cotton blue disease resistance	1	1	0	0	1	Gossypium hirsutum
+unclassified	qbw-chr14	1	1	1	0	1	Gossypium hirsutum
+unclassified	fine	1	1	1	0	1	Gossypium hirsutum
+biotic stress	other disease resistance	1	1	0	0	1	Gossypium hirsutum
+unclassified	qbw-chr15	1	1	1	0	1	Gossypium hirsutum
+unclassified	qbw-chr16	1	1	1	0	1	Gossypium hirsutum
+unclassified	qbw-chr20	1	1	1	0	1	Gossypium hirsutum
+unclassified	qbw-chr4-1	1	1	1	0	1	Gossypium hirsutum
+unclassified	ftlh	1	1	1	0	1	Gossypium hirsutum x barbadense
+unclassified	qfm-chr22	1	1	1	0	1	Gossypium hirsutum
+unclassified	47	1	1	0	0	1	Gossypium hirsutum
+unclassified	qfm-chr16-1	1	1	1	0	1	Gossypium hirsutum
+unclassified	d10fl07ku	1	1	0	1	1	Gossypium hirsutum
+unclassified	qfm-chr16-4	1	1	1	0	1	Gossypium hirsutum
+unclassified	undefined trait	1	1	0	0	1	Gossypium hirsutum
+unclassified	ttr	1	1	1	0	1	Gossypium hirsutum x barbadense
+unclassified	trs	1	1	1	0	1	Gossypium hirsutum
+unclassified	qfm-chr6	1	1	1	0	1	Gossypium hirsutum
+unclassified	qfm-chr16-3	1	1	1	0	1	Gossypium hirsutum
+unclassified	tnfb	1	1	1	0	1	Gossypium hirsutum
+unclassified	qfm-chr16-2	1	1	1	0	1	Gossypium hirsutum
+unclassified	qsi-chr23-1	1	1	1	0	1	Gossypium hirsutum
+unclassified	qsi-chr23-2	1	1	1	0	1	Gossypium hirsutum
+unclassified	qsi-chr10-1	1	1	1	0	1	Gossypium hirsutum
+unclassified	qsi-chr2	1	1	1	0	1	Gossypium hirsutum
+unclassified	qfl-chr5	1	1	1	0	1	Gossypium hirsutum
+unclassified	nf	1	1	1	0	1	Gossypium hirsutum
+unclassified	qfu-c23-1	1	1	1	0	1	Gossypium hirsutum
+unclassified	gs blup	1	1	0	1	1	Gossypium hirsutum
+unclassified	d2	1	1	1	0	1	Gossypium hirsutum x barbadense
+unclassified	qfl-chr10-1	1	1	1	0	1	Gossypium hirsutum
+unclassified	qfu-23-1	1	1	1	0	1	Gossypium hirsutum
+unclassified	f	1	1	0	0	1	Gossypium barbadense
+unclassified	qfs-chr8-1	1	1	1	0	1	Gossypium hirsutum
+unclassified	ffbh	1	1	1	0	1	Gossypium hirsutum x barbadense
+unclassified	qfs-chr17	1	1	1	0	1	Gossypium hirsutum
+unclassified	qsi-chr12	1	1	1	0	1	Gossypium hirsutum
+unclassified	qfs-chr16-4	1	1	1	0	1	Gossypium hirsutum
+unclassified	qfs-chr16-3	1	1	1	0	1	Gossypium hirsutum
+unclassified	qfl-chr16	1	1	1	0	1	Gossypium hirsutum
+unclassified	qfs-chr16-1	1	1	1	0	1	Gossypium hirsutum
+unclassified	qfl-chr19	1	1	1	0	1	Gossypium hirsutum
+unclassified	qfs-chr14-2	1	1	1	0	1	Gossypium hirsutum
+unclassified	qfl-chr20	1	1	1	0	1	Gossypium hirsutum
+unclassified	qfl-chr4-2	1	1	1	0	1	Gossypium hirsutum
+unclassified	qfl-chr24	1	1	1	0	1	Gossypium hirsutum
+unclassified	fb1	1	1	1	0	1	Gossypium hirsutum
+unclassified	d10lp09an	1	1	0	1	1	Gossypium hirsutum
+unclassified	chr	1	1	1	0	1	Gossypium hirsutum x barbadense
+unclassified	gs 4	1	1	0	1	1	Gossypium hirsutum
+unclassified	qsi-chr10-2	1	1	1	0	1	Gossypium hirsutum
+unclassified	qfl-chr25	1	1	1	0	1	Gossypium hirsutum
+unclassified	qsi-chr1	1	1	1	0	1	Gossypium hirsutum
+unclassified	qlp-chr9	1	1	1	0	1	Gossypium hirsutum
+unclassified	qlp-chr5-3	1	1	1	0	1	Gossypium hirsutum
+unclassified	qlp-chr5-2	1	1	1	0	1	Gossypium hirsutum
+unclassified	fbff	1	1	1	0	1	Gossypium hirsutum
+unclassified	qlp-chr4	1	1	1	0	1	Gossypium hirsutum
+unclassified	qlp-chr3	1	1	1	0	1	Gossypium hirsutum
+unclassified	qlp-chr16-2	1	1	1	0	1	Gossypium hirsutum
+unclassified	qlp-chr16-1	1	1	1	0	1	Gossypium hirsutum
+unclassified	qlp-chr15	1	1	1	0	1	Gossypium hirsutum
+unclassified	qlp-chr13	1	1	1	0	1	Gossypium hirsutum
+unclassified	qlp-chr12	1	1	1	0	1	Gossypium hirsutum
+unclassified	qlp-chr10	1	1	1	0	1	Gossypium hirsutum
+unclassified	qfm-chr19	1	1	1	0	1	Gossypium hirsutum
+unclassified	d10fu07an	1	1	0	1	1	Gossypium hirsutum
+unclassified	ln	1	1	1	0	1	Gossypium hirsutum
+unclassified	d10fu08ku	1	1	0	1	1	Gossypium hirsutum
+unclassified	qfm-chr18	1	1	1	0	1	Gossypium hirsutum

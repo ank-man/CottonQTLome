@@ -1,0 +1,487 @@
+[
+  {
+    "id": "home",
+    "title": "Overview (home page)",
+    "intro": "The overview page is the starting point: search everything at once, see how much the database holds, and jump to any part of it.",
+    "image": "01-home.png",
+    "width": 2800,
+    "height": 2000,
+    "callouts": [
+      {
+        "n": 1,
+        "label": "Side menu",
+        "text": "Every page, grouped as Explore, QTLome (the data tables), Maps, Analysis and About. The button at the top left hides or shows it."
+      },
+      {
+        "n": 2,
+        "label": "Colour theme",
+        "text": "Changes the colours of the site; the choice is remembered in your browser."
+      },
+      {
+        "n": 3,
+        "label": "Search box",
+        "text": "Type a QTL name, trait, marker, gene or author and press Search; the Advanced search page opens with the results."
+      },
+      {
+        "n": 4,
+        "label": "Example searches",
+        "text": "Run a ready-made search in one click."
+      },
+      {
+        "n": 5,
+        "label": "Quick links",
+        "text": "Open the data tables, the Genome map, the Hotspots or the Linkage maps."
+      },
+      {
+        "n": 6,
+        "label": "Live counts",
+        "text": "Linkage QTL, GWAS loci, meta-QTL, epistatic pairs, hotspots, linkage maps, trait markers and papers, read from the current data. Click one to open that table."
+      }
+    ]
+  },
+  {
+    "id": "home-lower",
+    "title": "Overview: traits, findings and the genome-wide view",
+    "intro": "Further down the overview page are the trait categories, the main findings and a genome-wide plot of where the loci are.",
+    "image": "02-home-lower.png",
+    "width": 2800,
+    "height": 2700,
+    "callouts": [
+      {
+        "n": 1,
+        "label": "Trait categories",
+        "text": "Records per trait category. Click a category to search all of its loci."
+      },
+      {
+        "n": 2,
+        "label": "Findings",
+        "text": "The headline results of the analysis. “All findings, with tests and figures” opens the Insights page."
+      },
+      {
+        "n": 3,
+        "label": "Where the loci are",
+        "text": "Independent studies per 2-Mb window along all 26 chromosomes. Peaks above the dashed line are hotspots; “Explore hotspots interactively” opens the Hotspots page."
+      }
+    ]
+  },
+  {
+    "id": "search",
+    "title": "Advanced search",
+    "intro": "Advanced search filters linkage QTL and GWAS loci together. Filters apply as you set them, and the table below updates at once.",
+    "image": "03-search.png",
+    "width": 2800,
+    "height": 2000,
+    "callouts": [
+      {
+        "n": 1,
+        "label": "Keyword",
+        "text": "Matches QTL name, marker, candidate gene, author and the other text fields."
+      },
+      {
+        "n": 2,
+        "label": "Record type, species and source",
+        "text": "Linkage QTL, GWAS loci or both; one species; one source database (CottonGen, CottonGVD, CottonMD, GWAS Atlas) or the literature."
+      },
+      {
+        "n": 3,
+        "label": "Trait category and trait",
+        "text": "A category such as Fiber quality, then a harmonised trait such as fiber strength. Trait names from different studies are merged into one harmonised name."
+      },
+      {
+        "n": 4,
+        "label": "Chromosome and region",
+        "text": "Pick a chromosome and give a start and end in Mb to list the loci in that window. Positions are projected onto TM-1 UTX v2.1, so the window is approximate; loci with only a cM position are never matched."
+      },
+      {
+        "n": 5,
+        "label": "Minimum PVE",
+        "text": "Keep only loci that explain at least this percentage of phenotypic variance."
+      },
+      {
+        "n": 6,
+        "label": "Evidence filters",
+        "text": "Keep only records from curated databases, only loci inside a hotspot, or only loci with a candidate gene."
+      },
+      {
+        "n": 7,
+        "label": "Result count",
+        "text": "The number of matching rows."
+      },
+      {
+        "n": 8,
+        "label": "Export CSV",
+        "text": "Downloads exactly the matching rows, with every column."
+      },
+      {
+        "n": 9,
+        "label": "Reset",
+        "text": "Clears every filter."
+      }
+    ]
+  },
+  {
+    "id": "data",
+    "title": "All data tables",
+    "intro": "The data page lists every table with its size. Each opens as a sortable, searchable table that can be exported.",
+    "image": "04-data.png",
+    "width": 2800,
+    "height": 1720,
+    "callouts": [
+      {
+        "n": 1,
+        "label": "QTL and GWAS loci",
+        "text": "Linkage-mapping QTL, and GWAS loci (each locus summarises the associations reported at one position)."
+      },
+      {
+        "n": 2,
+        "label": "Meta-QTL, epistatic QTL, clusters, qualitative loci",
+        "text": "Consensus loci computed across studies, QTL × QTL interactions, multi-trait clusters reported by authors, and Mendelian trait loci."
+      },
+      {
+        "n": 3,
+        "label": "Hotspots, linkage maps and markers",
+        "text": "Study-supported hotspot regions, genetic maps with their markers, and trait-linked markers with primers."
+      },
+      {
+        "n": 4,
+        "label": "Literature index",
+        "text": "Every indexed cotton QTL and GWAS paper, tagged by study type."
+      }
+    ]
+  },
+  {
+    "id": "table",
+    "title": "Working with a table",
+    "intro": "Every table works the same way, whether it is QTL, GWAS loci, meta-QTL, markers or the literature.",
+    "image": "05-table.png",
+    "width": 2800,
+    "height": 1800,
+    "callouts": [
+      {
+        "n": 1,
+        "label": "Search the table",
+        "text": "Filters the rows as you type, across all columns."
+      },
+      {
+        "n": 2,
+        "label": "Row count",
+        "text": "The number of rows currently shown."
+      },
+      {
+        "n": 3,
+        "label": "Export CSV",
+        "text": "Downloads the rows currently shown."
+      },
+      {
+        "n": 4,
+        "label": "Sort and definitions",
+        "text": "Click a column heading to sort by it; click again to reverse. Hover the small “?” for the definition of the column."
+      },
+      {
+        "n": 5,
+        "label": "Harmonised and original trait",
+        "text": "Trait is the harmonised name used for searching; Original trait is the name the study used. Scroll the table sideways for position, LOD, PVE, markers, source, evidence and the reference."
+      }
+    ]
+  },
+  {
+    "id": "metaqtl",
+    "title": "Meta-QTL",
+    "intro": "Meta-QTL are consensus loci computed from all placed QTL and GWAS loci of a trait, each supported by at least two independent studies.",
+    "image": "06-metaqtl.png",
+    "width": 2800,
+    "height": 2000,
+    "callouts": [
+      {
+        "n": 1,
+        "label": "Two tables",
+        "text": "Meta-QTL computed by this project, or the rows from published meta-analyses."
+      },
+      {
+        "n": 2,
+        "label": "Confidence",
+        "text": "High (five or more studies), moderate (three or more) or all (two or more)."
+      },
+      {
+        "n": 3,
+        "label": "Category, chromosome and support",
+        "text": "Limit by trait category or chromosome, or to meta-QTL supported by linkage QTL, GWAS or both."
+      },
+      {
+        "n": 4,
+        "label": "Position and interval",
+        "text": "Consensus position and its 95% confidence interval in Mb on TM-1 UTX v2.1."
+      },
+      {
+        "n": 5,
+        "label": "Studies and confidence",
+        "text": "How many independent studies support the meta-QTL, and the confidence level that follows from it."
+      }
+    ]
+  },
+  {
+    "id": "map-ideogram",
+    "title": "Genome map: ideogram view",
+    "intro": "The Genome map draws loci, meta-QTL and hotspots on the 26 chromosomes of allotetraploid cotton, coloured by trait category.",
+    "image": "07-map-ideogram.png",
+    "width": 2800,
+    "height": 2300,
+    "callouts": [
+      {
+        "n": 1,
+        "label": "Layers",
+        "text": "Switch the loci and the region track on or off. The list chooses what the region track shows: high-confidence meta-QTL, all meta-QTL or hotspots."
+      },
+      {
+        "n": 2,
+        "label": "Choose the view",
+        "text": "Ideogram (chromosomes side by side) or Circos (all chromosomes in a circle). “Dark plot” draws the figure on a dark background."
+      },
+      {
+        "n": 3,
+        "label": "Export",
+        "text": "Save the current figure as SVG, PNG or JPEG."
+      },
+      {
+        "n": 4,
+        "label": "Search the map",
+        "text": "Shows only the loci whose name, trait or candidate gene matches."
+      },
+      {
+        "n": 5,
+        "label": "Subgenome",
+        "text": "Show all chromosomes, or only the At (A01–A13) or Dt (D01–D13) subgenome."
+      },
+      {
+        "n": 6,
+        "label": "Highlight traits",
+        "text": "Click one or several categories (or press 1–9) to show only those; “Reset” shows all again. The colours are those of the plot."
+      },
+      {
+        "n": 7,
+        "label": "What is drawn",
+        "text": "How many loci have a physical position and are drawn. The others (cM position only, or a diploid species) stay searchable in the tables."
+      }
+    ]
+  },
+  {
+    "id": "map-circos",
+    "title": "Genome map: Circos view",
+    "intro": "The Circos view puts all 26 chromosomes in one circle, with rings for locus density, regions and loci of each trait category.",
+    "image": "08-map-circos.png",
+    "width": 2800,
+    "height": 2600,
+    "callouts": [
+      {
+        "n": 1,
+        "label": "Epistatic links",
+        "text": "Tick to draw chords joining the two loci of each epistatic pair."
+      },
+      {
+        "n": 2,
+        "label": "The plot",
+        "text": "Outer ring: chromosomes, by subgenome. Next: locus density. Then one thin ring per trait category for regions and for loci. Hover any mark for its details."
+      },
+      {
+        "n": 3,
+        "label": "Key",
+        "text": "What each ring shows, with the colour scale for density."
+      }
+    ]
+  },
+  {
+    "id": "hotspots",
+    "title": "Hotspots",
+    "intro": "Hotspots are regions where loci from many independent studies fall together, more than expected by chance.",
+    "image": "09-hotspots.png",
+    "width": 2800,
+    "height": 2000,
+    "callouts": [
+      {
+        "n": 1,
+        "label": "Summary",
+        "text": "How many hotspots there are, how much of the genome they cover, and the study threshold used to call them."
+      },
+      {
+        "n": 2,
+        "label": "Karyotype",
+        "text": "All 26 chromosomes to scale. Shading shows independent studies per 2-Mb window; red brackets are hotspots. Hover for details; click a chromosome to see its profile below."
+      },
+      {
+        "n": 3,
+        "label": "Save the figure",
+        "text": "Downloads the karyotype as SVG."
+      }
+    ]
+  },
+  {
+    "id": "hotspots-table",
+    "title": "Hotspots: chromosome profile and table",
+    "intro": "Below the karyotype, one chromosome is shown in detail, followed by the table of all hotspot regions.",
+    "image": "10-hotspots-table.png",
+    "width": 2800,
+    "height": 2000,
+    "callouts": [
+      {
+        "n": 1,
+        "label": "Chromosome",
+        "text": "Choose the chromosome whose study-support profile is drawn."
+      },
+      {
+        "n": 2,
+        "label": "Profile",
+        "text": "Independent studies per window along the chromosome; windows above the threshold form hotspots."
+      },
+      {
+        "n": 3,
+        "label": "Hotspot table",
+        "text": "Each hotspot with its region, number of studies and loci, top traits, example QTL and recurrent candidate genes."
+      }
+    ]
+  },
+  {
+    "id": "linkage-maps",
+    "title": "Linkage maps",
+    "intro": "Marker orders and cM positions of cotton genetic maps, from CottonGen and from supplementary files of mapping papers.",
+    "image": "11-linkage-maps.png",
+    "width": 2800,
+    "height": 2000,
+    "callouts": [
+      {
+        "n": 1,
+        "label": "Highlight a marker",
+        "text": "Type a marker name to mark it on the map."
+      },
+      {
+        "n": 2,
+        "label": "Download",
+        "text": "Download the whole map as CSV, or the density figure as SVG."
+      },
+      {
+        "n": 3,
+        "label": "Density map",
+        "text": "One bar per linkage group, drawn to the cM scale and shaded by marker density; the number below is its locus count. Click a group to list its markers."
+      }
+    ]
+  },
+  {
+    "id": "linkage-maps-list",
+    "title": "Linkage maps: one group and the map list",
+    "intro": "The selected linkage group is drawn with its marker names; below it every available map is listed.",
+    "image": "12-linkage-maps-list.png",
+    "width": 2800,
+    "height": 2000,
+    "callouts": [
+      {
+        "n": 1,
+        "label": "Group and cM window",
+        "text": "Choose a linkage group and the cM range to draw."
+      },
+      {
+        "n": 2,
+        "label": "Group view",
+        "text": "Markers in map order at their cM positions."
+      },
+      {
+        "n": 3,
+        "label": "Choose a map",
+        "text": "Click View on any map in the list to draw it above."
+      }
+    ]
+  },
+  {
+    "id": "markers",
+    "title": "Markers and primers",
+    "intro": "Markers linked to traits, graded by the evidence behind the link, with primer sequences where a source gives them.",
+    "image": "13-markers.png",
+    "width": 2800,
+    "height": 2000,
+    "callouts": [
+      {
+        "n": 1,
+        "label": "Evidence tiers",
+        "text": "What each grade means. No public resource certifies cotton markers as validated for breeding, so the grade says what supports the link."
+      },
+      {
+        "n": 2,
+        "label": "Primer catalogue",
+        "text": "One CSV with primers for every marker found in CottonGen and in paper supplements."
+      },
+      {
+        "n": 3,
+        "label": "Filters",
+        "text": "Limit by evidence tier or trait category, or to markers with primer sequences."
+      },
+      {
+        "n": 4,
+        "label": "Primers",
+        "text": "Forward (F) and reverse (R) primer, 5′→3′."
+      }
+    ]
+  },
+  {
+    "id": "statistics",
+    "title": "Statistics",
+    "intro": "Counts by record type, trait, chromosome, species and source. All numbers refer to de-duplicated records.",
+    "image": "14-statistics.png",
+    "width": 2800,
+    "height": 2000,
+    "callouts": [
+      {
+        "n": 1,
+        "label": "Totals",
+        "text": "Records of every type, harmonised traits, studies with data and papers indexed."
+      },
+      {
+        "n": 2,
+        "label": "Charts",
+        "text": "Records by trait category, loci per Mb by chromosome, most studied traits, species, source, papers per year and the share of major-effect QTL. Hover a bar for its value."
+      }
+    ]
+  },
+  {
+    "id": "insights",
+    "title": "Insights",
+    "intro": "What the combined record says about where trait loci sit in the cotton genome, with the statistical test behind each statement.",
+    "image": "15-insights.png",
+    "width": 2800,
+    "height": 2000,
+    "callouts": [
+      {
+        "n": 1,
+        "label": "Key findings",
+        "text": "Each finding in one sentence, then the numbers and the test. Links open the data behind it."
+      },
+      {
+        "n": 2,
+        "label": "A finding",
+        "text": "The figures further down the page illustrate each finding; “Read these with care” at the end lists the limits of the data."
+      }
+    ]
+  },
+  {
+    "id": "literature",
+    "title": "Literature index",
+    "intro": "Cotton QTL, GWAS, meta-QTL and epistasis papers indexed from Europe PMC and tagged by study type.",
+    "image": "16-literature.png",
+    "width": 2800,
+    "height": 1800,
+    "callouts": [
+      {
+        "n": 1,
+        "label": "Study type",
+        "text": "Show only linkage QTL, GWAS, meta-QTL, epistasis or other study types."
+      },
+      {
+        "n": 2,
+        "label": "Papers with records",
+        "text": "Tick to show only papers whose results are in the data tables."
+      },
+      {
+        "n": 3,
+        "label": "Title",
+        "text": "Opens the paper. Scroll sideways for the study type and the number of records taken from it."
+      }
+    ]
+  }
+]
