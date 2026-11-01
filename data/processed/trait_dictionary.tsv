@@ -249,7 +249,6 @@ fiber quality	fiber development	13AY	Literature	139
 fiber quality	fiber development	13LQ	Literature	135
 fiber quality	fiber development	13QZ	Literature	145
 fiber quality	fiber development	14AY	Literature	126
-fiber quality	fiber development	14AYFS	Literature	1
 fiber quality	fiber development	14KEL	Literature	136
 fiber quality	fiber development	14LQ	Literature	165
 fiber quality	fiber development	15ALE	Literature	176
@@ -257,6 +256,7 @@ fiber quality	fiber development	15AY	Literature	136
 fiber quality	fiber development	16AY	Literature	192
 fiber quality	fiber development	ssr markers with fiber development	Literature	4
 fiber quality	fiber elongation		Literature	178
+fiber quality	fiber elongation	2021HNFE	Literature	3
 fiber quality	fiber elongation	BLUP	Literature	2240
 fiber quality	fiber elongation	BW+FE	Literature	5
 fiber quality	fiber elongation	BW+LP+FE	Literature	4
@@ -305,6 +305,7 @@ fiber quality	fiber elongation	FE2012XX	Literature	1
 fiber quality	fiber elongation	FE2013NY	Literature	1
 fiber quality	fiber elongation	FE2013XJ	Literature	1
 fiber quality	fiber elongation	FE4	Literature	67
+fiber quality	fiber elongation	FEL	Literature	30
 fiber quality	fiber elongation	FE_3	Literature	1
 fiber quality	fiber elongation	FE_4	Literature	1
 fiber quality	fiber elongation	FE_5	Literature	1
@@ -369,6 +370,30 @@ fiber quality	fiber elongation	elongation	Literature	3
 fiber quality	fiber elongation	fiber elongation	CottonGen	2483
 fiber quality	fiber elongation	fiber elongation	GWAS Atlas	283
 fiber quality	fiber elongation	fiber elongation	Literature	172
+fiber quality	fiber elongation	qFE-C10-1	Literature	2
+fiber quality	fiber elongation	qFE-C13-1	Literature	3
+fiber quality	fiber elongation	qFE-C19-1	Literature	2
+fiber quality	fiber elongation	qFE-C19-2	Literature	4
+fiber quality	fiber elongation	qFE-C21-1	Literature	3
+fiber quality	fiber elongation	qFE-C22-1	Literature	6
+fiber quality	fiber elongation	qFE-C23-1	Literature	2
+fiber quality	fiber elongation	qFE-C25-1	Literature	2
+fiber quality	fiber elongation	qFE-C25-2	Literature	2
+fiber quality	fiber elongation	qFE-C25-3	Literature	6
+fiber quality	fiber elongation	qFE-C25-4	Literature	9
+fiber quality	fiber elongation	qFE-C25-5	Literature	12
+fiber quality	fiber elongation	qFE-C25-6	Literature	9
+fiber quality	fiber elongation	qFE-C25-7	Literature	3
+fiber quality	fiber elongation	qFE-C25-8	Literature	3
+fiber quality	fiber elongation	qFE-C26-1	Literature	2
+fiber quality	fiber elongation	qFE-C3-1	Literature	2
+fiber quality	fiber elongation	qFE-C3-2	Literature	3
+fiber quality	fiber elongation	qFE-C4-1	Literature	3
+fiber quality	fiber elongation	qFE-C4-2	Literature	9
+fiber quality	fiber elongation	qFE-C4-3	Literature	15
+fiber quality	fiber elongation	qFE-C4-4	Literature	3
+fiber quality	fiber elongation	qFE-C7-1	Literature	3
+fiber quality	fiber elongation	qFE-C7-2	Literature	3
 fiber quality	fiber elongation	quantitative	Literature	29
 fiber quality	fiber elongation	relative radicle elongation	Literature	45
 fiber quality	fiber fineness	Arealometer A	CottonGen	6
@@ -394,6 +419,7 @@ fiber quality	fiber length	2.5 % fiber span length	Literature	17
 fiber quality	fiber length	2.5 span length	CottonGen	205
 fiber quality	fiber length	2.5%-span length	Literature	2
 fiber quality	fiber length	2021-XJ-UHML	Literature	1
+fiber quality	fiber length	2021HNFL	Literature	8
 fiber quality	fiber length	2022-XJ-UHML	Literature	1
 fiber quality	fiber length	5.0 % fiber span length	Literature	22
 fiber quality	fiber length	50 span length	CottonGen	12
@@ -586,6 +612,43 @@ fiber quality	fiber length	fl-qtls	Literature	14
 fiber quality	fiber length	mean length	Literature	3
 fiber quality	fiber length	mqtls	Literature	1470
 fiber quality	fiber length	polysaccharide components	Literature	3717
+fiber quality	fiber length	qFL-C21-1	Literature	14
+fiber quality	fiber length	qFL-C21-2	Literature	4
+fiber quality	fiber length	qFL-C21-3	Literature	3
+fiber quality	fiber length	qFL-C22-1	Literature	2
+fiber quality	fiber length	qFL-C23-1	Literature	2
+fiber quality	fiber length	qFL-C23-2	Literature	6
+fiber quality	fiber length	qFL-C24-1	Literature	2
+fiber quality	fiber length	qFL-C25-1	Literature	6
+fiber quality	fiber length	qFL-C25-2	Literature	12
+fiber quality	fiber length	qFL-C25-3	Literature	18
+fiber quality	fiber length	qFL-C25-4	Literature	15
+fiber quality	fiber length	qFL-C25-5	Literature	15
+fiber quality	fiber length	qFL-C25-6	Literature	9
+fiber quality	fiber length	qFL-C4-1	Literature	3
+fiber quality	fiber length	qFL-C4-2	Literature	9
+fiber quality	fiber length	qFL-C4-3	Literature	3
+fiber quality	fiber length	qFL-C4-4	Literature	3
+fiber quality	fiber length	qFL-C4-5	Literature	2
+fiber quality	fiber length	qFL-C6-1	Literature	3
+fiber quality	fiber length	qFL-C7-1	Literature	9
+fiber quality	fiber length	qFL-C7-2	Literature	6
+fiber quality	fiber length	qFL-C7-3	Literature	6
+fiber quality	fiber length	qFL-C7-4	Literature	6
+fiber quality	fiber length	qFL-chr10-1	Literature	1
+fiber quality	fiber length	qFL-chr10-2	Literature	5
+fiber quality	fiber length	qFL-chr11	Literature	2
+fiber quality	fiber length	qFL-chr16	Literature	1
+fiber quality	fiber length	qFL-chr19	Literature	1
+fiber quality	fiber length	qFL-chr20	Literature	1
+fiber quality	fiber length	qFL-chr21	Literature	2
+fiber quality	fiber length	qFL-chr23	Literature	2
+fiber quality	fiber length	qFL-chr24	Literature	1
+fiber quality	fiber length	qFL-chr25	Literature	1
+fiber quality	fiber length	qFL-chr4-1	Literature	1
+fiber quality	fiber length	qFL-chr4-2	Literature	1
+fiber quality	fiber length	qFL-chr4-3	Literature	2
+fiber quality	fiber length	qFL-chr5	Literature	1
 fiber quality	fiber length	snps significantly associated with fiber length	Literature	14
 fiber quality	fiber length	snps significantly associated with fl	Literature	12
 fiber quality	fiber length	the common associated snps and genes for fl	Literature	18793
@@ -694,6 +757,9 @@ fiber quality	fiber reflectance	FibRel_XJ_15	CottonGVD	4
 fiber quality	fiber reflectance	FibRel_XJ_AV	CottonGVD	1
 fiber quality	fiber reflectance	reflectance	CottonGen	49
 fiber quality	fiber strength		Literature	79
+fiber quality	fiber strength	14AYFS	Literature	1
+fiber quality	fiber strength	2021HNFS	Literature	13
+fiber quality	fiber strength	2022HNFS	Literature	6
 fiber quality	fiber strength	34.29–35.71 Mb	Literature	2
 fiber quality	fiber strength	93.80–94.44 Mb	Literature	2
 fiber quality	fiber strength	BW+FS	Literature	2
@@ -709,7 +775,6 @@ fiber quality	fiber strength	FBS	Literature	5
 fiber quality	fiber strength	FE+FS	Literature	3
 fiber quality	fiber strength	FE, FS, SI, PH, BN	Literature	1
 fiber quality	fiber strength	FE, PH, LY, FS, SCY	Literature	1
-fiber quality	fiber strength	FEL	Literature	1
 fiber quality	fiber strength	FS	Literature	25411
 fiber quality	fiber strength	FS (g teks-1) , q < 0.24	Literature	6
 fiber quality	fiber strength	FS QTL	Literature	70
@@ -846,12 +911,52 @@ fiber quality	fiber strength	fiber strength	GWAS Atlas	1418
 fiber quality	fiber strength	fiber strength	Literature	44
 fiber quality	fiber strength	known	Literature	1
 fiber quality	fiber strength	p10t1	Literature	21
+fiber quality	fiber strength	qFS-C11-1	Literature	2
+fiber quality	fiber strength	qFS-C12-1	Literature	3
+fiber quality	fiber strength	qFS-C13-1	Literature	6
+fiber quality	fiber strength	qFS-C13-2	Literature	6
+fiber quality	fiber strength	qFS-C19-1	Literature	2
+fiber quality	fiber strength	qFS-C21-1	Literature	2
+fiber quality	fiber strength	qFS-C21-2	Literature	3
+fiber quality	fiber strength	qFS-C23-1	Literature	2
+fiber quality	fiber strength	qFS-C23-2	Literature	4
+fiber quality	fiber strength	qFS-C23-3	Literature	2
+fiber quality	fiber strength	qFS-C23-4	Literature	2
+fiber quality	fiber strength	qFS-C25-1	Literature	3
+fiber quality	fiber strength	qFS-C25-2	Literature	6
+fiber quality	fiber strength	qFS-C25-3	Literature	9
+fiber quality	fiber strength	qFS-C25-4	Literature	15
+fiber quality	fiber strength	qFS-C25-5	Literature	18
+fiber quality	fiber strength	qFS-C25-6	Literature	21
+fiber quality	fiber strength	qFS-C25-7	Literature	3
+fiber quality	fiber strength	qFS-C4-1	Literature	3
+fiber quality	fiber strength	qFS-C4-2	Literature	3
+fiber quality	fiber strength	qFS-C4-3	Literature	3
+fiber quality	fiber strength	qFS-C6-1	Literature	2
+fiber quality	fiber strength	qFS-C7-1	Literature	30
+fiber quality	fiber strength	qFS-C7-2	Literature	21
+fiber quality	fiber strength	qFS-C7-3	Literature	6
+fiber quality	fiber strength	qFS-C7-4	Literature	3
+fiber quality	fiber strength	qFS-C9-1	Literature	2
+fiber quality	fiber strength	qFS-chr14-1	Literature	2
+fiber quality	fiber strength	qFS-chr14-2	Literature	1
+fiber quality	fiber strength	qFS-chr14-3	Literature	2
+fiber quality	fiber strength	qFS-chr16-1	Literature	1
+fiber quality	fiber strength	qFS-chr16-2	Literature	2
+fiber quality	fiber strength	qFS-chr16-3	Literature	1
+fiber quality	fiber strength	qFS-chr16-4	Literature	1
+fiber quality	fiber strength	qFS-chr17	Literature	1
+fiber quality	fiber strength	qFS-chr4	Literature	3
+fiber quality	fiber strength	qFS-chr6	Literature	6
+fiber quality	fiber strength	qFS-chr8-1	Literature	1
+fiber quality	fiber strength	qFS-chr8-2	Literature	2
 fiber quality	fiber strength	qtls	Literature	16
 fiber quality	fiber strength	stable additive quantitative	Literature	42
 fiber quality	fiber strength	str-gwas	Literature	204
 fiber quality	fiber strength	the additive qtls	Literature	87
 fiber quality	fiber strength	the trait of fs	Literature	14
 fiber quality	fiber uniformity	2021-JX-UI	Literature	1
+fiber quality	fiber uniformity	2021HNFU	Literature	2
 fiber quality	fiber uniformity	DRC_FU	Literature	16
 fiber quality	fiber uniformity	ELO, STR, MIC, and UI	Literature	1
 fiber quality	fiber uniformity	ELO, UHM, STR, and UI	Literature	1
@@ -993,6 +1098,28 @@ fiber quality	fiber uniformity	fiber length uniformity	GWAS Atlas	782
 fiber quality	fiber uniformity	fiber length uniformity	Literature	74
 fiber quality	fiber uniformity	fiber uniformity	CottonGen	1440
 fiber quality	fiber uniformity	fiber uniformity index	CottonGen	244
+fiber quality	fiber uniformity	qFU-23-1	Literature	1
+fiber quality	fiber uniformity	qFU-C10-1	Literature	3
+fiber quality	fiber uniformity	qFU-C10-2	Literature	3
+fiber quality	fiber uniformity	qFU-C10-3	Literature	2
+fiber quality	fiber uniformity	qFU-C12-1	Literature	3
+fiber quality	fiber uniformity	qFU-C13-1	Literature	7
+fiber quality	fiber uniformity	qFU-C19-1	Literature	2
+fiber quality	fiber uniformity	qFU-C2-1	Literature	2
+fiber quality	fiber uniformity	qFU-C23-1	Literature	1
+fiber quality	fiber uniformity	qFU-C25-1	Literature	2
+fiber quality	fiber uniformity	qFU-C25-2	Literature	4
+fiber quality	fiber uniformity	qFU-C25-3	Literature	6
+fiber quality	fiber uniformity	qFU-C25-4	Literature	6
+fiber quality	fiber uniformity	qFU-C25-5	Literature	12
+fiber quality	fiber uniformity	qFU-C25-6	Literature	5
+fiber quality	fiber uniformity	qFU-C25-7	Literature	6
+fiber quality	fiber uniformity	qFU-C4-1	Literature	3
+fiber quality	fiber uniformity	qFU-C4-2	Literature	3
+fiber quality	fiber uniformity	qFU-C5-1	Literature	2
+fiber quality	fiber uniformity	qFU-C6-1	Literature	3
+fiber quality	fiber uniformity	qFU-C7-1	Literature	18
+fiber quality	fiber uniformity	qFU-C7-2	Literature	3
 fiber quality	fiber uniformity	uniformity	Literature	3
 fiber quality	fiber whiteness and colorimetry	CC_AL_18_AV	CottonGVD	54
 fiber quality	fiber whiteness and colorimetry	CC_AL_18_R1	CottonGVD	67
@@ -1259,8 +1386,10 @@ fiber quality	micronaire	17HbMIC	Literature	2
 fiber quality	micronaire	17XjalMIC	Literature	3
 fiber quality	micronaire	17XjshzMIC	Literature	2
 fiber quality	micronaire	2021-JX-MIC	Literature	3
+fiber quality	micronaire	2021HNFM	Literature	5
 fiber quality	micronaire	2022-JX-MIC	Literature	2
 fiber quality	micronaire	2022-XJ-MIC	Literature	5
+fiber quality	micronaire	2022HNFM	Literature	7
 fiber quality	micronaire	DRC_MV	Literature	1
 fiber quality	micronaire	ELO and MIC	Literature	1
 fiber quality	micronaire	FE+FM	Literature	4
@@ -1336,6 +1465,7 @@ fiber quality	micronaire	Fiber micronair	Literature	25
 fiber quality	micronaire	LP+FE+FM	Literature	4
 fiber quality	micronaire	LP+FM	Literature	8
 fiber quality	micronaire	LP, FN, FM, LY, FM, FE, SCW	Literature	1
+fiber quality	micronaire	MI	Literature	24
 fiber quality	micronaire	MIC	Literature	2092
 fiber quality	micronaire	MIC-C-BLUP	Literature	8
 fiber quality	micronaire	MIC-C17	Literature	18
@@ -1368,6 +1498,47 @@ fiber quality	micronaire	blup_part2	Literature	6
 fiber quality	micronaire	fiber micronaire	Literature	4218
 fiber quality	micronaire	micronaire	CottonGen	19083
 fiber quality	micronaire	micronaire	Literature	2
+fiber quality	micronaire	qFM-C10-1	Literature	3
+fiber quality	micronaire	qFM-C13-1	Literature	2
+fiber quality	micronaire	qFM-C21-1	Literature	4
+fiber quality	micronaire	qFM-C23-1	Literature	2
+fiber quality	micronaire	qFM-C24-1	Literature	2
+fiber quality	micronaire	qFM-C25-1	Literature	8
+fiber quality	micronaire	qFM-C25-2	Literature	15
+fiber quality	micronaire	qFM-C25-3	Literature	3
+fiber quality	micronaire	qFM-C25-4	Literature	9
+fiber quality	micronaire	qFM-C25-5	Literature	12
+fiber quality	micronaire	qFM-C25-6	Literature	3
+fiber quality	micronaire	qFM-C3-1	Literature	9
+fiber quality	micronaire	qFM-C4-1	Literature	3
+fiber quality	micronaire	qFM-C4-2	Literature	12
+fiber quality	micronaire	qFM-C4-3	Literature	3
+fiber quality	micronaire	qFM-C5-1	Literature	2
+fiber quality	micronaire	qFM-C5-2	Literature	4
+fiber quality	micronaire	qFM-C6-1	Literature	6
+fiber quality	micronaire	qFM-C6-2	Literature	4
+fiber quality	micronaire	qFM-C6-3	Literature	6
+fiber quality	micronaire	qFM-C6-4	Literature	2
+fiber quality	micronaire	qFM-C7-1	Literature	15
+fiber quality	micronaire	qFM-chr10	Literature	5
+fiber quality	micronaire	qFM-chr13	Literature	1
+fiber quality	micronaire	qFM-chr14	Literature	1
+fiber quality	micronaire	qFM-chr15-1	Literature	2
+fiber quality	micronaire	qFM-chr15-2	Literature	3
+fiber quality	micronaire	qFM-chr16-1	Literature	1
+fiber quality	micronaire	qFM-chr16-2	Literature	1
+fiber quality	micronaire	qFM-chr16-3	Literature	1
+fiber quality	micronaire	qFM-chr16-4	Literature	1
+fiber quality	micronaire	qFM-chr18	Literature	1
+fiber quality	micronaire	qFM-chr19	Literature	1
+fiber quality	micronaire	qFM-chr22	Literature	1
+fiber quality	micronaire	qFM-chr5	Literature	2
+fiber quality	micronaire	qFM-chr6	Literature	1
+fiber quality	micronaire	qFM-chr7-1	Literature	4
+fiber quality	micronaire	qFM-chr7-2	Literature	2
+fiber quality	micronaire	qFM-chr7-3	Literature	2
+fiber quality	micronaire	qFM-chr7-4	Literature	1
+fiber quality	micronaire	qFM-chr7-5	Literature	1
 fiber quality	seed fuzz		Literature	15
 fiber quality	seed fuzz	BNL3171-228	Literature	10
 fiber quality	seed fuzz	EPP	Literature	1
@@ -1982,6 +2153,10 @@ plant architecture	first fruiting branch position	AVE_NFFB	Literature	38
 plant architecture	first fruiting branch position	FFBN	Literature	227
 plant architecture	first fruiting branch position	FFBP	Literature	1
 plant architecture	first fruiting branch position	FFSH	Literature	19
+plant architecture	first fruiting branch position	FirFruBra_15_16U	CottonGVD	4
+plant architecture	first fruiting branch position	FirFruBra_HN_14	CottonGVD	1
+plant architecture	first fruiting branch position	FirFruBra_XJ_15	CottonGVD	7
+plant architecture	first fruiting branch position	FirFruBra_XJ_16	CottonGVD	12
 plant architecture	first fruiting branch position	First fruit branch position (FFBP)	CottonMD	1
 plant architecture	first fruiting branch position	First fruit spur height (FFSH)	CottonMD	1
 plant architecture	first fruiting branch position	FruBraNod_AY_14	CottonGVD	6
@@ -2317,23 +2492,6 @@ unclassified	2	2	Literature	72
 unclassified	2017.1	2017.1	Literature	11
 unclassified	2017/2019.1	2017/2019.1	Literature	1
 unclassified	2019.1	2019.1	Literature	7
-unclassified	2021hnbw	2021HNBW	Literature	11
-unclassified	2021hnfe	2021HNFE	Literature	3
-unclassified	2021hnfl	2021HNFL	Literature	8
-unclassified	2021hnfm	2021HNFM	Literature	5
-unclassified	2021hnfs	2021HNFS	Literature	13
-unclassified	2021hnfu	2021HNFU	Literature	2
-unclassified	2021hnli	2021HNLI	Literature	5
-unclassified	2021hnlp	2021HNLP	Literature	8
-unclassified	2021hnlw	2021HNLW	Literature	10
-unclassified	2021hnsi	2021HNSI	Literature	8
-unclassified	2022hnbw	2022HNBW	Literature	2
-unclassified	2022hnfm	2022HNFM	Literature	7
-unclassified	2022hnfs	2022HNFS	Literature	6
-unclassified	2022hnli	2022HNLI	Literature	10
-unclassified	2022hnlp	2022HNLP	Literature	7
-unclassified	2022hnlw	2022HNLW	Literature	5
-unclassified	2022hnsi	2022HNSI	Literature	6
 unclassified	3	3	Literature	57
 unclassified	4	4	Literature	57
 unclassified	47	[47]	Literature	1
@@ -2360,7 +2518,6 @@ unclassified	bolls	Bolls	Literature	9
 unclassified	bp	BP	Literature	7
 unclassified	bpt	BPT	Literature	2
 unclassified	branch position	branch position	GWAS Atlas	5
-unclassified	bwt	BWT	Literature	18
 unclassified	car	Car	Literature	2
 unclassified	cb	Cb	Literature	2
 unclassified	chl a	Chl a	Literature	5
@@ -2398,7 +2555,6 @@ unclassified	fb1	FB1	Literature	1
 unclassified	fbff	FBFF	Literature	1
 unclassified	fbil	FBIL	Literature	2
 unclassified	fdt dt& st	FDT, DT& ST	Literature	3
-unclassified	fel	FEL	Literature	29
 unclassified	ff	FF	Literature	116
 unclassified	ffb	FFB	Literature	6
 unclassified	ffbh	FFBH	Literature	1
@@ -2407,10 +2563,6 @@ unclassified	fg	FG	Literature	16
 unclassified	fh	FH	Literature	8
 unclassified	fibertrait	FiberTrait	Literature	60
 unclassified	fine	Fine	Literature	1
-unclassified	fir fru bra	FirFruBra_15_16U	CottonGVD	4
-unclassified	fir fru bra	FirFruBra_HN_14	CottonGVD	1
-unclassified	fir fru bra	FirFruBra_XJ_15	CottonGVD	7
-unclassified	fir fru bra	FirFruBra_XJ_16	CottonGVD	12
 unclassified	flowering and boll-setting period	flowering and boll-setting period	Literature	14
 unclassified	flun	FLun	Literature	1
 unclassified	fmic	FMIC	Literature	2
@@ -2473,7 +2625,6 @@ unclassified	mbp	MBP	Literature	2
 unclassified	mc	MC	Literature	40
 unclassified	mcf	MCF	Literature	5
 unclassified	mfvd	MFVD	Literature	15
-unclassified	mi	MI	Literature	24
 unclassified	mon	MON	Literature	10
 unclassified	mqtls co-located with snps and resistance genes	mqtls co-located with snps and resistance genes	Literature	8
 unclassified	multiple traits (not specified)	Clu	Literature	66
@@ -2502,7 +2653,6 @@ unclassified	nv	NV	Literature	2
 unclassified	oa	OA	Literature	32
 unclassified	occhip	OCchip	Literature	35
 unclassified	ocslaf	OCslaf	Literature	60
-unclassified	outturn %	outturn (%)	Literature	19
 unclassified	pa	PA	Literature	29
 unclassified	percent fiber	Percent Fiber	Literature	4
 unclassified	pf	PF	Literature	19
@@ -2515,205 +2665,6 @@ unclassified	pleiotropic snpqtls	pleiotropic snpqtls	Literature	14
 unclassified	ps	PS	Literature	2
 unclassified	psb	PSB	Literature	3
 unclassified	psh	PSH	Literature	2
-unclassified	qbw-chr10-1	qBW-chr10-1	Literature	1
-unclassified	qbw-chr10-2	qBW-chr10-2	Literature	15
-unclassified	qbw-chr11	qBW-chr11	Literature	6
-unclassified	qbw-chr14	qBW-chr14	Literature	1
-unclassified	qbw-chr15	qBW-chr15	Literature	1
-unclassified	qbw-chr16	qBW-chr16	Literature	1
-unclassified	qbw-chr20	qBW-chr20	Literature	1
-unclassified	qbw-chr4-1	qBW-chr4-1	Literature	1
-unclassified	qbw-chr4-2	qBW-chr4-2	Literature	3
-unclassified	qbw-chr7-1	qBW-chr7-1	Literature	7
-unclassified	qbw-chr7-2	qBW-chr7-2	Literature	1
-unclassified	qbw-chr7-3	qBW-chr7-3	Literature	9
-unclassified	qfe-c10-1	qFE-C10-1	Literature	2
-unclassified	qfe-c13-1	qFE-C13-1	Literature	3
-unclassified	qfe-c19-1	qFE-C19-1	Literature	2
-unclassified	qfe-c19-2	qFE-C19-2	Literature	4
-unclassified	qfe-c21-1	qFE-C21-1	Literature	3
-unclassified	qfe-c22-1	qFE-C22-1	Literature	6
-unclassified	qfe-c23-1	qFE-C23-1	Literature	2
-unclassified	qfe-c25-1	qFE-C25-1	Literature	2
-unclassified	qfe-c25-2	qFE-C25-2	Literature	2
-unclassified	qfe-c25-3	qFE-C25-3	Literature	6
-unclassified	qfe-c25-4	qFE-C25-4	Literature	9
-unclassified	qfe-c25-5	qFE-C25-5	Literature	12
-unclassified	qfe-c25-6	qFE-C25-6	Literature	9
-unclassified	qfe-c25-7	qFE-C25-7	Literature	3
-unclassified	qfe-c25-8	qFE-C25-8	Literature	3
-unclassified	qfe-c26-1	qFE-C26-1	Literature	2
-unclassified	qfe-c3-1	qFE-C3-1	Literature	2
-unclassified	qfe-c3-2	qFE-C3-2	Literature	3
-unclassified	qfe-c4-1	qFE-C4-1	Literature	3
-unclassified	qfe-c4-2	qFE-C4-2	Literature	9
-unclassified	qfe-c4-3	qFE-C4-3	Literature	15
-unclassified	qfe-c4-4	qFE-C4-4	Literature	3
-unclassified	qfe-c7-1	qFE-C7-1	Literature	3
-unclassified	qfe-c7-2	qFE-C7-2	Literature	3
-unclassified	qfl-c21-1	qFL-C21-1	Literature	14
-unclassified	qfl-c21-2	qFL-C21-2	Literature	4
-unclassified	qfl-c21-3	qFL-C21-3	Literature	3
-unclassified	qfl-c22-1	qFL-C22-1	Literature	2
-unclassified	qfl-c23-1	qFL-C23-1	Literature	2
-unclassified	qfl-c23-2	qFL-C23-2	Literature	6
-unclassified	qfl-c24-1	qFL-C24-1	Literature	2
-unclassified	qfl-c25-1	qFL-C25-1	Literature	6
-unclassified	qfl-c25-2	qFL-C25-2	Literature	12
-unclassified	qfl-c25-3	qFL-C25-3	Literature	18
-unclassified	qfl-c25-4	qFL-C25-4	Literature	15
-unclassified	qfl-c25-5	qFL-C25-5	Literature	15
-unclassified	qfl-c25-6	qFL-C25-6	Literature	9
-unclassified	qfl-c4-1	qFL-C4-1	Literature	3
-unclassified	qfl-c4-2	qFL-C4-2	Literature	9
-unclassified	qfl-c4-3	qFL-C4-3	Literature	3
-unclassified	qfl-c4-4	qFL-C4-4	Literature	3
-unclassified	qfl-c4-5	qFL-C4-5	Literature	2
-unclassified	qfl-c6-1	qFL-C6-1	Literature	3
-unclassified	qfl-c7-1	qFL-C7-1	Literature	9
-unclassified	qfl-c7-2	qFL-C7-2	Literature	6
-unclassified	qfl-c7-3	qFL-C7-3	Literature	6
-unclassified	qfl-c7-4	qFL-C7-4	Literature	6
-unclassified	qfl-chr10-1	qFL-chr10-1	Literature	1
-unclassified	qfl-chr10-2	qFL-chr10-2	Literature	5
-unclassified	qfl-chr11	qFL-chr11	Literature	2
-unclassified	qfl-chr16	qFL-chr16	Literature	1
-unclassified	qfl-chr19	qFL-chr19	Literature	1
-unclassified	qfl-chr20	qFL-chr20	Literature	1
-unclassified	qfl-chr21	qFL-chr21	Literature	2
-unclassified	qfl-chr23	qFL-chr23	Literature	2
-unclassified	qfl-chr24	qFL-chr24	Literature	1
-unclassified	qfl-chr25	qFL-chr25	Literature	1
-unclassified	qfl-chr4-1	qFL-chr4-1	Literature	1
-unclassified	qfl-chr4-2	qFL-chr4-2	Literature	1
-unclassified	qfl-chr4-3	qFL-chr4-3	Literature	2
-unclassified	qfl-chr5	qFL-chr5	Literature	1
-unclassified	qfm-c10-1	qFM-C10-1	Literature	3
-unclassified	qfm-c13-1	qFM-C13-1	Literature	2
-unclassified	qfm-c21-1	qFM-C21-1	Literature	4
-unclassified	qfm-c23-1	qFM-C23-1	Literature	2
-unclassified	qfm-c24-1	qFM-C24-1	Literature	2
-unclassified	qfm-c25-1	qFM-C25-1	Literature	8
-unclassified	qfm-c25-2	qFM-C25-2	Literature	15
-unclassified	qfm-c25-3	qFM-C25-3	Literature	3
-unclassified	qfm-c25-4	qFM-C25-4	Literature	9
-unclassified	qfm-c25-5	qFM-C25-5	Literature	12
-unclassified	qfm-c25-6	qFM-C25-6	Literature	3
-unclassified	qfm-c3-1	qFM-C3-1	Literature	9
-unclassified	qfm-c4-1	qFM-C4-1	Literature	3
-unclassified	qfm-c4-2	qFM-C4-2	Literature	12
-unclassified	qfm-c4-3	qFM-C4-3	Literature	3
-unclassified	qfm-c5-1	qFM-C5-1	Literature	2
-unclassified	qfm-c5-2	qFM-C5-2	Literature	4
-unclassified	qfm-c6-1	qFM-C6-1	Literature	6
-unclassified	qfm-c6-2	qFM-C6-2	Literature	4
-unclassified	qfm-c6-3	qFM-C6-3	Literature	6
-unclassified	qfm-c6-4	qFM-C6-4	Literature	2
-unclassified	qfm-c7-1	qFM-C7-1	Literature	15
-unclassified	qfm-chr10	qFM-chr10	Literature	5
-unclassified	qfm-chr13	qFM-chr13	Literature	1
-unclassified	qfm-chr14	qFM-chr14	Literature	1
-unclassified	qfm-chr15-1	qFM-chr15-1	Literature	2
-unclassified	qfm-chr15-2	qFM-chr15-2	Literature	3
-unclassified	qfm-chr16-1	qFM-chr16-1	Literature	1
-unclassified	qfm-chr16-2	qFM-chr16-2	Literature	1
-unclassified	qfm-chr16-3	qFM-chr16-3	Literature	1
-unclassified	qfm-chr16-4	qFM-chr16-4	Literature	1
-unclassified	qfm-chr18	qFM-chr18	Literature	1
-unclassified	qfm-chr19	qFM-chr19	Literature	1
-unclassified	qfm-chr22	qFM-chr22	Literature	1
-unclassified	qfm-chr5	qFM-chr5	Literature	2
-unclassified	qfm-chr6	qFM-chr6	Literature	1
-unclassified	qfm-chr7-1	qFM-chr7-1	Literature	4
-unclassified	qfm-chr7-2	qFM-chr7-2	Literature	2
-unclassified	qfm-chr7-3	qFM-chr7-3	Literature	2
-unclassified	qfm-chr7-4	qFM-chr7-4	Literature	1
-unclassified	qfm-chr7-5	qFM-chr7-5	Literature	1
-unclassified	qfs-c11-1	qFS-C11-1	Literature	2
-unclassified	qfs-c12-1	qFS-C12-1	Literature	3
-unclassified	qfs-c13-1	qFS-C13-1	Literature	6
-unclassified	qfs-c13-2	qFS-C13-2	Literature	6
-unclassified	qfs-c19-1	qFS-C19-1	Literature	2
-unclassified	qfs-c21-1	qFS-C21-1	Literature	2
-unclassified	qfs-c21-2	qFS-C21-2	Literature	3
-unclassified	qfs-c23-1	qFS-C23-1	Literature	2
-unclassified	qfs-c23-2	qFS-C23-2	Literature	4
-unclassified	qfs-c23-3	qFS-C23-3	Literature	2
-unclassified	qfs-c23-4	qFS-C23-4	Literature	2
-unclassified	qfs-c25-1	qFS-C25-1	Literature	3
-unclassified	qfs-c25-2	qFS-C25-2	Literature	6
-unclassified	qfs-c25-3	qFS-C25-3	Literature	9
-unclassified	qfs-c25-4	qFS-C25-4	Literature	15
-unclassified	qfs-c25-5	qFS-C25-5	Literature	18
-unclassified	qfs-c25-6	qFS-C25-6	Literature	21
-unclassified	qfs-c25-7	qFS-C25-7	Literature	3
-unclassified	qfs-c4-1	qFS-C4-1	Literature	3
-unclassified	qfs-c4-2	qFS-C4-2	Literature	3
-unclassified	qfs-c4-3	qFS-C4-3	Literature	3
-unclassified	qfs-c6-1	qFS-C6-1	Literature	2
-unclassified	qfs-c7-1	qFS-C7-1	Literature	30
-unclassified	qfs-c7-2	qFS-C7-2	Literature	21
-unclassified	qfs-c7-3	qFS-C7-3	Literature	6
-unclassified	qfs-c7-4	qFS-C7-4	Literature	3
-unclassified	qfs-c9-1	qFS-C9-1	Literature	2
-unclassified	qfs-chr14-1	qFS-chr14-1	Literature	2
-unclassified	qfs-chr14-2	qFS-chr14-2	Literature	1
-unclassified	qfs-chr14-3	qFS-chr14-3	Literature	2
-unclassified	qfs-chr16-1	qFS-chr16-1	Literature	1
-unclassified	qfs-chr16-2	qFS-chr16-2	Literature	2
-unclassified	qfs-chr16-3	qFS-chr16-3	Literature	1
-unclassified	qfs-chr16-4	qFS-chr16-4	Literature	1
-unclassified	qfs-chr17	qFS-chr17	Literature	1
-unclassified	qfs-chr4	qFS-chr4	Literature	3
-unclassified	qfs-chr6	qFS-chr6	Literature	6
-unclassified	qfs-chr8-1	qFS-chr8-1	Literature	1
-unclassified	qfs-chr8-2	qFS-chr8-2	Literature	2
-unclassified	qfu-23-1	qFU-23-1	Literature	1
-unclassified	qfu-c10-1	qFU-C10-1	Literature	3
-unclassified	qfu-c10-2	qFU-C10-2	Literature	3
-unclassified	qfu-c10-3	qFU-C10-3	Literature	2
-unclassified	qfu-c12-1	qFU-C12-1	Literature	3
-unclassified	qfu-c13-1	qFU-C13-1	Literature	7
-unclassified	qfu-c19-1	qFU-C19-1	Literature	2
-unclassified	qfu-c2-1	qFU-C2-1	Literature	2
-unclassified	qfu-c23-1	qFU-C23-1	Literature	1
-unclassified	qfu-c25-1	qFU-C25-1	Literature	2
-unclassified	qfu-c25-2	qFU-C25-2	Literature	4
-unclassified	qfu-c25-3	qFU-C25-3	Literature	6
-unclassified	qfu-c25-4	qFU-C25-4	Literature	6
-unclassified	qfu-c25-5	qFU-C25-5	Literature	12
-unclassified	qfu-c25-6	qFU-C25-6	Literature	5
-unclassified	qfu-c25-7	qFU-C25-7	Literature	6
-unclassified	qfu-c4-1	qFU-C4-1	Literature	3
-unclassified	qfu-c4-2	qFU-C4-2	Literature	3
-unclassified	qfu-c5-1	qFU-C5-1	Literature	2
-unclassified	qfu-c6-1	qFU-C6-1	Literature	3
-unclassified	qfu-c7-1	qFU-C7-1	Literature	18
-unclassified	qfu-c7-2	qFU-C7-2	Literature	3
-unclassified	qlp-chr10	qLP-chr10	Literature	1
-unclassified	qlp-chr12	qLP-chr12	Literature	1
-unclassified	qlp-chr13	qLP-chr13	Literature	1
-unclassified	qlp-chr15	qLP-chr15	Literature	1
-unclassified	qlp-chr16-1	qLP-chr16-1	Literature	1
-unclassified	qlp-chr16-2	qLP-chr16-2	Literature	1
-unclassified	qlp-chr3	qLP-chr3	Literature	1
-unclassified	qlp-chr4	qLP-chr4	Literature	1
-unclassified	qlp-chr5-1	qLP-chr5-1	Literature	2
-unclassified	qlp-chr5-2	qLP-chr5-2	Literature	1
-unclassified	qlp-chr5-3	qLP-chr5-3	Literature	1
-unclassified	qlp-chr9	qLP-chr9	Literature	1
-unclassified	qsi-chr1	qSI-chr1	Literature	1
-unclassified	qsi-chr10-1	qSI-chr10-1	Literature	1
-unclassified	qsi-chr10-2	qSI-chr10-2	Literature	1
-unclassified	qsi-chr10-3	qSI-chr10-3	Literature	10
-unclassified	qsi-chr12	qSI-chr12	Literature	1
-unclassified	qsi-chr2	qSI-chr2	Literature	1
-unclassified	qsi-chr23-1	qSI-chr23-1	Literature	1
-unclassified	qsi-chr23-2	qSI-chr23-2	Literature	1
-unclassified	qsi-chr26-1	qSI-chr26-1	Literature	1
-unclassified	qsi-chr26-2	qSI-chr26-2	Literature	2
-unclassified	qsi-chr6	qSI-chr6	Literature	1
-unclassified	qsi-chr9	qSI-chr9	Literature	2
 unclassified	quantitative	quantitative	Literature	20
 unclassified	redox	Redox	Literature	13
 unclassified	resistance	Resistance	Literature	1
@@ -2734,7 +2685,6 @@ unclassified	spn	SPn	Literature	4
 unclassified	stlh	STLH	Literature	4
 unclassified	sy	SY	Literature	13
 unclassified	sym	SYM	Literature	8
-unclassified	tbn q < 0.09	TBN, q < 0.09	Literature	18
 unclassified	tci	TCi	Literature	4
 unclassified	tcond	TCond	Literature	3
 unclassified	testcross nemx x f1 pima s-7 x sj-2	Testcross NemX x F1 (Pima S-7 x SJ-2)	Literature	18
@@ -2818,6 +2768,7 @@ yield	boll number	FruBolNum_XJ_14	CottonGVD	1
 yield	boll number	Log (locule number) / Log (boll number)	CottonGen	2
 yield	boll number	NWC_ZJU_ICP2022.BN_2016_KRL	Literature	2
 yield	boll number	NWC_ZJU_ICP2022.BN_2016_SHZ	Literature	2
+yield	boll number	TBN, q < 0.09	Literature	18
 yield	boll number	boll number	CottonGen	192
 yield	boll number	boll number per plant	Literature	37
 yield	boll number	boll number per plant by composite interval mapping	Literature	20
@@ -2831,8 +2782,10 @@ yield	boll weight	2020_SBW	Literature	8
 yield	boll weight	2021-AY-BW	Literature	1
 yield	boll weight	2021-JX-BW	Literature	2
 yield	boll weight	2021-XJ-BW	Literature	2
+yield	boll weight	2021HNBW	Literature	11
 yield	boll weight	2022-AY-BW	Literature	1
 yield	boll weight	2022-XJ-BW	Literature	2
+yield	boll weight	2022HNBW	Literature	2
 yield	boll weight	Average boll weight	Literature	13
 yield	boll weight	BN,BW	Literature	1
 yield	boll weight	BS	Literature	26
@@ -2871,6 +2824,7 @@ yield	boll weight	BW17-Loc1	Literature	38
 yield	boll weight	BW17-Loc2	Literature	32
 yield	boll weight	BW18-Loc1	Literature	56
 yield	boll weight	BW18-Loc2	Literature	73
+yield	boll weight	BWT	Literature	18
 yield	boll weight	BW_1	Literature	7
 yield	boll weight	BW_2	Literature	4
 yield	boll weight	BW_3	Literature	9
@@ -2941,10 +2895,24 @@ yield	boll weight	SBW_BLUP-D	Literature	28
 yield	boll weight	SC,BW	Literature	1
 yield	boll weight	boll size	CottonGen	8
 yield	boll weight	boll weight	Literature	42
+yield	boll weight	qBW-chr10-1	Literature	1
+yield	boll weight	qBW-chr10-2	Literature	15
+yield	boll weight	qBW-chr11	Literature	6
+yield	boll weight	qBW-chr14	Literature	1
+yield	boll weight	qBW-chr15	Literature	1
+yield	boll weight	qBW-chr16	Literature	1
+yield	boll weight	qBW-chr20	Literature	1
+yield	boll weight	qBW-chr4-1	Literature	1
+yield	boll weight	qBW-chr4-2	Literature	3
+yield	boll weight	qBW-chr7-1	Literature	7
+yield	boll weight	qBW-chr7-2	Literature	1
+yield	boll weight	qBW-chr7-3	Literature	9
 yield	boll weight	seed cotton weight per boll	CottonGen	533
 yield	harvest index	HI	Literature	5
 yield	harvest index	harvest index	CottonGen	24
 yield	harvest index	seed harvest index	GWAS Atlas	267
+yield	lint index	2021HNLI	Literature	5
+yield	lint index	2022HNLI	Literature	10
 yield	lint index	LI	Literature	825
 yield	lint index	LI, SI	Literature	2
 yield	lint index	LI-AY-14	Literature	2
@@ -2991,8 +2959,10 @@ yield	lint percentage	2	Literature	2
 yield	lint percentage	2021-AY-LP	Literature	3
 yield	lint percentage	2021-JX-LP	Literature	6
 yield	lint percentage	2021-XJ-LP	Literature	3
+yield	lint percentage	2021HNLP	Literature	8
 yield	lint percentage	2022-AY-LP	Literature	1
 yield	lint percentage	2022-XJ-LP	Literature	4
+yield	lint percentage	2022HNLP	Literature	7
 yield	lint percentage	BN+BW+LP	Literature	1
 yield	lint percentage	BN,BW,LP	Literature	1
 yield	lint percentage	BN,LP	Literature	1
@@ -3128,6 +3098,21 @@ yield	lint percentage	gin turnout	CottonGen	3
 yield	lint percentage	lint percentage	CottonGen	689
 yield	lint percentage	lint percentage	GWAS Atlas	2163
 yield	lint percentage	lint percentage	Literature	3793
+yield	lint percentage	outturn (%)	Literature	19
+yield	lint percentage	qLP-chr10	Literature	1
+yield	lint percentage	qLP-chr12	Literature	1
+yield	lint percentage	qLP-chr13	Literature	1
+yield	lint percentage	qLP-chr15	Literature	1
+yield	lint percentage	qLP-chr16-1	Literature	1
+yield	lint percentage	qLP-chr16-2	Literature	1
+yield	lint percentage	qLP-chr3	Literature	1
+yield	lint percentage	qLP-chr4	Literature	1
+yield	lint percentage	qLP-chr5-1	Literature	2
+yield	lint percentage	qLP-chr5-2	Literature	1
+yield	lint percentage	qLP-chr5-3	Literature	1
+yield	lint percentage	qLP-chr9	Literature	1
+yield	lint weight per boll	2021HNLW	Literature	10
+yield	lint weight per boll	2022HNLW	Literature	5
 yield	lint weight per boll	DRC_LW	Literature	2
 yield	lint weight per boll	FibWeiPerBol_14	CottonGVD	3
 yield	lint weight per boll	FibWeiPerBol_15	CottonGVD	6
@@ -3263,8 +3248,10 @@ yield	seed cotton yield	yield percentage before frost	Literature	8
 yield	seed index	2021-AY-SI	Literature	2
 yield	seed index	2021-JX-SI	Literature	2
 yield	seed index	2021-XJ-SI	Literature	2
+yield	seed index	2021HNSI	Literature	8
 yield	seed index	2022-AY-SI	Literature	2
 yield	seed index	2022-XJ-SI	Literature	3
+yield	seed index	2022HNSI	Literature	6
 yield	seed index	BW,SI	Literature	2
 yield	seed index	BW/SI	Literature	2
 yield	seed index	FT, NFFB, PH, FBP, SI	Literature	1
@@ -3333,6 +3320,18 @@ yield	seed index	SeedInd_XJ_15	CottonGVD	3
 yield	seed index	SeedInd_XJ_AV	CottonGVD	3
 yield	seed index	SeedInd_YC_14	CottonGVD	1
 yield	seed index	XZV hybrid	Literature	50
+yield	seed index	qSI-chr1	Literature	1
+yield	seed index	qSI-chr10-1	Literature	1
+yield	seed index	qSI-chr10-2	Literature	1
+yield	seed index	qSI-chr10-3	Literature	10
+yield	seed index	qSI-chr12	Literature	1
+yield	seed index	qSI-chr2	Literature	1
+yield	seed index	qSI-chr23-1	Literature	1
+yield	seed index	qSI-chr23-2	Literature	1
+yield	seed index	qSI-chr26-1	Literature	1
+yield	seed index	qSI-chr26-2	Literature	2
+yield	seed index	qSI-chr6	Literature	1
+yield	seed index	qSI-chr9	Literature	2
 yield	seed index	seed index	CottonGen	450
 yield	seed index	seed index	Literature	1207
 yield	seed number per boll	Number of seeds per boll	Literature	6

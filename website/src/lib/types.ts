@@ -97,6 +97,47 @@ export interface MQTLRecord {
   confidence: string
 }
 
+/** One classic meta-QTL on the consensus genetic map (public/data/mqtl_cm.csv). */
+export interface MQTLcmRecord {
+  mqtl_id: string
+  trait: string
+  category: string
+  chromosome: string
+  position_cm: string
+  ci_start_cm: string
+  ci_end_cm: string
+  ci_width_cm: string
+  n_studies: string
+  n_observations: string
+  n_initial_qtl: string
+  n_projected_by_map: string
+  n_placed_by_markers: string
+  n_ci_imputed: string
+  left_marker: string
+  right_marker: string
+  n_consensus_markers_in_ci: string
+  physical_median_mb: string
+  physical_q1_mb: string
+  physical_q3_mb: string
+  physical_mqtl: string
+  studies: string
+  confidence: string
+}
+
+/** Every database trait and what each meta-analysis found for it (public/data/mqtl_trait_coverage.csv). */
+export interface TraitCoverageRecord {
+  trait: string
+  category: string
+  n_database_records: string
+  n_database_qtl: string
+  n_database_gwas: string
+  n_physical_meta_qtl: string
+  status_physical: string
+  n_qtl_on_consensus_map: string
+  n_cm_meta_qtl: string
+  status_cm: string
+}
+
 export interface ClusterRecord extends QTLRecord {}
 
 export interface EpistaticRecord {

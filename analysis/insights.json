@@ -1,30 +1,30 @@
 {
- "n_records": 195298,
- "n_loci": 53077,
+ "n_records": 195284,
+ "n_loci": 53042,
  "n_studies": 441,
  "subgenome": {
   "frac_Dt_length": 0.36655016048847744,
   "trait_category": "all",
-  "At": 8846,
-  "Dt": 8555,
-  "frac_Dt": 0.49163841158554106,
-  "p_vs_equal": 0.02791623431226156,
-  "p_vs_length": 4.484671247467927e-248,
-  "q_vs_equal": 0.20594116553263644,
-  "q_vs_length": 4.93313837221472e-247
+  "At": 8821,
+  "Dt": 8523,
+  "frac_Dt": 0.4914091328413284,
+  "p_vs_equal": 0.024119057592538167,
+  "p_vs_length": 2.4687358166163e-246,
+  "q_vs_equal": 0.2582627553159777,
+  "q_vs_length": 2.7156093982779297e-245
  },
  "trait_chr": {
-  "chi2": 132.2012771613756,
+  "chi2": 133.1231548408617,
   "dof": 175,
-  "p": 0.9932430035175622,
+  "p": 0.9920357619204556,
   "top": [
    {
     "trait_category": "phenology",
     "chromosome": "D03",
     "observed": 33,
-    "expected": 17.690416746687152,
-    "residual": 3.7674267424940564,
-    "q": 0.03430729520333743
+    "expected": 17.61445935679919,
+    "residual": 3.7932998077347655,
+    "q": 0.030920965548773945
    }
   ]
  },
@@ -38,7 +38,7 @@
   "n_sig_windows": 100,
   "n_hotspots": 59,
   "genome_fraction": 0.08765706826298135,
-  "fraction_loci_in_hotspots": 0.18468026677128285,
+  "fraction_loci_in_hotspots": 0.18475025350822674,
   "hotspots_At": 23,
   "hotspots_Dt": 36,
   "null_mean": 15.16969696969697,
@@ -67,7 +67,7 @@
     "n_gwas_records": 210,
     "n_traits": 35,
     "n_trait_categories": 10,
-    "top_traits": "fiber strength (18); lint percentage (12); fiber length (12); fiber elongation (10); micronaire (8); fiber uniformity (7)",
+    "top_traits": "fiber strength (18); lint percentage (12); fiber length (12); fiber elongation (11); micronaire (8); fiber uniformity (7)",
     "trait_categories": "fiber quality (34); yield (20); plant architecture (7); phenology (7); seed quality (3); physiology (3); morphology (2); abiotic stress (2); biotic stress (2); growth and vigor (1)",
     "dominant_category": "fiber quality",
     "species": "Gossypium barbadense; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium hirsutum x mustelinum",
@@ -163,8 +163,8 @@
     "n_gwas_records": 533,
     "n_traits": 39,
     "n_trait_categories": 10,
-    "top_traits": "fiber length (24); fiber strength (16); micronaire (14); lint percentage (11); boll weight (10); fiber uniformity (8)",
-    "trait_categories": "fiber quality (41); yield (25); plant architecture (11); phenology (5); seed quality (4); physiology (3); biotic stress (3); morphology (2); abiotic stress (2); growth and vigor (1)",
+    "top_traits": "fiber length (24); fiber strength (16); micronaire (14); lint percentage (12); boll weight (10); fiber uniformity (8)",
+    "trait_categories": "fiber quality (41); yield (26); plant architecture (11); phenology (5); seed quality (4); physiology (3); biotic stress (3); morphology (2); abiotic stress (2); growth and vigor (1)",
     "dominant_category": "fiber quality",
     "species": "Gossypium barbadense; Gossypium hirsutum; Gossypium hirsutum x barbadense; Gossypium hirsutum x mustelinum",
     "sources": "CottonGVD; CottonGen; CottonMD; GWAS Atlas; Literature",
@@ -355,10 +355,10 @@
   "note": "relative-position bins; ignores known A/D translocations"
  },
  "effects": {
-  "n": 40427,
-  "median_pve": 5.2651,
-  "frac_ge10": 0.16924332747915996,
-  "frac_ge20": 0.03693076409330398
+  "n": 40413,
+  "median_pve": 5.2641,
+  "frac_ge10": 0.1691782347264494,
+  "frac_ge20": 0.03694355776606537
  },
  "literature": {
   "last_year": 2025,

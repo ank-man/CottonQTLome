@@ -124,6 +124,8 @@ Requires Python ≥ 3.10 with pandas, openpyxl, xlrd; `.doc` supplements are con
 ```
 analysis/hotspot_analysis.py   chromosome/subgenome distribution, study-supported hotspots, effect sizes
 analysis/meta_qtl.R            physical meta-QTL per trait x chromosome in R (mixture model, BIC) -> tables/meta_qtl*.tsv
+scripts/consensus_map.py       consensus genetic map (AD reference map 2009 + CottonGen and paper maps) and QTL projection
+analysis/meta_qtl_cm.R         classic meta-QTL on the consensus map (cM), every trait x chromosome -> tables/meta_qtl_cm*.tsv
 scripts/integrate_meta_qtl.py load computed meta-QTL and per-trait coverage into SQLite
 analysis/source_comparison.py  what each source contributes; fig8-fig9; comparison block for the site
 manuscript/                    manuscript source, verified references, build script, .md and .docx
@@ -142,6 +144,8 @@ python3 scripts/cottongen_primers.py data/raw/cottongen        # primer sequence
 python3 scripts/liftover.py                                     # positions on every assembly (data/genomes/README.md)
 python3 analysis/hotspot_analysis.py .
 Rscript analysis/meta_qtl.R .
+python3 scripts/consensus_map.py .
+Rscript analysis/meta_qtl_cm.R .
 python3 scripts/integrate_meta_qtl.py .
 python3 analysis/source_comparison.py .
 python3 scripts/export_site_data.py .

@@ -1,0 +1,281 @@
+trait	category	n_database_records	n_database_qtl	n_projected_qtl	n_projected_studies	n_observations	n_chromosomes_modelled	n_cm_meta_qtl	n_high	max_studies	status
+cold tolerance	abiotic stress	893	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+drought tolerance	abiotic stress	479	251	39	4	34	11	8	0	3	meta-QTL found
+nutrient and other abiotic stress	abiotic stress	86	86	10	2	10	0	0	0	0	no chromosome with two independent studies
+salt tolerance	abiotic stress	493	234	23	2	20	4	1	0	2	meta-QTL found
+bacterial blight resistance	biotic stress	263	23	12	2	12	3	4	0	2	meta-QTL found
+cotton blue disease resistance	biotic stress	1	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+cotton leaf crumple virus resistance	biotic stress	3	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+cotton leaf curl disease resistance	biotic stress	9	9	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+fusarium wilt resistance	biotic stress	5775	209	16	3	13	2	0	0	0	modelled; no supported component
+insect resistance	biotic stress	13	13	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+other disease resistance	biotic stress	7	6	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+reniform nematode resistance	biotic stress	33	18	9	1	3	0	0	0	0	no chromosome with two independent studies
+root-knot nematode resistance	biotic stress	53	8	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+verticillium wilt resistance	biotic stress	3344	1080	295	7	144	20	23	0	3	meta-QTL found
+fertility and sterility	fertility	73	43	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+fiber color	fiber quality	85	58	37	2	18	3	1	0	2	meta-QTL found
+fiber development	fiber quality	637	258	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+fiber elongation	fiber quality	8710	3782	643	61	463	26	126	4	5	meta-QTL found
+fiber fineness	fiber quality	511	314	225	9	186	26	47	0	3	meta-QTL found
+fiber flame resistance	fiber quality	258	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+fiber length	fiber quality	23147	6986	1266	73	775	26	215	20	8	meta-QTL found
+fiber maturity	fiber quality	5051	320	74	6	46	8	2	0	2	meta-QTL found
+fiber neps	fiber quality	68	45	28	1	22	0	0	0	0	no chromosome with two independent studies
+fiber reflectance	fiber quality	64	49	22	3	20	3	1	0	2	meta-QTL found
+fiber strength	fiber quality	13029	6076	1045	76	652	26	190	9	7	meta-QTL found
+fiber uniformity	fiber quality	6253	3063	505	46	370	26	90	1	6	meta-QTL found
+fiber whiteness and colorimetry	fiber quality	12950	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+fiber yellowness	fiber quality	58	52	19	2	18	1	0	0	0	modelled; no supported component
+lint visible foreign matter	fiber quality	4	4	4	1	4	0	0	0	0	no chromosome with two independent studies
+micronaire	fiber quality	30371	5711	856	65	560	26	148	12	6	meta-QTL found
+seed fuzz	fiber quality	197	82	7	1	7	0	0	0	0	no chromosome with two independent studies
+short fiber content	fiber quality	860	351	137	13	120	19	16	0	2	meta-QTL found
+spinning consistency index	fiber quality	4306	1067	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+germination and seedling vigor	growth and vigor	1280	962	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+plant biomass	growth and vigor	4212	119	10	3	10	3	2	0	2	meta-QTL found
+tissue culture response	growth and vigor	6	6	4	1	4	0	0	0	0	no chromosome with two independent studies
+boll morphology	morphology	896	2	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+flower morphology	morphology	1732	64	33	2	25	0	0	0	0	no chromosome with two independent studies
+leaf morphology	morphology	2872	147	108	5	82	18	13	0	2	meta-QTL found
+seed type	morphology	3	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+stem and plant color	morphology	920	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+stem weight	morphology	9	9	5	1	4	0	0	0	0	no chromosome with two independent studies
+trichome and pubescence	morphology	35357	46	31	6	28	5	7	0	2	meta-QTL found
+flower rate	phenology	2	2	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+flowering time	phenology	5679	683	29	2	22	1	0	0	0	modelled; no supported component
+growth period and maturity	phenology	2845	943	68	6	44	6	3	0	2	meta-QTL found
+chlorophyll content	physiology	491	100	17	4	12	1	2	0	2	meta-QTL found
+mineral content	physiology	537	88	28	1	24	0	0	0	0	no chromosome with two independent studies
+photosynthesis and gas exchange	physiology	19	18	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+senescence and stay-green	physiology	571	80	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+stress indicators (MDA, electrolyte leakage, proline)	physiology	267	30	9	1	8	0	0	0	0	no chromosome with two independent studies
+branch traits	plant architecture	2104	780	23	5	20	3	0	0	0	modelled; no supported component
+first fruiting branch position	plant architecture	1998	315	71	4	49	6	2	0	2	meta-QTL found
+plant height and stature	plant architecture	5167	1260	160	18	103	20	13	0	2	meta-QTL found
+root system traits	plant architecture	2282	148	30	1	15	0	0	0	0	no chromosome with two independent studies
+gossypol and glands	seed quality	1023	19	2	1	1	0	0	0	0	no chromosome with two independent studies
+seed oil and fatty acids	seed quality	744	618	115	6	90	15	14	0	2	meta-QTL found
+seed physical traits	seed quality	15	6	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+seed protein and amino acids	seed quality	626	314	26	3	20	2	0	0	0	modelled; no supported component
+seed size and shape	seed quality	204	197	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+-0.16	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+-0.34	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+-0.43	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+1	unclassified	206	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+1 2 3 4aa	unclassified	1	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+1st pbr % q < 0.06	unclassified	9	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+2	unclassified	72	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+2017.1	unclassified	11	11	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+2017/2019.1	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+2019.1	unclassified	7	7	2	1	2	0	0	0	0	no chromosome with two independent studies
+3	unclassified	57	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+4	unclassified	57	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+47	unclassified	1	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+5	unclassified	47	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+6	unclassified	61	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+7	unclassified	69	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+8	unclassified	5	5	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+9	unclassified	2	2	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+92070822	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+ab	unclassified	1	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+abiotic and biotic stress resistance	unclassified	2	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+all traits	unclassified	1	1	0	0	0	0	0	0	0	unresolved trait name
+bc	unclassified	1	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+bcw	unclassified	4	4	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+bdr	unclassified	9	9	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+ben har low	unclassified	1	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+ben har up	unclassified	2	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+bln	unclassified	7	7	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+blup	unclassified	4	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+bo	unclassified	3	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+boll	unclassified	3	2	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+bolls	unclassified	7	7	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+bp	unclassified	7	7	4	1	4	0	0	0	0	no chromosome with two independent studies
+bpt	unclassified	2	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+branch position	unclassified	5	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+car	unclassified	2	2	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+cb	unclassified	2	2	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+chl a	unclassified	5	5	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+chl a/b	unclassified	3	3	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+chl b	unclassified	4	4	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+chr	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+cl	unclassified	10	3	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+clusters of boll-related	unclassified	9	9	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+cnh	unclassified	2	2	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+color	unclassified	4	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+cotton fiber qtl hotspots and associated	unclassified	18	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+cs	unclassified	3	3	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+d	unclassified	4	4	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+d1	unclassified	2	2	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+d10fl07ku	unclassified	1	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+d10fs07an	unclassified	1	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+d10fs09ku	unclassified	2	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+d10fu07an	unclassified	1	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+d10fu07nan	unclassified	2	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+d10fu08ku	unclassified	1	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+d10lp09an	unclassified	1	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+d2	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+dt & fdt	unclassified	2	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+dt & st	unclassified	3	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+dt fdt & st	unclassified	1	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+ear % q < 0.05	unclassified	2	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+efb	unclassified	4	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+f	unclassified	1	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+f2 8 nemx x sj-2	unclassified	14	14	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+f2 nemx x sj-2	unclassified	12	12	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+f2 pima s-7 x sj-2	unclassified	6	6	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+fac	unclassified	1	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+fb1	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+fbff	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+fbil	unclassified	2	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+fdt dt& st	unclassified	3	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+ff	unclassified	116	116	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+ffb	unclassified	6	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+ffbh	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+ffsbn	unclassified	3	3	1	1	1	0	0	0	0	no chromosome with two independent studies
+fg	unclassified	14	14	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+fh	unclassified	8	8	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+fibertrait	unclassified	60	8	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+fine	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+flowering and boll-setting period	unclassified	14	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+flun	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+fmic	unclassified	9	9	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+fn	unclassified	30	30	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+fnc	unclassified	12	12	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+fnms	unclassified	26	26	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+for abbreviations	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+fpc	unclassified	2	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+fruiting	unclassified	1	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+fruiting habit	unclassified	4	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+fsci	unclassified	4	4	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+fsp	unclassified	1	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+fsun	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+ftlh	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+fwpb	unclassified	13	13	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+fy	unclassified	20	20	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+gb and gh gwas panels	unclassified	5	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+ge	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+genetic value	unclassified	41	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+ghffsbn	unclassified	18	18	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+ghhd	unclassified	13	13	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+ghlbn	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+ghpgip1	unclassified	2	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+ghsobir1b	unclassified	1	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+ghwakl	unclassified	3	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+ginning	unclassified	1	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+gn	unclassified	7	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+gos num	unclassified	6	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+gossypium barbadense background	unclassified	8	8	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+gossypium hirsutum background	unclassified	5	5	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+gs	unclassified	7	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+gs 4	unclassified	1	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+gs blup	unclassified	1	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+half	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+height cm	unclassified	3	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+hybrid genotype	unclassified	5	5	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+if	unclassified	38	38	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+ifc	unclassified	4	4	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+ionic	unclassified	18	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+joint-trait	unclassified	7	7	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+l25n	unclassified	2	2	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+l5n	unclassified	4	4	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+la	unclassified	42	38	6	1	5	0	0	0	0	no chromosome with two independent studies
+lb	unclassified	2	2	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+lbn	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+lbs	unclassified	6	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+lc	unclassified	7	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+len	unclassified	2	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+length	unclassified	46	39	2	1	2	0	0	0	0	no chromosome with two independent studies
+lh	unclassified	14	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+liner plasticity	unclassified	163	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+lintpc	unclassified	4	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+ln	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+lncv	unclassified	2	2	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+main-effect quantitative	unclassified	55	55	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+mboll	unclassified	2	2	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+mbp	unclassified	2	2	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+mc	unclassified	40	40	7	1	7	0	0	0	0	no chromosome with two independent studies
+mcf	unclassified	5	5	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+mfvd	unclassified	15	15	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+mon	unclassified	8	6	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+mqtls co-located with snps and resistance genes	unclassified	8	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+multiple traits (not specified)	unclassified	1822	932	0	0	0	0	0	0	0	unresolved trait name
+nb	unclassified	3	3	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+nf	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+nfb	unclassified	2	2	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+nonlinear plasticity	unclassified	21	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+number of	unclassified	2	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+nv	unclassified	2	2	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+oa	unclassified	32	32	8	1	6	0	0	0	0	no chromosome with two independent studies
+occhip	unclassified	35	35	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+ocslaf	unclassified	60	60	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+pa	unclassified	29	29	6	1	6	0	0	0	0	no chromosome with two independent studies
+percent fiber	unclassified	4	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+pf	unclassified	19	19	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+phfb1	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+phloridzin	unclassified	251	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+phtn	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+plant	unclassified	1	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+plantarchitecture	unclassified	39	5	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+pleiotropic snpqtls	unclassified	14	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+ps	unclassified	2	2	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+psb	unclassified	3	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+psh	unclassified	2	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+quantitative	unclassified	5	5	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+redox	unclassified	13	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+resistance	unclassified	1	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+rn-nematode	unclassified	14	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+sa	unclassified	29	28	6	1	6	0	0	0	0	no chromosome with two independent studies
+said et al	unclassified	4	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+sb	unclassified	2	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+scond	unclassified	6	6	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+sf	unclassified	2	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+sh	unclassified	12	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+sil	unclassified	18	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+sla	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+sm	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+sn	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+snl	unclassified	3	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+sp	unclassified	9	9	1	1	1	0	0	0	0	no chromosome with two independent studies
+spn	unclassified	4	4	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+stlh	unclassified	4	4	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+sy	unclassified	13	13	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+sym	unclassified	6	6	1	1	1	0	0	0	0	no chromosome with two independent studies
+tci	unclassified	4	4	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+tcond	unclassified	3	3	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+testcross nemx x f1 pima s-7 x sj-2	unclassified	18	18	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+tfb	unclassified	14	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+tfn	unclassified	2	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+three years data	unclassified	10	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+tl	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+tn	unclassified	3	3	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+tnfb	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+total chl	unclassified	3	3	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+tpn	unclassified	3	3	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+traits	unclassified	2	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+traits name	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+trs	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+ttr	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+twc	unclassified	1	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+undefined trait	unclassified	1	0	0	0	0	0	0	0	0	unresolved trait name
+uni	unclassified	2	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+unspecified	unclassified	3220	2851	0	0	0	0	0	0	0	unresolved trait name
+upland cotton	unclassified	4	4	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+uqlw	unclassified	4	4	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+value	unclassified	2	2	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+weight g	unclassified	1	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+xz hybrid	unclassified	33	33	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+yieldtrait	unclassified	28	1	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus
+ypbf	unclassified	14	14	10	1	10	0	0	0	0	no chromosome with two independent studies
+boll number	yield	2319	1409	120	10	93	19	17	0	3	meta-QTL found
+boll retention	yield	6	0	0	0	0	0	0	0	0	no linkage QTL (GWAS or other records only)
+boll weight	yield	6506	4853	510	37	322	26	76	2	5	meta-QTL found
+harvest index	yield	296	29	18	2	18	6	6	0	2	meta-QTL found
+lint index	yield	1857	670	36	11	34	10	6	0	2	meta-QTL found
+lint percentage	yield	13674	6181	654	50	393	26	99	0	4	meta-QTL found
+lint weight per boll	yield	1244	172	3	1	2	0	0	0	0	no chromosome with two independent studies
+lint yield	yield	769	566	143	11	107	22	13	0	2	meta-QTL found
+seed cotton yield	yield	2469	1963	249	15	181	26	38	0	4	meta-QTL found
+seed index	yield	5222	2568	334	23	209	26	48	0	4	meta-QTL found
+seed number per boll	yield	16	16	0	0	0	0	0	0	0	linkage QTL not on a map sharing markers with the consensus

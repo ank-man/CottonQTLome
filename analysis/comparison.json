@@ -48,7 +48,7 @@
   {
    "source": "CottonGVD",
    "QTL": 0,
-   "GWAS": 24262,
+   "GWAS": 24286,
    "meta-QTL": 0,
    "epistatic QTL": 0,
    "QTL cluster": 0,
@@ -57,40 +57,40 @@
    "traits": 44,
    "species": 3,
    "unique_studies": 4,
-   "with_physical_position": 24132,
+   "with_physical_position": 24156,
    "with_genetic_position": 0
   },
   {
    "source": "Literature",
-   "QTL": 45506,
-   "GWAS": 44784,
+   "QTL": 46322,
+   "GWAS": 44821,
    "meta-QTL": 5529,
    "epistatic QTL": 10424,
-   "QTL cluster": 2367,
+   "QTL cluster": 2369,
    "MTL": 0,
-   "studies": 384,
+   "studies": 385,
    "traits": 59,
    "species": 7,
-   "unique_studies": 358,
-   "with_physical_position": 77599,
-   "with_genetic_position": 21000
+   "unique_studies": 359,
+   "with_physical_position": 77632,
+   "with_genetic_position": 21683
   }
  ],
  "integrated": [
   {
    "label": "Linkage QTL",
    "cottongen": 9259,
-   "integrated": 54765
+   "integrated": 55581
   },
   {
    "label": "GWAS loci",
-   "cottongen": 2329,
-   "integrated": 24329
+   "cottongen": 2319,
+   "integrated": 24359
   },
   {
    "label": "Studies",
    "cottongen": 165,
-   "integrated": 536
+   "integrated": 537
   },
   {
    "label": "Harmonised traits",
@@ -110,7 +110,7 @@
   {
    "label": "Meta-QTL (computed)",
    "cottongen": 0,
-   "integrated": 4722
+   "integrated": 4749
   },
   {
    "label": "Hotspot regions",
@@ -118,9 +118,9 @@
    "integrated": 59
   }
  ],
- "studies_total": 536,
- "studies_literature_only": 358,
- "records_literature_only": 102072,
- "core_records_literature_only": 86509,
+ "studies_total": 537,
+ "studies_literature_only": 359,
+ "records_literature_only": 102411,
+ "core_records_literature_only": 86846,
  "traits_only_via_literature": 8
 }

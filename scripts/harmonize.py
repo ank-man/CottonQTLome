@@ -8,6 +8,13 @@ CHR_NUM_TO_SUB = {**{i: f"A{i:02d}" for i in range(1, 14)},
 
 # (regex on normalised trait text, harmonised trait, category). First match wins; order matters.
 TRAIT_RULES = [
+    # --- common abbreviations and wordings that other rules miss
+    (r"^fel$|^fiber elong", "fiber elongation", "fiber quality"),
+    (r"^bwt$", "boll weight", "yield"),
+    (r"^mi$|^mic$", "micronaire", "fiber quality"),
+    (r"outturn|ginning out", "lint percentage", "yield"),
+    (r"^fir fru bra|first fruit(ing)? branch", "first fruiting branch position", "plant architecture"),
+    (r"^tbn\b", "boll number", "yield"),
     # --- biotic stress
     (r"verticillium|\bvw\b|verwil|\bvwr\b|relverwdi", "verticillium wilt resistance", "biotic stress"),
     (r"fusarium|\bfwr?\b|fwd[im]\b|\bfov", "fusarium wilt resistance", "biotic stress"),
@@ -205,6 +212,13 @@ def harmonise_trait(raw, cottongen_category=None):
     for rx, trait, cat in TRAIT_RULES:
         if rx.search(text):
             return trait, cat
+    # Trait code inside a QTL name ("qFS-c7-1", "qBW-chr10-2", "qFL.A07") or after a year/site prefix ("2021HNFS").
+    for pat in (r"^q[ ._-]?([a-z]{2,5}?)(?:[ ._-]?(?:c|ch|chr|a|d|lg)?[ ._-]?\d|[ ._-]|$)", r"^(?:19|20)?\d{2}[a-z]{2}([a-z]{2,4})$"):
+        m = re.match(pat, text)
+        if m:
+            for rx, trait, cat in TRAIT_RULES:
+                if rx.search(m.group(1)):
+                    return trait, cat
     # Environment-tagged abbreviations such as "FS09KU", "LP16-3", "FBT-K-15", "BW_SCA": retry on the stem.
     m = re.match(r"([a-z%]{2,6})(?=\d|[-_ .]|$)", text)
     if m and m.group(1) != text:

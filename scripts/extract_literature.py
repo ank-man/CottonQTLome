@@ -221,6 +221,12 @@ def header_of(rows):
     colmap.pop("skip", None)
     if any("lod" in str(hdr[j]).lower() for j in colmap.get("lod", [])):   # a likelihood-ratio column is not a LOD
         colmap["lod"] = [j for j in colmap["lod"] if "lod" in str(hdr[j]).lower()]
+    # a plain "Trait" column names the trait; "Trait value" / "Trait type" columns only qualify it
+    tc = colmap.get("trait", [])
+    if len(tc) > 1:
+        plain = [j for j in tc if re.fullmatch(r"\s*traits?( name)?\s*", str(hdr[j]).lower())]
+        if plain:
+            colmap["trait"] = plain + [j for j in tc if j not in plain]
     return best_i + (2 if two_line else 1), colmap, best
 
 

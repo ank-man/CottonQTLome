@@ -4,33 +4,33 @@
 
 | Section | Check | Status | Flagged | Of | Note | Examples |
 |---|---|---|---|---|---|---|
-| A. records | record_id unique | PASS | 0 | 231986 |  |  |
+| A. records | record_id unique | PASS | 0 | 231972 |  |  |
 | A. records | duplicate_of points to an existing record | PASS | 0 | 410378 |  |  |
-| A. records | record_type in controlled vocabulary | PASS | 0 | 231986 |  |  |
-| A. records | source_db in controlled vocabulary | PASS | 0 | 231986 |  |  |
-| A. records | trait_category in controlled vocabulary | PASS | 0 | 231986 |  |  |
-| A. records | species stated | PASS | 0 | 231986 |  |  |
-| A. records | trait resolved to a category | WARN | 8542 | 231986 | kept but excluded from trait-specific analyses |  |
-| A. records | tetraploid chromosome is A01-A13 / D01-D13 | PASS | 0 | 214388 |  |  |
+| A. records | record_type in controlled vocabulary | PASS | 0 | 231972 |  |  |
+| A. records | source_db in controlled vocabulary | PASS | 0 | 231972 |  |  |
+| A. records | trait_category in controlled vocabulary | PASS | 0 | 231972 |  |  |
+| A. records | species stated | PASS | 0 | 231972 |  |  |
+| A. records | trait resolved to a category | WARN | 7649 | 231972 | kept but excluded from trait-specific analyses |  |
+| A. records | tetraploid chromosome is A01-A13 / D01-D13 | PASS | 0 | 214374 |  |  |
 | A. records | diploid chromosome belongs to its genome | PASS | 0 | 2245 |  |  |
 | A. records | physical start <= end | PASS | 0 | 187955 |  |  |
 | A. records | physical position >= 0 and <= 250 Mb | PASS | 0 | 187955 |  |  |
 | A. records | position inside the chromosome of its stated assembly | WARN | 1 | 52922 | source error; placed approximately, not converted | Gh_NAU_v1.1 D09:53499519 > 50995436 |
 | A. records | position plausible where the assembly is unknown (<= 1.3 x UTX length) | WARN | 27 | 127419 |  | doi:10.1002/csc2.20937; 35471243; 28569138; 42159171; 33438060 |
 | A. records | interval narrower than 30 Mb | WARN | 248 | 187955 | wide clusters / low-density maps; drawn but weak for co-location | 23257886; doi:10.1016/j.indcrop.2022.115629; 35574150; 38065406; doi:10.1016/j.indcrop.2025.121067 |
-| A. records | cM within 0-400 | WARN | 101 | 33215 | negative = support interval extended past the end of the group | 27549323; 36810826; 25501533; 34539113; GV-BC1-2005 |
-| A. records | cM start <= stop | PASS | 0 | 33215 |  |  |
-| A. records | cM peak inside its support interval | WARN | 322 | 7855 |  | doi:10.1186/s42397-020-0043-0; 41225803; 29206184; 29940861; doi:10.1002/csc2.20937 |
+| A. records | cM within 0-400 | WARN | 101 | 33201 | negative = support interval extended past the end of the group | 27549323; 36810826; 25501533; 34539113; GV-BC1-2005 |
+| A. records | cM start <= stop | PASS | 0 | 33201 |  |  |
+| A. records | cM peak inside its support interval | WARN | 322 | 7841 |  | doi:10.1186/s42397-020-0043-0; 41225803; 29206184; 29940861; doi:10.1002/csc2.20937 |
 | A. records | P in (0, 1] | PASS | 0 | 82367 |  |  |
 | A. records | -log10(P) >= 0 | PASS | 0 | 121562 |  |  |
 | A. records | -log10(P) agrees with P | PASS | 0 | 82367 |  |  |
-| A. records | LOD >= 0 | PASS | 0 | 57186 |  |  |
-| A. records | LOD <= 100 | WARN | 44 | 57186 | very strong loci; usually GWAS-derived QTL with matching -log10P |  |
-| A. records | PVE within 0-100 % | PASS | 0 | 61261 |  |  |
+| A. records | LOD >= 0 | PASS | 0 | 57172 |  |  |
+| A. records | LOD <= 100 | WARN | 44 | 57172 | very strong loci; usually GWAS-derived QTL with matching -log10P |  |
+| A. records | PVE within 0-100 % | PASS | 0 | 61247 |  |  |
 | A. records | GWAS association has P <= 0.05 | PASS | 0 | 151788 |  |  |
-| A. records | year 1900-2026 | PASS | 0 | 210612 |  |  |
+| A. records | year 1900-2026 | PASS | 0 | 210598 |  |  |
 | A. records | PMID is numeric | PASS | 0 | 147324 |  |  |
-| A. records | DOI well-formed | PASS | 0 | 133270 |  |  |
+| A. records | DOI well-formed | PASS | 0 | 133256 |  |  |
 | A. records | position agrees with the position in the SNP name (CottonGen) | WARN | 147 | 59356 |  | NAU_TM76192 vs D11:23848826; NAU_TM47491 vs D13:59062819; SHIN-0272 vs D08:39172236; NAU_TM76200 vs D11:24343274; NAU_TM21135 vs A07:85743126 |
 | A. records | position agrees with the position in the SNP name (CottonMD) | PASS | 0 | 203 |  |  |
 | A. records | position agrees with the position in the SNP name (GWAS Atlas) | PASS | 0 | 21954 |  |  |
@@ -69,48 +69,48 @@
 | B. conversion | Gb_HGS_v1.1: anchor count in index.json | PASS | 0 | 1 |  | 36492 vs 36492 |
 | B. conversion | Gb_ZJU_v1.1: site anchor file decodes to the pipeline anchors | PASS | 0 | 26 |  |  |
 | B. conversion | Gb_ZJU_v1.1: anchor count in index.json | PASS | 0 | 1 |  | 36640 vs 36640 |
-| C. site | qtl.csv: id unique | PASS | 0 | 54765 |  |  |
-| C. site | qtl.csv: id present | PASS | 0 | 54765 |  |  |
-| C. site | gwas.csv: locus_id unique | PASS | 0 | 24329 |  |  |
-| C. site | gwas.csv: locus_id present | PASS | 0 | 24329 |  |  |
-| C. site | mqtl.csv: mqtl_id unique | PASS | 0 | 4722 |  |  |
-| C. site | mqtl.csv: mqtl_id present | PASS | 0 | 4722 |  |  |
+| C. site | qtl.csv: id unique | PASS | 0 | 55581 |  |  |
+| C. site | qtl.csv: id present | PASS | 0 | 55581 |  |  |
+| C. site | gwas.csv: locus_id unique | PASS | 0 | 24359 |  |  |
+| C. site | gwas.csv: locus_id present | PASS | 0 | 24359 |  |  |
+| C. site | mqtl.csv: mqtl_id unique | PASS | 0 | 4749 |  |  |
+| C. site | mqtl.csv: mqtl_id present | PASS | 0 | 4749 |  |  |
 | C. site | hotspots.csv: hotspot_id unique | PASS | 0 | 59 |  |  |
 | C. site | hotspots.csv: hotspot_id present | PASS | 0 | 59 |  |  |
 | C. site | maps.csv: map_id unique | PASS | 0 | 157 |  |  |
 | C. site | maps.csv: map_id present | PASS | 0 | 157 |  |  |
 | C. site | metaqtl.csv: id unique | PASS | 0 | 5529 |  |  |
 | C. site | metaqtl.csv: id present | PASS | 0 | 5529 |  |  |
-| C. site | clusters.csv: id unique | PASS | 0 | 2367 |  |  |
-| C. site | clusters.csv: id present | PASS | 0 | 2367 |  |  |
+| C. site | clusters.csv: id unique | PASS | 0 | 2369 |  |  |
+| C. site | clusters.csv: id present | PASS | 0 | 2369 |  |  |
 | C. site | epistatic.csv: id unique | PASS | 0 | 10424 |  |  |
 | C. site | epistatic.csv: id present | PASS | 0 | 10424 |  |  |
 | C. site | mtl.csv: id unique | PASS | 0 | 203 |  |  |
 | C. site | mtl.csv: id present | PASS | 0 | 203 |  |  |
-| C. site | summary.json 'qtl' equals the table | PASS | 0 | 1 |  | summary 54765 vs table 54765 |
-| C. site | summary.json 'gwas_loci' equals the table | PASS | 0 | 1 |  | summary 24329 vs table 24329 |
-| C. site | summary.json 'mqtl' equals the table | PASS | 0 | 1 |  | summary 4722 vs table 4722 |
+| C. site | summary.json 'qtl' equals the table | PASS | 0 | 1 |  | summary 55581 vs table 55581 |
+| C. site | summary.json 'gwas_loci' equals the table | PASS | 0 | 1 |  | summary 24359 vs table 24359 |
+| C. site | summary.json 'mqtl' equals the table | PASS | 0 | 1 |  | summary 4749 vs table 4749 |
 | C. site | summary.json 'hotspots' equals the table | PASS | 0 | 1 |  | summary 59 vs table 59 |
 | C. site | summary.json 'maps' equals the table | PASS | 0 | 1 |  | summary 157 vs table 157 |
 | C. site | summary.json 'metaqtl' equals the table | PASS | 0 | 1 |  | summary 5529 vs table 5529 |
-| C. site | summary.json 'clusters' equals the table | PASS | 0 | 1 |  | summary 2367 vs table 2367 |
+| C. site | summary.json 'clusters' equals the table | PASS | 0 | 1 |  | summary 2369 vs table 2369 |
 | C. site | summary.json 'epistatic' equals the table | PASS | 0 | 1 |  | summary 10424 vs table 10424 |
 | C. site | summary.json 'mtl' equals the table | PASS | 0 | 1 |  | summary 203 vs table 203 |
-| C. site | summary.json 'markers' equals the table | PASS | 0 | 1 |  | summary 7674 vs table 7674 |
-| C. site | qtl.csv: hotspot_id refers to an existing hotspot | PASS | 0 | 5370 |  |  |
-| C. site | gwas.csv: hotspot_id refers to an existing hotspot | PASS | 0 | 2382 |  |  |
-| C. site | mqtl.csv: hotspot_id refers to an existing hotspot | PASS | 0 | 758 |  |  |
+| C. site | summary.json 'markers' equals the table | PASS | 0 | 1 |  | summary 7698 vs table 7698 |
+| C. site | qtl.csv: hotspot_id refers to an existing hotspot | PASS | 0 | 5377 |  |  |
+| C. site | gwas.csv: hotspot_id refers to an existing hotspot | PASS | 0 | 2383 |  |  |
+| C. site | mqtl.csv: hotspot_id refers to an existing hotspot | PASS | 0 | 766 |  |  |
 | C. site | clusters.csv: hotspot_id refers to an existing hotspot | PASS | 0 | 0 |  |  |
-| C. site | qtl.csv: map position inside the UTX v2.1 chromosome | PASS | 0 | 26544 |  |  |
-| C. site | qtl.csv: map_method is aligned/approximate | PASS | 0 | 26544 |  |  |
-| C. site | qtl.csv: share drawn from aligned positions | INFO | 5141 | 26544 |  |  |
-| C. site | gwas.csv: map position inside the UTX v2.1 chromosome | PASS | 0 | 13229 |  |  |
-| C. site | gwas.csv: map_method is aligned/approximate | PASS | 0 | 13229 |  |  |
-| C. site | gwas.csv: share drawn from aligned positions | INFO | 4043 | 13229 |  |  |
-| C. site | meta-QTL position inside its 95% CI | PASS | 0 | 4722 |  |  |
-| C. site | meta-QTL CI width = end - start | PASS | 0 | 4722 |  |  |
-| C. site | meta-QTL supported by >= 2 studies | PASS | 0 | 4722 |  |  |
-| C. site | meta-QTL inside its chromosome | PASS | 0 | 4722 |  |  |
+| C. site | qtl.csv: map position inside the UTX v2.1 chromosome | PASS | 0 | 26559 |  |  |
+| C. site | qtl.csv: map_method is aligned/approximate | PASS | 0 | 26559 |  |  |
+| C. site | qtl.csv: share drawn from aligned positions | INFO | 5141 | 26559 |  |  |
+| C. site | gwas.csv: map position inside the UTX v2.1 chromosome | PASS | 0 | 13236 |  |  |
+| C. site | gwas.csv: map_method is aligned/approximate | PASS | 0 | 13236 |  |  |
+| C. site | gwas.csv: share drawn from aligned positions | INFO | 4043 | 13236 |  |  |
+| C. site | meta-QTL position inside its 95% CI | PASS | 0 | 4749 |  |  |
+| C. site | meta-QTL CI width = end - start | PASS | 0 | 4749 |  |  |
+| C. site | meta-QTL supported by >= 2 studies | PASS | 0 | 4749 |  |  |
+| C. site | meta-QTL inside its chromosome | PASS | 0 | 4749 |  |  |
 | C. site | hotspots: start < end, inside the chromosome | PASS | 0 | 59 |  |  |
 | C. site | hotspots reach the study threshold (27) | PASS | 0 | 59 | peak window passes; merged neighbours may not |  |
 | C. site | every map in maps.csv has a marker file | PASS | 0 | 157 |  |  |
@@ -121,10 +121,10 @@
 | C. site | primer sequences >= 8 nt (RAPD primers are 10-mers) | PASS | 0 | 912127 |  |  |
 | C. site | primer rows have a marker name | PASS | 0 | 453167 |  |  |
 | C. site | literature.csv: PMID unique | PASS | 0 | 1132 |  |  |
-| C. site | qtl.csv: DOI / PubMed links well-formed | PASS | 0 | 52452 |  |  |
-| C. site | gwas.csv: DOI / PubMed links well-formed | PASS | 0 | 18401 |  |  |
+| C. site | qtl.csv: DOI / PubMed links well-formed | PASS | 0 | 53268 |  |  |
+| C. site | gwas.csv: DOI / PubMed links well-formed | PASS | 0 | 18437 |  |  |
 | C. site | literature.csv: DOI / PubMed links well-formed | PASS | 0 | 1479 |  |  |
-| C. site | download lists every QTL/GWAS locus drawn on the map | PASS | 0 | 39773 |  |  |
-| C. site | download: converted loci not drawn on the map (interval > 20 Mb or ends in the first 100 kb) | INFO | 425 | 40198 |  |  |
-| C. site | download ids unique | PASS | 0 | 40198 |  |  |
+| C. site | download lists every QTL/GWAS locus drawn on the map | PASS | 0 | 39795 |  |  |
+| C. site | download: converted loci not drawn on the map (interval > 20 Mb or ends in the first 100 kb) | INFO | 427 | 40222 |  |  |
+| C. site | download ids unique | PASS | 0 | 40222 |  |  |
 | C. site | demo files non-empty | PASS | 0 | 11 |  |  |

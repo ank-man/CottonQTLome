@@ -11283,18 +11283,42 @@ fiber quality	0.0015999999999999
 fiber quality	0.0132
 fiber quality	4.7017999999999995
 fiber quality	1.2044
+fiber quality	0.0248
+fiber quality	0.003
 fiber quality	0.9848
 fiber quality	5.8572
+fiber quality	2.0323
+fiber quality	1.7619
+fiber quality	0.0356
+fiber quality	0.0608
+fiber quality	5.2434
+fiber quality	2.5672
 fiber quality	2.699
 fiber quality	2.8400000000000003
+fiber quality	7.6129
+fiber quality	4.7517
+fiber quality	7.6129
+fiber quality	4.7517
+fiber quality	4.6765
+fiber quality	6.1139
+fiber quality	4.417
 fiber quality	0.2494
+fiber quality	6.431099999999999
+fiber quality	5.5431
+fiber quality	6.431099999999999
+fiber quality	5.5431
+fiber quality	4.6661
+fiber quality	4.7940000000000005
 fiber quality	7.3778
+fiber quality	5.9501
 fiber quality	0.8848999999999999
 fiber quality	0.8848999999999999
 fiber quality	0.0075
 fiber quality	0.1327
 fiber quality	0.7068
 fiber quality	4.864199999999999
+fiber quality	0.0049
+fiber quality	0.0049
 fiber quality	8.5806
 fiber quality	8.7707
 fiber quality	6.3845
@@ -12556,6 +12580,8 @@ plant architecture	4.78
 yield	4.86
 yield	4.81
 yield	3.41
+yield	3.97
+yield	3.65
 yield	6.95
 yield	4.89
 yield	2.99
@@ -12587,6 +12613,9 @@ fiber quality	3.42
 fiber quality	2.99
 fiber quality	4.27
 fiber quality	2.59
+fiber quality	6.91
+fiber quality	7.84
+fiber quality	4.45
 fiber quality	5.57
 fiber quality	2.23
 fiber quality	4.27
@@ -27697,6 +27726,7 @@ fiber quality	7.2971
 plant architecture	8.2887
 plant architecture	7.5429
 yield	8.5898
+yield	13.5882
 yield	8.8231
 yield	7.889200000000001
 yield	12.5268
@@ -27704,8 +27734,10 @@ yield	9.706
 fiber quality	15.190600000000002
 fiber quality	9.1708
 fiber quality	9.0537
+fiber quality	7.9405
 fiber quality	8.914900000000001
 yield	7.9432
+yield	13.664599999999998
 fiber quality	7.2971
 fiber quality	8.914900000000001
 physiology	12.21
@@ -28891,6 +28923,122 @@ biotic stress	19.87
 biotic stress	19.87
 biotic stress	21.84
 biotic stress	21.84
+yield	0.25
+yield	3.53
+yield	5.51
+fiber quality	2.84
+yield	2.81
+yield	3.31
+yield	4.23
+yield	1.42
+fiber quality	1.6
+yield	2.22
+fiber quality	3.31
+yield	3.8
+yield	4.36
+yield	4.97
+yield	5.26
+yield	5.27
+yield	5.35
+yield	6.03
+fiber quality	6.57
+yield	8.43
+yield	8.55
+fiber quality	9.24
+yield	1.75
+fiber quality	2.23
+yield	4.07
+yield	5.43
+fiber quality	0.44
+yield	1.06
+fiber quality	0.43
+yield	2.74
+yield	0.24
+yield	1.36
+yield	4.29
+yield	4.4
+fiber quality	8.35
+yield	8.86
+fiber quality	0.43
+yield	3.07
+yield	1.07
+yield	5.05
+fiber quality	1.64
+fiber quality	2.22
+yield	2.32
+fiber quality	2.33
+fiber quality	2.85
+yield	2.93
+yield	3.32
+yield	4.13
+yield	1.14
+yield	1.7
+yield	1.88
+fiber quality	2.1
+yield	2.32
+yield	3.95
+yield	4.96
+yield	5.48
+yield	6.16
+fiber quality	6.73
+yield	7.52
+fiber quality	10.24
+fiber quality	13.01
+fiber quality	3.25
+fiber quality	2.53
+fiber quality	5.87
+yield	3.02
+fiber quality	4.16
+yield	4.18
+yield	6.75
+fiber quality	0.17
+yield	1.08
+yield	1.4
+fiber quality	1.56
+fiber quality	1.64
+fiber quality	2.41
+yield	3.66
+fiber quality	1.63
+fiber quality	2.73
+yield	2.86
+fiber quality	6.82
+yield	7.79
+yield	0.96
+fiber quality	1.62
+fiber quality	2.13
+yield	3.75
+fiber quality	3.76
+yield	4.31
+fiber quality	6.94
+fiber quality	0.82
+fiber quality	1.38
+fiber quality	1.62
+yield	1.73
+yield	2.46
+yield	2.94
+yield	4.99
+yield	6.6
+fiber quality	0.28
+fiber quality	1.63
+yield	1.67
+fiber quality	2.72
+fiber quality	2.9
+fiber quality	3.05
+yield	5.92
+yield	6.16
+yield	0.94
+yield	1.01
+yield	1.73
+yield	1.88
+yield	2.88
+yield	3.4
+yield	3.7
+yield	4.02
+fiber quality	7.17
+fiber quality	8.7
+fiber quality	2.83
+yield	4.08
+yield	4.96
 fiber quality	1.1102
 fiber quality	0.2726
 fiber quality	0.6301
@@ -29843,6 +29991,17 @@ fiber quality	10.9461
 fiber quality	6.1742
 fiber quality	9.5266
 fiber quality	7.37
+fiber quality	4.1121
+fiber quality	3.4809
+fiber quality	5.2075
+fiber quality	3.3342
+fiber quality	3.7516
+fiber quality	3.4511
+fiber quality	11.7596
+fiber quality	3.6872
+fiber quality	2.9381
+fiber quality	3.135
+fiber quality	3.678
 fiber quality	5.1754
 fiber quality	4.0147
 fiber quality	6.0108
@@ -29929,6 +30088,7 @@ fiber quality	9.1
 fiber quality	15.2
 fiber quality	9.0
 fiber quality	8.6
+fiber quality	8.1
 yield	10.3
 yield	14.6
 fiber quality	11.9

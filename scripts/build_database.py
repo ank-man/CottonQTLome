@@ -569,6 +569,15 @@ def main(proj):
               "chromosome", "ref_genome", "source_dataset", "record_subtype", "trait_original"]:
         df[c] = df[c].fillna("").astype(str)
     df = sanitise(df, f"{out_dir}/sanitise_log.tsv")
+    # Literature traits were harmonised at extraction; re-run the current rules on those still unclassified, so rule
+    # improvements apply without re-extracting.
+    un = (df["source_db"] == "Literature") & (df["trait_category"] == "unclassified")
+    hz = df.loc[un, "trait_original"].map(H.harmonise_trait)
+    fixed = hz.map(lambda t: t[1] != "unclassified")
+    idx = hz[fixed].index
+    df.loc[idx, "trait_harmonized"] = hz[fixed].map(lambda t: t[0])
+    df.loc[idx, "trait_category"] = hz[fixed].map(lambda t: t[1])
+    print(f"re-harmonised literature traits: {len(idx):,} records", flush=True)
     # A table often omits the trait because the whole paper is about one trait. When a literature
     # record's trait cannot be resolved, fall back to the trait named in the paper's title.
     lit_title = {}

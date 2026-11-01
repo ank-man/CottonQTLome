@@ -1,48 +1,48 @@
 {
  "built": "2026-11-01",
  "counts": {
-  "qtl": 54765,
-  "gwas_loci": 24329,
-  "gwas_associations": 150156,
+  "qtl": 55581,
+  "gwas_loci": 24359,
+  "gwas_associations": 150217,
   "metaqtl": 5529,
-  "mqtl": 4722,
-  "mqtl_high": 1103,
-  "mqtl_moderate": 1747,
-  "mqtl_in_hotspots": 758,
-  "mqtl_traits": 44,
-  "mqtl_qtl_gwas": 3102,
+  "mqtl": 4749,
+  "mqtl_high": 1098,
+  "mqtl_moderate": 1746,
+  "mqtl_in_hotspots": 766,
+  "mqtl_traits": 43,
+  "mqtl_qtl_gwas": 3110,
   "mqtl_median_ci_mb": 2.26,
   "epistatic": 10424,
-  "clusters": 2367,
+  "clusters": 2369,
   "mtl": 203,
   "hotspots": 59,
   "papers_indexed": 1570,
   "studies_with_data": 550,
-  "loci": 72204,
-  "records_unresolved_trait": 8542,
+  "loci": 72964,
+  "records_unresolved_trait": 7649,
   "maps": 157,
   "map_loci": 224065,
-  "markers": 7674,
+  "markers": 7698,
   "primer_catalog": 453167,
-  "markers_with_primers": 7139,
+  "markers_with_primers": 7151,
   "epistatic_physical": 9246,
   "traits": 71,
   "species": 18,
-  "trait_names": 2747,
+  "trait_names": 2971,
   "categories": 11,
   "papers_not_in_pmc": 762
  },
  "by_source": {
-  "CottonGVD": 24262,
+  "CottonGVD": 24286,
   "CottonGen": 68405,
   "CottonMD": 217,
   "GWAS Atlas": 21950,
-  "Literature": 108610
+  "Literature": 109465
  },
  "by_species": {
-  "Gossypium hirsutum": 125696,
-  "Gossypium barbadense": 68992,
-  "Gossypium hirsutum x barbadense": 6520,
+  "Gossypium hirsutum": 126529,
+  "Gossypium barbadense": 69020,
+  "Gossypium hirsutum x barbadense": 6536,
   "Gossypium arboreum": 2500,
   "Gossypium hirsutum x tomentosum": 550,
   "Gossypium spp.": 339,
@@ -53,16 +53,16 @@
  },
  "by_category": {
   "Fiber quality": {
-   "qtl": 27562,
+   "qtl": 28218,
    "gwas_loci": 8115
   },
   "Yield": {
-   "qtl": 18267,
-   "gwas_loci": 3813
+   "qtl": 18427,
+   "gwas_loci": 3847
   },
   "Plant architecture": {
    "qtl": 2503,
-   "gwas_loci": 1891
+   "gwas_loci": 1887
   },
   "Phenology": {
    "qtl": 1628,
@@ -102,25 +102,25 @@
   }
  },
  "top_traits": {
-  "fiber strength": 6181,
-  "fiber length": 6021,
-  "lint percentage": 5132,
-  "micronaire": 4664,
-  "boll weight": 4140,
-  "fiber elongation": 3820,
-  "fiber uniformity": 3226,
-  "seed index": 2786,
+  "fiber strength": 6335,
+  "fiber length": 6157,
+  "lint percentage": 5175,
+  "micronaire": 4812,
+  "boll weight": 4169,
+  "fiber elongation": 3923,
+  "fiber uniformity": 3301,
+  "seed index": 2812,
   "plant biomass": 2598,
   "plant height and stature": 1726,
   "seed cotton yield": 1573,
-  "boll number": 1531,
+  "boll number": 1549,
   "verticillium wilt resistance": 1309,
   "flowering time": 1304,
   "growth period and maturity": 1268,
   "leaf morphology": 1206,
   "germination and seedling vigor": 1166,
   "spinning consistency index": 978,
-  "lint index": 893,
+  "lint index": 908,
   "cold tolerance": 880
  },
  "per_chromosome": [
@@ -131,7 +131,7 @@
    "qtl_loci": 1870,
    "gwas_loci": 604,
    "studies": 265,
-   "traits": 94,
+   "traits": 90,
    "loci_per_mb": 20.65771371596791
   },
   {
@@ -141,28 +141,28 @@
    "qtl_loci": 1347,
    "gwas_loci": 636,
    "studies": 238,
-   "traits": 86,
+   "traits": 83,
    "loci_per_mb": 18.337095797769223
   },
   {
    "chromosome": "A03",
    "length_mb": 113.693209,
-   "loci": 2011,
-   "qtl_loci": 1449,
-   "gwas_loci": 562,
+   "loci": 2008,
+   "qtl_loci": 1447,
+   "gwas_loci": 561,
    "studies": 249,
-   "traits": 85,
-   "loci_per_mb": 17.68795179314536
+   "traits": 78,
+   "loci_per_mb": 17.661564992857226
   },
   {
    "chromosome": "A04",
    "length_mb": 89.180822,
-   "loci": 1464,
-   "qtl_loci": 1067,
+   "loci": 1463,
+   "qtl_loci": 1066,
    "gwas_loci": 397,
    "studies": 198,
-   "traits": 86,
-   "loci_per_mb": 16.41608551219678
+   "traits": 77,
+   "loci_per_mb": 16.40487233903271
   },
   {
    "chromosome": "A05",
@@ -171,7 +171,7 @@
    "qtl_loci": 1816,
    "gwas_loci": 756,
    "studies": 283,
-   "traits": 103,
+   "traits": 88,
    "loci_per_mb": 23.150574876389477
   },
   {
@@ -181,18 +181,18 @@
    "qtl_loci": 1570,
    "gwas_loci": 853,
    "studies": 242,
-   "traits": 99,
+   "traits": 92,
    "loci_per_mb": 18.900843336440207
   },
   {
    "chromosome": "A07",
    "length_mb": 98.902531,
-   "loci": 2465,
-   "qtl_loci": 1653,
-   "gwas_loci": 812,
+   "loci": 2461,
+   "qtl_loci": 1650,
+   "gwas_loci": 811,
    "studies": 260,
-   "traits": 101,
-   "loci_per_mb": 24.923527993434263
+   "traits": 90,
+   "loci_per_mb": 24.883084134621388
   },
   {
    "chromosome": "A08",
@@ -201,7 +201,7 @@
    "qtl_loci": 1680,
    "gwas_loci": 1092,
    "studies": 255,
-   "traits": 89,
+   "traits": 81,
    "loci_per_mb": 21.741867435661565
   },
   {
@@ -211,18 +211,18 @@
    "qtl_loci": 1324,
    "gwas_loci": 529,
    "studies": 235,
-   "traits": 87,
+   "traits": 78,
    "loci_per_mb": 21.714171289257884
   },
   {
    "chromosome": "A10",
    "length_mb": 118.182687,
-   "loci": 2635,
-   "qtl_loci": 1900,
+   "loci": 2632,
+   "qtl_loci": 1897,
    "gwas_loci": 735,
    "studies": 248,
-   "traits": 92,
-   "loci_per_mb": 22.29598993632629
+   "traits": 81,
+   "loci_per_mb": 22.27060550755628
   },
   {
    "chromosome": "A11",
@@ -231,7 +231,7 @@
    "qtl_loci": 1449,
    "gwas_loci": 700,
    "studies": 251,
-   "traits": 89,
+   "traits": 86,
    "loci_per_mb": 17.305280225916608
   },
   {
@@ -241,7 +241,7 @@
    "qtl_loci": 1403,
    "gwas_loci": 616,
    "studies": 235,
-   "traits": 95,
+   "traits": 89,
    "loci_per_mb": 18.442682362914827
   },
   {
@@ -251,7 +251,7 @@
    "qtl_loci": 1479,
    "gwas_loci": 677,
    "studies": 227,
-   "traits": 93,
+   "traits": 88,
    "loci_per_mb": 19.310928738875255
   },
   {
@@ -261,18 +261,18 @@
    "qtl_loci": 1108,
    "gwas_loci": 544,
    "studies": 245,
-   "traits": 101,
+   "traits": 90,
    "loci_per_mb": 25.33547729953503
   },
   {
    "chromosome": "D02",
    "length_mb": 72.186496,
-   "loci": 1980,
-   "qtl_loci": 1419,
+   "loci": 1978,
+   "qtl_loci": 1417,
    "gwas_loci": 561,
    "studies": 248,
-   "traits": 102,
-   "loci_per_mb": 27.428952916623075
+   "traits": 86,
+   "loci_per_mb": 27.40124690357598
   },
   {
    "chromosome": "D03",
@@ -281,7 +281,7 @@
    "qtl_loci": 1170,
    "gwas_loci": 778,
    "studies": 220,
-   "traits": 88,
+   "traits": 83,
    "loci_per_mb": 35.446363610690334
   },
   {
@@ -291,18 +291,18 @@
    "qtl_loci": 886,
    "gwas_loci": 377,
    "studies": 204,
-   "traits": 82,
+   "traits": 77,
    "loci_per_mb": 21.69015305519974
   },
   {
    "chromosome": "D05",
    "length_mb": 66.484719,
-   "loci": 2114,
-   "qtl_loci": 1380,
+   "loci": 2112,
+   "qtl_loci": 1378,
    "gwas_loci": 734,
    "studies": 258,
-   "traits": 101,
-   "loci_per_mb": 31.796780249608936
+   "traits": 92,
+   "loci_per_mb": 31.766698149088967
   },
   {
    "chromosome": "D06",
@@ -311,18 +311,18 @@
    "qtl_loci": 1324,
    "gwas_loci": 535,
    "studies": 238,
-   "traits": 90,
+   "traits": 81,
    "loci_per_mb": 27.87766566494021
   },
   {
    "chromosome": "D07",
    "length_mb": 59.440927,
-   "loci": 1878,
-   "qtl_loci": 1335,
-   "gwas_loci": 543,
+   "loci": 1862,
+   "qtl_loci": 1334,
+   "gwas_loci": 528,
    "studies": 224,
-   "traits": 105,
-   "loci_per_mb": 31.59439286671959
+   "traits": 86,
+   "loci_per_mb": 31.325218060613352
   },
   {
    "chromosome": "D08",
@@ -331,28 +331,28 @@
    "qtl_loci": 1238,
    "gwas_loci": 652,
    "studies": 243,
-   "traits": 94,
+   "traits": 84,
    "loci_per_mb": 27.222780737338955
   },
   {
    "chromosome": "D09",
    "length_mb": 54.445796,
-   "loci": 1539,
-   "qtl_loci": 1077,
+   "loci": 1538,
+   "qtl_loci": 1076,
    "gwas_loci": 462,
    "studies": 237,
-   "traits": 91,
-   "loci_per_mb": 28.26664523372934
+   "traits": 81,
+   "loci_per_mb": 28.248278342739265
   },
   {
    "chromosome": "D10",
    "length_mb": 68.089194,
-   "loci": 1746,
-   "qtl_loci": 1133,
+   "loci": 1745,
+   "qtl_loci": 1132,
    "gwas_loci": 613,
    "studies": 225,
-   "traits": 97,
-   "loci_per_mb": 25.642835484291385
+   "traits": 91,
+   "loci_per_mb": 25.628148866030045
   },
   {
    "chromosome": "D11",
@@ -361,28 +361,28 @@
    "qtl_loci": 1291,
    "gwas_loci": 1565,
    "studies": 261,
-   "traits": 92,
+   "traits": 83,
    "loci_per_mb": 39.21795982625345
   },
   {
    "chromosome": "D12",
    "length_mb": 63.255146,
-   "loci": 1693,
-   "qtl_loci": 1185,
+   "loci": 1692,
+   "qtl_loci": 1184,
    "gwas_loci": 508,
    "studies": 238,
-   "traits": 95,
-   "loci_per_mb": 26.764620857882456
+   "traits": 82,
+   "loci_per_mb": 26.74881186741708
   },
   {
    "chromosome": "D13",
    "length_mb": 65.099798,
-   "loci": 1683,
-   "qtl_loci": 1129,
+   "loci": 1682,
+   "qtl_loci": 1128,
    "gwas_loci": 554,
    "studies": 217,
-   "traits": 90,
-   "loci_per_mb": 25.8526147807709
+   "traits": 83,
+   "loci_per_mb": 25.837253750003953
   }
  ],
  "papers_per_year": [
@@ -582,43 +582,43 @@
  "subgenome_bias": [
   {
    "trait_category": "all",
-   "At": 8846,
-   "Dt": 8555,
-   "frac_Dt": 0.491638411585541,
-   "p_vs_equal": 0.0279162343122615,
-   "p_vs_length": 4.484671247467927e-248,
-   "q_vs_equal": 0.2059411655326364,
-   "q_vs_length": 4.9331383722147205e-247
+   "At": 8821,
+   "Dt": 8523,
+   "frac_Dt": 0.4914091328413284,
+   "p_vs_equal": 0.0241190575925381,
+   "p_vs_length": 2.4687358166163003e-246,
+   "q_vs_equal": 0.2582627553159777,
+   "q_vs_length": 2.7156093982779297e-245
   },
   {
    "trait_category": "fiber quality",
-   "At": 4006,
-   "Dt": 3884,
-   "frac_Dt": 0.4922686945500634,
-   "p_vs_equal": 0.1731249618698574,
-   "p_vs_length": 1.1605101460225515e-114,
-   "q_vs_equal": 0.634791526856144,
-   "q_vs_length": 6.3828058031240335e-114
+   "At": 4035,
+   "Dt": 3933,
+   "frac_Dt": 0.4935993975903614,
+   "p_vs_equal": 0.2578519094063684,
+   "p_vs_length": 3.129048187440273e-118,
+   "q_vs_equal": 0.822639839630219,
+   "q_vs_length": 1.72097650309215e-117
   },
   {
    "trait_category": "yield",
-   "At": 2334,
-   "Dt": 2193,
-   "frac_Dt": 0.4844267726971504,
-   "p_vs_equal": 0.0374438482786611,
-   "p_vs_length": 6.8245483324401865e-59,
-   "q_vs_equal": 0.2059411655326364,
-   "q_vs_length": 2.5023343885614013e-58
+   "At": 2377,
+   "Dt": 2241,
+   "frac_Dt": 0.4852750108271979,
+   "p_vs_equal": 0.046956864602905,
+   "p_vs_length": 7.939206264388651e-61,
+   "q_vs_equal": 0.2582627553159777,
+   "q_vs_length": 2.911042296942505e-60
   },
   {
    "trait_category": "plant architecture",
-   "At": 580,
-   "Dt": 570,
-   "frac_Dt": 0.4956521739130435,
-   "p_vs_equal": 0.7907185749098882,
-   "p_vs_length": 4.49684676175156e-19,
-   "q_vs_equal": 0.869790432400877,
-   "q_vs_length": 1.2366328594816788e-18
+   "At": 584,
+   "Dt": 572,
+   "frac_Dt": 0.4948096885813148,
+   "p_vs_equal": 0.7463101702654032,
+   "p_vs_length": 7.141672124135364e-19,
+   "q_vs_equal": 0.822639839630219,
+   "q_vs_length": 1.9639598341372253e-18
   },
   {
    "trait_category": "phenology",
@@ -627,7 +627,7 @@
    "frac_Dt": 0.5084388185654009,
    "p_vs_equal": 0.7478543996638356,
    "p_vs_length": 3.281054307430886e-10,
-   "q_vs_equal": 0.869790432400877,
+   "q_vs_equal": 0.822639839630219,
    "q_vs_length": 6.015266230289956e-10
   },
   {
@@ -637,7 +637,7 @@
    "frac_Dt": 0.4841437632135306,
    "p_vs_equal": 0.5197998773242898,
    "p_vs_length": 1.7774020677908352e-07,
-   "q_vs_equal": 0.869790432400877,
+   "q_vs_equal": 0.822639839630219,
    "q_vs_length": 2.793060392242741e-07
   },
   {
@@ -647,7 +647,7 @@
    "frac_Dt": 0.5163398692810458,
    "p_vs_equal": 0.5135012207797962,
    "p_vs_length": 8.375233669209642e-11,
-   "q_vs_equal": 0.869790432400877,
+   "q_vs_equal": 0.822639839630219,
    "q_vs_length": 1.8425514072261214e-10
   },
   {
@@ -657,7 +657,7 @@
    "frac_Dt": 0.4864864864864865,
    "p_vs_equal": 0.6399240484417613,
    "p_vs_length": 2.465993593987217e-06,
-   "q_vs_equal": 0.869790432400877,
+   "q_vs_equal": 0.822639839630219,
    "q_vs_length": 3.3907411917324235e-06
   },
   {
@@ -667,7 +667,7 @@
    "frac_Dt": 0.4748201438848921,
    "p_vs_equal": 0.4356290984950469,
    "p_vs_length": 0.0002306427382808,
-   "q_vs_equal": 0.869790432400877,
+   "q_vs_equal": 0.822639839630219,
    "q_vs_length": 0.0002537070121088
   },
   {
@@ -687,24 +687,24 @@
    "frac_Dt": 0.4785276073619632,
    "p_vs_equal": 0.6385215487731519,
    "p_vs_length": 0.0034027403378421,
-   "q_vs_equal": 0.869790432400877,
+   "q_vs_equal": 0.822639839630219,
    "q_vs_length": 0.0034027403378421
   }
  ],
  "effect_sizes": [
   {
    "trait_category": "fiber quality",
-   "n": 18896,
-   "median": 4.7123,
-   "frac_major": 0.1385478408128704,
-   "frac_large": 0.0276778154106689
+   "n": 18980,
+   "median": 4.7059,
+   "frac_major": 0.1380927291886196,
+   "frac_large": 0.0275553213909378
   },
   {
    "trait_category": "yield",
-   "n": 13131,
-   "median": 4.827,
-   "frac_major": 0.1405071967100754,
-   "frac_large": 0.0265021704363719
+   "n": 13207,
+   "median": 4.8161,
+   "frac_major": 0.1398500795032937,
+   "frac_large": 0.0263496630574695
   },
   {
    "trait_category": "plant architecture",
@@ -757,19 +757,19 @@
   }
  ],
  "insights": {
-  "n_records": 195298,
-  "n_loci": 53077,
+  "n_records": 195284,
+  "n_loci": 53042,
   "n_studies": 441,
   "subgenome": {
    "frac_Dt_length": 0.36655016048847744,
    "trait_category": "all",
-   "At": 8846,
-   "Dt": 8555,
-   "frac_Dt": 0.49163841158554106,
-   "p_vs_equal": 0.02791623431226156,
-   "p_vs_length": 4.484671247467927e-248,
-   "q_vs_equal": 0.20594116553263644,
-   "q_vs_length": 4.93313837221472e-247
+   "At": 8821,
+   "Dt": 8523,
+   "frac_Dt": 0.4914091328413284,
+   "p_vs_equal": 0.024119057592538167,
+   "p_vs_length": 2.4687358166163e-246,
+   "q_vs_equal": 0.2582627553159777,
+   "q_vs_length": 2.7156093982779297e-245
   },
   "hotspots": {
    "window_mb": 2.0,
@@ -781,7 +781,7 @@
    "n_sig_windows": 100,
    "n_hotspots": 59,
    "genome_fraction": 0.08765706826298135,
-   "fraction_loci_in_hotspots": 0.18468026677128285,
+   "fraction_loci_in_hotspots": 0.18475025350822674,
    "hotspots_At": 23,
    "hotspots_Dt": 36,
    "null_mean": 15.16969696969697,
@@ -808,10 +808,10 @@
    "note": "relative-position bins; ignores known A/D translocations"
   },
   "effects": {
-   "n": 40427,
-   "median_pve": 5.2651,
-   "frac_ge10": 0.16924332747915996,
-   "frac_ge20": 0.03693076409330398
+   "n": 40413,
+   "median_pve": 5.2641,
+   "frac_ge10": 0.1691782347264494,
+   "frac_ge20": 0.03694355776606537
   },
   "literature": {
    "last_year": 2025,
@@ -821,9 +821,9 @@
    "linkage_2015": 48
   },
   "trait_chr": {
-   "chi2": 132.2012771613756,
+   "chi2": 133.1231548408617,
    "dof": 175,
-   "p": 0.9932430035175622
+   "p": 0.9920357619204556
   }
  },
  "comparison": {
@@ -876,7 +876,7 @@
    {
     "source": "CottonGVD",
     "QTL": 0,
-    "GWAS": 24262,
+    "GWAS": 24286,
     "meta-QTL": 0,
     "epistatic QTL": 0,
     "QTL cluster": 0,
@@ -885,40 +885,40 @@
     "traits": 44,
     "species": 3,
     "unique_studies": 4,
-    "with_physical_position": 24132,
+    "with_physical_position": 24156,
     "with_genetic_position": 0
    },
    {
     "source": "Literature",
-    "QTL": 45506,
-    "GWAS": 44784,
+    "QTL": 46322,
+    "GWAS": 44821,
     "meta-QTL": 5529,
     "epistatic QTL": 10424,
-    "QTL cluster": 2367,
+    "QTL cluster": 2369,
     "MTL": 0,
-    "studies": 384,
+    "studies": 385,
     "traits": 59,
     "species": 7,
-    "unique_studies": 358,
-    "with_physical_position": 77599,
-    "with_genetic_position": 21000
+    "unique_studies": 359,
+    "with_physical_position": 77632,
+    "with_genetic_position": 21683
    }
   ],
   "integrated": [
    {
     "label": "Linkage QTL",
     "cottongen": 9259,
-    "integrated": 54765
+    "integrated": 55581
    },
    {
     "label": "GWAS loci",
-    "cottongen": 2329,
-    "integrated": 24329
+    "cottongen": 2319,
+    "integrated": 24359
    },
    {
     "label": "Studies",
     "cottongen": 165,
-    "integrated": 536
+    "integrated": 537
    },
    {
     "label": "Harmonised traits",
@@ -938,7 +938,7 @@
    {
     "label": "Meta-QTL (computed)",
     "cottongen": 0,
-    "integrated": 4722
+    "integrated": 4749
    },
    {
     "label": "Hotspot regions",
@@ -946,10 +946,10 @@
     "integrated": 59
    }
   ],
-  "studies_total": 536,
-  "studies_literature_only": 358,
-  "records_literature_only": 102072,
-  "core_records_literature_only": 86509,
+  "studies_total": 537,
+  "studies_literature_only": 359,
+  "records_literature_only": 102411,
+  "core_records_literature_only": 86846,
   "traits_only_via_literature": 8
  },
  "top_hotspots": [

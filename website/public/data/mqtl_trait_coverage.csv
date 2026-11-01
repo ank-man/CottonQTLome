@@ -1,503 +1,281 @@
-trait,category,n_database_records,n_database_qtl,n_database_gwas,n_placed_records,n_placed_studies,n_observations,n_chromosomes,n_chromosomes_modelled,n_meta_qtl,n_studies_max,status
-cold tolerance,abiotic stress,893,0,893,4,1,3,3,0,0,0,no chromosome with two independent studies
-drought tolerance,abiotic stress,479,251,207,102,4,53,23,10,4,3,meta-QTL found
-nutrient and other abiotic stress,abiotic stress,86,86,0,45,1,25,12,0,0,0,no chromosome with two independent studies
-salt tolerance,abiotic stress,493,234,212,117,7,72,23,16,13,3,meta-QTL found
-bacterial blight resistance,biotic stress,263,23,224,216,3,5,3,1,1,3,meta-QTL found
-cotton blue disease resistance,biotic stress,1,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-cotton leaf crumple virus resistance,biotic stress,3,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-cotton leaf curl disease resistance,biotic stress,9,9,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-fusarium wilt resistance,biotic stress,5775,209,5435,5456,11,348,26,26,77,5,meta-QTL found
-insect resistance,biotic stress,13,13,0,12,1,10,8,0,0,0,no chromosome with two independent studies
-other disease resistance,biotic stress,7,6,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-reniform nematode resistance,biotic stress,33,18,15,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-root-knot nematode resistance,biotic stress,53,8,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-verticillium wilt resistance,biotic stress,3344,1080,1733,1248,15,129,25,24,30,3,meta-QTL found
-fertility and sterility,fertility,73,43,0,39,1,32,18,0,0,0,no chromosome with two independent studies
-fiber color,fiber quality,85,58,8,13,2,10,6,1,0,0,modelled; no supported component
-fiber development,fiber quality,638,258,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-fiber elongation,fiber quality,8603,3677,4407,6031,67,1424,26,26,327,18,meta-QTL found
-fiber fineness,fiber quality,511,314,185,35,1,27,15,0,0,0,no chromosome with two independent studies
-fiber flame resistance,fiber quality,258,0,22,22,1,20,15,0,0,0,no chromosome with two independent studies
-fiber length,fiber quality,23001,6840,13384,16210,91,2100,26,26,380,25,meta-QTL found
-fiber maturity,fiber quality,5051,320,3493,3468,10,231,26,26,51,4,meta-QTL found
-fiber neps,fiber quality,68,45,23,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-fiber reflectance,fiber quality,64,49,15,15,1,13,13,0,0,0,no chromosome with two independent studies
-fiber strength,fiber quality,12862,5910,5981,7894,82,2168,26,26,414,18,meta-QTL found
-fiber uniformity,fiber quality,6178,2988,2711,4175,61,1402,26,26,336,11,meta-QTL found
-fiber whiteness and colorimetry,fiber quality,12950,0,12950,12366,2,222,26,22,17,2,meta-QTL found
-fiber yellowness,fiber quality,58,52,6,6,1,5,4,0,0,0,no chromosome with two independent studies
-lint visible foreign matter,fiber quality,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-micronaire,fiber quality,30207,5547,20373,23009,76,1711,26,26,363,13,meta-QTL found
-seed fuzz,fiber quality,197,82,108,65,2,44,16,1,0,0,modelled; no supported component
-short fiber content,fiber quality,860,351,444,460,20,220,26,24,57,5,meta-QTL found
-spinning consistency index,fiber quality,4306,1067,3229,4120,8,452,26,24,61,5,meta-QTL found
-germination and seedling vigor,growth and vigor,1280,962,318,141,6,23,14,5,1,2,meta-QTL found
-plant biomass,growth and vigor,4212,119,4089,1908,7,286,26,25,50,3,meta-QTL found
-tissue culture response,growth and vigor,6,6,0,4,1,4,4,0,0,0,no chromosome with two independent studies
-boll morphology,morphology,896,2,893,793,2,221,26,7,8,2,meta-QTL found
-flower morphology,morphology,1732,64,1632,1305,3,391,26,19,39,3,meta-QTL found
-leaf morphology,morphology,2872,147,2674,2165,7,574,26,26,137,3,meta-QTL found
-seed type,morphology,3,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-stem and plant color,morphology,920,0,892,703,2,291,26,11,12,2,meta-QTL found
-stem weight,morphology,9,9,0,5,1,4,4,0,0,0,no chromosome with two independent studies
-trichome and pubescence,morphology,35357,46,35278,35238,8,116,24,20,21,5,meta-QTL found
-flower rate,phenology,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-flowering time,phenology,5679,683,4963,4579,15,156,26,25,35,7,meta-QTL found
-growth period and maturity,phenology,2845,943,1788,1810,20,436,26,26,135,6,meta-QTL found
-chlorophyll content,physiology,491,100,388,409,4,125,26,21,17,3,meta-QTL found
-mineral content,physiology,537,88,414,431,5,124,26,13,12,2,meta-QTL found
-photosynthesis and gas exchange,physiology,19,18,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-senescence and stay-green,physiology,571,80,491,571,2,199,26,20,18,2,meta-QTL found
-"stress indicators (MDA, electrolyte leakage, proline)",physiology,267,30,237,202,2,99,26,2,2,2,meta-QTL found
-branch traits,plant architecture,2104,780,1306,1883,22,549,26,26,143,7,meta-QTL found
-first fruiting branch position,plant architecture,1974,315,1367,1426,16,356,26,26,94,5,meta-QTL found
-plant height and stature,plant architecture,5167,1260,3613,3757,35,630,26,26,193,8,meta-QTL found
-root system traits,plant architecture,2282,148,2133,1808,3,277,26,23,39,2,meta-QTL found
-gossypol and glands,seed quality,1023,19,994,894,4,345,26,19,28,3,meta-QTL found
-seed oil and fatty acids,seed quality,744,618,124,130,10,121,25,24,21,3,meta-QTL found
-seed physical traits,seed quality,15,6,9,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-seed protein and amino acids,seed quality,626,314,280,308,5,146,26,25,22,3,meta-QTL found
-seed size and shape,seed quality,204,197,0,26,1,19,8,0,0,0,no chromosome with two independent studies
--0.16,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
--0.34,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
--0.43,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-1,unclassified,206,0,206,97,1,62,22,0,0,0,no chromosome with two independent studies
-1 2 3 4aa,unclassified,1,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-1st pbr % q < 0.06,unclassified,9,0,9,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-2,unclassified,72,0,72,58,1,49,23,0,0,0,no chromosome with two independent studies
-2017.1,unclassified,11,11,0,6,1,6,5,0,0,0,no chromosome with two independent studies
-2017/2019.1,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-2019.1,unclassified,7,7,0,5,1,5,3,0,0,0,no chromosome with two independent studies
-2021hnbw,unclassified,11,11,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-2021hnfe,unclassified,3,3,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-2021hnfl,unclassified,8,8,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-2021hnfm,unclassified,5,5,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-2021hnfs,unclassified,13,13,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-2021hnfu,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-2021hnli,unclassified,5,5,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-2021hnlp,unclassified,8,8,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-2021hnlw,unclassified,10,10,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-2021hnsi,unclassified,8,8,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-2022hnbw,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-2022hnfm,unclassified,7,7,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-2022hnfs,unclassified,6,6,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-2022hnli,unclassified,10,10,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-2022hnlp,unclassified,7,7,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-2022hnlw,unclassified,5,5,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-2022hnsi,unclassified,6,6,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-3,unclassified,57,0,57,46,1,38,20,0,0,0,no chromosome with two independent studies
-4,unclassified,57,0,57,54,1,50,23,0,0,0,no chromosome with two independent studies
-47,unclassified,1,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-5,unclassified,47,0,47,45,1,30,20,0,0,0,no chromosome with two independent studies
-6,unclassified,61,0,61,61,1,49,22,0,0,0,no chromosome with two independent studies
-7,unclassified,69,0,69,69,1,60,23,0,0,0,no chromosome with two independent studies
-8,unclassified,5,5,0,5,1,5,5,0,0,0,no chromosome with two independent studies
-9,unclassified,2,2,0,2,1,2,1,0,0,0,no chromosome with two independent studies
-92070822,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-ab,unclassified,1,0,1,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-abiotic and biotic stress resistance,unclassified,2,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-all traits,unclassified,1,1,0,0,0,0,0,0,0,0,unresolved trait name
-bc,unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies
-bcw,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-bdr,unclassified,9,9,0,7,1,7,7,0,0,0,no chromosome with two independent studies
-ben har low,unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies
-ben har up,unclassified,2,0,2,2,1,2,2,0,0,0,no chromosome with two independent studies
-bln,unclassified,7,7,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-blup,unclassified,4,0,4,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-bo,unclassified,3,0,3,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-boll,unclassified,3,2,1,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-bolls,unclassified,7,7,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-bp,unclassified,7,7,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-bpt,unclassified,2,0,2,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-branch position,unclassified,5,0,5,5,1,1,1,0,0,0,no chromosome with two independent studies
-bwt,unclassified,14,14,0,1,1,1,1,0,0,0,no chromosome with two independent studies
-car,unclassified,2,2,0,2,1,2,2,0,0,0,no chromosome with two independent studies
-cb,unclassified,2,2,0,2,1,1,1,0,0,0,no chromosome with two independent studies
-chl a,unclassified,5,5,0,5,1,5,4,0,0,0,no chromosome with two independent studies
-chl a/b,unclassified,3,3,0,3,1,3,3,0,0,0,no chromosome with two independent studies
-chl b,unclassified,4,4,0,4,1,4,4,0,0,0,no chromosome with two independent studies
-chr,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-cl,unclassified,10,3,0,3,1,3,3,0,0,0,no chromosome with two independent studies
-clusters of boll-related,unclassified,9,9,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-cnh,unclassified,2,2,0,1,1,1,1,0,0,0,no chromosome with two independent studies
-color,unclassified,4,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-cotton fiber qtl hotspots and associated,unclassified,18,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-cs,unclassified,3,3,0,3,1,3,3,0,0,0,no chromosome with two independent studies
-d,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-d1,unclassified,2,2,0,1,1,1,1,0,0,0,no chromosome with two independent studies
-d10fl07ku,unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies
-d10fs07an,unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies
-d10fs09ku,unclassified,2,0,2,2,1,2,1,0,0,0,no chromosome with two independent studies
-d10fu07an,unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies
-d10fu07nan,unclassified,2,0,2,2,1,2,1,0,0,0,no chromosome with two independent studies
-d10fu08ku,unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies
-d10lp09an,unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies
-d2,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-dt & fdt,unclassified,2,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-dt & st,unclassified,3,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-dt fdt & st,unclassified,1,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-ear % q < 0.05,unclassified,2,0,2,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-efb,unclassified,4,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-f,unclassified,1,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-f2 8 nemx x sj-2,unclassified,14,14,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-f2 nemx x sj-2,unclassified,12,12,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-f2 pima s-7 x sj-2,unclassified,6,6,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-fac,unclassified,1,0,1,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-fb1,unclassified,1,1,0,1,1,1,1,0,0,0,no chromosome with two independent studies
-fbff,unclassified,1,1,0,1,1,1,1,0,0,0,no chromosome with two independent studies
-fbil,unclassified,2,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-fdt dt& st,unclassified,3,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-fel,unclassified,26,24,0,14,3,12,7,2,1,2,meta-QTL found
-ff,unclassified,116,116,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-ffb,unclassified,6,0,6,5,1,4,3,0,0,0,no chromosome with two independent studies
-ffbh,unclassified,1,1,0,1,1,1,1,0,0,0,no chromosome with two independent studies
-ffsbn,unclassified,3,3,0,1,1,1,1,0,0,0,no chromosome with two independent studies
-fg,unclassified,14,14,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-fh,unclassified,8,8,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-fibertrait,unclassified,60,8,52,60,1,48,24,0,0,0,no chromosome with two independent studies
-fine,unclassified,1,1,0,1,1,1,1,0,0,0,no chromosome with two independent studies
-fir fru bra,unclassified,24,0,24,22,1,12,6,0,0,0,no chromosome with two independent studies
-flowering and boll-setting period,unclassified,14,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-flun,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-fmic,unclassified,9,9,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-fn,unclassified,30,30,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-fnc,unclassified,12,12,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-fnms,unclassified,26,26,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-for abbreviations,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-fpc,unclassified,2,0,2,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-fruiting,unclassified,1,0,1,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-fruiting habit,unclassified,4,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-fsci,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-fsp,unclassified,1,0,1,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-fsun,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-ftlh,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-fwpb,unclassified,13,13,0,13,1,11,8,0,0,0,no chromosome with two independent studies
-fy,unclassified,20,20,0,2,1,2,1,0,0,0,no chromosome with two independent studies
-gb and gh gwas panels,unclassified,5,0,5,5,1,5,4,0,0,0,no chromosome with two independent studies
-ge,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-genetic value,unclassified,41,0,41,41,1,28,15,0,0,0,no chromosome with two independent studies
-ghffsbn,unclassified,18,18,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-ghhd,unclassified,13,13,0,12,1,12,8,0,0,0,no chromosome with two independent studies
-ghlbn,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-ghpgip1,unclassified,2,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-ghsobir1b,unclassified,1,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-ghwakl,unclassified,3,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-ginning,unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies
-gn,unclassified,7,0,7,7,1,4,3,0,0,0,no chromosome with two independent studies
-gos num,unclassified,6,0,6,6,1,6,6,0,0,0,no chromosome with two independent studies
-gossypium barbadense background,unclassified,8,8,0,8,1,8,7,0,0,0,no chromosome with two independent studies
-gossypium hirsutum background,unclassified,5,5,0,5,1,5,4,0,0,0,no chromosome with two independent studies
-gs,unclassified,7,0,7,7,1,7,4,0,0,0,no chromosome with two independent studies
-gs 4,unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies
-gs blup,unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies
-half,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-height cm,unclassified,3,0,3,3,1,3,3,0,0,0,no chromosome with two independent studies
-hybrid genotype,unclassified,5,5,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-if,unclassified,38,38,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-ifc,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-ionic,unclassified,18,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-joint-trait,unclassified,7,7,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-l25n,unclassified,2,2,0,2,1,2,2,0,0,0,no chromosome with two independent studies
-l5n,unclassified,4,4,0,4,1,4,4,0,0,0,no chromosome with two independent studies
-la,unclassified,42,38,4,3,1,3,1,0,0,0,no chromosome with two independent studies
-lb,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-lbn,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-lbs,unclassified,6,0,6,6,1,3,3,0,0,0,no chromosome with two independent studies
-lc,unclassified,7,0,7,2,1,2,2,0,0,0,no chromosome with two independent studies
-len,unclassified,2,0,2,2,1,1,1,0,0,0,no chromosome with two independent studies
-length,unclassified,46,39,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-lh,unclassified,14,0,14,12,1,9,5,0,0,0,no chromosome with two independent studies
-liner plasticity,unclassified,163,0,163,162,1,108,22,0,0,0,no chromosome with two independent studies
-lintpc,unclassified,4,0,4,4,1,1,1,0,0,0,no chromosome with two independent studies
-ln,unclassified,1,1,0,1,1,1,1,0,0,0,no chromosome with two independent studies
-lncv,unclassified,2,2,0,2,1,2,2,0,0,0,no chromosome with two independent studies
-main-effect quantitative,unclassified,55,55,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-mboll,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-mbp,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-mc,unclassified,40,40,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-mcf,unclassified,5,5,0,3,1,3,2,0,0,0,no chromosome with two independent studies
-mfvd,unclassified,15,15,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-mi,unclassified,24,24,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-mon,unclassified,8,6,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-mqtls co-located with snps and resistance genes,unclassified,8,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-multiple traits (not specified),unclassified,1822,932,0,153,5,103,25,19,11,2,meta-QTL found
-nb,unclassified,3,3,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-nf,unclassified,1,1,0,1,1,1,1,0,0,0,no chromosome with two independent studies
-nfb,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-nonlinear plasticity,unclassified,21,0,21,21,1,17,11,0,0,0,no chromosome with two independent studies
-number of,unclassified,2,0,2,1,1,1,1,0,0,0,no chromosome with two independent studies
-nv,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-oa,unclassified,32,32,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-occhip,unclassified,35,35,0,6,1,4,3,0,0,0,no chromosome with two independent studies
-ocslaf,unclassified,60,60,0,17,1,14,11,0,0,0,no chromosome with two independent studies
-outturn %,unclassified,19,0,19,14,1,12,10,0,0,0,no chromosome with two independent studies
-pa,unclassified,29,29,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-percent fiber,unclassified,4,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-pf,unclassified,19,19,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-phfb1,unclassified,1,1,0,1,1,1,1,0,0,0,no chromosome with two independent studies
-phloridzin,unclassified,251,0,251,251,1,2,2,0,0,0,no chromosome with two independent studies
-phtn,unclassified,1,1,0,1,1,1,1,0,0,0,no chromosome with two independent studies
-plant,unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies
-plantarchitecture,unclassified,39,5,34,39,1,28,17,0,0,0,no chromosome with two independent studies
-pleiotropic snpqtls,unclassified,14,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-ps,unclassified,2,2,0,2,1,2,1,0,0,0,no chromosome with two independent studies
-psb,unclassified,3,0,3,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-psh,unclassified,2,0,2,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qbw-chr10-1,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qbw-chr10-2,unclassified,15,15,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qbw-chr11,unclassified,6,6,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qbw-chr14,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qbw-chr15,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qbw-chr16,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qbw-chr20,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qbw-chr4-1,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qbw-chr4-2,unclassified,3,3,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qbw-chr7-1,unclassified,7,7,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qbw-chr7-2,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qbw-chr7-3,unclassified,9,9,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfe-c10-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfe-c13-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfe-c19-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfe-c19-2,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfe-c21-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfe-c22-1,unclassified,6,6,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfe-c23-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfe-c25-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfe-c25-2,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfe-c25-3,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfe-c25-4,unclassified,6,6,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfe-c25-5,unclassified,8,8,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfe-c25-6,unclassified,6,6,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfe-c25-7,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfe-c25-8,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfe-c26-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfe-c3-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfe-c3-2,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfe-c4-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfe-c4-2,unclassified,6,6,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfe-c4-3,unclassified,10,10,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfe-c4-4,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfe-c7-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfe-c7-2,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-c21-1,unclassified,14,14,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-c21-2,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-c21-3,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-c22-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-c23-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-c23-2,unclassified,6,6,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-c24-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-c25-1,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-c25-2,unclassified,8,8,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-c25-3,unclassified,12,12,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-c25-4,unclassified,10,10,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-c25-5,unclassified,10,10,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-c25-6,unclassified,6,6,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-c4-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-c4-2,unclassified,6,6,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-c4-3,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-c4-4,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-c4-5,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-c6-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-c7-1,unclassified,6,6,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-c7-2,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-c7-3,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-c7-4,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-chr10-1,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-chr10-2,unclassified,5,5,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-chr11,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-chr16,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-chr19,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-chr20,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-chr21,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-chr23,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-chr24,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-chr25,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-chr4-1,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-chr4-2,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-chr4-3,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfl-chr5,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-c10-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-c13-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-c21-1,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-c23-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-c24-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-c25-1,unclassified,8,8,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-c25-2,unclassified,10,10,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-c25-3,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-c25-4,unclassified,6,6,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-c25-5,unclassified,8,8,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-c25-6,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-c3-1,unclassified,6,6,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-c4-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-c4-2,unclassified,8,8,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-c4-3,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-c5-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-c5-2,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-c6-1,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-c6-2,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-c6-3,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-c6-4,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-c7-1,unclassified,10,10,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-chr10,unclassified,5,5,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-chr13,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-chr14,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-chr15-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-chr15-2,unclassified,3,3,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-chr16-1,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-chr16-2,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-chr16-3,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-chr16-4,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-chr18,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-chr19,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-chr22,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-chr5,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-chr6,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-chr7-1,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-chr7-2,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-chr7-3,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-chr7-4,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfm-chr7-5,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c11-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c12-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c13-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c13-2,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c19-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c21-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c21-2,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c23-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c23-2,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c23-3,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c23-4,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c25-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c25-2,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c25-3,unclassified,6,6,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c25-4,unclassified,10,10,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c25-5,unclassified,12,12,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c25-6,unclassified,14,14,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c25-7,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c4-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c4-2,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c4-3,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c6-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c7-1,unclassified,20,20,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c7-2,unclassified,14,14,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c7-3,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c7-4,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-c9-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-chr14-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-chr14-2,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-chr14-3,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-chr16-1,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-chr16-2,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-chr16-3,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-chr16-4,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-chr17,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-chr4,unclassified,3,3,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-chr6,unclassified,6,6,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-chr8-1,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfs-chr8-2,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfu-23-1,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfu-c10-1,unclassified,3,3,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfu-c10-2,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfu-c10-3,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfu-c12-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfu-c13-1,unclassified,6,6,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfu-c19-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfu-c2-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfu-c23-1,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfu-c25-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfu-c25-2,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfu-c25-3,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfu-c25-4,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfu-c25-5,unclassified,8,8,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfu-c25-6,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfu-c25-7,unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfu-c4-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfu-c4-2,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfu-c5-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfu-c6-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfu-c7-1,unclassified,12,12,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qfu-c7-2,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qlp-chr10,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qlp-chr12,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qlp-chr13,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qlp-chr15,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qlp-chr16-1,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qlp-chr16-2,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qlp-chr3,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qlp-chr4,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qlp-chr5-1,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qlp-chr5-2,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qlp-chr5-3,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qlp-chr9,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qsi-chr1,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qsi-chr10-1,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qsi-chr10-2,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qsi-chr10-3,unclassified,10,10,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qsi-chr12,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qsi-chr2,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qsi-chr23-1,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qsi-chr23-2,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qsi-chr26-1,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qsi-chr26-2,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qsi-chr6,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-qsi-chr9,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-quantitative,unclassified,5,5,0,5,1,5,5,0,0,0,no chromosome with two independent studies
-redox,unclassified,13,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-resistance,unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies
-rn-nematode,unclassified,14,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-sa,unclassified,29,28,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-said et al,unclassified,4,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-sb,unclassified,2,0,2,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-scond,unclassified,6,6,0,5,1,5,5,0,0,0,no chromosome with two independent studies
-sf,unclassified,2,1,1,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-sh,unclassified,12,0,12,12,1,8,7,0,0,0,no chromosome with two independent studies
-sil,unclassified,18,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-sla,unclassified,1,1,0,1,1,1,1,0,0,0,no chromosome with two independent studies
-sm,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-sn,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-snl,unclassified,3,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-sp,unclassified,9,9,0,3,1,3,2,0,0,0,no chromosome with two independent studies
-spn,unclassified,4,4,0,3,1,3,3,0,0,0,no chromosome with two independent studies
-stlh,unclassified,4,4,0,4,1,4,3,0,0,0,no chromosome with two independent studies
-sy,unclassified,13,13,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-sym,unclassified,6,6,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-tbn q < 0.09,unclassified,18,0,18,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-tci,unclassified,4,4,0,3,1,3,2,0,0,0,no chromosome with two independent studies
-tcond,unclassified,3,3,0,3,1,2,2,0,0,0,no chromosome with two independent studies
-testcross nemx x f1 pima s-7 x sj-2,unclassified,18,18,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-tfb,unclassified,14,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-tfn,unclassified,2,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-three years data,unclassified,10,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-tl,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-tn,unclassified,3,3,0,3,1,3,3,0,0,0,no chromosome with two independent studies
-tnfb,unclassified,1,1,0,1,1,1,1,0,0,0,no chromosome with two independent studies
-total chl,unclassified,3,3,0,3,1,3,3,0,0,0,no chromosome with two independent studies
-tpn,unclassified,3,3,0,3,1,3,3,0,0,0,no chromosome with two independent studies
-traits,unclassified,2,0,2,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-traits name,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-trs,unclassified,1,1,0,1,1,1,1,0,0,0,no chromosome with two independent studies
-ttr,unclassified,1,1,0,1,1,1,1,0,0,0,no chromosome with two independent studies
-twc,unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-undefined trait,unclassified,1,0,0,0,0,0,0,0,0,0,unresolved trait name
-uni,unclassified,2,0,2,2,1,2,2,0,0,0,no chromosome with two independent studies
-unspecified,unclassified,3220,2851,265,0,0,0,0,0,0,0,unresolved trait name
-upland cotton,unclassified,4,4,0,3,1,2,2,0,0,0,no chromosome with two independent studies
-uqlw,unclassified,4,4,0,4,1,4,4,0,0,0,no chromosome with two independent studies
-value,unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-weight g,unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies
-xz hybrid,unclassified,33,33,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-yieldtrait,unclassified,28,1,27,28,1,23,14,0,0,0,no chromosome with two independent studies
-ypbf,unclassified,14,14,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
-boll number,yield,2301,1409,751,1468,28,739,26,26,216,7,meta-QTL found
-boll retention,yield,6,0,6,5,1,4,3,0,0,0,no chromosome with two independent studies
-boll weight,yield,6441,4788,1245,4227,46,1916,26,26,384,13,meta-QTL found
-harvest index,yield,296,29,267,267,1,26,17,0,0,0,no chromosome with two independent studies
-lint index,yield,1842,655,1047,1294,15,426,26,26,108,5,meta-QTL found
-lint percentage,yield,13627,6153,4073,7417,60,2031,26,26,404,13,meta-QTL found
-lint weight per boll,yield,1229,157,1045,1041,8,111,25,17,18,3,meta-QTL found
-lint yield,yield,769,566,137,278,7,131,26,20,18,3,meta-QTL found
-seed cotton yield,yield,2469,1963,154,1032,11,485,26,26,121,5,meta-QTL found
-seed index,yield,5185,2531,1490,2266,34,1025,26,26,283,8,meta-QTL found
-seed number per boll,yield,16,16,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates
+trait,category,n_database_records,n_database_qtl,n_database_gwas,n_placed_records,n_placed_studies,n_observations,n_chromosomes,n_chromosomes_modelled,n_physical_meta_qtl,n_studies_max,status_physical,n_qtl_on_consensus_map,n_cm_meta_qtl,status_cm
+cold tolerance,Abiotic stress,893,0,893,4,1,3,3,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+drought tolerance,Abiotic stress,479,251,207,102,4,53,23,10,4,3,meta-QTL found,39,8,meta-QTL found
+nutrient and other abiotic stress,Abiotic stress,86,86,0,45,1,25,12,0,0,0,no chromosome with two independent studies,10,0,no chromosome with two independent studies
+salt tolerance,Abiotic stress,493,234,212,117,7,72,23,16,13,3,meta-QTL found,23,1,meta-QTL found
+bacterial blight resistance,Biotic stress,263,23,224,216,3,5,3,1,1,3,meta-QTL found,12,4,meta-QTL found
+cotton blue disease resistance,Biotic stress,1,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+cotton leaf crumple virus resistance,Biotic stress,3,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+cotton leaf curl disease resistance,Biotic stress,9,9,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+fusarium wilt resistance,Biotic stress,5775,209,5435,5456,11,348,26,26,78,5,meta-QTL found,16,0,modelled; no supported component
+insect resistance,Biotic stress,13,13,0,12,1,10,8,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+other disease resistance,Biotic stress,7,6,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+reniform nematode resistance,Biotic stress,33,18,15,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,9,0,no chromosome with two independent studies
+root-knot nematode resistance,Biotic stress,53,8,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+verticillium wilt resistance,Biotic stress,3344,1080,1733,1248,15,129,25,24,30,3,meta-QTL found,295,23,meta-QTL found
+fertility and sterility,Fertility,73,43,0,39,1,32,18,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+fiber color,Fiber quality,85,58,8,13,2,10,6,1,0,0,modelled; no supported component,37,1,meta-QTL found
+fiber development,Fiber quality,637,258,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+fiber elongation,Fiber quality,8710,3782,4407,6045,69,1436,26,26,339,18,meta-QTL found,643,126,meta-QTL found
+fiber fineness,Fiber quality,511,314,185,35,1,27,15,0,0,0,no chromosome with two independent studies,225,47,meta-QTL found
+fiber flame resistance,Fiber quality,258,0,22,22,1,20,15,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+fiber length,Fiber quality,23147,6986,13384,16210,91,2100,26,26,380,25,meta-QTL found,1266,215,meta-QTL found
+fiber maturity,Fiber quality,5051,320,3493,3468,10,231,26,26,51,4,meta-QTL found,74,2,meta-QTL found
+fiber neps,Fiber quality,68,45,23,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,28,0,no chromosome with two independent studies
+fiber reflectance,Fiber quality,64,49,15,15,1,13,13,0,0,0,no chromosome with two independent studies,22,1,meta-QTL found
+fiber strength,Fiber quality,13029,6076,5981,7894,82,2168,26,26,414,18,meta-QTL found,1045,190,meta-QTL found
+fiber uniformity,Fiber quality,6253,3063,2711,4175,61,1402,26,26,336,11,meta-QTL found,505,90,meta-QTL found
+fiber whiteness and colorimetry,Fiber quality,12950,0,12950,12366,2,222,26,22,17,2,meta-QTL found,0,0,no linkage QTL (GWAS or other records only)
+fiber yellowness,Fiber quality,58,52,6,6,1,5,4,0,0,0,no chromosome with two independent studies,19,0,modelled; no supported component
+lint visible foreign matter,Fiber quality,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,4,0,no chromosome with two independent studies
+micronaire,Fiber quality,30371,5711,20373,23009,76,1711,26,26,356,13,meta-QTL found,856,148,meta-QTL found
+seed fuzz,Fiber quality,197,82,108,65,2,44,16,1,0,0,modelled; no supported component,7,0,no chromosome with two independent studies
+short fiber content,Fiber quality,860,351,444,460,20,220,26,24,59,5,meta-QTL found,137,16,meta-QTL found
+spinning consistency index,Fiber quality,4306,1067,3229,4120,8,452,26,24,62,5,meta-QTL found,0,0,linkage QTL not on a map sharing markers with the consensus
+germination and seedling vigor,Growth and vigor,1280,962,318,141,6,23,14,5,1,2,meta-QTL found,0,0,linkage QTL not on a map sharing markers with the consensus
+plant biomass,Growth and vigor,4212,119,4089,1908,7,286,26,25,49,3,meta-QTL found,10,2,meta-QTL found
+tissue culture response,Growth and vigor,6,6,0,4,1,4,4,0,0,0,no chromosome with two independent studies,4,0,no chromosome with two independent studies
+boll morphology,Morphology,896,2,893,793,2,221,26,7,8,2,meta-QTL found,0,0,linkage QTL not on a map sharing markers with the consensus
+flower morphology,Morphology,1732,64,1632,1305,3,391,26,19,40,3,meta-QTL found,33,0,no chromosome with two independent studies
+leaf morphology,Morphology,2872,147,2674,2165,7,574,26,26,136,3,meta-QTL found,108,13,meta-QTL found
+seed type,Morphology,3,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+stem and plant color,Morphology,920,0,892,703,2,291,26,11,11,2,meta-QTL found,0,0,no linkage QTL (GWAS or other records only)
+stem weight,Morphology,9,9,0,5,1,4,4,0,0,0,no chromosome with two independent studies,5,0,no chromosome with two independent studies
+trichome and pubescence,Morphology,35357,46,35278,35238,8,116,24,20,20,4,meta-QTL found,31,7,meta-QTL found
+flower rate,Phenology,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+flowering time,Phenology,5679,683,4963,4579,15,156,26,25,37,7,meta-QTL found,29,0,modelled; no supported component
+growth period and maturity,Phenology,2845,943,1788,1810,20,436,26,26,136,6,meta-QTL found,68,3,meta-QTL found
+chlorophyll content,Physiology,491,100,388,409,4,125,26,21,17,3,meta-QTL found,17,2,meta-QTL found
+mineral content,Physiology,537,88,414,431,5,124,26,13,12,2,meta-QTL found,28,0,no chromosome with two independent studies
+photosynthesis and gas exchange,Physiology,19,18,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+senescence and stay-green,Physiology,571,80,491,571,2,199,26,20,18,2,meta-QTL found,0,0,linkage QTL not on a map sharing markers with the consensus
+"stress indicators (MDA, electrolyte leakage, proline)",Physiology,267,30,237,202,2,99,26,2,2,2,meta-QTL found,9,0,no chromosome with two independent studies
+branch traits,Plant architecture,2104,780,1306,1883,22,549,26,26,144,7,meta-QTL found,23,0,modelled; no supported component
+first fruiting branch position,Plant architecture,1998,315,1391,1448,17,368,26,26,97,5,meta-QTL found,71,2,meta-QTL found
+plant height and stature,Plant architecture,5167,1260,3613,3757,35,630,26,26,193,8,meta-QTL found,160,13,meta-QTL found
+root system traits,Plant architecture,2282,148,2133,1808,3,277,26,23,40,2,meta-QTL found,30,0,no chromosome with two independent studies
+gossypol and glands,Seed quality,1023,19,994,894,4,345,26,19,28,3,meta-QTL found,2,0,no chromosome with two independent studies
+seed oil and fatty acids,Seed quality,744,618,124,130,10,121,25,24,21,3,meta-QTL found,115,14,meta-QTL found
+seed physical traits,Seed quality,15,6,9,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+seed protein and amino acids,Seed quality,626,314,280,308,5,146,26,25,23,3,meta-QTL found,26,0,modelled; no supported component
+seed size and shape,Seed quality,204,197,0,26,1,19,8,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+-0.16,Unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+-0.34,Unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+-0.43,Unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+1,Unclassified,206,0,206,97,1,62,22,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+1 2 3 4aa,Unclassified,1,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+1st pbr % q < 0.06,Unclassified,9,0,9,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+2,Unclassified,72,0,72,58,1,49,23,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+2017.1,Unclassified,11,11,0,6,1,6,5,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+2017/2019.1,Unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+2019.1,Unclassified,7,7,0,5,1,5,3,0,0,0,no chromosome with two independent studies,2,0,no chromosome with two independent studies
+3,Unclassified,57,0,57,46,1,38,20,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+4,Unclassified,57,0,57,54,1,50,23,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+47,Unclassified,1,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+5,Unclassified,47,0,47,45,1,30,20,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+6,Unclassified,61,0,61,61,1,49,22,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+7,Unclassified,69,0,69,69,1,60,23,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+8,Unclassified,5,5,0,5,1,5,5,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+9,Unclassified,2,2,0,2,1,2,1,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+92070822,Unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+ab,Unclassified,1,0,1,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+abiotic and biotic stress resistance,Unclassified,2,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+all traits,Unclassified,1,1,0,0,0,0,0,0,0,0,unresolved trait name,0,0,unresolved trait name
+bc,Unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+bcw,Unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+bdr,Unclassified,9,9,0,7,1,7,7,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+ben har low,Unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+ben har up,Unclassified,2,0,2,2,1,2,2,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+bln,Unclassified,7,7,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+blup,Unclassified,4,0,4,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+bo,Unclassified,3,0,3,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+boll,Unclassified,3,2,1,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+bolls,Unclassified,7,7,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+bp,Unclassified,7,7,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,4,0,no chromosome with two independent studies
+bpt,Unclassified,2,0,2,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+branch position,Unclassified,5,0,5,5,1,1,1,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+car,Unclassified,2,2,0,2,1,2,2,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+cb,Unclassified,2,2,0,2,1,1,1,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+chl a,Unclassified,5,5,0,5,1,5,4,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+chl a/b,Unclassified,3,3,0,3,1,3,3,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+chl b,Unclassified,4,4,0,4,1,4,4,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+chr,Unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+cl,Unclassified,10,3,0,3,1,3,3,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+clusters of boll-related,Unclassified,9,9,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+cnh,Unclassified,2,2,0,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+color,Unclassified,4,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+cotton fiber qtl hotspots and associated,Unclassified,18,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+cs,Unclassified,3,3,0,3,1,3,3,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+d,Unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+d1,Unclassified,2,2,0,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+d10fl07ku,Unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+d10fs07an,Unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+d10fs09ku,Unclassified,2,0,2,2,1,2,1,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+d10fu07an,Unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+d10fu07nan,Unclassified,2,0,2,2,1,2,1,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+d10fu08ku,Unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+d10lp09an,Unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+d2,Unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+dt & fdt,Unclassified,2,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+dt & st,Unclassified,3,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+dt fdt & st,Unclassified,1,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+ear % q < 0.05,Unclassified,2,0,2,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+efb,Unclassified,4,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+f,Unclassified,1,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+f2 8 nemx x sj-2,Unclassified,14,14,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+f2 nemx x sj-2,Unclassified,12,12,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+f2 pima s-7 x sj-2,Unclassified,6,6,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+fac,Unclassified,1,0,1,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+fb1,Unclassified,1,1,0,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+fbff,Unclassified,1,1,0,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+fbil,Unclassified,2,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+fdt dt& st,Unclassified,3,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+ff,Unclassified,116,116,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+ffb,Unclassified,6,0,6,5,1,4,3,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+ffbh,Unclassified,1,1,0,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+ffsbn,Unclassified,3,3,0,1,1,1,1,0,0,0,no chromosome with two independent studies,1,0,no chromosome with two independent studies
+fg,Unclassified,14,14,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+fh,Unclassified,8,8,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+fibertrait,Unclassified,60,8,52,60,1,48,24,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+fine,Unclassified,1,1,0,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+flowering and boll-setting period,Unclassified,14,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+flun,Unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+fmic,Unclassified,9,9,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+fn,Unclassified,30,30,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+fnc,Unclassified,12,12,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+fnms,Unclassified,26,26,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+for abbreviations,Unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+fpc,Unclassified,2,0,2,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+fruiting,Unclassified,1,0,1,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+fruiting habit,Unclassified,4,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+fsci,Unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+fsp,Unclassified,1,0,1,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+fsun,Unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+ftlh,Unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+fwpb,Unclassified,13,13,0,13,1,11,8,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+fy,Unclassified,20,20,0,2,1,2,1,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+gb and gh gwas panels,Unclassified,5,0,5,5,1,5,4,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+ge,Unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+genetic value,Unclassified,41,0,41,41,1,28,15,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+ghffsbn,Unclassified,18,18,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+ghhd,Unclassified,13,13,0,12,1,12,8,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+ghlbn,Unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+ghpgip1,Unclassified,2,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+ghsobir1b,Unclassified,1,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+ghwakl,Unclassified,3,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+ginning,Unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+gn,Unclassified,7,0,7,7,1,4,3,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+gos num,Unclassified,6,0,6,6,1,6,6,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+gossypium barbadense background,Unclassified,8,8,0,8,1,8,7,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+gossypium hirsutum background,Unclassified,5,5,0,5,1,5,4,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+gs,Unclassified,7,0,7,7,1,7,4,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+gs 4,Unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+gs blup,Unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+half,Unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+height cm,Unclassified,3,0,3,3,1,3,3,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+hybrid genotype,Unclassified,5,5,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+if,Unclassified,38,38,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+ifc,Unclassified,4,4,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+ionic,Unclassified,18,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+joint-trait,Unclassified,7,7,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+l25n,Unclassified,2,2,0,2,1,2,2,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+l5n,Unclassified,4,4,0,4,1,4,4,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+la,Unclassified,42,38,4,3,1,3,1,0,0,0,no chromosome with two independent studies,6,0,no chromosome with two independent studies
+lb,Unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+lbn,Unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+lbs,Unclassified,6,0,6,6,1,3,3,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+lc,Unclassified,7,0,7,2,1,2,2,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+len,Unclassified,2,0,2,2,1,1,1,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+length,Unclassified,46,39,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,2,0,no chromosome with two independent studies
+lh,Unclassified,14,0,14,12,1,9,5,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+liner plasticity,Unclassified,163,0,163,162,1,108,22,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+lintpc,Unclassified,4,0,4,4,1,1,1,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+ln,Unclassified,1,1,0,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+lncv,Unclassified,2,2,0,2,1,2,2,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+main-effect quantitative,Unclassified,55,55,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+mboll,Unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+mbp,Unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+mc,Unclassified,40,40,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,7,0,no chromosome with two independent studies
+mcf,Unclassified,5,5,0,3,1,3,2,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+mfvd,Unclassified,15,15,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+mon,Unclassified,8,6,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+mqtls co-located with snps and resistance genes,Unclassified,8,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+multiple traits (not specified),Unclassified,1822,932,0,153,5,103,25,19,12,2,meta-QTL found,0,0,unresolved trait name
+nb,Unclassified,3,3,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+nf,Unclassified,1,1,0,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+nfb,Unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+nonlinear plasticity,Unclassified,21,0,21,21,1,17,11,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+number of,Unclassified,2,0,2,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+nv,Unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+oa,Unclassified,32,32,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,8,0,no chromosome with two independent studies
+occhip,Unclassified,35,35,0,6,1,4,3,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+ocslaf,Unclassified,60,60,0,17,1,14,11,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+pa,Unclassified,29,29,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,6,0,no chromosome with two independent studies
+percent fiber,Unclassified,4,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+pf,Unclassified,19,19,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+phfb1,Unclassified,1,1,0,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+phloridzin,Unclassified,251,0,251,251,1,2,2,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+phtn,Unclassified,1,1,0,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+plant,Unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+plantarchitecture,Unclassified,39,5,34,39,1,28,17,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+pleiotropic snpqtls,Unclassified,14,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+ps,Unclassified,2,2,0,2,1,2,1,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+psb,Unclassified,3,0,3,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+psh,Unclassified,2,0,2,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+quantitative,Unclassified,5,5,0,5,1,5,5,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+redox,Unclassified,13,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+resistance,Unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+rn-nematode,Unclassified,14,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+sa,Unclassified,29,28,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,6,0,no chromosome with two independent studies
+said et al,Unclassified,4,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+sb,Unclassified,2,0,2,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+scond,Unclassified,6,6,0,5,1,5,5,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+sf,Unclassified,2,1,1,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+sh,Unclassified,12,0,12,12,1,8,7,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+sil,Unclassified,18,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+sla,Unclassified,1,1,0,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+sm,Unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+sn,Unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+snl,Unclassified,3,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+sp,Unclassified,9,9,0,3,1,3,2,0,0,0,no chromosome with two independent studies,1,0,no chromosome with two independent studies
+spn,Unclassified,4,4,0,3,1,3,3,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+stlh,Unclassified,4,4,0,4,1,4,3,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+sy,Unclassified,13,13,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+sym,Unclassified,6,6,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,1,0,no chromosome with two independent studies
+tci,Unclassified,4,4,0,3,1,3,2,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+tcond,Unclassified,3,3,0,3,1,2,2,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+testcross nemx x f1 pima s-7 x sj-2,Unclassified,18,18,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+tfb,Unclassified,14,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+tfn,Unclassified,2,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+three years data,Unclassified,10,0,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+tl,Unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+tn,Unclassified,3,3,0,3,1,3,3,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+tnfb,Unclassified,1,1,0,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+total chl,Unclassified,3,3,0,3,1,3,3,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+tpn,Unclassified,3,3,0,3,1,3,3,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+traits,Unclassified,2,0,2,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,no linkage QTL (GWAS or other records only)
+traits name,Unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+trs,Unclassified,1,1,0,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+ttr,Unclassified,1,1,0,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+twc,Unclassified,1,1,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+undefined trait,Unclassified,1,0,0,0,0,0,0,0,0,0,unresolved trait name,0,0,unresolved trait name
+uni,Unclassified,2,0,2,2,1,2,2,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+unspecified,Unclassified,3220,2851,265,0,0,0,0,0,0,0,unresolved trait name,0,0,unresolved trait name
+upland cotton,Unclassified,4,4,0,3,1,2,2,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+uqlw,Unclassified,4,4,0,4,1,4,4,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+value,Unclassified,2,2,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+weight g,Unclassified,1,0,1,1,1,1,1,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+xz hybrid,Unclassified,33,33,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus
+yieldtrait,Unclassified,28,1,27,28,1,23,14,0,0,0,no chromosome with two independent studies,0,0,linkage QTL not on a map sharing markers with the consensus
+ypbf,Unclassified,14,14,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,10,0,no chromosome with two independent studies
+boll number,Yield,2319,1409,769,1468,28,739,26,26,216,7,meta-QTL found,120,17,meta-QTL found
+boll retention,Yield,6,0,6,5,1,4,3,0,0,0,no chromosome with two independent studies,0,0,no linkage QTL (GWAS or other records only)
+boll weight,Yield,6506,4853,1245,4228,47,1917,26,26,388,13,meta-QTL found,510,76,meta-QTL found
+harvest index,Yield,296,29,267,267,1,26,17,0,0,0,no chromosome with two independent studies,18,6,meta-QTL found
+lint index,Yield,1857,670,1047,1294,15,426,26,26,109,5,meta-QTL found,36,6,meta-QTL found
+lint percentage,Yield,13674,6181,4092,7431,61,2043,26,26,407,13,meta-QTL found,654,99,meta-QTL found
+lint weight per boll,Yield,1244,172,1045,1041,8,111,25,17,15,3,meta-QTL found,3,0,no chromosome with two independent studies
+lint yield,Yield,769,566,137,278,7,131,26,20,19,3,meta-QTL found,143,13,meta-QTL found
+seed cotton yield,Yield,2469,1963,154,1032,11,485,26,26,124,5,meta-QTL found,249,38,meta-QTL found
+seed index,Yield,5222,2568,1490,2266,34,1025,26,26,286,9,meta-QTL found,334,48,meta-QTL found
+seed number per boll,Yield,16,16,0,0,0,0,0,0,0,0,no common-axis QTL/GWAS coordinates,0,0,linkage QTL not on a map sharing markers with the consensus

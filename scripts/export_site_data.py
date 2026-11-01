@@ -349,8 +349,26 @@ def main(proj):
               "max_lod", "max_neg_log10_p", "mean_membership"]:
         mq[c] = mq[c].round(2)
     mq.to_csv(f"{out}/mqtl.csv", index=False)
-    pd.read_csv(f"{proj}/analysis/tables/meta_qtl_trait_coverage.tsv", sep="\t").to_csv(
-        f"{out}/mqtl_trait_coverage.csv", index=False)
+    cov = pd.read_csv(f"{proj}/analysis/tables/meta_qtl_trait_coverage.tsv", sep="\t")
+    # classic meta-QTL on the consensus genetic map (analysis/meta_qtl_cm.R), and one coverage row per database trait
+    cm_path = f"{proj}/analysis/tables/meta_qtl_cm.tsv"
+    if os.path.exists(cm_path):
+        mc = pd.read_csv(cm_path, sep="\t")
+        mc["category"] = mc["category"].map(CATEGORY_LABEL).fillna(mc["category"])
+        for c in ["position_cm", "ci_start_cm", "ci_end_cm", "ci_width_cm", "span_start_cm", "span_end_cm", "mean_membership",
+                  "physical_median_mb", "physical_q1_mb", "physical_q3_mb"]:
+            mc[c] = mc[c].round(2)
+        mc.to_csv(f"{out}/mqtl_cm.csv", index=False)
+        cc = pd.read_csv(f"{proj}/analysis/tables/meta_qtl_cm_trait_coverage.tsv", sep="\t")
+        cc = cc[["trait", "n_projected_qtl", "n_cm_meta_qtl", "status"]].rename(
+            columns={"n_projected_qtl": "n_qtl_on_consensus_map", "status": "status_cm"})
+        cov = cov.rename(columns={"n_meta_qtl": "n_physical_meta_qtl", "status": "status_physical"}).merge(cc, on="trait", how="left")
+        cov["n_cm_meta_qtl"] = cov["n_cm_meta_qtl"].fillna(0).astype(int)
+        cov["n_qtl_on_consensus_map"] = cov["n_qtl_on_consensus_map"].fillna(0).astype(int)
+        cmap = pd.read_csv(f"{proj}/data/processed/consensus_map.tsv", sep="\t")
+        cmap.to_csv(f"{out}/consensus_map.csv", index=False)
+    cov["category"] = cov["category"].map(CATEGORY_LABEL).fillna(cov["category"])
+    cov.to_csv(f"{out}/mqtl_trait_coverage.csv", index=False)
 
     lit = pd.concat([pd.read_csv(f"{proj}/data/literature/{n}", sep="\t", dtype=str) for n in ("literature_index.tsv", "library_index.tsv") if os.path.exists(f"{proj}/data/literature/{n}")], ignore_index=True).fillna("")
     n_maps, n_map_loci, n_markers, n_primers, n_markers_primers = export_maps_and_markers(proj, out, d, lit)
