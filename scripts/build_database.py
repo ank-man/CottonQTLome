@@ -384,6 +384,58 @@ def flag_duplicates(df):
     dup = keeper[keeper != order["record_id"]]
     df["duplicate_of"] = ""
     df.loc[dup.index, "duplicate_of"] = dup
+    return flag_cross_copies(df, prio)
+
+
+def _close(a, b):
+    """Two statistics agree if either is missing or they differ only by rounding (<= 0.5 %)."""
+    return a != a or b != b or abs(a - b) <= max(0.01, 0.005 * max(abs(a), abs(b)))
+
+
+def flag_cross_copies(df, prio):
+    """Layer 2b: one result copied into two places (CottonGen and the paper, or the same table read from the
+    article XML and from the PDF), where trait spelling, QTL symbol or columns differ so the exact key misses it.
+    Same study, record type, harmonised trait, chromosome and exact position; different source or table; every
+    statistic present in both copies agrees. Results for different stated environments are always kept apart."""
+    pm, doi = df["pmid"].fillna("").astype(str), df["doi"].fillna("").str.lower()
+    doi2pm = dict(zip(doi[(pm != "") & (doi != "")], pm[(pm != "") & (doi != "")]))
+    study = pm.where(pm != "", doi.map(doi2pm).fillna(doi))
+    study = study.where(study != "", df["first_author"].fillna("").str.lower() + df["year"].fillna("").astype(str))
+    rnd = lambda s: s.round(1).astype(str)  # noqa: E731
+    pos = np.where(df["phys_start"].notna(), "bp" + df["phys_start"].fillna(-1).astype("int64").astype(str)
+                   + "-" + df["phys_end"].fillna(df["phys_start"]).fillna(-1).astype("int64").astype(str),
+                   np.where(df["cm_start"].notna(), "cM" + rnd(df["cm_start"]) + "-" + rnd(df["cm_stop"]),
+                            np.where(df["cm_peak"].notna(), "cMp" + rnd(df["cm_peak"]), "")))
+    table = df["source_db"].fillna("") + "|" + np.where(df["source_db"] == "Literature",
+                                                         df["source_record_id"].fillna("").str.rsplit("|", n=1).str[0],
+                                                         df["source_dataset"].fillna(""))
+    cand = (df["duplicate_of"] == "") & (pd.Series(pos, index=df.index) != "") & (df["chromosome"].fillna("") != "") \
+        & (study != "")
+    key = (df["record_type"] + "|" + study + "|" + df["trait_harmonized"].fillna("") + "|" + df["chromosome"].fillna("")
+           + "|" + pd.Series(pos, index=df.index))
+    env = df["environment"].fillna("").str.lower().str.replace(r"[^a-z0-9]", "", regex=True)
+    sub = df.loc[cand, ["record_id", "neg_log10_p", "lod", "r2_pct"]].apply(
+        lambda c: c if c.name == "record_id" else pd.to_numeric(c, errors="coerce")).assign(ee=env[cand], kk=key[cand], tt=table[cand], pp=prio[cand])
+    multi = sub.groupby("kk")["tt"].transform("nunique") > 1
+    sub = sub[multi].sort_values(["kk", "pp", "record_id"])
+    found = {}
+    for _, g in sub.groupby("kk", sort=False):
+        kept = []
+        for r in g.itertuples(index=True):
+            st = (r.neg_log10_p, r.lod, r.r2_pct)
+            e = r.ee
+            def same(k):
+                shared = [(a, b) for a, b in zip(k[2], st) if a == a and b == b]
+                none_either = all(a != a for a in k[2]) and all(b != b for b in st)
+                env_ok = not (k[3] and e and k[3] != e)   # different stated environments are different results
+                return k[1] != r.tt and env_ok and all(_close(a, b) for a, b in shared) and (bool(shared) or none_either)
+            hit = next((k for k in kept if same(k)), None)
+            if hit is None:
+                kept.append((r.record_id, r.tt, st, e))
+            else:
+                found[r.Index] = hit[0]
+    df.loc[list(found), "duplicate_of"] = pd.Series(found)
+    print(f"cross-copy duplicates flagged: {len(found):,}")
     return df
 
 
