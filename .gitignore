@@ -31,3 +31,8 @@ __pycache__/
 /website/node_modules/
 /website/dist/
 *.tsbuildinfo
+data/literature/uga_pdfs/
+
+# Licensed full texts obtained through library access: never published
+/data/literature/library/
+/data/literature/library_pii_cache.json

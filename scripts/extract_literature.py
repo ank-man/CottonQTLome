@@ -158,6 +158,10 @@ def read_tabular(path):
             out.append((os.path.basename(path), "", rows))
         elif ext == "docx":
             out = read_docx_tables(path)
+        elif ext == "pdf":
+            sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+            from pdf_tables import pdf_tables_isolated
+            out = pdf_tables_isolated(path)
         elif ext in ("doc", "rtf"):
             with tempfile.TemporaryDirectory() as td:
                 tmp = os.path.join(td, "c.docx")
@@ -215,6 +219,8 @@ def header_of(rows):
                 colmap.setdefault(f, []).append(j)
                 break
     colmap.pop("skip", None)
+    if any("lod" in str(hdr[j]).lower() for j in colmap.get("lod", [])):   # a likelihood-ratio column is not a LOD
+        colmap["lod"] = [j for j in colmap["lod"] if "lod" in str(hdr[j]).lower()]
     return best_i + (2 if two_line else 1), colmap, best
 
 
@@ -225,7 +231,8 @@ NOT_QTL = re.compile(
     r"cultivars?\b|varieties|rna-?seq|qrt|transcript|lncrna|non-coding|\beqtl|\btwas\b|sweep|selecti(on|ve)|\bibd\b|"
     r"segregation distortion|collinear|synten|snp array|snp loci in|marker genes|centromere|differential|haplotype (block|freq)|"
     r"structural varia|\bsvs?\b|introgress|ortholog|homolog|gene famil|genotyp(e|ing) (data|of|result)|phenotyp(e|ic) (data|value|perform)|"
-    r"candidate genes?|genes? (located|within|in the|annotat|list|information|identified)|annotation of|blast|domain")
+    r"candidate genes?|genes? (located|within|in the|annotat|list|information|identified)|annotation of|blast|domain|"
+    r"snps? information in|snps? (located )?in (the )?(associated|candidate|target) (locus|loci|region)")
 EPI = re.compile(r"epista|digenic|qtl ?[×x] ?qtl|interact(ion|ing) (qtl|loci|between)|additive ?[×x] ?additive|a ?× ?a|qq interaction")
 
 
@@ -595,7 +602,12 @@ def epistatic_records(rows, start, meta, table_id, caption):
     blocks = [list(range(c1 - b, c2 - b)), list(range(c2 - b, min(len(hdr), c2 - b + (c2 - c1))))]
     stat_cols = {f: next((j for j, h in enumerate(hdr) if j >= blocks[1][-1] + 1 and re.search(rx, h)), None)
                  for f, rx in [("lod", r"\blod"), ("p", r"p[- ]?val|log"), ("pve", r"pve|h2|v\(aa\)|r2"), ("aa", r"^aa\b|a ?[×x] ?a|add by add|beta|effect")]}
-    trait_col = next((j for j, h in enumerate(hdr[:c1]) if re.search(r"trait", h)), None)
+    in_blocks = set(blocks[0]) | set(blocks[1])
+    outside = [j for j in range(len(hdr)) if j not in in_blocks]
+    # trait column may sit before or after the locus blocks; prefer a plain "trait" header over "trait value"
+    trait_col = next((j for j in outside if re.fullmatch(r"traits?( name)?", hdr[j].strip())), None)
+    if trait_col is None:
+        trait_col = next((j for j in outside if re.search(r"trait", hdr[j])), None)
     env_col = next((j for j, h in enumerate(hdr[:c1]) if re.search(r"env|gen", h)), None)
     recs, last_trait = [], ""
     sheet_trait = re.sub(r"^\d+[ ._-]*", "", table_id.rsplit("|", 1)[-1])
@@ -640,6 +652,8 @@ def epistatic_records(rows, start, meta, table_id, caption):
                "citation": meta["citation"], "n_source_rows": 1,
                "stat_note": f"auto-extracted two-locus table {table_id}; additive_effect holds the interaction (AA) effect"}
         pv = num(g("p"))
+        if pv == 0:
+            rec["stat_note"] += "; P-value reported as 0 in the source"
         if pv is not None:
             if stat_cols["p"] is not None and "log" in hdr[stat_cols["p"]]:
                 rec["neg_log10_p"] = pv
@@ -660,7 +674,7 @@ def epistatic_records(rows, start, meta, table_id, caption):
 
 
 # ----------------------------------------------------------------------------- per paper
-def paper_tables(paper_dir, kind):
+def paper_tables(paper_dir, kind, skip_main_pdf=False, skip_names=()):
     """Yield (table_id, source_file, label, caption, rows) for one paper directory."""
     pid = os.path.basename(paper_dir)
     if kind == "pmc":
@@ -693,11 +707,91 @@ def paper_tables(paper_dir, kind):
             except Exception:  # noqa: BLE001
                 yield f"{pid}|{rel}|__error__", rel, "__error__", "unreadable zip", []
             continue
-        if ext not in ("xlsx", "xlsm", "xls", "csv", "tsv", "txt", "docx", "doc", "rtf"):
+        if os.path.basename(f) in skip_names:
+            continue
+        if ext == "pdf" and skip_main_pdf and re.match(r"10\.", os.path.basename(f)):
+            continue      # main article already read from the PubMed Central XML
+        if ext not in ("xlsx", "xlsm", "xls", "csv", "tsv", "txt", "docx", "doc", "rtf", "pdf"):
             yield f"{pid}|{rel}|__unparsed__", rel, "__unparsed__", f"{ext} not parsed", []
             continue
         for name, cap, rows in read_tabular(f):
             yield f"{pid}|{rel}|{name}", rel, name, cap, rows
+
+
+_MARKER_CHR = None
+_CHR_LEN = None
+
+
+def _marker_chromosomes():
+    """Marker -> chromosome (majority over CottonGen genetic maps), used to read ambiguous chromosome numbers."""
+    global _MARKER_CHR, _CHR_LEN
+    if _MARKER_CHR is None:
+        from collections import Counter, defaultdict
+        votes = defaultdict(Counter)
+        base = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "raw", "cottongen", "maps", "marker_positions")
+        for f in glob.glob(f"{base}/*.tsv"):
+            with open(f, newline="") as fh:
+                for r in csv.DictReader(fh, delimiter="\t"):
+                    c = H.std_chromosome(r.get("Standardized Linkage Group", ""))
+                    if c:
+                        votes[r["Marker Name"].strip().upper()][c] += 1
+        _MARKER_CHR = {m: v.most_common(1)[0][0] for m, v in votes.items() if v.most_common(1)[0][1] >= 0.7 * sum(v.values())}
+        # TM-1 UTX v2.1 chromosome lengths (Mb), used as a second check
+        _CHR_LEN = {"A01": 119.8, "A02": 108.1, "A03": 113.4, "A04": 89.0, "A05": 111.0, "A06": 127.6, "A07": 98.6, "A08": 127.1,
+                    "A09": 85.0, "A10": 117.8, "A11": 124.0, "A12": 109.2, "A13": 111.1, "D01": 65.1, "D02": 72.0, "D03": 54.9,
+                    "D04": 57.7, "D05": 66.0, "D06": 66.3, "D07": 59.0, "D08": 69.1, "D09": 54.3, "D10": 67.8, "D11": 72.8,
+                    "D12": 63.3, "D13": 65.1}
+    return _MARKER_CHR, _CHR_LEN
+
+
+NAME_CHR = re.compile(r"(?:^|[^A-Za-z0-9])(?:Gh_|Chr|chr)?([AD])t?0?(\d{1,2})[_:-]\d{5,9}(?![\d.])")
+NUMERIC_CHR = re.compile(r"^(?:chr(?:omosome)?|ch)?[\s._-]*0*(\d{1,2})$", re.I)
+
+
+def fix_numeric_chromosomes(recs):
+    """Chromosome numbers 14-26 mean different things: classical c14 = D02, c16 = D07 ... but genome-era tables usually
+    number 1-26 in assembly order (14 = D01, 16 = D03). Decide per table from marker evidence, then from positions that
+    would run past the chromosome end; otherwise keep the classical reading and say so."""
+    amb = [r for r in recs if NUMERIC_CHR.match(str(r.get("linkage_group", "")).strip())
+           and 14 <= int(NUMERIC_CHR.match(str(r["linkage_group"]).strip()).group(1)) <= 26]
+    if not amb:
+        return recs
+    mk, ln = _marker_chromosomes()
+    seq = lambda k: f"A{k:02d}" if k <= 13 else f"D{k - 13:02d}"  # noqa: E731
+    score = {"classical": 0, "sequential": 0}
+    over = {"classical": 0, "sequential": 0}
+    for r in amb:
+        k = int(NUMERIC_CHR.match(str(r["linkage_group"]).strip()).group(1))
+        cand = {"classical": H.CHR_NUM_TO_SUB[k], "sequential": seq(k)}
+        for m in [r.get("lead_marker", ""), r.get("qtl_name", "")]:
+            named = NAME_CHR.search(str(m or ""))   # chromosome written into a SNP name, e.g. D03_14657397
+            if named:
+                c_ = f"{named.group(1)}{int(named.group(2)):02d}"
+                for key, c in cand.items():
+                    score[key] += c_ == c
+        for m in [r.get("lead_marker", "")] + str(r.get("flanking_markers", "")).split(";"):
+            known = mk.get(m.strip().upper())
+            if known:
+                for key, c in cand.items():
+                    score[key] += known == c
+        if r.get("phys_start") is not None:
+            for key, c in cand.items():
+                over[key] += r["phys_start"] / 1e6 > ln[c] * 1.03
+    if score["sequential"] >= 2 and score["sequential"] > 2 * score["classical"]:
+        pick, why = "sequential", f"marker evidence {score['sequential']}:{score['classical']}"
+    elif score["classical"] >= 2 and score["classical"] > 2 * score["sequential"]:
+        pick, why = "classical", f"marker evidence {score['classical']}:{score['sequential']}"
+    elif over["classical"] > over["sequential"] and over["sequential"] == 0:
+        pick, why = "sequential", "positions fit only the 1-26 assembly order"
+    elif over["sequential"] > over["classical"] and over["classical"] == 0:
+        pick, why = "classical", "positions fit only the classical numbering"
+    else:
+        pick, why = "classical", "ambiguous; classical c1-c26 numbering assumed"
+    for r in amb:
+        k = int(NUMERIC_CHR.match(str(r["linkage_group"]).strip()).group(1))
+        r["chromosome"] = H.CHR_NUM_TO_SUB[k] if pick == "classical" else seq(k)
+        r["stat_note"] += f"; chromosome {k} read as {r['chromosome']} ({why})"
+    return recs
 
 
 def drop_non_significant(recs, table_id):
@@ -732,7 +826,8 @@ def process(args):
         if kind == "pmc" and os.path.exists(f"{paper_dir}/fulltext.xml"):
             with open(f"{paper_dir}/fulltext.xml", encoding="utf8", errors="ignore") as fh:
                 meta["ref_genome"] = infer_reference(re.sub(r"<[^>]+>", " ", fh.read()))
-        for table_id, src, label, caption, rows in paper_tables(paper_dir, kind):
+        for table_id, src, label, caption, rows in paper_tables(paper_dir, kind, meta.get("skip_main_pdf", False),
+                                                                     set(meta.get("skip_names", []))):
             rows = [r for r in rows if any(r)]
             entry = {"paper_id": meta["paper_id"], "pmid": meta["pmid"], "table_id": table_id, "source_file": src,
                      "label": label, "caption": (caption or "")[:400], "n_rows": len(rows), "class": "", "n_records": 0,
@@ -787,7 +882,10 @@ def process(args):
                 cls = "other"
             entry.update({"class": cls, "caption": cap[:400], "mapped_fields": ",".join(sorted(colmap))})
             if cls != "other":
-                recs = build_records(rows, start, colmap, cls, meta, table_id, cap)
+                recs = fix_numeric_chromosomes(build_records(rows, start, colmap, cls, meta, table_id, cap))
+                if src.lower().endswith(".pdf"):
+                    for rec in recs:
+                        rec["stat_note"] += "; read from a PDF table"
                 recs = drop_non_significant(recs, table_id)
                 entry["n_records"] = len(recs)
                 records += recs
@@ -805,6 +903,9 @@ def main(proj):
     os.makedirs(out, exist_ok=True)
     with open(f"{lit}/literature_index.tsv") as fh:
         index = list(csv.DictReader(fh, delimiter="\t"))
+    if os.path.exists(f"{lit}/library_index.tsv"):        # papers obtained through a library (library_files.py)
+        with open(f"{lit}/library_index.tsv") as fh:
+            index += list(csv.DictReader(fh, delimiter="\t"))
     jobs = []
     for r in index:
         sp, grp = infer_species(r["title"] + ". " + r["abstract"])
@@ -818,6 +919,11 @@ def main(proj):
         esm = f"{lit}/springer_esm/{r['doi'].lower().replace('/', '_')}"
         if r["doi"] and os.path.isdir(esm):
             jobs.append((esm, "esm", dict(meta)))
+        libdir = f"{lit}/library/{r['doi'].lower().replace('/', '_')}"
+        if r["doi"] and os.path.isdir(libdir):
+            m2 = dict(meta, skip_main_pdf=bool(r["pmcid"] and os.path.isdir(f"{lit}/papers/{r['pmcid']}")),
+                      skip_names=sorted(os.listdir(esm)) if os.path.isdir(esm) else [])   # already read from springer_esm
+            jobs.append((libdir, "library", m2))
     print(len(jobs), "paper folders", flush=True)
     cat_cols = ["paper_id", "pmid", "table_id", "source_file", "label", "caption", "n_rows", "class", "n_records", "mapped_fields"]
     rec_cols = ["record_type", "record_subtype", "source_db", "source_dataset", "source_record_id", "qtl_name",

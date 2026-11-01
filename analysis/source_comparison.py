@@ -132,7 +132,7 @@ def main(proj):
     ax.set_xlim(0, per["studies"].max() * 1.45)
     ax.grid(axis="x", color=GRID, linewidth=0.6)
     ax.set_axisbelow(True)
-    ax.legend(frameon=False, loc="lower right", fontsize=8)
+    ax.legend(frameon=False, loc="center right", fontsize=8)
     for ext in ("png", "pdf", "svg"):
         fig.savefig(f"{out}/figures/fig9_studies_by_source.{ext}", dpi=300, bbox_inches="tight")
     plt.close(fig)

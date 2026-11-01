@@ -220,10 +220,65 @@
     ]
   },
   {
+    "id": "genes",
+    "title": "Genes and intervals: find a gene",
+    "intro": "Look up a gene by any of its names and see which meta-QTL, hotspots, QTL and GWAS loci cover it.",
+    "image": "07-genes.png",
+    "width": 2800,
+    "height": 2000,
+    "callouts": [
+      {
+        "n": 1,
+        "label": "Search box",
+        "text": "Any identifier of a TM-1 gene: JGI Gohir ID, GenBank locus tag (ERO13_…), RefSeq LOC number, NCBI GeneID, the older Gh_ IDs, or an Arabidopsis AGI code or gene symbol of its best homolog. Version and transcript suffixes are ignored. A region such as A07:90.1-91.3 lists the genes in it instead."
+      },
+      {
+        "n": 2,
+        "label": "Gene and position",
+        "text": "The JGI gene ID and its position on TM-1 UTX v2.1, the assembly every map position in the database is drawn on."
+      },
+      {
+        "n": 3,
+        "label": "Genome databases",
+        "text": "Open the gene in Phytozome, CottonGen or NCBI Gene. The locus tag, RefSeq gene and Arabidopsis homolog below link to NCBI and TAIR."
+      },
+      {
+        "n": 4,
+        "label": "Overlapping loci",
+        "text": "Meta-QTL, hotspots, QTL and GWAS loci whose interval contains the gene. Click an ID to open it in its table, or an interval to list all genes in it. ≈ marks a position placed by relative position, accurate only to a few Mb."
+      }
+    ]
+  },
+  {
+    "id": "genes-region",
+    "title": "Genes and intervals: genes in a region",
+    "intro": "Every gene in an interval. The Genes links in the Meta-QTL and Hotspots tables open this view for that interval.",
+    "image": "08-genes-region.png",
+    "width": 2800,
+    "height": 2000,
+    "callouts": [
+      {
+        "n": 1,
+        "label": "Filter",
+        "text": "Narrow the list by any identifier or by words in the description, e.g. \"kinase\"."
+      },
+      {
+        "n": 2,
+        "label": "Download CSV",
+        "text": "Every gene in the region with all its identifiers and the description."
+      },
+      {
+        "n": 3,
+        "label": "Gene list",
+        "text": "Genes in position order. Each ID opens the gene; the description comes from the best Swiss-Prot or Arabidopsis match."
+      }
+    ]
+  },
+  {
     "id": "map-ideogram",
     "title": "Genome map: ideogram view",
     "intro": "The Genome map draws loci, meta-QTL and hotspots on the 26 chromosomes of allotetraploid cotton, coloured by trait category.",
-    "image": "07-map-ideogram.png",
+    "image": "09-map-ideogram.png",
     "width": 2800,
     "height": 2300,
     "callouts": [
@@ -268,7 +323,7 @@
     "id": "map-circos",
     "title": "Genome map: Circos view",
     "intro": "The Circos view puts all 26 chromosomes in one circle, with rings for locus density, regions and loci of each trait category.",
-    "image": "08-map-circos.png",
+    "image": "10-map-circos.png",
     "width": 2800,
     "height": 2600,
     "callouts": [
@@ -293,7 +348,7 @@
     "id": "hotspots",
     "title": "Hotspots",
     "intro": "Hotspots are regions where loci from many independent studies fall together, more than expected by chance.",
-    "image": "09-hotspots.png",
+    "image": "11-hotspots.png",
     "width": 2800,
     "height": 2000,
     "callouts": [
@@ -318,7 +373,7 @@
     "id": "hotspots-table",
     "title": "Hotspots: chromosome profile and table",
     "intro": "Below the karyotype, one chromosome is shown in detail, followed by the table of all hotspot regions.",
-    "image": "10-hotspots-table.png",
+    "image": "12-hotspots-table.png",
     "width": 2800,
     "height": 2000,
     "callouts": [
@@ -343,7 +398,7 @@
     "id": "linkage-maps",
     "title": "Linkage maps",
     "intro": "Marker orders and cM positions of cotton genetic maps, from CottonGen and from supplementary files of mapping papers.",
-    "image": "11-linkage-maps.png",
+    "image": "13-linkage-maps.png",
     "width": 2800,
     "height": 2000,
     "callouts": [
@@ -368,7 +423,7 @@
     "id": "linkage-maps-list",
     "title": "Linkage maps: one group and the map list",
     "intro": "The selected linkage group is drawn with its marker names; below it every available map is listed.",
-    "image": "12-linkage-maps-list.png",
+    "image": "14-linkage-maps-list.png",
     "width": 2800,
     "height": 2000,
     "callouts": [
@@ -393,7 +448,7 @@
     "id": "markers",
     "title": "Markers and primers",
     "intro": "Markers linked to traits, graded by the evidence behind the link, with primer sequences where a source gives them.",
-    "image": "13-markers.png",
+    "image": "15-markers.png",
     "width": 2800,
     "height": 2000,
     "callouts": [
@@ -423,9 +478,9 @@
     "id": "statistics",
     "title": "Statistics",
     "intro": "Counts by record type, trait, chromosome, species and source. All numbers refer to de-duplicated records.",
-    "image": "14-statistics.png",
+    "image": "16-statistics.png",
     "width": 2800,
-    "height": 2000,
+    "height": 2800,
     "callouts": [
       {
         "n": 1,
@@ -443,7 +498,7 @@
     "id": "insights",
     "title": "Insights",
     "intro": "What the combined record says about where trait loci sit in the cotton genome, with the statistical test behind each statement.",
-    "image": "15-insights.png",
+    "image": "17-insights.png",
     "width": 2800,
     "height": 2000,
     "callouts": [
@@ -463,7 +518,7 @@
     "id": "literature",
     "title": "Literature index",
     "intro": "Cotton QTL, GWAS, meta-QTL and epistasis papers indexed from Europe PMC and tagged by study type.",
-    "image": "16-literature.png",
+    "image": "18-literature.png",
     "width": 2800,
     "height": 1800,
     "callouts": [

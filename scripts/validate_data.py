@@ -158,7 +158,7 @@ def section_a():
     check(S, "DOI well-formed", int(dm.sum()), int((d.doi != "").sum()), examples=d.loc[dm, "doi"].unique().tolist())
 
     # positions written into marker names (independent of the position columns)
-    pat = re.compile(r"(?:^|[^A-Za-z0-9])(?:Gh_|Gb_|Chr|chr|Ghir\.NAUv1:)?([AD])t?0?(\d{1,2})[_:\-](\d{4,9})(?![\d.])")
+    pat = re.compile(r"(?:^|[^A-Za-z0-9])(?:Gh_|Gb_|Chr|chr|Ghir\.NAUv1:)?([AD])t?0?(\d{1,2})[_:\-](\d{5,9})(?![\d.])")  # 4-digit suffixes are bin or marker numbers
     rows = []
     for rid, s, c, a, b, mk, nm, sd in zip(d.record_id, d.source_db, d.chromosome, ps, pe, d.lead_marker, d.qtl_name,
                                           study(d)):

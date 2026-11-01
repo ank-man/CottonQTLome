@@ -49,9 +49,14 @@ export default function Tutorial() {
             ))}
           </ol>
         </nav>
-        <a href={asset('CottonQTLome_User_Guide.docx')} download className="btn-primary flex-shrink-0">
-          <Download className="h-4 w-4" /> Download as Word
-        </a>
+        <div className="flex flex-shrink-0 flex-col gap-2">
+          <a href={asset('CottonQTLome_User_Guide.pdf')} download className="btn-primary">
+            <Download className="h-4 w-4" /> Download as PDF
+          </a>
+          <a href={asset('CottonQTLome_User_Guide.docx')} download className="btn">
+            <Download className="h-4 w-4" /> Download as Word
+          </a>
+        </div>
       </div>
 
       <div className="mb-10 flex flex-wrap items-center gap-2 text-sm">

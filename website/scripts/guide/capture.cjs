@@ -111,7 +111,7 @@ const SECTIONS = [
     prep: async (p) => { await p.getByText('Loci overlapping this gene').first().waitFor({ timeout: 90000 }); await p.waitForTimeout(1500); await scrollTo(120)(p) },
     intro: 'Look up a gene by any of its names and see which meta-QTL, hotspots, QTL and GWAS loci cover it.',
     callouts: [
-      { find: (p) => p.locator('main form input').first(), side: 'bottom', label: 'Search box', text: 'Any identifier of a TM-1 gene: JGI Gohir ID, GenBank locus tag (ERO13_…), RefSeq LOC number, NCBI GeneID, the older Gh_ IDs, or an Arabidopsis AGI code or gene symbol of its best homolog. Version and transcript suffixes are ignored. A region such as A07:90.1-91.3 lists the genes in it instead.' },
+      { find: (p) => p.locator('main form input').first(), side: 'left', label: 'Search box', text: 'Any identifier of a TM-1 gene: JGI Gohir ID, GenBank locus tag (ERO13_…), RefSeq LOC number, NCBI GeneID, the older Gh_ IDs, or an Arabidopsis AGI code or gene symbol of its best homolog. Version and transcript suffixes are ignored. A region such as A07:90.1-91.3 lists the genes in it instead.' },
       { find: (p) => p.locator('main h3.font-mono').first(), side: 'left', label: 'Gene and position', text: 'The JGI gene ID and its position on TM-1 UTX v2.1, the assembly every map position in the database is drawn on.' },
       { find: (p) => p.getByRole('link', { name: 'Phytozome' }).first(), side: 'top', label: 'Genome databases', text: 'Open the gene in Phytozome, CottonGen or NCBI Gene. The locus tag, RefSeq gene and Arabidopsis homolog below link to NCBI and TAIR.' },
       { find: (p) => p.getByText('Loci overlapping this gene').first(), side: 'left', label: 'Overlapping loci', text: 'Meta-QTL, hotspots, QTL and GWAS loci whose interval contains the gene. Click an ID to open it in its table, or an interval to list all genes in it. ≈ marks a position placed by relative position, accurate only to a few Mb.' },
@@ -203,7 +203,7 @@ const SECTIONS = [
     ],
   },
   {
-    id: 'statistics', title: 'Statistics', url: '/statistics', height: 1000,
+    id: 'statistics', title: 'Statistics', url: '/statistics', height: 1400,
     prep: async (p) => { await p.getByRole('heading', { name: 'Records by trait category' }).waitFor({ timeout: 90000 }); await p.waitForTimeout(1500); await scrollTo(130)(p) },
     intro: 'Counts by record type, trait, chromosome, species and source. All numbers refer to de-duplicated records.',
     callouts: [

@@ -48,6 +48,8 @@ EXCLUDE_TABLES = {
         "summary table: SNP counts read as -log10(P), trait codes read as markers, no positions",
     "PMC9168987|Table 1":
         "linkage-disequilibrium table of SSR marker pairs, not QTL",
+    "10.1002_csc2.20937|csc220937-sup-0001-tabless2-s10.xlsx|Supp Table 2":
+        "re-export of CottonGen QTL (duplicates CottonGen); Start/Stop are cM but were read as Mb",
 }
 # Trait codes a paper defines in its text (key: source_dataset, trait_original).
 TRAIT_OVERRIDES = {
@@ -484,7 +486,7 @@ def multitrait_hotspots(loci):
 def main(proj):
     out_dir = f"{proj}/data/processed"
     os.makedirs(out_dir, exist_ok=True)
-    lit = pd.read_csv(f"{proj}/data/literature/literature_index.tsv", sep="\t", dtype=str).fillna("")
+    lit = pd.concat([pd.read_csv(f"{proj}/data/literature/{n}", sep="\t", dtype=str) for n in ("literature_index.tsv", "library_index.tsv") if os.path.exists(f"{proj}/data/literature/{n}")], ignore_index=True).fillna("")
     parts = [load_cottongen(proj, lit), load_gwas_atlas(proj), load_cottonmd(proj), load_cottongvd(proj)]
     lit_recs = f"{proj}/data/literature/extracted/literature_records.tsv"
     if os.path.exists(lit_recs):

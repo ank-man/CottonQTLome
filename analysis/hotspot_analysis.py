@@ -277,11 +277,12 @@ def main(proj):
         frac_large=lambda s: float((s >= 20).mean())).sort_values("n", ascending=False)
     eff = eff[eff["n"] >= 100]
     eff.to_csv(f"{out}/tables/qtl_effect_sizes.tsv", sep="\t")
+    q.loc[q.trait_category != "unclassified", ["trait_category", "pve"]].to_csv(f"{out}/tables/qtl_pve.tsv", sep="\t", index=False)
     ins["effects"] = {"n": int(len(q)), "median_pve": float(q["pve"].median()),
                       "frac_ge10": float((q["pve"] >= 10).mean()), "frac_ge20": float((q["pve"] >= 20).mean())}
 
     # ---------------------------------------------------------------- 6. literature over time
-    lit = pd.read_csv(f"{proj}/data/literature/literature_index.tsv", sep="\t", dtype=str).fillna("")
+    lit = pd.concat([pd.read_csv(f"{proj}/data/literature/{n}", sep="\t", dtype=str) for n in ("literature_index.tsv", "library_index.tsv") if os.path.exists(f"{proj}/data/literature/{n}")], ignore_index=True).fillna("")
     lit = lit[lit.year.str.fullmatch(r"\d{4}")]
     lit["year"] = lit.year.astype(int)
     lit = lit[lit.year.between(1994, 2025)]
@@ -352,16 +353,25 @@ def main(proj):
     ax.grid(axis="x", visible=False)
     lab = hs.head(8).assign(xm=lambda t: [offsets[c] + (a + b) / 2 / WINDOW for c, a, b in
                                           zip(t.chromosome, t.start, t.end)]).sort_values("xm")
-    last_x, level = -1e9, 0
-    for _, h in lab.iterrows():
-        level = level + 1 if h.xm - last_x < 25 else 0      # stagger labels of neighbouring hotspots
-        last_x = h.xm
-        ax.annotate(h.hotspot_id, (h.xm, h.peak_window_studies), xytext=(0, 4 + 9 * level), textcoords="offset points",
-                    ha="center", fontsize=7, color=INK,
-                    arrowprops=dict(arrowstyle="-", color=MUTED, lw=0.5) if level else None)
+    # one row of labels above the bars, spread apart along x, each joined to its peak by a leader line
+    top = win["n_studies"].max()
+    row_y, gap = top + 5, 52
+    xs = list(lab["xm"])
+    for i in range(1, len(xs)):
+        xs[i] = max(xs[i], xs[i - 1] + gap)
+    over = xs[-1] - (n_win - gap / 2) if xs else 0
+    if over > 0:
+        xs = [x - over for x in xs]
+        for i in range(len(xs) - 2, -1, -1):
+            xs[i] = min(xs[i], xs[i + 1] - gap)
+    for x, (_, h) in zip(xs, lab.iterrows()):
+        ax.annotate(h.hotspot_id, (h.xm, h.peak_window_studies + 0.5), xytext=(x, row_y), textcoords="data",
+                    ha="center", va="bottom", fontsize=7, color=INK,
+                    arrowprops=dict(arrowstyle="-", color=MUTED, lw=0.5, shrinkA=1, shrinkB=0))
+    ax.set_ylim(0, row_y + 5)
     ax.set_title(f"{len(hs)} hotspot regions are supported by more independent studies than expected by chance")
     ax.legend(handles=[plt.Rectangle((0, 0), 1, 1, color=C_A), plt.Rectangle((0, 0), 1, 1, color=C_D)],
-              labels=["At subgenome", "Dt subgenome"], frameon=False, loc="upper left", ncols=2)
+              labels=["At subgenome", "Dt subgenome"], frameon=False, loc="upper left", bbox_to_anchor=(0, 0.8), ncols=2)
     save(fig, out, "fig3_genomewide_hotspots")
 
     # Fig 4: karyotype of hotspots (sequential single hue = study support)
@@ -400,7 +410,7 @@ def main(proj):
                label=f"Dt share of assembled length ({(1 - frac_a_len) * 100:.1f}%)")
     ax.legend(frameon=False, loc="upper center", bbox_to_anchor=(0.5, -0.2), ncol=2, fontsize=7.5)
     for y, (f, n) in enumerate(zip(s2["frac_Dt"], s2["At"] + s2["Dt"])):
-        ax.text(f * 100 + 0.6, y, f"{f * 100:.0f}%  (n={n:,})", va="center", fontsize=7.5, color=MUTED)
+        ax.text(max(f * 100, 50) + 0.8, y, f"{f * 100:.0f}%  (n={n:,})", va="center", fontsize=7.5, color=MUTED)
     ax.set_xlim(0, 75)
     ax.set_xlabel("Share of study-level loci on the Dt subgenome (%)")
     ax.grid(axis="y", visible=False)

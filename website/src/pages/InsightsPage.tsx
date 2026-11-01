@@ -87,7 +87,7 @@ export default function InsightsPage() {
             <Figure name="fig3_genomewide_hotspots" title="Genome-wide study support and hotspot threshold">
               Number of independent studies with at least one QTL or GWAS locus in each 2-Mb window, across the 26 chromosomes
               (alternating shades separate chromosomes). The dashed line is the permutation threshold at FDR 0.01; the eight
-              best supported hotspots are labelled.
+              hotspots with the highest single-window support are labelled.
             </Figure>
             <div className="grid gap-6 lg:grid-cols-2">
               <Figure name="fig1_loci_density_per_chromosome" title="Dt chromosomes carry more loci per megabase">

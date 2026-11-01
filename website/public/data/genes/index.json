@@ -16,8 +16,8 @@
  ],
  "with_refseq": 60746,
  "with_arabidopsis": 21754,
- "candidate_gene_mentions": 16293,
- "intervals": 41935,
+ "candidate_gene_mentions": 17208,
+ "intervals": 44919,
  "interval_columns": [
   "kind",
   "id",

@@ -352,7 +352,7 @@ def main(proj):
     pd.read_csv(f"{proj}/analysis/tables/meta_qtl_trait_coverage.tsv", sep="\t").to_csv(
         f"{out}/mqtl_trait_coverage.csv", index=False)
 
-    lit = pd.read_csv(f"{proj}/data/literature/literature_index.tsv", sep="\t", dtype=str).fillna("")
+    lit = pd.concat([pd.read_csv(f"{proj}/data/literature/{n}", sep="\t", dtype=str) for n in ("literature_index.tsv", "library_index.tsv") if os.path.exists(f"{proj}/data/literature/{n}")], ignore_index=True).fillna("")
     n_maps, n_map_loci, n_markers, n_primers, n_markers_primers = export_maps_and_markers(proj, out, d, lit)
     cat = pd.read_csv(f"{proj}/data/literature/extracted/literature_table_catalog.tsv", sep="\t", dtype=str).fillna("")
     cat["n"] = cat["n_records"].astype(int)
@@ -373,7 +373,7 @@ def main(proj):
     ins = json.load(open(f"{proj}/analysis/insights.json"))
     core = d[d.record_type.isin(["QTL", "GWAS"])]
     summary = {
-        "built": "2026-10-10",
+        "built": __import__("datetime").date.today().isoformat(),
         "counts": {"qtl": int(len(qtl)), "gwas_loci": int(len(gwas)),
                    "gwas_associations": int((site.record_type == "GWAS").sum()),
                    "metaqtl": int((site.record_type == "meta-QTL").sum()),
@@ -409,6 +409,9 @@ def main(proj):
         "insights": {k: v for k, v in ins.items() if k != "trait_chr"} | {"trait_chr": {k: v for k, v in ins["trait_chr"].items() if k != "top"}},
     }
     summary["insights"]["hotspots"].pop("top", None)
+    # source comparison (analysis/source_comparison.py runs first; keep its block)
+    if os.path.exists(f"{proj}/analysis/comparison.json"):
+        summary["comparison"] = json.load(open(f"{proj}/analysis/comparison.json"))
     # the best supported hotspots and meta-QTL, quoted in the text of the Insights page
     summary["top_hotspots"] = [{"id": r.hotspot_id, "chr": r.chromosome, "start_mb": round(r.start / 1e6, 1),
                                 "end_mb": round(r.end / 1e6, 1), "studies": int(r.n_studies)}

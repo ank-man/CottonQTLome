@@ -1,5 +1,5 @@
 #!/bin/sh
-# Rebuild the user guide: screenshots -> numbered arrows -> Word document.
+# Rebuild the user guide: screenshots -> numbered arrows -> Word document and PDF.
 #
 # The Tutorial page (src/pages/Tutorial.tsx) and the Word guide
 # (public/CottonQTLome_User_Guide.docx) are both generated from the same list of
@@ -19,3 +19,4 @@ sleep 3
 GUIDE_RAW="$RAW" node scripts/guide/capture.cjs
 "${PYTHON:-python3}" scripts/guide/annotate.py "$RAW"
 node scripts/guide/make_docx.cjs
+node scripts/guide/make_pdf.cjs

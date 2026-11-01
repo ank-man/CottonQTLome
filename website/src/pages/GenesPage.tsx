@@ -59,7 +59,7 @@ function IntervalTable({ items }: { items: Interval[] }) {
                 {iv.method === 'approximate' && <span className="ml-1 text-xs text-wheat-500" title="Placed by relative position; error up to a few Mb">≈</span>}
               </td>
               <td className="pr-3 tabular-nums">
-                {iv.kind === 'Q' ? (iv.support ? `LOD ${iv.support}` : '') : `${iv.support} studies`}
+                {iv.kind === 'Q' ? (iv.support ? `LOD ${iv.support}` : '') : `${iv.support} ${iv.support === '1' ? 'study' : 'studies'}`}
                 {iv.kind === 'M' && iv.method ? ` · ${iv.method}` : ''}
               </td>
             </tr>
