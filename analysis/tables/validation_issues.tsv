@@ -1,32 +1,36 @@
 section	check	status	record	study	reason
-A. records	position inside the chromosome of its stated assembly	WARN	CQ0119940	27829353	beyond the chromosome end of its assembly
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0125779	28569138	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0125780	28569138	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0125783	28569138	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0159294	33438060	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0159359	33779828	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0319636	35471243	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0319675	35471243	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0319676	35471243	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0319678	35471243	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0345757	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0345760	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0345763	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0345765	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0345767	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0345768	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0345769	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0345770	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0345772	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0345773	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0345775	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0345780	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0345784	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0345785	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0345994	37020180	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0402719	42159171	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0402727	42159171	longer than any assembly of this chromosome
-A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0404559	42665706	longer than any assembly of this chromosome
+A. records	position inside the chromosome of its stated assembly	WARN	CQ0119024	27829353	beyond the chromosome end of its assembly
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0123017	27924947	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0123018	27924947	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0123019	27924947	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0123020	27924947	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0124863	28569138	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0124864	28569138	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0124867	28569138	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0158378	33438060	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0158443	33779828	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0318720	35471243	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0318759	35471243	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0318760	35471243	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0318762	35471243	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0344803	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0344806	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0344809	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0344811	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0344813	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0344814	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0344815	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0344816	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0344818	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0344819	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0344821	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0344826	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0344830	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0344831	doi:10.1002/csc2.20937	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0345040	37020180	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0401765	42159171	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0401773	42159171	longer than any assembly of this chromosome
+A. records	position plausible where the assembly is unknown (<= 1.3 x UTX length)	WARN	CQ0403605	42665706	longer than any assembly of this chromosome
 A. records	cM within 0-400	WARN	CQ0000428	27549323	cM outside 0-400
 A. records	cM within 0-400	WARN	CQ0000598	27549323	cM outside 0-400
 A. records	cM within 0-400	WARN	CQ0000931	27549323	cM outside 0-400
@@ -80,420 +84,177 @@ A. records	cM within 0-400	WARN	CQ0043255	27549323	cM outside 0-400
 A. records	cM within 0-400	WARN	CQ0045326	34539113	cM outside 0-400
 A. records	cM within 0-400	WARN	CQ0045467	27549323	cM outside 0-400
 A. records	cM within 0-400	WARN	CQ0067179	GV-BC1-2005	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0118978	25501533	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0118984	25501533	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0118990	25501533	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0118995	25501533	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0119009	25501533	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0119029	25501533	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0119031	25501533	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0119038	25501533	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0119041	25501533	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0119050	25501533	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0119076	25501533	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0119078	25501533	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0119080	25501533	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0119098	25501533	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0126699	28841857	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0126703	28841857	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0129066	30522448	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0157895	32231109	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0157896	32231109	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0157897	32231109	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0159041	33562629	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0159048	33562629	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0167244	35837453	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0167270	35837453	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0167274	35837453	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0167278	35837453	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0340491	36810826	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0340492	36810826	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0340493	36810826	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0340513	36810826	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0340593	36810826	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0340600	36810826	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0340605	36810826	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0340608	36810826	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0340610	36810826	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0340613	36810826	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0340615	36810826	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0340623	36810826	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0340624	36810826	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0340629	36810826	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0340926	36810826	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0340931	36810826	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0340940	36810826	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0373451	39172262	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0388345	41408397	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0388346	41408397	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0388347	41408397	cM outside 0-400
-A. records	cM within 0-400	WARN	CQ0388350	41408397	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0118062	25501533	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0118068	25501533	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0118074	25501533	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0118079	25501533	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0118093	25501533	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0118113	25501533	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0118115	25501533	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0118122	25501533	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0118125	25501533	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0118134	25501533	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0118160	25501533	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0118162	25501533	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0118164	25501533	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0118182	25501533	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0125783	28841857	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0125787	28841857	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0128150	30522448	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0156979	32231109	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0156980	32231109	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0156981	32231109	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0158125	33562629	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0158132	33562629	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0166328	35837453	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0166354	35837453	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0166358	35837453	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0166362	35837453	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0339537	36810826	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0339538	36810826	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0339539	36810826	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0339559	36810826	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0339639	36810826	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0339646	36810826	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0339651	36810826	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0339654	36810826	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0339656	36810826	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0339659	36810826	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0339661	36810826	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0339669	36810826	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0339670	36810826	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0339675	36810826	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0339972	36810826	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0339977	36810826	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0339986	36810826	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0372497	39172262	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0387391	41408397	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0387392	41408397	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0387393	41408397	cM outside 0-400
+A. records	cM within 0-400	WARN	CQ0387396	41408397	cM outside 0-400
 A. records	cM peak inside its support interval	WARN	CQ0015903	25796191	peak outside interval
 A. records	cM peak inside its support interval	WARN	CQ0023022	25314923	peak outside interval
 A. records	cM peak inside its support interval	WARN	CQ0029899	17469776	peak outside interval
 A. records	cM peak inside its support interval	WARN	CQ0031200	17469776	peak outside interval
 A. records	cM peak inside its support interval	WARN	CQ0063954	17469776	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0119166	25501533	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125468	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125469	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125470	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125471	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125472	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125473	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125474	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125475	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125476	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125478	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125479	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125480	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125481	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125482	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125483	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125484	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125485	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125486	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125487	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125488	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125489	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125491	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125492	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125493	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125494	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125495	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125496	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125497	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125498	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125499	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125500	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125501	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125502	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125503	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125504	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125505	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125506	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125507	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125508	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125509	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125510	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125511	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125512	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0125513	29206184	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127581	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127582	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127583	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127584	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127585	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127586	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127587	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127588	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127589	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127590	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127591	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127593	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127594	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127595	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127596	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127597	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127598	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127601	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127602	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127603	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127604	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127605	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127606	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127607	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127608	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127609	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127610	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127611	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127612	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127613	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127614	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127615	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127616	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127617	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127618	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127619	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127620	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127621	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0127622	29940861	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0130848	29389902	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0165979	doi:10.1007/s10681-022-03039-3	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0165996	doi:10.1007/s10681-022-03039-3	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0345569	doi:10.1002/csc2.20937	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0345571	doi:10.1002/csc2.20937	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0345573	doi:10.1002/csc2.20937	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0345575	doi:10.1002/csc2.20937	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0345577	doi:10.1002/csc2.20937	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0345579	doi:10.1002/csc2.20937	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0345581	doi:10.1002/csc2.20937	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0345583	doi:10.1002/csc2.20937	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0345585	doi:10.1002/csc2.20937	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0345587	doi:10.1002/csc2.20937	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0345589	doi:10.1002/csc2.20937	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0345591	doi:10.1002/csc2.20937	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0345593	doi:10.1002/csc2.20937	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0345595	doi:10.1002/csc2.20937	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0345597	doi:10.1002/csc2.20937	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0345599	doi:10.1002/csc2.20937	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388526	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388527	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388528	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388529	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388530	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388531	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388532	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388533	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388534	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388535	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388536	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388538	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388539	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388540	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388541	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388542	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388543	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388544	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388545	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388546	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388547	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388548	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388549	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388550	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388551	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388552	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388553	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388554	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388555	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388557	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388558	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388559	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388560	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388561	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388562	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388563	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388564	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388566	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388567	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388568	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388569	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388570	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388571	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388572	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388573	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388574	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388575	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388576	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388577	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388578	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388579	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388580	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388581	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388583	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388584	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388585	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388586	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388587	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388588	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388589	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388590	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388591	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388592	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388593	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388594	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388595	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388596	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388597	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388598	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388599	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0388600	41225803	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410083	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410084	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410085	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410086	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410087	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410088	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410089	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410090	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410091	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410092	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410093	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410094	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410095	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410096	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410097	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410098	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410099	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410100	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410101	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410102	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410103	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410104	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410105	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410106	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410107	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410108	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410109	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410110	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410111	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410112	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410113	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410114	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410115	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410116	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410117	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410118	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410119	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410120	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410121	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410122	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410123	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410124	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410125	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410126	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410127	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410128	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410129	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410130	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410131	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410132	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410133	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410134	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410135	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410136	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410137	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410138	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410139	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410141	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410142	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410143	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410144	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410145	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410146	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410147	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410148	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410149	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410150	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410151	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410152	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410153	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410154	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410155	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410156	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410157	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410158	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410159	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410160	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410161	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410162	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410163	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410164	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410165	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410166	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410167	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410168	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410169	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410170	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410171	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410172	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410173	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410174	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410175	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410176	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410177	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410178	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410179	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410180	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410181	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410182	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410183	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410184	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410185	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410186	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410187	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410188	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410189	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410190	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410191	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410192	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410193	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410194	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410195	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410196	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410197	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410198	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410199	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410200	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410201	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410202	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410203	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410204	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410205	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410206	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410207	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410208	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410209	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410210	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410211	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410212	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410213	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410214	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410215	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410216	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410217	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410218	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410219	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410220	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410221	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410222	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410223	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410224	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410225	doi:10.1186/s42397-020-0043-0	peak outside interval
-A. records	cM peak inside its support interval	WARN	CQ0410226	doi:10.1186/s42397-020-0043-0	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0118250	25501533	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0124554	29206184	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0124556	29206184	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0124557	29206184	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0124558	29206184	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0124560	29206184	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0124565	29206184	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0124596	29206184	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126665	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126666	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126667	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126668	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126669	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126670	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126671	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126672	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126673	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126674	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126675	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126677	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126678	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126679	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126680	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126681	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126682	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126685	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126686	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126687	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126688	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126689	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126690	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126691	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126692	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126693	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126694	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126695	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126696	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126697	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126698	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126699	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126700	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126701	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126702	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126703	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126704	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126705	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0126706	29940861	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0129932	29389902	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0165063	doi:10.1007/s10681-022-03039-3	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0165080	doi:10.1007/s10681-022-03039-3	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0344615	doi:10.1002/csc2.20937	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0344617	doi:10.1002/csc2.20937	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0344619	doi:10.1002/csc2.20937	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0344621	doi:10.1002/csc2.20937	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0344623	doi:10.1002/csc2.20937	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0344625	doi:10.1002/csc2.20937	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0344627	doi:10.1002/csc2.20937	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0344629	doi:10.1002/csc2.20937	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0344631	doi:10.1002/csc2.20937	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0344633	doi:10.1002/csc2.20937	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0344635	doi:10.1002/csc2.20937	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0344637	doi:10.1002/csc2.20937	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0344639	doi:10.1002/csc2.20937	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0344641	doi:10.1002/csc2.20937	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0344643	doi:10.1002/csc2.20937	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0344645	doi:10.1002/csc2.20937	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0409155	doi:10.1186/s42397-020-0043-0	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0409177	doi:10.1186/s42397-020-0043-0	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0409180	doi:10.1186/s42397-020-0043-0	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0409184	doi:10.1186/s42397-020-0043-0	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0409194	doi:10.1186/s42397-020-0043-0	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0409196	doi:10.1186/s42397-020-0043-0	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0409252	doi:10.1186/s42397-020-0043-0	peak outside interval
+A. records	cM peak inside its support interval	WARN	CQ0409253	doi:10.1186/s42397-020-0043-0	peak outside interval
 A. records	LOD <= 100	WARN	CQ0042991	38513701	LOD > 100
 A. records	LOD <= 100	WARN	CQ0044458	38513701	LOD > 100
 A. records	LOD <= 100	WARN	CQ0114914	15829730	LOD > 100
-A. records	LOD <= 100	WARN	CQ0117216	doi:10.1016/j.fcr.2013.01.001	LOD > 100
-A. records	LOD <= 100	WARN	CQ0117218	doi:10.1016/j.fcr.2013.01.001	LOD > 100
-A. records	LOD <= 100	WARN	CQ0117745	doi:10.2135/cropsci2012.05.0304	LOD > 100
-A. records	LOD <= 100	WARN	CQ0123983	27924947	LOD > 100
-A. records	LOD <= 100	WARN	CQ0159347	33632125	LOD > 100
-A. records	LOD <= 100	WARN	CQ0337552	36460274	LOD > 100
-A. records	LOD <= 100	WARN	CQ0339936	36460274	LOD > 100
-A. records	LOD <= 100	WARN	CQ0345845	37020180	LOD > 100
-A. records	LOD <= 100	WARN	CQ0345853	37020180	LOD > 100
-A. records	LOD <= 100	WARN	CQ0345855	37020180	LOD > 100
-A. records	LOD <= 100	WARN	CQ0345942	37020180	LOD > 100
-A. records	LOD <= 100	WARN	CQ0345950	37020180	LOD > 100
-A. records	LOD <= 100	WARN	CQ0345952	37020180	LOD > 100
-A. records	LOD <= 100	WARN	CQ0348042	37679709	LOD > 100
-A. records	LOD <= 100	WARN	CQ0348050	37679709	LOD > 100
-A. records	LOD <= 100	WARN	CQ0372298	39202392	LOD > 100
-A. records	LOD <= 100	WARN	CQ0372359	39202392	LOD > 100
-A. records	LOD <= 100	WARN	CQ0372379	39202392	LOD > 100
-A. records	LOD <= 100	WARN	CQ0372429	39202392	LOD > 100
-A. records	LOD <= 100	WARN	CQ0372569	39202392	LOD > 100
-A. records	LOD <= 100	WARN	CQ0395436	39971129	LOD > 100
-A. records	LOD <= 100	WARN	CQ0401572	42397580	LOD > 100
-A. records	LOD <= 100	WARN	CQ0404462	42604923	LOD > 100
-A. records	LOD <= 100	WARN	CQ0404463	42604923	LOD > 100
-A. records	LOD <= 100	WARN	CQ0404464	42604923	LOD > 100
-A. records	LOD <= 100	WARN	CQ0404465	42604923	LOD > 100
-A. records	LOD <= 100	WARN	CQ0404466	42604923	LOD > 100
-A. records	LOD <= 100	WARN	CQ0404467	42604923	LOD > 100
-A. records	LOD <= 100	WARN	CQ0404468	42604923	LOD > 100
-A. records	LOD <= 100	WARN	CQ0404469	42604923	LOD > 100
-A. records	LOD <= 100	WARN	CQ0404470	42604923	LOD > 100
-A. records	LOD <= 100	WARN	CQ0404471	42604923	LOD > 100
-A. records	LOD <= 100	WARN	CQ0404472	42604923	LOD > 100
-A. records	LOD <= 100	WARN	CQ0404473	42604923	LOD > 100
-A. records	LOD <= 100	WARN	CQ0404474	42604923	LOD > 100
-A. records	LOD <= 100	WARN	CQ0404942	41999945	LOD > 100
-A. records	LOD <= 100	WARN	CQ0405036	41999945	LOD > 100
-A. records	LOD <= 100	WARN	CQ0405097	41999945	LOD > 100
-A. records	LOD <= 100	WARN	CQ0405098	41999945	LOD > 100
-A. records	LOD <= 100	WARN	CQ0405122	41999945	LOD > 100
-A. records	LOD <= 100	WARN	CQ0407608	42260969	LOD > 100
+A. records	LOD <= 100	WARN	CQ0116300	doi:10.1016/j.fcr.2013.01.001	LOD > 100
+A. records	LOD <= 100	WARN	CQ0116302	doi:10.1016/j.fcr.2013.01.001	LOD > 100
+A. records	LOD <= 100	WARN	CQ0116829	doi:10.2135/cropsci2012.05.0304	LOD > 100
+A. records	LOD <= 100	WARN	CQ0123067	27924947	LOD > 100
+A. records	LOD <= 100	WARN	CQ0158431	33632125	LOD > 100
+A. records	LOD <= 100	WARN	CQ0336598	36460274	LOD > 100
+A. records	LOD <= 100	WARN	CQ0338982	36460274	LOD > 100
+A. records	LOD <= 100	WARN	CQ0344891	37020180	LOD > 100
+A. records	LOD <= 100	WARN	CQ0344899	37020180	LOD > 100
+A. records	LOD <= 100	WARN	CQ0344901	37020180	LOD > 100
+A. records	LOD <= 100	WARN	CQ0344988	37020180	LOD > 100
+A. records	LOD <= 100	WARN	CQ0344996	37020180	LOD > 100
+A. records	LOD <= 100	WARN	CQ0344998	37020180	LOD > 100
+A. records	LOD <= 100	WARN	CQ0347088	37679709	LOD > 100
+A. records	LOD <= 100	WARN	CQ0347096	37679709	LOD > 100
+A. records	LOD <= 100	WARN	CQ0371344	39202392	LOD > 100
+A. records	LOD <= 100	WARN	CQ0371405	39202392	LOD > 100
+A. records	LOD <= 100	WARN	CQ0371425	39202392	LOD > 100
+A. records	LOD <= 100	WARN	CQ0371475	39202392	LOD > 100
+A. records	LOD <= 100	WARN	CQ0371615	39202392	LOD > 100
+A. records	LOD <= 100	WARN	CQ0394482	39971129	LOD > 100
+A. records	LOD <= 100	WARN	CQ0400618	42397580	LOD > 100
+A. records	LOD <= 100	WARN	CQ0403508	42604923	LOD > 100
+A. records	LOD <= 100	WARN	CQ0403509	42604923	LOD > 100
+A. records	LOD <= 100	WARN	CQ0403510	42604923	LOD > 100
+A. records	LOD <= 100	WARN	CQ0403511	42604923	LOD > 100
+A. records	LOD <= 100	WARN	CQ0403512	42604923	LOD > 100
+A. records	LOD <= 100	WARN	CQ0403513	42604923	LOD > 100
+A. records	LOD <= 100	WARN	CQ0403514	42604923	LOD > 100
+A. records	LOD <= 100	WARN	CQ0403515	42604923	LOD > 100
+A. records	LOD <= 100	WARN	CQ0403516	42604923	LOD > 100
+A. records	LOD <= 100	WARN	CQ0403517	42604923	LOD > 100
+A. records	LOD <= 100	WARN	CQ0403518	42604923	LOD > 100
+A. records	LOD <= 100	WARN	CQ0403519	42604923	LOD > 100
+A. records	LOD <= 100	WARN	CQ0403520	42604923	LOD > 100
+A. records	LOD <= 100	WARN	CQ0403988	41999945	LOD > 100
+A. records	LOD <= 100	WARN	CQ0404082	41999945	LOD > 100
+A. records	LOD <= 100	WARN	CQ0404143	41999945	LOD > 100
+A. records	LOD <= 100	WARN	CQ0404144	41999945	LOD > 100
+A. records	LOD <= 100	WARN	CQ0404168	41999945	LOD > 100
+A. records	LOD <= 100	WARN	CQ0406654	42260969	LOD > 100
 A. records	position agrees with the position in the SNP name (CottonGen)	WARN	CQ0000006	AD1-NBI_fiber-quality_JZU-Dong-2019_GWAS	SNP name says another position
 A. records	position agrees with the position in the SNP name (CottonGen)	WARN	CQ0000009	AD1-NBI_fiber-quality_JZU-Dong-2019_GWAS	SNP name says another position
 A. records	position agrees with the position in the SNP name (CottonGen)	WARN	CQ0000022	27829353	SNP name says another position
@@ -641,16 +402,16 @@ A. records	position agrees with the position in the SNP name (CottonGen)	WARN	CQ
 A. records	position agrees with the position in the SNP name (CottonGen)	WARN	CQ0018210	AD1-NBI_fiber-quality_JZU-Dong-2019_GWAS	SNP name says another position
 A. records	position agrees with the position in the SNP name (CottonGen)	WARN	CQ0020534	AD1-NBI_fiber-quality_JZU-Dong-2019_GWAS	SNP name says another position
 A. records	position agrees with the position in the SNP name (CottonGen)	WARN	CQ0029404	AD1-UTX-v2.1_fiber-yield_CSIR-Joshi-2023_QTL	SNP name says another position
-A. records	position agrees with the position in the SNP name (Literature)	WARN	CQ0340007	36460274	SNP name says another position
-A. records	position agrees with the position in the SNP name (Literature)	WARN	CQ0340017	36460274	SNP name says another position
-A. records	position agrees with the position in the SNP name (Literature)	WARN	CQ0340067	36460274	SNP name says another position
-A. records	position agrees with the position in the SNP name (Literature)	WARN	CQ0340109	36460274	SNP name says another position
-A. records	position agrees with the position in the SNP name (Literature)	WARN	CQ0340111	36460274	SNP name says another position
-A. records	position agrees with the position in the SNP name (Literature)	WARN	CQ0340120	36460274	SNP name says another position
-A. records	position agrees with the position in the SNP name (Literature)	WARN	CQ0340127	36460274	SNP name says another position
-A. records	position agrees with the position in the SNP name (Literature)	WARN	CQ0340148	36460274	SNP name says another position
-A. records	position agrees with the position in the SNP name (Literature)	WARN	CQ0340159	36460274	SNP name says another position
-A. records	position agrees with the position in the SNP name (Literature)	WARN	CQ0340161	36460274	SNP name says another position
+A. records	position agrees with the position in the SNP name (Literature)	WARN	CQ0339053	36460274	SNP name says another position
+A. records	position agrees with the position in the SNP name (Literature)	WARN	CQ0339063	36460274	SNP name says another position
+A. records	position agrees with the position in the SNP name (Literature)	WARN	CQ0339113	36460274	SNP name says another position
+A. records	position agrees with the position in the SNP name (Literature)	WARN	CQ0339155	36460274	SNP name says another position
+A. records	position agrees with the position in the SNP name (Literature)	WARN	CQ0339157	36460274	SNP name says another position
+A. records	position agrees with the position in the SNP name (Literature)	WARN	CQ0339166	36460274	SNP name says another position
+A. records	position agrees with the position in the SNP name (Literature)	WARN	CQ0339173	36460274	SNP name says another position
+A. records	position agrees with the position in the SNP name (Literature)	WARN	CQ0339194	36460274	SNP name says another position
+A. records	position agrees with the position in the SNP name (Literature)	WARN	CQ0339205	36460274	SNP name says another position
+A. records	position agrees with the position in the SNP name (Literature)	WARN	CQ0339207	36460274	SNP name says another position
 A. records	CottonGen NAU-NBI positions < 1 Mb (often scaffold-relative)	WARN	CQ0000107	CY-RIL-2015	suspect NAU position near chromosome start
 A. records	CottonGen NAU-NBI positions < 1 Mb (often scaffold-relative)	WARN	CQ0000136	35965278	suspect NAU position near chromosome start
 A. records	CottonGen NAU-NBI positions < 1 Mb (often scaffold-relative)	WARN	CQ0000524	CY-RIL-2017	suspect NAU position near chromosome start

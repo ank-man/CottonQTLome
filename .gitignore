@@ -36,3 +36,4 @@ data/literature/uga_pdfs/
 # Licensed full texts obtained through library access: never published
 /data/literature/library/
 /data/literature/library_pii_cache.json
+/data/literature/cloned_genes_papers.tsv

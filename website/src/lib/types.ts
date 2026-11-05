@@ -303,3 +303,23 @@ export interface Summary {
     trait_chr: { chi2: number; dof: number; p: number }
   }
 }
+
+export interface MultiTraitQTLRecord {
+  mt_id: string; kind: string; study_label: string; chromosome: string; placement: string
+  start: string; end: string; unit: string; span: string; utx_v2_1_start_mb: string; utx_v2_1_end_mb: string
+  n_traits: string; traits: string; categories: string; n_records: string; markers: string; qtl_names: string
+  broad: string; source_db: string; reference: string
+}
+
+export interface MultiTraitClusterRecord {
+  mtc_id: string; chromosome: string; start_mb: string; end_mb: string; core_start_mb: string; core_end_mb: string
+  n_traits: string; n_categories: string; traits: string; categories: string; n_meta_qtl: string; mqtl_ids: string
+  max_studies_per_mqtl: string; n_high_confidence: string; hotspots: string; recurrent_candidate_genes: string; span_mb: string
+}
+
+export interface ClonedGeneRecord {
+  cloned_gene_id: string; gene: string; gene_type: string; trait_harmonized: string; trait_category: string
+  traits_mentioned: string; evidence_tier: string; mapping_evidence: string; validation_methods: string; species: string
+  chromosome: string; utx_v2_1_gene: string; utx_v2_1_mb: string; n_records_naming_gene: string; study_label: string
+  journal: string; title: string; reference: string
+}

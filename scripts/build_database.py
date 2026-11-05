@@ -44,6 +44,8 @@ EXCLUDE_PMIDS = {
 }
 # Tables whose columns were mapped wrongly by the extractor (checked against the source file).
 EXCLUDE_TABLES = {
+    "PMC3256209|supplementary/pone.0030056.s004.xls|10DPA": "expression QTL (array probes), eQTL are out of scope",
+    "PMC3256209|supplementary/pone.0030056.s004.xls|25DPA": "expression QTL (array probes), eQTL are out of scope",
     "PMC8793229|supplementary/12870_2022_3443_MOESM1_ESM.xlsx|Table S4":
         "summary table: SNP counts read as -log10(P), trait codes read as markers, no positions",
     "PMC9168987|Table 1":
@@ -200,13 +202,30 @@ def sanitise(df, log_path):
         df.loc[mask, cols] = np.nan
         return int(mask.sum())
 
+    # placeholders ("-", "–", "NA", "nd") stored as text values
+    ph = r"\s*[-–—−/]+\s*|\s*(?:na|n/a|nd|none|null)\s*"
+    n0 = 0
+    for c in ("lead_marker", "qtl_name", "linkage_group", "flanking_markers", "candidate_genes", "environment", "population"):
+        if c in df.columns:
+            m = df[c].astype("string").fillna("").str.fullmatch(ph, case=False).fillna(False)
+            n0 += int(m.sum()); df.loc[m, c] = np.nan
+    # a "CI" column read as both interval ends: cm_start == cm_stop, small, far from the peak, for most of the table
+    tbl = df["source_record_id"].fillna("").str.rsplit("|", n=1).str[0].where(df["source_db"] == "Literature", "")
+    a_, b_, p_ = (pd.to_numeric(df[c], errors="coerce") for c in ("cm_start", "cm_stop", "cm_peak"))
+    w = (tbl != "") & (a_ == b_) & p_.notna() & ((a_ - p_).abs() > a_) & (a_ < 15)
+    share = w.groupby(tbl).mean()
+    w &= tbl.map(share).ge(0.8)
+    for rid, src in zip(df.loc[w, "source_record_id"], df.loc[w, "source_db"]):
+        log.append((src, rid, "cm_start,cm_stop", "CI width read as interval ends; interval set to peak +- width/2"))
+    df.loc[w, "cm_start"] = (p_ - a_ / 2).clip(lower=0)[w]
+    df.loc[w, "cm_stop"] = (p_ + a_ / 2)[w]
     # P column holding -log10(P): move it
     m = df["p_value"].gt(1) & (df["neg_log10_p"].isna() | df["neg_log10_p"].le(0))
     for rid, src in zip(df.loc[m, "source_record_id"], df.loc[m, "source_db"]):
         log.append((src, rid, "p_value", "P > 1 is a -log10(P); moved to neg_log10_p"))
     df.loc[m, "neg_log10_p"] = df.loc[m, "p_value"]
     df.loc[m, "p_value"] = np.nan
-    n = {"p_moved": int(m.sum())}
+    n = {"p_moved": int(m.sum()), "placeholders_blanked": n0, "ci_width_fixed": int(w.sum())}
     n["p_out_of_range"] = drop(df["p_value"].le(0) | df["p_value"].gt(1), ["p_value"], "P outside (0, 1]")
     n["neg_log10_p_negative"] = drop(df["neg_log10_p"].lt(0), ["neg_log10_p"], "-log10(P) < 0")
     # PVE given as a fraction: every value of a table / dataset <= 1. Rescale to %.

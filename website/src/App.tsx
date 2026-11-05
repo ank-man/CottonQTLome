@@ -8,9 +8,11 @@ import Statistics from './pages/Statistics'
 import Contact from './pages/Contact'
 import UsefulLinks from './pages/UsefulLinks'
 import DataIndex from './pages/DataIndex'
+import DownloadsPage from './pages/DownloadsPage'
 import QTLPage from './pages/QTLPage'
 import GWASPage from './pages/GWASPage'
 import MultiTraitQTLPage from './pages/MultiTraitQTLPage'
+import ClonedGenesPage from './pages/ClonedGenesPage'
 import MetaQTLPage from './pages/MetaQTLPage'
 import Map from './pages/Map'
 import LinkagePlot from './pages/LinkagePlot'
@@ -36,9 +38,11 @@ export default function App() {
         <Route path="/tutorial" element={<Tutorial />} />
         <Route path="/statistics" element={<Statistics />} />
         <Route path="/data" element={<DataIndex />} />
+        <Route path="/downloads" element={<DownloadsPage />} />
         <Route path="/data/qtl" element={<QTLPage />} />
         <Route path="/data/gwas" element={<GWASPage />} />
         <Route path="/data/multi-trait" element={<MultiTraitQTLPage />} />
+        <Route path="/data/cloned-genes" element={<ClonedGenesPage />} />
         <Route path="/data/metaqtl" element={<MetaQTLPage />} />
         <Route path="/data/epistatic" element={<EpistaticPage />} />
         <Route path="/data/qualitative" element={<MTLPage />} />

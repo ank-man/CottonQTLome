@@ -1,4 +1,251 @@
 source_db	source_record_id	field	reason
+Literature	PMC5751225|Table 3|row3	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row4	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row6	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row10	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row12	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row13	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row14	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row15	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row17	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row18	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row19	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row20	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row21	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row22	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row23	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row24	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row26	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row27	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row28	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row29	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row30	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row31	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row32	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row33	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row34	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row35	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row36	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row37	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row38	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row39	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row40	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row41	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row42	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row43	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row44	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row45	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row46	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC5751225|Table 3|row48	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row2	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row3	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row4	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row5	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row6	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row7	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row8	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row9	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row10	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row11	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row12	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row14	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row15	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row16	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row17	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row18	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row19	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row20	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row21	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row22	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row23	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row24	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row25	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row26	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row27	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row28	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row29	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row30	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row31	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row33	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row34	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row35	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row36	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row37	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row38	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row39	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row40	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row41	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row42	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row43	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row44	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row45	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row46	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row47	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row48	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row49	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row50	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row51	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row52	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row53	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row54	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row55	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row56	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row57	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row58	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row59	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row60	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row61	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row62	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row63	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row64	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row65	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row66	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row67	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row68	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row69	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row70	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row71	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row72	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row73	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row74	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row75	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	PMC12609637|Table 2|row76	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row2	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row3	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row4	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row5	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row6	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row7	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row8	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row9	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row10	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row11	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row12	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row13	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row14	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row15	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row16	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row17	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row18	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row19	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row20	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row21	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row22	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row23	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row24	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row25	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row26	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row27	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row29	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row30	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row31	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row32	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row33	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row34	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row35	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row36	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row37	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row38	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row39	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row40	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row41	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row42	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row43	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row44	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row45	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row46	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row47	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row48	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row49	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row51	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row52	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row54	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row55	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row56	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row58	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row59	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row60	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row61	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row62	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row63	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row64	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row65	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row66	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row68	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row70	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row71	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row72	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row73	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row74	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row75	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row76	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row77	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row78	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row79	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row80	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row81	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row82	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row83	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row84	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row85	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row86	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row87	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row88	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row89	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row90	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row91	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row92	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row93	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row94	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row95	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row96	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row97	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row98	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row99	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row100	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row101	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row102	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row103	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row104	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row105	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row106	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row107	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row108	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row109	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row110	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row111	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row112	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row113	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row114	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row115	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row116	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row117	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row118	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row119	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row120	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row121	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row122	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row123	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row124	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row127	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row128	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row129	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row130	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row131	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row132	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row133	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row134	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row135	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row136	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row137	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row138	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row139	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row140	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row141	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row142	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row143	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row144	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
+Literature	10.1186_s42397-020-0043-0|42397_2020_43_MOESM9_ESM.docx|table1|row145	cm_start,cm_stop	CI width read as interval ends; interval set to peak +- width/2
 CottonGen	qMIC.MAGIC-19831_ch07.jz15	p_value	P > 1 is a -log10(P); moved to neg_log10_p
 CottonGen	qFU.MAGIC-19831_ch19.zk15	p_value	P > 1 is a -log10(P); moved to neg_log10_p
 CottonGen	qUHML.MAGIC-19831_ch14.jz15	p_value	P > 1 is a -log10(P); moved to neg_log10_p
@@ -1855,922 +2102,6 @@ Literature	10.1007_s00122-010-1442-2|10.1007_s00122-010-1442-2.pdf|p8t1|row14	r2
 Literature	10.1007_s00122-010-1442-2|10.1007_s00122-010-1442-2.pdf|p8t1|row17	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
 Literature	10.1007_s00122-010-1442-2|10.1007_s00122-010-1442-2.pdf|p8t1|row19	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
 Literature	10.1007_s00122-010-1442-2|10.1007_s00122-010-1442-2.pdf|p8t1|row21	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row2	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row3	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row4	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row5	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row6	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row7	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row8	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row9	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row10	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row11	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row12	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row13	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row14	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row15	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row16	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row17	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row18	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row19	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row20	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row21	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row22	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row23	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row24	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row25	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row26	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row27	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row28	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row29	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row30	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row31	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row32	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row33	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row34	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row35	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row36	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row37	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row38	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row39	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row40	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row41	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row42	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row43	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row44	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row45	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row46	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row47	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row48	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row49	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row50	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row51	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row52	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row53	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row54	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row55	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row56	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row57	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row58	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row59	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row60	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row61	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row62	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row63	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row64	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row65	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row66	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row67	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row68	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row69	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row70	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row71	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row72	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row73	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row74	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row75	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row76	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row77	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row78	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row79	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row80	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row81	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row82	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row83	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row84	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row85	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row86	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row87	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row88	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row89	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row90	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row91	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row92	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row93	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row94	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row95	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row96	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row97	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row98	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row99	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row100	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row101	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row102	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row103	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row104	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row105	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row106	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row107	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row108	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row109	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row110	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row111	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row112	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row113	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row114	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row115	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row116	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row117	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row118	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row119	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row120	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row121	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row122	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row123	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row124	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row125	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row126	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row127	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row128	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row129	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row130	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row131	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row132	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row133	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row134	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row135	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row136	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row137	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row138	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row139	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row140	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row141	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row142	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row143	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row144	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row145	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row146	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row147	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row148	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row149	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row150	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row151	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row152	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row153	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row154	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row155	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row156	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row157	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row158	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row159	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row160	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row161	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row162	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row163	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row164	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row165	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row166	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row167	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row168	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row169	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row170	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row171	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row172	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row173	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row174	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row175	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row176	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row177	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row178	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row179	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row180	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row181	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row182	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row183	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row184	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row185	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row186	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row187	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row188	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row189	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row190	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row191	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row192	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row193	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row194	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row195	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row196	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row197	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row198	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row199	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row200	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row201	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row202	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row203	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row204	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row205	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row206	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row207	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row208	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row209	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row210	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row211	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row212	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row213	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row214	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row215	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row216	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row217	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row218	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row219	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row220	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row221	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row222	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row223	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row224	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row225	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row226	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row227	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row228	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row229	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row230	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row231	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row232	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row233	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row234	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row235	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row236	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row237	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row238	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row239	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row240	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row241	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row242	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row243	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row244	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row245	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row246	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row247	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row248	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row249	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row250	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row251	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row252	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row253	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row254	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row255	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row256	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row257	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row258	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row259	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row260	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row261	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row262	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row263	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row264	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row265	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row266	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row267	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row268	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row269	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row270	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row271	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row272	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row273	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row274	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row275	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row276	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row277	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row278	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row279	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row280	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row281	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row282	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row283	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row284	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row285	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row286	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row287	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row288	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row289	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row290	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row291	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row292	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row293	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|10DPA|row294	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row2	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row3	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row4	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row5	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row6	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row7	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row8	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row9	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row10	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row11	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row12	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row13	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row14	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row15	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row16	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row17	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row18	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row19	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row20	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row21	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row22	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row23	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row24	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row25	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row26	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row27	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row28	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row29	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row30	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row31	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row32	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row33	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row34	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row35	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row36	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row37	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row38	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row39	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row40	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row41	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row42	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row43	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row44	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row45	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row46	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row47	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row48	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row49	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row50	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row51	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row52	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row53	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row54	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row55	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row56	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row57	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row58	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row59	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row60	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row61	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row62	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row63	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row64	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row65	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row66	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row67	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row68	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row69	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row70	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row71	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row72	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row73	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row74	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row75	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row76	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row77	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row78	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row79	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row80	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row81	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row82	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row83	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row84	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row85	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row86	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row87	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row88	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row89	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row90	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row91	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row92	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row93	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row94	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row95	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row96	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row97	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row98	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row99	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row100	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row101	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row102	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row103	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row104	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row105	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row106	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row107	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row108	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row109	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row110	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row111	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row112	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row113	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row114	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row115	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row116	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row117	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row118	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row119	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row120	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row121	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row122	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row123	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row124	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row125	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row126	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row127	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row128	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row129	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row130	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row131	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row132	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row133	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row134	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row135	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row136	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row137	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row138	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row139	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row140	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row141	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row142	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row143	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row144	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row145	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row146	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row147	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row148	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row149	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row150	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row151	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row152	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row153	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row154	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row155	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row156	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row157	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row158	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row159	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row160	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row161	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row162	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row163	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row164	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row165	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row166	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row167	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row168	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row169	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row170	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row171	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row172	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row173	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row174	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row175	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row176	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row177	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row178	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row179	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row180	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row181	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row182	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row183	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row184	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row185	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row186	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row187	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row188	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row189	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row190	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row191	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row192	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row193	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row194	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row195	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row196	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row197	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row198	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row199	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row200	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row201	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row202	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row203	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row204	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row205	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row206	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row207	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row208	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row209	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row210	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row211	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row212	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row213	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row214	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row215	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row216	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row217	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row218	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row219	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row220	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row221	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row222	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row223	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row224	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row225	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row226	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row227	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row228	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row229	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row230	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row231	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row232	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row233	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row234	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row235	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row236	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row237	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row238	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row239	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row240	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row241	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row242	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row243	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row244	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row245	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row246	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row247	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row248	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row249	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row250	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row251	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row252	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row253	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row254	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row255	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row256	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row257	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row258	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row259	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row260	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row261	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row262	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row263	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row264	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row265	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row266	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row267	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row268	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row269	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row270	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row271	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row272	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row273	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row274	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row275	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row276	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row277	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row278	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row279	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row280	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row281	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row282	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row283	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row284	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row285	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row286	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row287	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row288	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row289	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row290	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row291	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row292	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row293	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row294	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row295	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row296	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row297	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row298	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row299	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row300	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row301	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row302	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row303	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row304	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row305	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row306	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row307	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row308	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row309	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row310	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row311	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row312	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row313	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row314	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row315	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row316	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row317	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row318	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row319	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row320	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row321	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row322	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row323	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row324	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row325	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row326	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row327	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row328	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row329	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row330	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row331	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row332	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row333	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row334	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row335	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row336	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row337	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row338	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row339	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row340	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row341	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row342	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row343	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row344	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row345	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row346	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row347	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row348	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row349	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row350	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row351	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row352	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row353	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row354	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row355	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row356	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row357	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row358	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row359	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row360	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row361	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row362	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row363	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row364	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row365	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row366	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row367	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row368	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row369	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row370	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row371	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row372	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row373	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row374	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row375	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row376	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row377	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row378	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row379	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row380	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row381	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row382	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row383	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row384	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row385	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row386	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row387	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row388	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row389	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row390	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row391	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row392	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row393	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row394	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row395	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row396	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row397	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row398	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row399	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row400	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row401	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row402	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row403	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row404	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row405	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row406	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row407	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row408	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row409	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row410	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row411	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row412	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row413	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row414	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row415	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row416	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row417	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row418	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row419	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row420	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row421	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row422	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row423	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row424	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row425	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row426	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row427	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row428	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row429	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row430	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row431	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row432	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row433	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row434	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row435	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row436	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row437	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row438	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row439	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row440	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row441	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row442	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row443	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row444	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row445	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row446	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row447	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row448	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row449	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row450	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row451	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row452	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row453	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row454	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row455	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row456	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row457	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row458	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row459	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row460	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row461	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row462	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row463	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row464	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row465	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row466	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row467	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row468	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row469	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row470	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row471	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row472	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row473	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row474	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row475	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row476	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row477	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row478	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row479	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row480	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row481	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row482	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row483	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row484	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row485	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row486	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row487	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row488	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row489	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row490	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row491	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row492	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row493	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row494	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row495	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row496	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row497	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row498	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row499	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row500	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row501	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row502	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row503	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row504	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row505	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row506	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row507	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row508	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row509	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row510	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row511	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row512	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row513	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row514	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row515	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row516	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row517	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row518	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row519	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row520	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row521	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row522	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row523	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row524	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row525	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row526	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row527	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row528	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row529	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row530	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row531	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row532	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row533	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row534	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row535	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row536	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row537	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row538	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row539	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row540	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row541	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row542	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row543	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row544	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row545	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row546	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row547	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row548	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row549	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row550	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row551	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row552	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row553	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row554	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row555	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row556	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row557	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row558	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row559	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row560	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row561	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row562	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row563	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row564	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row565	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row566	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row567	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row568	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row569	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row570	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row571	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row572	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row573	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row574	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row575	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row576	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row577	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row578	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row579	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row580	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row581	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row582	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row583	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row584	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row585	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row586	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row587	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row588	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row589	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row590	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row591	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row592	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row593	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row594	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row595	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row596	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row597	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row598	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row599	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row600	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row601	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row602	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row603	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row604	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row605	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row606	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row607	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row608	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row609	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row610	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row611	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row612	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row613	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row614	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row615	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row616	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row617	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row618	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row619	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row620	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row621	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row622	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row623	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
-Literature	PMC3256209|supplementary/pone.0030056.s004.xls|25DPA|row624	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
 Literature	PMC3873261|Table 4|row3	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
 Literature	PMC3873261|Table 4|row4	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100
 Literature	PMC3873261|Table 4|row5	r2_pct	PVE reported as a fraction (all values of the table <= 1); multiplied by 100

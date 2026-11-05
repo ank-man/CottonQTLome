@@ -2,7 +2,7 @@ import { ReactNode, useEffect, useState } from 'react'
 import { NavLink, Link, useLocation } from 'react-router-dom'
 import {
   BarChart3, BookOpen, Crosshair, Database, Dna, Flame, Flower2, GitBranch, GraduationCap, HelpCircle, Home, Info,
-  Layers, Lightbulb, Link2, Mail, Map as MapIcon, Network, PanelLeftClose, PanelLeftOpen, Quote, Radar, Route, Search, Upload, Spline,
+  Layers, Lightbulb, Link2, Download, Mail, Map as MapIcon, Network, PanelLeftClose, PanelLeftOpen, Quote, Radar, Route, Search, Upload, Spline,
 } from 'lucide-react'
 
 type Item = { to: string; label: string; icon: typeof Home; end?: boolean }
@@ -14,13 +14,15 @@ const SECTIONS: { title: string; items: Item[] }[] = [
     { to: '/search', label: 'Advanced search', icon: Search },
     { to: '/genes', label: 'Genes & intervals', icon: Dna },
     { to: '/data', label: 'All data tables', icon: Database, end: true },
+    { to: '/downloads', label: 'Downloads', icon: Download },
   ] },
   { title: 'QTLome', items: [
     { to: '/data/qtl', label: 'QTL', icon: Database },
     { to: '/data/gwas', label: 'GWAS loci', icon: Radar },
     { to: '/data/metaqtl', label: 'Meta-QTL', icon: GitBranch },
     { to: '/data/epistatic', label: 'Epistatic QTL', icon: Network },
-    { to: '/data/multi-trait', label: 'QTL clusters', icon: Layers },
+    { to: '/data/multi-trait', label: 'Multi-trait QTL', icon: Layers },
+    { to: '/data/cloned-genes', label: 'Cloned genes', icon: Flower2 },
     { to: '/data/qualitative', label: 'Qualitative loci', icon: Dna },
     { to: '/markers', label: 'Markers & primers', icon: Crosshair },
   ] },

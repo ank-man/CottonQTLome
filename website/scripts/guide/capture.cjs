@@ -230,6 +230,34 @@ const SECTIONS = [
       { find: (p) => p.locator('tbody tr').first().locator('td').nth(1), side: 'bottom', label: 'Title', text: 'Opens the paper. Scroll sideways for the study type and the number of records taken from it.' },
     ],
   },
+  {
+    id: 'multi-trait', title: 'Multi-trait QTL', url: '/data/multi-trait', height: 950,
+    prep: async (p) => { await tableReady(p) },
+    intro: 'Regions where loci for several traits map together, seen three ways: clusters of meta-QTL across studies, overlapping QTL or shared GWAS signals within one study, and clusters reported by the authors.',
+    callouts: [
+      { find: (p) => p.getByRole('button', { name: /Multi-trait meta-QTL clusters/ }), side: 'bottom', label: 'Three views', text: 'Switch between meta-QTL clusters, multi-trait QTL within studies and the clusters reported by authors.' },
+      { find: (p) => p.locator('thead th').filter({ hasText: 'Shared core' }).first(), side: 'bottom', label: 'Shared core', text: 'The interval that all meta-QTL of a cluster overlap, on TM-1 UTX v2.1.' },
+      { find: (p) => p.locator('thead th').filter({ hasText: /^Traits$/ }).first(), side: 'bottom', label: 'Traits', text: 'The traits whose meta-QTL make up the cluster; the Meta-QTL IDs column links them to the Meta-QTL page.' },
+    ],
+  },
+  {
+    id: 'cloned-genes', title: 'Cloned and validated genes', url: '/data/cloned-genes', height: 950,
+    prep: async (p) => { await tableReady(p) },
+    intro: 'Genes identified behind mapped cotton loci, with how they were mapped and confirmed, and the paper that reports them.',
+    callouts: [
+      { find: (p) => p.locator('tbody tr').first().locator('td').nth(1), side: 'right', label: 'Gene', text: 'Opens the gene search, which lists every QTL, GWAS locus, meta-QTL and hotspot around the gene.' },
+      { find: (p) => p.locator('thead th').filter({ hasText: 'Evidence' }).first(), side: 'bottom', label: 'Evidence', text: 'Map-based cloning; mapped and functionally validated; causal variant described; or mapped candidate.' },
+      { find: (p) => p.locator('thead th').filter({ hasText: 'Validation' }).first(), side: 'bottom', label: 'Validation', text: 'VIGS, CRISPR/Cas9, RNAi, over-expression, complementation or allele evidence, as stated in the paper.' },
+    ],
+  },
+  {
+    id: 'downloads', title: 'Downloads', url: '/downloads', height: 1000,
+    intro: 'Every table of the database as a file: loci, meta-QTL and their members, consensus and linkage maps, markers, traits, studies and validation results.',
+    callouts: [
+      { find: (p) => p.locator('main table').first().locator('tbody tr').first().locator('a'), side: 'right', label: 'Download a table', text: 'Click a name to download the file (CSV, or gzipped CSV for the large tables).' },
+      { find: (p) => p.getByRole('heading', { name: 'Complete database files' }), side: 'top', label: 'Complete database', text: 'All records, the extracted tables and the SQLite database are attached to the GitHub release.' },
+    ],
+  },
 ]
 
 ;(async () => {

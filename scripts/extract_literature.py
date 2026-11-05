@@ -47,7 +47,7 @@ FIELDS = [
     ("gene", r"gene|annotation|homolog"),
     ("phys_start", r"\bstart\b|left (position|bp)|\bbegin"),
     ("phys_end", r"\bend\b|\bstop\b|right (position|bp)"),
-    ("phys", r"\bbp\b|\bmb\b|\bkb\b|physical|genom(e|ic) ?(position|region|interval|location|coordinate)|snp position|position ?\(?bp"),
+    ("phys", r"\bbp\b|\bmbp?\b|\bkbp?\b|physical|genom(e|ic) ?(position|region|interval|location|coordinate)|snp position|position ?\(?bp"),
     ("marker", r"marker|\bsnp\b|\bsnps\b|flank|nearest|\binterval\b|\bbin\b|\bssr\b|\bindel\b|variant|\blocus id"),
     ("pos_cm", r"position|\bpos\b|peak|\bcm\b|\bsite\b|location \(cm"),
     ("chrom", r"^chr|chromos?o?m|\blg\b|linkage ?group|^c\.?$|^chr\.?/|scaffold"),
@@ -426,7 +426,7 @@ def build_records(rows, start, colmap, cls, meta, table_id, caption):
                     break
         if a is not None:
             b = a if b is None else b
-            unit = 1e6 if re.search(r"\bmb\b", hdr) else (1e3 if re.search(r"\bkb\b", hdr) else None)
+            unit = 1e6 if re.search(r"\bmbp?\b", hdr) else (1e3 if re.search(r"\bkbp?\b", hdr) else None)
 
             def to_bp(v):
                 if unit and v * unit <= MAX_BP:

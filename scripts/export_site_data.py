@@ -274,7 +274,7 @@ def main(proj):
     for c in ["phys_start", "phys_end", "cm_start", "cm_stop", "cm_peak", "lod", "r2_pct", "neg_log10_p"]:
         d[c] = pd.to_numeric(d[c], errors="coerce")
     n_unresolved = int((d["trait_category"] == "unclassified").sum())
-    d = d[d["trait_category"] != "unclassified"].copy()   # traits that could not be named stay in data/processed only
+    # records whose trait could not be harmonised are kept, under the category "Unclassified" with their own trait name
     # common-axis positions and hotspot membership from the analysis
     ax = pd.read_csv(f"{proj}/analysis/tables/records_common_axis.tsv", sep="\t",
                      usecols=["record_id", "chromosome", "pos", "projection"])
@@ -370,6 +370,42 @@ def main(proj):
     cov["category"] = cov["category"].map(CATEGORY_LABEL).fillna(cov["category"])
     cov.to_csv(f"{out}/mqtl_trait_coverage.csv", index=False)
 
+    # computed multi-trait QTL (analysis/multi_trait.py) and cloned / validated genes (scripts/cloned_genes.py)
+    n_mtq = n_mtc = n_cg = n_cg_genes = 0
+    p_mt = f"{proj}/analysis/tables/multi_trait_qtl.tsv"
+    if os.path.exists(p_mt):
+        mt = pd.read_csv(p_mt, sep="\t", dtype={"pmid": str})
+        mt["pmid"] = mt["pmid"].fillna("").str.replace(r"\.0$", "", regex=True)
+        mt["reference"] = [link(a, b) for a, b in zip(mt["doi"].fillna(""), mt["pmid"])]
+        mt["study_label"] = mt["first_author"].fillna("").astype(str) + " " + mt["year"].fillna(0).astype(int).astype(str).replace("0", "")
+        for c in ("start", "end", "span"):
+            mt[c] = np.where(mt.unit == "bp", (mt[c] / 1e6).round(3), mt[c].round(1))
+        mt["unit"] = mt.unit.map({"bp": "Mb", "cM": "cM"})
+        for c in ("utx_v2_1_start_mb", "utx_v2_1_end_mb"):
+            mt[c] = mt[c].round(2)
+        mt["categories"] = mt.categories.str.split("; ").map(lambda v: "; ".join(CATEGORY_LABEL.get(x, x) for x in v))
+        mt[["mt_id", "kind", "study_label", "chromosome", "placement", "start", "end", "unit", "span", "utx_v2_1_start_mb",
+            "utx_v2_1_end_mb", "n_traits", "traits", "categories", "n_records", "markers", "qtl_names", "broad", "source_db",
+            "reference"]].to_csv(f"{out}/multitrait_qtl.csv", index=False)
+        mtc = pd.read_csv(f"{proj}/analysis/tables/multi_trait_mqtl_clusters.tsv", sep="\t")
+        for c in ("start_mb", "end_mb", "core_start_mb", "core_end_mb", "span_mb"):
+            mtc[c] = mtc[c].round(2)
+        mtc["categories"] = mtc.categories.str.split("; ").map(lambda v: "; ".join(CATEGORY_LABEL.get(x, x) for x in v))
+        mtc.to_csv(f"{out}/multitrait_mqtl_clusters.csv", index=False)
+        n_mtq, n_mtc = len(mt), len(mtc)
+    p_cg = f"{proj}/data/processed/cloned_genes.tsv"
+    if os.path.exists(p_cg):
+        cg = pd.read_csv(p_cg, sep="\t", dtype=str).fillna("")
+        cg["reference"] = [link(a, b) for a, b in zip(cg["doi"], cg["pmid"])]
+        cg["trait_category"] = cg.trait_category.map(CATEGORY_LABEL).fillna(cg.trait_category)
+        cg["utx_v2_1_mb"] = [f"{float(a) / 1e6:.3f}" if a else (f"{float(b):.2f}" if b else "")
+                             for a, b in zip(cg.utx_v2_1_start, cg.utx_v2_1_mb_from_records)]
+        cg["study_label"] = cg.first_author + " " + cg.year
+        cg[["cloned_gene_id", "gene", "gene_type", "trait_harmonized", "trait_category", "traits_mentioned", "evidence_tier",
+            "mapping_evidence", "validation_methods", "species", "chromosome", "utx_v2_1_gene", "utx_v2_1_mb",
+            "n_records_naming_gene", "study_label", "journal", "title", "reference"]].to_csv(f"{out}/cloned_genes.csv", index=False)
+        n_cg, n_cg_genes = len(cg), cg.gene.str.lower().nunique()
+
     lit = pd.concat([pd.read_csv(f"{proj}/data/literature/{n}", sep="\t", dtype=str) for n in ("literature_index.tsv", "library_index.tsv") if os.path.exists(f"{proj}/data/literature/{n}")], ignore_index=True).fillna("")
     n_maps, n_map_loci, n_markers, n_primers, n_markers_primers = export_maps_and_markers(proj, out, d, lit)
     cat = pd.read_csv(f"{proj}/data/literature/extracted/literature_table_catalog.tsv", sep="\t", dtype=str).fillna("")
@@ -402,6 +438,7 @@ def main(proj):
                    "mqtl_median_ci_mb": float(mq.ci_width_mb.median()),
                    "epistatic": int((site.record_type == "epistatic QTL").sum()),
                    "clusters": int((site.record_type == "QTL cluster").sum()), "mtl": int(len(m)),
+                   "multitrait_qtl": n_mtq, "multitrait_mqtl_clusters": n_mtc, "cloned_gene_rows": n_cg, "cloned_genes": n_cg_genes,
                    "hotspots": int(len(hs)), "papers_indexed": int(len(lit)),
                    "studies_with_data": int(pd.read_csv(f"{proj}/data/processed/studies.tsv", sep="\t").shape[0]),
                    "loci": int(d["locus_cluster_id"].nunique()), "records_unresolved_trait": n_unresolved,

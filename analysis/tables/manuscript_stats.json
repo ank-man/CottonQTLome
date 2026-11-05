@@ -1,0 +1,226 @@
+{
+ "mining": {
+  "studies": 27,
+  "cg_qtl": 4025,
+  "recovered": 1712,
+  "recovered_pct": 42.53416149068323,
+  "pos_pairs": 1503,
+  "pos_exact_pct": 95.9414504324684,
+  "lod_pairs": 1282,
+  "lod_agree_pct": 91.65366614664586,
+  "lod_r": 0.7190849432675885,
+  "pve_pairs": 1380,
+  "pve_agree_pct": 90.57971014492753,
+  "pve_r": 0.9388060557166167
+ },
+ "agreement": {
+  "by_class": [
+   {
+    "n_studies": "2",
+    "n": 1865,
+    "observed": 0.4064,
+    "null_mean": 0.4422,
+    "null_lo": 0.3759,
+    "null_hi": 0.503,
+    "p_upper": 0.8482
+   },
+   {
+    "n_studies": "3",
+    "n": 1086,
+    "observed": 0.7118,
+    "null_mean": 0.7169,
+    "null_lo": 0.6363,
+    "null_hi": 0.7846,
+    "p_upper": 0.5704
+   },
+   {
+    "n_studies": "4",
+    "n": 718,
+    "observed": 0.8607,
+    "null_mean": 0.8416,
+    "null_lo": 0.7535,
+    "null_hi": 0.9109,
+    "p_upper": 0.3526
+   },
+   {
+    "n_studies": "5\u20136",
+    "n": 690,
+    "observed": 0.9014,
+    "null_mean": 0.9223,
+    "null_lo": 0.8565,
+    "null_hi": 0.9667,
+    "p_upper": 0.7912
+   },
+   {
+    "n_studies": "7\u20139",
+    "n": 348,
+    "observed": 0.9856,
+    "null_mean": 0.9758,
+    "null_lo": 0.9367,
+    "null_hi": 0.9971,
+    "p_upper": 0.3397
+   },
+   {
+    "n_studies": "\u226510",
+    "n": 93,
+    "observed": 1.0,
+    "null_mean": 0.9962,
+    "null_lo": 0.9785,
+    "null_hi": 1.0,
+    "p_upper": 0.7363
+   }
+  ],
+  "overall_obs": 0.668125,
+  "overall_null": 0.682546875,
+  "overall_null_hi": 0.7310520833333334,
+  "p_overall": 0.7012987012987013,
+  "n_perm": 1000
+ },
+ "genes": {
+  "n_genes": 74902,
+  "dt_gene_share": 0.5177965875410536,
+  "p_loci_vs_gene_share": 1.247571041399219e-11,
+  "rho_support_genes": 0.7041976609975913,
+  "rho_p": 1.0630155202185072e-173,
+  "hotspots": 59,
+  "hotspots_kept_gene_null": 14,
+  "hotspot_gene_density_ratio": 2.3815733085951782,
+  "hotspot_windows_above_gene_expectation": 24,
+  "sig_windows_uniform": 101,
+  "median_pct_in_decile_hotspot_windows": 87.82608695652175,
+  "rho_chr_loci_genes": 0.24517011813272244,
+  "p_chr_loci_genes": 0.22736480403309314,
+  "rho_chr_loci_length": 0.7305982905982905,
+  "p_chr_loci_length": 2.255223372649259e-05
+ },
+ "multi_trait": {
+  "clusters": 861,
+  "clusters_ge3": 791,
+  "clusters_ge2cat": 822,
+  "median_traits": 5.0,
+  "median_core_kb": 344.82346152080015,
+  "median_extent_mb": 4.0055432517206695,
+  "fq_yield_pct": 84.43670150987224,
+  "pairs_tested": 622,
+  "pairs_enriched": 2,
+  "top_pairs": [
+   {
+    "trait_a": "seed cotton yield",
+    "trait_b": "seed protein and amino acids",
+    "observed": 16,
+    "ratio": 3.0471,
+    "q": 0.0033
+   },
+   {
+    "trait_a": "branch traits",
+    "trait_b": "growth period and maturity",
+    "observed": 41,
+    "ratio": 1.8193,
+    "q": 0.0033
+   }
+  ],
+  "within": {
+   "linkage QTL (physical)": 3196,
+   "GWAS signal": 2661,
+   "linkage QTL (genetic map)": 1648
+  },
+  "within_total": 7505,
+  "within_studies": 204,
+  "within_ge3": 3083,
+  "within_broad": 184,
+  "within_top_pairs": [
+   [
+    [
+     "fiber length",
+     "fiber strength"
+    ],
+    1055
+   ],
+   [
+    [
+     "fiber length",
+     "micronaire"
+    ],
+    882
+   ],
+   [
+    [
+     "fiber strength",
+     "micronaire"
+    ],
+    818
+   ],
+   [
+    [
+     "fiber elongation",
+     "fiber strength"
+    ],
+    802
+   ],
+   [
+    [
+     "fiber length",
+     "fiber uniformity"
+    ],
+    760
+   ]
+  ],
+  "clusters_in_hotspots": 137
+ },
+ "cloned": {
+  "rows": 207,
+  "genes": 190,
+  "papers": 142,
+  "tiers": {
+   "mapped and functionally validated": 109,
+   "mapped candidate (not validated)": 51,
+   "map-based cloning": 25,
+   "mapped; causal variant described": 5
+  },
+  "validated_genes": 134,
+  "categories": {
+   "fiber quality": 50,
+   "plant architecture": 25,
+   "abiotic stress": 24,
+   "biotic stress": 20,
+   "yield": 16,
+   "phenology": 15,
+   "seed quality": 13,
+   "morphology": 11
+  },
+  "traits_top": {
+   "fiber length": 25,
+   "verticillium wilt resistance": 18,
+   "branch traits": 17,
+   "seed fuzz": 17,
+   "flowering time": 15,
+   "salt tolerance": 14
+  },
+  "with_chromosome": 111,
+  "papers_since_2020_pct": 83.80281690140845,
+  "vigs_early_pct": 30.434782608695656,
+  "vigs_late_pct": 40.33613445378151,
+  "crispr_early_pct": 4.3478260869565215,
+  "crispr_late_pct": 7.563025210084033,
+  "gwas_route_late_pct": 43.69747899159664,
+  "gwas_route_early_pct": 39.130434782608695,
+  "n_early": 23,
+  "n_late": 119
+ },
+ "convergence": {
+  "traits": 15,
+  "higher": 7,
+  "median_same": 0.2802653399668325,
+  "median_other": 0.3233695652173913,
+  "median_ratio": 0.9734513274336283,
+  "wilcoxon_p": 0.28070068359375,
+  "above_max": 2
+ },
+ "cm_control": {
+  "n": 485,
+  "same_pct": 89.07216494845362,
+  "other_pct": 59.362184207545035,
+  "same_strict_pct": 54.22680412371134,
+  "other_strict_pct": 36.147048827461205
+ }
+}

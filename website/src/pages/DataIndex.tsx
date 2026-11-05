@@ -10,15 +10,17 @@ export default function DataIndex() {
   const items = [
     { to: '/data/qtl', title: 'QTL', desc: `${n('qtl')}linkage-mapping QTL records.` },
     { to: '/data/gwas', title: 'GWAS loci', desc: `${n('gwas_loci')}loci summarising ${c ? c.gwas_associations.toLocaleString() : ''} marker–trait associations.` },
-    { to: '/data/metaqtl', title: 'Meta-QTL', desc: `${n('mqtl')}consensus loci computed across studies (${c ? c.mqtl_high.toLocaleString() : ''} with ≥ 5 studies), plus rows from published meta-analyses.` },
+    { to: '/data/metaqtl', title: 'Meta-QTL', desc: `${n('mqtl')}physical meta-QTL (${c ? c.mqtl_high.toLocaleString() : ''} with ≥ 5 studies), genetic-map meta-QTL on a consensus map, every trait's outcome, and rows from published meta-analyses.` },
     { to: '/data/epistatic', title: 'Epistatic QTL', desc: `${n('epistatic')}QTL × QTL interaction pairs (${c ? c.epistatic_physical : ''} with physical positions for both loci).` },
-    { to: '/data/multi-trait', title: 'Multi-trait QTL clusters', desc: `${n('clusters')}cluster / pleiotropic-region rows as reported by authors.` },
+    { to: '/data/multi-trait', title: 'Multi-trait QTL', desc: `${n('multitrait_mqtl_clusters')}multi-trait meta-QTL clusters, ${n('multitrait_qtl')}multi-trait QTL within studies and ${n('clusters')}clusters reported by authors.` },
+    { to: '/data/cloned-genes', title: 'Cloned and validated genes', desc: `${n('cloned_genes')}genes behind mapped loci, with the validation method and paper.` },
     { to: '/data/qualitative', title: 'Qualitative trait loci', desc: `${n('mtl')}Mendelian trait loci and gene symbols.` },
     { to: '/hotspots', title: 'QTL hotspots', desc: `${n('hotspots')}genomic regions supported by many independent studies.` },
     { to: '/linkage-maps', title: 'Linkage maps', desc: `${n('maps')}genetic maps with ${c ? c.map_loci.toLocaleString() : ''} loci to view and download.` },
     { to: '/markers', title: 'Trait-linked markers', desc: `${n('markers')}marker–trait links graded by evidence, with primers.` },
     { to: '/statistics', title: 'Statistics', desc: 'Counts by trait, chromosome, species and source, and how the sources compare.' },
     { to: '/map', title: 'Genome map', desc: 'Interactive ideogram and Circos views of loci and hotspots.' },
+    { to: '/downloads', title: 'Downloads', desc: 'Every table as a CSV file: loci, both kinds of meta-QTL, consensus and linkage maps, markers, primers, traits and studies.' },
     { to: '/literature', title: 'Literature index', desc: `${n('papers_indexed')}cotton QTL/GWAS papers tagged by study type.` },
   ]
   return (

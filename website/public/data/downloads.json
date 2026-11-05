@@ -1,0 +1,307 @@
+{
+ "files": [
+  {
+   "group": "Trait loci",
+   "title": "Linkage QTL",
+   "path": "qtl.csv",
+   "description": "De-duplicated linkage-mapping QTL with trait, population, position, LOD, PVE, markers and source.",
+   "rows": 59604,
+   "columns": 27,
+   "bytes": 13537886
+  },
+  {
+   "group": "Trait loci",
+   "title": "GWAS loci",
+   "path": "gwas.csv",
+   "description": "GWAS associations grouped into loci (one row per locus), with lead SNP and strongest P.",
+   "rows": 25382,
+   "columns": 28,
+   "bytes": 6911306
+  },
+  {
+   "group": "Trait loci",
+   "title": "GWAS associations (all)",
+   "path": "downloads/gwas_associations.csv.gz",
+   "description": "Every de-duplicated GWAS association (SNP\u2013trait), with position, P, PVE, candidate genes and source.",
+   "rows": 151777,
+   "columns": 24,
+   "bytes": 3992702
+  },
+  {
+   "group": "Trait loci",
+   "title": "Epistatic QTL pairs",
+   "path": "epistatic.csv",
+   "description": "QTL \u00d7 QTL interaction pairs with both loci, statistics and source.",
+   "rows": 10482,
+   "columns": 22,
+   "bytes": 2485977
+  },
+  {
+   "group": "Trait loci",
+   "title": "QTL clusters reported by authors",
+   "path": "clusters.csv",
+   "description": "Clusters and pleiotropic regions as labelled in the source tables.",
+   "rows": 3434,
+   "columns": 20,
+   "bytes": 683435
+  },
+  {
+   "group": "Trait loci",
+   "title": "Multi-trait QTL within studies",
+   "path": "multitrait_qtl.csv",
+   "description": "Overlapping linkage QTL (Mb or cM) and shared GWAS signals (same SNP or within 100 kb) for two or more traits in one study.",
+   "rows": 7505,
+   "columns": 20,
+   "bytes": 2132711
+  },
+  {
+   "group": "Trait loci",
+   "title": "Multi-trait QTL members",
+   "path": "downloads/multi_trait_qtl_members.csv.gz",
+   "description": "Which records make up each within-study multi-trait QTL (mt_id, record_id, trait).",
+   "rows": 73677,
+   "columns": 3,
+   "bytes": 306413
+  },
+  {
+   "group": "Trait loci",
+   "title": "Cloned and validated genes",
+   "path": "cloned_genes.csv",
+   "description": "Genes behind mapped loci (map-based cloning, fine mapping, QTL, GWAS) with validation method, trait, chromosome and paper.",
+   "rows": 207,
+   "columns": 18,
+   "bytes": 79225
+  },
+  {
+   "group": "Trait loci",
+   "title": "Qualitative trait loci (MTL)",
+   "path": "mtl.csv",
+   "description": "Mendelian trait loci and gene symbols from CottonGen.",
+   "rows": 208,
+   "columns": 9,
+   "bytes": 81375
+  },
+  {
+   "group": "Trait loci",
+   "title": "QTL and GWAS on every assembly",
+   "path": "downloads/qtl_gwas_all_assemblies.csv.gz",
+   "description": "Each placed QTL and GWAS locus with its position converted to every supported genome assembly.",
+   "rows": 41959,
+   "columns": 33,
+   "bytes": 2960200
+  },
+  {
+   "group": "Trait loci",
+   "title": "All loci on TM-1 UTX v2.1",
+   "path": "downloads/records_on_utx_v2_1.csv.gz",
+   "description": "Position of every placed record on the common reference, and how it was converted.",
+   "rows": 167112,
+   "columns": 8,
+   "bytes": 1877142
+  },
+  {
+   "group": "Meta-QTL and hotspots",
+   "title": "Physical meta-QTL",
+   "path": "mqtl.csv",
+   "description": "Meta-QTL on TM-1 UTX v2.1 (Mb) for each trait: position, 95% CI, studies, evidence, candidate genes, hotspot.",
+   "rows": 4800,
+   "columns": 29,
+   "bytes": 1273314
+  },
+  {
+   "group": "Meta-QTL and hotspots",
+   "title": "Physical meta-QTL members",
+   "path": "downloads/meta_qtl_physical_members.csv.gz",
+   "description": "Which records make up each physical meta-QTL (mqtl_id, record_id).",
+   "rows": 138261,
+   "columns": 2,
+   "bytes": 467162
+  },
+  {
+   "group": "Meta-QTL and hotspots",
+   "title": "Genetic-map meta-QTL",
+   "path": "mqtl_cm.csv",
+   "description": "Classic meta-QTL on the consensus genetic map (cM): position, 95% CI, flanking markers, studies, matching physical meta-QTL.",
+   "rows": 1231,
+   "columns": 28,
+   "bytes": 220305
+  },
+  {
+   "group": "Meta-QTL and hotspots",
+   "title": "Genetic-map meta-QTL members",
+   "path": "downloads/meta_qtl_genetic_map_members.csv.gz",
+   "description": "Which linkage QTL make up each genetic-map meta-QTL (mqtl_id, record_id).",
+   "rows": 4690,
+   "columns": 2,
+   "bytes": 22499
+  },
+  {
+   "group": "Meta-QTL and hotspots",
+   "title": "Meta-QTL model selection",
+   "path": "downloads/meta_qtl_models.csv.gz",
+   "description": "Every trait \u00d7 chromosome model fitted: observations, studies, components chosen by BIC (and AIC for the genetic map).",
+   "rows": 1386,
+   "columns": 10,
+   "bytes": 35539
+  },
+  {
+   "group": "Meta-QTL and hotspots",
+   "title": "Trait coverage of the meta-analyses",
+   "path": "mqtl_trait_coverage.csv",
+   "description": "Every database trait with its records and the outcome of the physical and genetic-map meta-analyses.",
+   "rows": 279,
+   "columns": 16,
+   "bytes": 37566
+  },
+  {
+   "group": "Meta-QTL and hotspots",
+   "title": "Published meta-QTL",
+   "path": "metaqtl.csv",
+   "description": "Rows from the tables of published cotton meta-analyses (their own consensus maps, cM).",
+   "rows": 5601,
+   "columns": 18,
+   "bytes": 1035583
+  },
+  {
+   "group": "Meta-QTL and hotspots",
+   "title": "Multi-trait meta-QTL clusters",
+   "path": "multitrait_mqtl_clusters.csv",
+   "description": "Physical meta-QTL of different traits sharing one core interval on UTX v2.1 (CI <= 5 Mb).",
+   "rows": 861,
+   "columns": 17,
+   "bytes": 273986
+  },
+  {
+   "group": "Meta-QTL and hotspots",
+   "title": "Hotspots",
+   "path": "hotspots.csv",
+   "description": "Study-supported hotspot regions with traits, studies, example QTL and candidate genes.",
+   "rows": 59,
+   "columns": 24,
+   "bytes": 57798
+  },
+  {
+   "group": "Meta-QTL and hotspots",
+   "title": "Study support per 2-Mb window",
+   "path": "downloads/study_support_2mb_windows.csv.gz",
+   "description": "Independent studies, loci and traits in every 2-Mb window, with the permutation q-value.",
+   "rows": 1155,
+   "columns": 10,
+   "bytes": 11728
+  },
+  {
+   "group": "Genetic maps and markers",
+   "title": "Consensus genetic map",
+   "path": "consensus_map.csv",
+   "description": "Consensus map built around the AD genome-wide reference map (2009): marker, chromosome, cM, first map, number of maps.",
+   "rows": 44169,
+   "columns": 5,
+   "bytes": 2841450
+  },
+  {
+   "group": "Genetic maps and markers",
+   "title": "Consensus map construction",
+   "path": "downloads/consensus_map_construction.csv.gz",
+   "description": "Every linkage group considered: shared markers, anchors used, markers added, or why it was left out.",
+   "rows": 3333,
+   "columns": 8,
+   "bytes": 27363
+  },
+  {
+   "group": "Genetic maps and markers",
+   "title": "QTL on the consensus map",
+   "path": "downloads/qtl_on_consensus_map.csv.gz",
+   "description": "Linkage QTL projected onto the consensus map (cM), with method and whether the interval was imputed.",
+   "rows": 8360,
+   "columns": 11,
+   "bytes": 205276
+  },
+  {
+   "group": "Genetic maps and markers",
+   "title": "Linkage maps (index)",
+   "path": "maps.csv",
+   "description": "All genetic maps: population, parents, marker types, loci, length, source and reference.",
+   "rows": 157,
+   "columns": 14,
+   "bytes": 52946
+  },
+  {
+   "group": "Genetic maps and markers",
+   "title": "Linkage maps (all loci)",
+   "path": "downloads/linkage_maps_all.csv.gz",
+   "description": "Every marker of every linkage map in one file (map, marker, type, linkage group, chromosome, cM, primers).",
+   "rows": 224065,
+   "columns": 8,
+   "bytes": 2668810
+  },
+  {
+   "group": "Genetic maps and markers",
+   "title": "Trait-linked markers",
+   "path": "markers.csv",
+   "description": "Marker\u2013trait links graded by evidence, with primers where known.",
+   "rows": 7717,
+   "columns": 12,
+   "bytes": 1847125
+  },
+  {
+   "group": "Genetic maps and markers",
+   "title": "Marker primers",
+   "path": "marker_primers.csv",
+   "description": "Primer sequences collected from CottonGen and mapping papers, by marker.",
+   "rows": 453167,
+   "columns": 5,
+   "bytes": 39618795
+  },
+  {
+   "group": "Traits, studies and literature",
+   "title": "Trait dictionary",
+   "path": "downloads/trait_dictionary.csv.gz",
+   "description": "Original trait names and the harmonised trait and category assigned to each, by source.",
+   "rows": 3150,
+   "columns": 5,
+   "bytes": 23365
+  },
+  {
+   "group": "Traits, studies and literature",
+   "title": "Studies",
+   "path": "downloads/studies.csv.gz",
+   "description": "Studies contributing records, with sources and record counts.",
+   "rows": 549,
+   "columns": 9,
+   "bytes": 48260
+  },
+  {
+   "group": "Traits, studies and literature",
+   "title": "Literature index",
+   "path": "literature.csv",
+   "description": "Cotton QTL / GWAS papers indexed, with study-type flags and links.",
+   "rows": 1570,
+   "columns": 10,
+   "bytes": 460693
+  },
+  {
+   "group": "Quality control",
+   "title": "Validation issues",
+   "path": "downloads/validation_issues.csv.gz",
+   "description": "Every record flagged by the validation checks, with the check and the study.",
+   "rows": 567,
+   "columns": 6,
+   "bytes": 3486
+  }
+ ],
+ "release": "https://github.com/ank-man/CottonQTLome/releases/latest",
+ "release_files": [
+  {
+   "title": "All records, de-duplicated records, loci, positions on UTX v2.1 (TSV, zipped)",
+   "file": "cottonqtlome_records.zip"
+  },
+  {
+   "title": "Records, linkage-map loci and primers extracted from published tables (TSV, zipped)",
+   "file": "cottonqtlome_literature_extracted.zip"
+  },
+  {
+   "title": "The whole database as one SQLite file (zipped)",
+   "file": "cotton_qtl_sqlite.zip"
+  }
+ ]
+}
