@@ -49,7 +49,7 @@ n_amb = rd("data/processed/records_deduplicated.tsv", dtype=str, usecols=["stat_
 
 text = f"""# CottonQTLome — integrated cotton (*Gossypium*) QTL, GWAS and meta-QTL database
 
-Website: https://ank-man.github.io/CottonQTLome/ · Build of {date.today():%Y-%m-%d}.
+Website: https://cottonqtlome.org (mirror: https://ank-man.github.io/CottonQTLome/) · Build of {date.today():%Y-%m-%d}.
 Every record was collected from public databases or extracted from published tables, harmonised into one
 schema, placed on one physical reference (*G. hirsutum* TM-1 UTX v2.1), and traced to its source table.
 
@@ -70,7 +70,7 @@ schema, placed on one physical reference (*G. hirsutum* TM-1 UTX v2.1), and trac
 | Consensus genetic map | {f(len(cm))} markers, {f(cm.groupby('chromosome').cM.max().sum())} cM |
 | Linkage maps · marker–trait links · primer entries | {f(c['maps'])} · {f(c['markers'])} · {f(c['primer_catalog'])} |
 
-Every table can be downloaded from the website's Downloads page (https://ank-man.github.io/CottonQTLome/downloads);
+Every table can be downloaded from the website's Downloads page (https://cottonqtlome.org/downloads);
 the complete files (all records, extracted tables, SQLite) are attached to the GitHub releases.
 
 ## Layout

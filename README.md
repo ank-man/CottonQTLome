@@ -1,6 +1,6 @@
 # CottonQTLome — integrated cotton (*Gossypium*) QTL, GWAS and meta-QTL database
 
-Website: https://ank-man.github.io/CottonQTLome/ · Build of 2026-11-04.
+Website: https://cottonqtlome.org (mirror: https://ank-man.github.io/CottonQTLome/) · Build of 2026-11-04.
 Every record was collected from public databases or extracted from published tables, harmonised into one
 schema, placed on one physical reference (*G. hirsutum* TM-1 UTX v2.1), and traced to its source table.
 
@@ -21,7 +21,7 @@ schema, placed on one physical reference (*G. hirsutum* TM-1 UTX v2.1), and trac
 | Consensus genetic map | 44,169 markers, 5,758 cM |
 | Linkage maps · marker–trait links · primer entries | 157 · 7,717 · 453,167 |
 
-Every table can be downloaded from the website's Downloads page (https://ank-man.github.io/CottonQTLome/downloads);
+Every table can be downloaded from the website's Downloads page (https://cottonqtlome.org/downloads);
 the complete files (all records, extracted tables, SQLite) are attached to the GitHub releases.
 
 ## Layout
