@@ -58,13 +58,15 @@ const SECTIONS = [
   },
   {
     id: 'search', title: 'Advanced search', url: '/search', height: 1000,
-    prep: async (p) => { await tableReady(p); await scrollTo(150)(p) },
-    intro: 'Advanced search filters linkage QTL and GWAS loci together. Filters apply as you set them, and the table below updates at once.',
+    prep: async (p) => { await tableReady(p); await p.getByRole('button', { name: /A07 fiber hotspot/ }).click(); await p.waitForTimeout(800); await scrollTo(150)(p) },
+    intro: 'Advanced search filters linkage QTL and GWAS loci together. Filters apply as you set them, and the table below updates at once. Here the example “A07 fiber hotspot, 86–96 Mb” has been clicked.',
     callouts: [
       { find: (p) => p.getByPlaceholder('QTL name, marker, gene, author…'), side: 'top', label: 'Keyword', text: 'Matches QTL name, marker, candidate gene, author and the other text fields.' },
       { find: (p) => p.locator('label', { hasText: 'Record type' }).locator('select'), side: 'top', label: 'Record type, species and source', text: 'Linkage QTL, GWAS loci or both; one species; one source database (CottonGen, CottonGVD, CottonMD, GWAS Atlas) or the literature.' },
       { find: (p) => p.locator('label', { hasText: 'Harmonised trait' }).locator('select'), side: 'top', label: 'Trait category and trait', text: 'A category such as Fiber quality, then a harmonised trait such as fiber strength. Trait names from different studies are merged into one harmonised name.' },
       { find: (p) => p.getByPlaceholder('from'), side: 'top', label: 'Chromosome and region', text: 'Pick a chromosome and give a start and end in Mb to list the loci in that window. Positions are projected onto TM-1 UTX v2.1, so the window is approximate; loci with only a cM position are never matched.' },
+      { find: (p) => p.getByRole('button', { name: /Fiber length on D11/ }), side: 'bottom', label: 'Examples', text: 'Ready-made searches: a hotspot region, one trait on one chromosome, the records of a hotspot, and large-effect loci with a candidate gene. Click one to fill in the filters.' },
+      { find: (p) => p.getByRole('button', { name: 'Expression heatmap' }), side: 'left', label: 'Genes in the region', text: 'Appears when a chromosome and a region of up to 30 Mb are set: list the genes in the region and narrow them by organ expression, or open their expression heatmap.' },
       { find: (p) => p.getByPlaceholder('e.g. 10'), side: 'left', label: 'Minimum PVE', text: 'Keep only loci that explain at least this percentage of phenotypic variance.' },
       { find: (p) => p.getByText('Curated database records only (exclude auto-extracted)'), side: 'right', label: 'Evidence filters', text: 'Keep only records from curated databases, only loci inside a hotspot, or only loci with a candidate gene.' },
       { find: (p) => p.locator('.badge', { hasText: 'rows' }).first(), side: 'bottom', label: 'Result count', text: 'The number of matching rows.' },
@@ -73,7 +75,7 @@ const SECTIONS = [
     ],
   },
   {
-    id: 'data', title: 'All data tables', url: '/data', height: 860,
+    id: 'data', title: 'All data tables', url: '/data', height: 1100,
     intro: 'The data page lists every table with its size. Each opens as a sortable, searchable table that can be exported.',
     callouts: [
       { find: (p) => p.getByRole('link', { name: 'QTL', exact: true }), side: 'left', label: 'QTL and GWAS loci', text: 'Linkage-mapping QTL, and GWAS loci (each locus summarises the associations reported at one position).' },
@@ -99,32 +101,38 @@ const SECTIONS = [
     prep: async (p) => { await tableReady(p); await scrollTo(200)(p) },
     intro: 'Meta-QTL are consensus loci computed from all placed QTL and GWAS loci of a trait, each supported by at least two independent studies.',
     callouts: [
-      { find: (p) => p.getByRole('button', { name: /CottonQTLome meta-QTL/ }), side: 'top', label: 'Two tables', text: 'Meta-QTL computed by this project, or the rows from published meta-analyses.' },
+      { find: (p) => p.getByRole('button', { name: /Physical meta-QTL/ }), side: 'bottom', label: 'Four tabs', text: 'Physical meta-QTL computed by this project (Mb), classic meta-QTL on the consensus genetic map (cM), every trait with the outcome of both meta-analyses, and rows from published meta-analyses.' },
       { find: (p) => p.locator('main select').first(), side: 'left', label: 'Confidence', text: 'High (five or more studies), moderate (three or more) or all (two or more).' },
       { find: (p) => p.locator('main select').nth(3), side: 'top', label: 'Category, chromosome and support', text: 'Limit by trait category or chromosome, or to meta-QTL supported by linkage QTL, GWAS or both.' },
       { find: (p) => p.locator('thead th', { hasText: '95% CI' }), side: 'bottom', label: 'Position and interval', text: 'Consensus position and its 95% confidence interval in Mb on TM-1 UTX v2.1.' },
+      { find: (p) => p.locator('thead th', { hasText: 'Genes · FP' }), side: 'bottom', label: 'Genes, fibre genes and heatmap', text: 'Genes in the 95% CI and how many of them are fibre-preferential (FP). Click the first number for the gene list, “FP” for the list narrowed to fibre-preferential genes, or the grid button for the expression heatmap.' },
       { find: (p) => p.locator('thead th', { hasText: 'Studies' }), side: 'bottom', label: 'Studies and confidence', text: 'How many independent studies support the meta-QTL, and the confidence level that follows from it.' },
     ],
   },
   {
-    id: 'genes', title: 'Genes and intervals: find a gene', url: '/genes?q=ERO13_A07G180000v2', height: 1000,
-    prep: async (p) => { await p.getByText('Loci overlapping this gene').first().waitFor({ timeout: 90000 }); await p.waitForTimeout(1500); await scrollTo(120)(p) },
-    intro: 'Look up a gene by any of its names and see which meta-QTL, hotspots, QTL and GWAS loci cover it.',
+    id: 'genes', title: 'Genes and intervals: find a gene', url: '/genes?q=Gohir.A07G197200', height: 1250,
+    prep: async (p) => { await p.getByText('Expression in TM-1 organs (TPM)').first().waitFor({ timeout: 90000 }); await p.waitForTimeout(1500); await scrollTo(290)(p) },
+    intro: 'Look up a gene by any of its names: see its expression in 11 cotton organs and which meta-QTL, hotspots, QTL and GWAS loci cover it.',
     callouts: [
       { find: (p) => p.locator('main form input').first(), side: 'left', label: 'Search box', text: 'Any identifier of a TM-1 gene: JGI Gohir ID, GenBank locus tag (ERO13_…), RefSeq LOC number, NCBI GeneID, the older Gh_ IDs, or an Arabidopsis AGI code or gene symbol of its best homolog. Version and transcript suffixes are ignored. A region such as A07:90.1-91.3 lists the genes in it instead.' },
+      { find: (p) => p.getByRole('button', { name: 'D11:22-26' }), side: 'bottom', label: 'Examples', text: 'One click searches an example of each kind of identifier (JGI, RefSeq, Arabidopsis, gene symbol) or one of the two fibre hotspots.' },
       { find: (p) => p.locator('main h3.font-mono').first(), side: 'left', label: 'Gene and position', text: 'The JGI gene ID and its position on TM-1 UTX v2.1, the assembly every map position in the database is drawn on.' },
       { find: (p) => p.getByRole('link', { name: 'Phytozome' }).first(), side: 'top', label: 'Genome databases', text: 'Open the gene in Phytozome, CottonGen or NCBI Gene. The locus tag, RefSeq gene and Arabidopsis homolog below link to NCBI and TAIR.' },
+      { find: (p) => p.getByRole('button', { name: 'Heatmap of genes within 250 kb' }), side: 'left', label: 'Neighbourhood heatmap', text: 'Expression of this gene and every gene within 250 kb, as a heatmap: useful to see whether the gene stands out from its neighbours.' },
+      { find: (p) => p.getByText('Expression in TM-1 organs (TPM)').first(), side: 'left', label: 'Organ expression', text: 'Expression (TPM) in 11 TM-1 organs, from public RNA-seq (PRJNA248163; Zhang et al. 2015); fibre in green. Above the bars: the organ group where the gene is highest, its tissue specificity τ (0 even, 1 one organ only) and, when it applies, the fibre-preferential tag (highest in fibre and at least twice every other organ group). Each organ is a single library, so the values rank organs; they do not test differences.' },
       { find: (p) => p.getByText('Loci overlapping this gene').first(), side: 'left', label: 'Overlapping loci', text: 'Meta-QTL, hotspots, QTL and GWAS loci whose interval contains the gene. Click an ID to open it in its table, or an interval to list all genes in it. ≈ marks a position placed by relative position, accurate only to a few Mb.' },
     ],
   },
   {
-    id: 'genes-region', title: 'Genes and intervals: genes in a region', url: '/genes?r=A07:90.1-91.3', height: 1000,
-    prep: async (p) => { await p.getByRole('button', { name: 'Download CSV' }).waitFor({ timeout: 90000 }); await p.waitForTimeout(1500); await scrollTo(120)(p) },
-    intro: 'Every gene in an interval. The Genes links in the Meta-QTL and Hotspots tables open this view for that interval.',
+    id: 'genes-region', title: 'Genes and intervals: narrow the genes of a region', url: '/genes?r=A07:86-96&e=fpref', height: 1100,
+    prep: async (p) => { await p.getByText('Narrow by expression').waitFor({ timeout: 90000 }); await p.waitForTimeout(1500); await scrollTo(330)(p) },
+    intro: 'Every gene in an interval, and tools to cut the list down by organ expression. Here the A07 fibre hotspot (86–96 Mb) is narrowed from 344 genes to its 14 fibre-preferential genes, ranked by fibre TPM. The Genes links in the Meta-QTL and Hotspots tables open this view for their interval.',
     callouts: [
-      { find: (p) => p.getByPlaceholder('Filter by ID or description'), side: 'top', label: 'Filter', text: 'Narrow the list by any identifier or by words in the description, e.g. "kinase".' },
-      { find: (p) => p.getByRole('button', { name: 'Download CSV' }), side: 'left', label: 'Download CSV', text: 'Every gene in the region with all its identifiers and the description.' },
-      { find: (p) => p.locator('main table').first(), side: 'left', label: 'Gene list', text: 'Genes in position order. Each ID opens the gene; the description comes from the best Swiss-Prot or Arabidopsis match.' },
+      { find: (p) => p.getByText('Narrow by expression'), side: 'left', label: 'Narrow by expression', text: 'Show all genes, expressed genes (≥ 1 TPM in an organ), genes highest in a chosen organ group, or fibre-preferential genes; set a minimum TPM in that organ; and sort by position, by TPM in the organ or by tissue specificity (τ). “reset” clears these settings.' },
+      { find: (p) => p.locator('main thead th', { hasText: 'Organs' }), side: 'top', label: 'Organ profile', text: 'Eleven small cells per gene, root to fibre 20 dpa (fibre in green), shaded by log₂(TPM + 1) relative to the gene’s highest organ. Hover for the values. The next columns give TPM in the chosen organ group and the peak organ; FP marks fibre-preferential genes.' },
+      { find: (p) => p.getByRole('button', { name: 'Expression heatmap' }), side: 'top', label: 'Expression heatmap', text: 'Opens the genes of the region as a heatmap of the 11 organs (see “Expression heatmap” below).' },
+      { find: (p) => p.getByPlaceholder('Filter by ID or description'), side: 'left', label: 'Filter', text: 'Narrow the list by any identifier or by words in the description, e.g. "kinase".' },
+      { find: (p) => p.getByRole('button', { name: 'Download CSV' }), side: 'right', label: 'Download CSV', text: 'The genes currently listed, with all their identifiers, the description, TPM in every organ, peak organ, τ and the fibre-preferential call.' },
     ],
   },
   {
@@ -168,7 +176,26 @@ const SECTIONS = [
     callouts: [
       { find: (p) => p.locator('label', { hasText: 'Chromosome' }).locator('select').first(), side: 'left', label: 'Chromosome', text: 'Choose the chromosome whose study-support profile is drawn.' },
       { find: (p) => p.getByRole('heading', { name: /Study support along chromosome/ }), side: 'top', label: 'Profile', text: 'Independent studies per window along the chromosome; windows above the threshold form hotspots.' },
-      { find: (p) => p.getByRole('heading', { name: 'All hotspot regions' }), side: 'left', label: 'Hotspot table', text: 'Each hotspot with its region, number of studies and loci, top traits, example QTL and recurrent candidate genes.' },
+      { find: (p) => p.getByRole('heading', { name: 'All hotspot regions' }), side: 'left', label: 'Hotspot table', text: 'Each hotspot with its region, number of studies and loci, top traits, example QTL and recurrent candidate genes. The “Genes · FP · heatmap” column gives the genes in the hotspot, how many are fibre-preferential, and a grid button that opens their expression heatmap.' },
+    ],
+  },
+  {
+    id: 'heatmap', title: 'Expression heatmap of a hotspot or meta-QTL', url: '/hotspots', height: 1000,
+    prep: async (p) => {
+      await tableReady(p)
+      await p.getByPlaceholder('Search across all fields…').fill('CHS007'); await p.waitForTimeout(600)
+      await p.getByRole('button', { name: 'Expression heatmap for hotspot CHS007' }).click()
+      await p.getByRole('dialog').getByText('Peak · description').waitFor({ timeout: 30000 }); await p.waitForTimeout(800)
+    },
+    intro: 'The grid button in the Genes column of the Hotspots and Meta-QTL tables, the “Expression heatmap” buttons of the gene search and the region bar of Advanced search all open this view: the genes of the interval against the 11 TM-1 organs. Here, the 14 fibre-preferential genes of hotspot CHS007 on A07.',
+    callouts: [
+      { find: (p) => p.getByRole('dialog').getByText(/fibre-preferential$/).first(), side: 'bottom', label: 'Interval summary', text: 'Position of the interval, its genes, how many are expressed and how many are fibre-preferential.' },
+      { find: (p) => p.getByRole('dialog').locator('select').first(), side: 'bottom', label: 'Show', text: 'Fibre-preferential genes (the default when there are any), all expressed genes or every gene.' },
+      { find: (p) => p.getByRole('dialog').locator('label', { hasText: 'Sort by' }).locator('select'), side: 'bottom', label: 'Sort', text: 'By TPM in a chosen organ group, by peak organ (genes grouped by the organ where they are highest), or by position.' },
+      { find: (p) => p.getByRole('dialog').locator('label', { hasText: 'Colour' }).locator('select'), side: 'bottom', label: 'Colour scale', text: 'Relative to each gene’s maximum shows which organ a gene prefers; the same scale for all genes shows which genes are most highly expressed.' },
+      { find: (p) => p.getByRole('dialog').locator('tbody tr').first().locator('td').nth(10), side: 'right', label: 'Cells', text: 'One row per gene, one column per organ, grouped into root, stem, leaf, flower, seed and fibre. Hover a cell for its TPM; click a gene ID to open the gene.' },
+      { find: (p) => p.getByRole('dialog').getByRole('link', { name: 'Open as gene list' }), side: 'bottom', label: 'Gene list and CSV', text: 'Open the same genes in the gene list, or download the rows shown with TPM in every organ.' },
+      { find: (p) => p.getByRole('dialog').getByText('gene minimum'), side: 'top', label: 'Key', text: 'The colour scale (log₂ TPM + 1) and the definition of fibre-preferential. Close with × or Esc.' },
     ],
   },
   {
@@ -251,10 +278,11 @@ const SECTIONS = [
     ],
   },
   {
-    id: 'downloads', title: 'Downloads', url: '/downloads', height: 1000,
+    id: 'downloads', title: 'Downloads', url: '/downloads', height: 1900,
     intro: 'Every table of the database as a file: loci, meta-QTL and their members, consensus and linkage maps, markers, traits, studies and validation results.',
     callouts: [
       { find: (p) => p.locator('main table').first().locator('tbody tr').first().locator('a'), side: 'right', label: 'Download a table', text: 'Click a name to download the file (CSV, or gzipped CSV for the large tables).' },
+      { find: (p) => p.getByRole('link', { name: 'Gene expression in TM-1 organs' }), side: 'right', label: 'Gene expression', text: 'TPM of every TM-1 gene in the 11 organs, organ-group means, tissue specificity, peak organ and the fibre-preferential call.' },
       { find: (p) => p.getByRole('heading', { name: 'Complete database files' }), side: 'top', label: 'Complete database', text: 'All records, the extracted tables and the SQLite database are attached to the GitHub release.' },
     ],
   },

@@ -67,7 +67,7 @@
   {
     "id": "search",
     "title": "Advanced search",
-    "intro": "Advanced search filters linkage QTL and GWAS loci together. Filters apply as you set them, and the table below updates at once.",
+    "intro": "Advanced search filters linkage QTL and GWAS loci together. Filters apply as you set them, and the table below updates at once. Here the example “A07 fiber hotspot, 86–96 Mb” has been clicked.",
     "image": "03-search.png",
     "width": 2800,
     "height": 2000,
@@ -94,26 +94,36 @@
       },
       {
         "n": 5,
+        "label": "Examples",
+        "text": "Ready-made searches: a hotspot region, one trait on one chromosome, the records of a hotspot, and large-effect loci with a candidate gene. Click one to fill in the filters."
+      },
+      {
+        "n": 6,
+        "label": "Genes in the region",
+        "text": "Appears when a chromosome and a region of up to 30 Mb are set: list the genes in the region and narrow them by organ expression, or open their expression heatmap."
+      },
+      {
+        "n": 7,
         "label": "Minimum PVE",
         "text": "Keep only loci that explain at least this percentage of phenotypic variance."
       },
       {
-        "n": 6,
+        "n": 8,
         "label": "Evidence filters",
         "text": "Keep only records from curated databases, only loci inside a hotspot, or only loci with a candidate gene."
       },
       {
-        "n": 7,
+        "n": 9,
         "label": "Result count",
         "text": "The number of matching rows."
       },
       {
-        "n": 8,
+        "n": 10,
         "label": "Export CSV",
         "text": "Downloads exactly the matching rows, with every column."
       },
       {
-        "n": 9,
+        "n": 11,
         "label": "Reset",
         "text": "Clears every filter."
       }
@@ -125,7 +135,7 @@
     "intro": "The data page lists every table with its size. Each opens as a sortable, searchable table that can be exported.",
     "image": "04-data.png",
     "width": 2800,
-    "height": 1720,
+    "height": 2200,
     "callouts": [
       {
         "n": 1,
@@ -141,6 +151,11 @@
         "n": 3,
         "label": "Hotspots, linkage maps and markers",
         "text": "Study-supported hotspot regions, genetic maps with their markers, and trait-linked markers with primers."
+      },
+      {
+        "n": 4,
+        "label": "Literature index",
+        "text": "Every indexed cotton QTL and GWAS paper, tagged by study type."
       }
     ]
   },
@@ -189,21 +204,31 @@
     "callouts": [
       {
         "n": 1,
+        "label": "Four tabs",
+        "text": "Physical meta-QTL computed by this project (Mb), classic meta-QTL on the consensus genetic map (cM), every trait with the outcome of both meta-analyses, and rows from published meta-analyses."
+      },
+      {
+        "n": 2,
         "label": "Confidence",
         "text": "High (five or more studies), moderate (three or more) or all (two or more)."
       },
       {
-        "n": 2,
+        "n": 3,
         "label": "Category, chromosome and support",
         "text": "Limit by trait category or chromosome, or to meta-QTL supported by linkage QTL, GWAS or both."
       },
       {
-        "n": 3,
+        "n": 4,
         "label": "Position and interval",
         "text": "Consensus position and its 95% confidence interval in Mb on TM-1 UTX v2.1."
       },
       {
-        "n": 4,
+        "n": 5,
+        "label": "Genes, fibre genes and heatmap",
+        "text": "Genes in the 95% CI and how many of them are fibre-preferential (FP). Click the first number for the gene list, “FP” for the list narrowed to fibre-preferential genes, or the grid button for the expression heatmap."
+      },
+      {
+        "n": 6,
         "label": "Studies and confidence",
         "text": "How many independent studies support the meta-QTL, and the confidence level that follows from it."
       }
@@ -212,10 +237,10 @@
   {
     "id": "genes",
     "title": "Genes and intervals: find a gene",
-    "intro": "Look up a gene by any of its names and see which meta-QTL, hotspots, QTL and GWAS loci cover it.",
+    "intro": "Look up a gene by any of its names: see its expression in 11 cotton organs and which meta-QTL, hotspots, QTL and GWAS loci cover it.",
     "image": "07-genes.png",
     "width": 2800,
-    "height": 2000,
+    "height": 2500,
     "callouts": [
       {
         "n": 1,
@@ -224,16 +249,31 @@
       },
       {
         "n": 2,
+        "label": "Examples",
+        "text": "One click searches an example of each kind of identifier (JGI, RefSeq, Arabidopsis, gene symbol) or one of the two fibre hotspots."
+      },
+      {
+        "n": 3,
         "label": "Gene and position",
         "text": "The JGI gene ID and its position on TM-1 UTX v2.1, the assembly every map position in the database is drawn on."
       },
       {
-        "n": 3,
+        "n": 4,
         "label": "Genome databases",
         "text": "Open the gene in Phytozome, CottonGen or NCBI Gene. The locus tag, RefSeq gene and Arabidopsis homolog below link to NCBI and TAIR."
       },
       {
-        "n": 4,
+        "n": 5,
+        "label": "Neighbourhood heatmap",
+        "text": "Expression of this gene and every gene within 250 kb, as a heatmap: useful to see whether the gene stands out from its neighbours."
+      },
+      {
+        "n": 6,
+        "label": "Organ expression",
+        "text": "Expression (TPM) in 11 TM-1 organs, from public RNA-seq (PRJNA248163; Zhang et al. 2015); fibre in green. Above the bars: the organ group where the gene is highest, its tissue specificity τ (0 even, 1 one organ only) and, when it applies, the fibre-preferential tag (highest in fibre and at least twice every other organ group). Each organ is a single library, so the values rank organs; they do not test differences."
+      },
+      {
+        "n": 7,
         "label": "Overlapping loci",
         "text": "Meta-QTL, hotspots, QTL and GWAS loci whose interval contains the gene. Click an ID to open it in its table, or an interval to list all genes in it. ≈ marks a position placed by relative position, accurate only to a few Mb."
       }
@@ -241,26 +281,36 @@
   },
   {
     "id": "genes-region",
-    "title": "Genes and intervals: genes in a region",
-    "intro": "Every gene in an interval. The Genes links in the Meta-QTL and Hotspots tables open this view for that interval.",
+    "title": "Genes and intervals: narrow the genes of a region",
+    "intro": "Every gene in an interval, and tools to cut the list down by organ expression. Here the A07 fibre hotspot (86–96 Mb) is narrowed from 344 genes to its 14 fibre-preferential genes, ranked by fibre TPM. The Genes links in the Meta-QTL and Hotspots tables open this view for their interval.",
     "image": "08-genes-region.png",
     "width": 2800,
-    "height": 2000,
+    "height": 2200,
     "callouts": [
       {
         "n": 1,
+        "label": "Narrow by expression",
+        "text": "Show all genes, expressed genes (≥ 1 TPM in an organ), genes highest in a chosen organ group, or fibre-preferential genes; set a minimum TPM in that organ; and sort by position, by TPM in the organ or by tissue specificity (τ). “reset” clears these settings."
+      },
+      {
+        "n": 2,
+        "label": "Organ profile",
+        "text": "Eleven small cells per gene, root to fibre 20 dpa (fibre in green), shaded by log₂(TPM + 1) relative to the gene’s highest organ. Hover for the values. The next columns give TPM in the chosen organ group and the peak organ; FP marks fibre-preferential genes."
+      },
+      {
+        "n": 3,
+        "label": "Expression heatmap",
+        "text": "Opens the genes of the region as a heatmap of the 11 organs (see “Expression heatmap” below)."
+      },
+      {
+        "n": 4,
         "label": "Filter",
         "text": "Narrow the list by any identifier or by words in the description, e.g. \"kinase\"."
       },
       {
-        "n": 2,
+        "n": 5,
         "label": "Download CSV",
-        "text": "Every gene in the region with all its identifiers and the description."
-      },
-      {
-        "n": 3,
-        "label": "Gene list",
-        "text": "Genes in position order. Each ID opens the gene; the description comes from the best Swiss-Prot or Arabidopsis match."
+        "text": "The genes currently listed, with all their identifiers, the description, TPM in every organ, peak organ, τ and the fibre-preferential call."
       }
     ]
   },
@@ -380,7 +430,52 @@
       {
         "n": 3,
         "label": "Hotspot table",
-        "text": "Each hotspot with its region, number of studies and loci, top traits, example QTL and recurrent candidate genes."
+        "text": "Each hotspot with its region, number of studies and loci, top traits, example QTL and recurrent candidate genes. The “Genes · FP · heatmap” column gives the genes in the hotspot, how many are fibre-preferential, and a grid button that opens their expression heatmap."
+      }
+    ]
+  },
+  {
+    "id": "heatmap",
+    "title": "Expression heatmap of a hotspot or meta-QTL",
+    "intro": "The grid button in the Genes column of the Hotspots and Meta-QTL tables, the “Expression heatmap” buttons of the gene search and the region bar of Advanced search all open this view: the genes of the interval against the 11 TM-1 organs. Here, the 14 fibre-preferential genes of hotspot CHS007 on A07.",
+    "image": "13-heatmap.png",
+    "width": 2800,
+    "height": 2000,
+    "callouts": [
+      {
+        "n": 1,
+        "label": "Interval summary",
+        "text": "Position of the interval, its genes, how many are expressed and how many are fibre-preferential."
+      },
+      {
+        "n": 2,
+        "label": "Show",
+        "text": "Fibre-preferential genes (the default when there are any), all expressed genes or every gene."
+      },
+      {
+        "n": 3,
+        "label": "Sort",
+        "text": "By TPM in a chosen organ group, by peak organ (genes grouped by the organ where they are highest), or by position."
+      },
+      {
+        "n": 4,
+        "label": "Colour scale",
+        "text": "Relative to each gene’s maximum shows which organ a gene prefers; the same scale for all genes shows which genes are most highly expressed."
+      },
+      {
+        "n": 5,
+        "label": "Cells",
+        "text": "One row per gene, one column per organ, grouped into root, stem, leaf, flower, seed and fibre. Hover a cell for its TPM; click a gene ID to open the gene."
+      },
+      {
+        "n": 6,
+        "label": "Gene list and CSV",
+        "text": "Open the same genes in the gene list, or download the rows shown with TPM in every organ."
+      },
+      {
+        "n": 7,
+        "label": "Key",
+        "text": "The colour scale (log₂ TPM + 1) and the definition of fibre-preferential. Close with × or Esc."
       }
     ]
   },
@@ -388,7 +483,7 @@
     "id": "linkage-maps",
     "title": "Linkage maps",
     "intro": "Marker orders and cM positions of cotton genetic maps, from CottonGen and from supplementary files of mapping papers.",
-    "image": "13-linkage-maps.png",
+    "image": "14-linkage-maps.png",
     "width": 2800,
     "height": 2000,
     "callouts": [
@@ -413,7 +508,7 @@
     "id": "linkage-maps-list",
     "title": "Linkage maps: one group and the map list",
     "intro": "The selected linkage group is drawn with its marker names; below it every available map is listed.",
-    "image": "14-linkage-maps-list.png",
+    "image": "15-linkage-maps-list.png",
     "width": 2800,
     "height": 2000,
     "callouts": [
@@ -438,7 +533,7 @@
     "id": "markers",
     "title": "Markers and primers",
     "intro": "Markers linked to traits, graded by the evidence behind the link, with primer sequences where a source gives them.",
-    "image": "15-markers.png",
+    "image": "16-markers.png",
     "width": 2800,
     "height": 2000,
     "callouts": [
@@ -468,7 +563,7 @@
     "id": "statistics",
     "title": "Statistics",
     "intro": "Counts by record type, trait, chromosome, species and source. All numbers refer to de-duplicated records.",
-    "image": "16-statistics.png",
+    "image": "17-statistics.png",
     "width": 2800,
     "height": 2800,
     "callouts": [
@@ -488,7 +583,7 @@
     "id": "insights",
     "title": "Insights",
     "intro": "What the combined record says about where trait loci sit in the cotton genome, with the statistical test behind each statement.",
-    "image": "17-insights.png",
+    "image": "18-insights.png",
     "width": 2800,
     "height": 2000,
     "callouts": [
@@ -508,7 +603,7 @@
     "id": "literature",
     "title": "Literature index",
     "intro": "Cotton QTL, GWAS, meta-QTL and epistasis papers indexed from Europe PMC and tagged by study type.",
-    "image": "18-literature.png",
+    "image": "19-literature.png",
     "width": 2800,
     "height": 1800,
     "callouts": [
@@ -533,7 +628,7 @@
     "id": "multi-trait",
     "title": "Multi-trait QTL",
     "intro": "Regions where loci for several traits map together, seen three ways: clusters of meta-QTL across studies, overlapping QTL or shared GWAS signals within one study, and clusters reported by the authors.",
-    "image": "19-multi-trait.png",
+    "image": "20-multi-trait.png",
     "width": 2800,
     "height": 1900,
     "callouts": [
@@ -558,7 +653,7 @@
     "id": "cloned-genes",
     "title": "Cloned and validated genes",
     "intro": "Genes identified behind mapped cotton loci, with how they were mapped and confirmed, and the paper that reports them.",
-    "image": "20-cloned-genes.png",
+    "image": "21-cloned-genes.png",
     "width": 2800,
     "height": 1900,
     "callouts": [
@@ -583,14 +678,19 @@
     "id": "downloads",
     "title": "Downloads",
     "intro": "Every table of the database as a file: loci, meta-QTL and their members, consensus and linkage maps, markers, traits, studies and validation results.",
-    "image": "21-downloads.png",
+    "image": "22-downloads.png",
     "width": 2800,
-    "height": 2000,
+    "height": 3800,
     "callouts": [
       {
         "n": 1,
         "label": "Download a table",
         "text": "Click a name to download the file (CSV, or gzipped CSV for the large tables)."
+      },
+      {
+        "n": 2,
+        "label": "Gene expression",
+        "text": "TPM of every TM-1 gene in the 11 organs, organ-group means, tissue specificity, peak organ and the fibre-preferential call."
       }
     ]
   }
