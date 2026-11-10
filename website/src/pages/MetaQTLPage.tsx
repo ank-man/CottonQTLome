@@ -21,8 +21,8 @@ const computed: ColumnDef<MQTLRecord, any>[] = [
   { id: 'position_mb', header: 'Position (Mb)', accessorFn: num('position_mb') },
   { id: 'ci', header: '95% CI (Mb)', accessorFn: (r) => `${r.ci_start_mb}–${r.ci_end_mb}`, enableSorting: false },
   {
-    id: 'genes', header: () => <span title="Genes in the 95% CI · fibre-preferential genes (FP); click to list them">Genes · FP</span>, enableSorting: false,
-    cell: ({ row }) => <ExprCount id={row.original.mqtl_id} region={`${row.original.chromosome}:${row.original.ci_start_mb}-${row.original.ci_end_mb}`} />,
+    id: 'genes', header: () => <span title="Genes in the 95% CI · fibre-preferential genes (FP); click a number to list them, the grid for a heatmap">Genes · FP · heatmap</span>, enableSorting: false,
+    cell: ({ row }) => <ExprCount id={row.original.mqtl_id} title={`${row.original.mqtl_id} (${row.original.trait})`} chr={row.original.chromosome} start={Number(row.original.ci_start_mb) * 1e6} end={Number(row.original.ci_end_mb) * 1e6} />,
   },
   { id: 'n_studies', header: () => <GlossaryHeader label="Studies" term="n_studies" />, accessorFn: num('n_studies') },
   {

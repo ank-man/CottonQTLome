@@ -1,5 +1,6 @@
 import { ReactNode, useEffect, useState } from 'react'
 import { NavLink, Link, useLocation } from 'react-router-dom'
+import { ExpressionHeatmapHost } from './ExpressionHeatmap'
 import {
   BarChart3, BookOpen, Crosshair, Database, Dna, Flame, Flower2, GitBranch, GraduationCap, HelpCircle, Home, Info,
   Layers, Lightbulb, Link2, Download, Mail, Map as MapIcon, Network, PanelLeftClose, PanelLeftOpen, Quote, Radar, Route, Search, Upload, Spline,
@@ -147,6 +148,7 @@ export default function Layout({ children }: { children: ReactNode }) {
 
       <div className={`flex min-h-screen flex-col pt-14 ${open ? 'md:pl-64' : ''}`}>
         <main className="w-full flex-1 px-4 py-6 sm:px-6 sm:py-8 lg:px-10">{children}</main>
+        <ExpressionHeatmapHost />
         <footer className="border-t border-wheat-200 bg-wheat-50">
           <div className="flex w-full flex-wrap items-center justify-between gap-3 px-4 py-5 text-xs text-wheat-600 sm:px-6 lg:px-10">
             <span>© {new Date().getFullYear()} CottonQTLome · developed by the Peng Chee Lab, Cotton Molecular Biology Laboratory, University of Georgia</span>

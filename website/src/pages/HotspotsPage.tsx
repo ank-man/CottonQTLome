@@ -23,8 +23,8 @@ const columns: ColumnDef<HotspotRecord, any>[] = [
   { accessorKey: 'chromosome', header: () => <GlossaryHeader label="Chr" term="chromosome" /> },
   { id: 'region', header: 'Region (Mb)', accessorFn: (r) => `${mb(r.start)}–${mb(r.end)}` },
   {
-    id: 'genes', header: () => <span title="Genes in the hotspot · fibre-preferential genes (FP); click to list them">Genes · FP</span>, enableSorting: false,
-    cell: ({ row }) => <ExprCount id={row.original.hotspot_id} region={`${row.original.chromosome}:${row.original.start}-${row.original.end}bp`} />,
+    id: 'genes', header: () => <span title="Genes in the hotspot · fibre-preferential genes (FP); click a number to list them, the grid for a heatmap">Genes · FP · heatmap</span>, enableSorting: false,
+    cell: ({ row }) => <ExprCount id={row.original.hotspot_id} title={`hotspot ${row.original.hotspot_id}`} chr={row.original.chromosome} start={Number(row.original.start)} end={Number(row.original.end)} />,
   },
   { accessorKey: 'peak_window_studies', header: 'Peak studies / 2 Mb', sortingFn: 'alphanumeric' },
   { accessorKey: 'n_studies', header: () => <GlossaryHeader label="Studies" term="n_studies" />, sortingFn: 'alphanumeric' },

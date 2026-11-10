@@ -25,6 +25,8 @@ interface Props<T extends object> {
   rowGroup?: ((row: T) => RowGroup | null) | null
   /** Legend title for the colour groups. */
   groupLabel?: string
+  /** Seed the table search from ?q= (off where the page uses q for its own filter). */
+  urlQuery?: boolean
 }
 
 // Score columns drawn with an in-cell bar, and the value that fills the bar.
@@ -91,11 +93,12 @@ export default function DataTable<T extends object>({
   pageSize = 25,
   rowGroup = traitGroup,
   groupLabel = 'Trait category',
+  urlQuery = true,
 }: Props<T>) {
   // ?q= in the URL pre-fills the search box, so other pages can link to a row
   const [params] = useSearchParams()
-  const [globalFilter, setGlobalFilter] = useState(params.get('q') ?? '')
-  useEffect(() => { const q = params.get('q'); if (q !== null) setGlobalFilter(q) }, [params])
+  const [globalFilter, setGlobalFilter] = useState(urlQuery ? params.get('q') ?? '' : '')
+  useEffect(() => { const q = params.get('q'); if (urlQuery && q !== null) setGlobalFilter(q) }, [params, urlQuery])
   const [sorting, setSorting] = useState<SortingState>([])
   const [colorRows, setColorRows] = useState(readPref)
   const [only, setOnly] = useState<Set<string>>(new Set())

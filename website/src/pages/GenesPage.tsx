@@ -1,6 +1,7 @@
 import { FormEvent, useEffect, useMemo, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
-import { ExternalLink, Search } from 'lucide-react'
+import { ExternalLink, Grid3x3, Search } from 'lucide-react'
+import { openHeatmap } from '../components/ExpressionHeatmap'
 import PageHero from '../components/PageHero'
 import AsyncBoundary from '../components/AsyncBoundary'
 import { downloadCSV } from '../lib/csv'
@@ -119,6 +120,38 @@ function ExprStrip({ e, meta }: { e: Expr; meta: ExprMeta }) {
   )
 }
 
+export function HeatmapButton({ label, id, title, chr, start, end }: { label: string; id: string; title: string; chr: string; start: number; end: number }) {
+  return (
+    <button type="button" className="btn inline-flex items-center gap-1"
+      onClick={() => openHeatmap({ id, title, chr, start, end, region: `${chr}:${Math.round(start)}-${Math.round(end)}bp` })}>
+      <Grid3x3 className="h-4 w-4" />{label}
+    </button>
+  )
+}
+
+const EXAMPLES: { label: string; value: string; hint: string }[] = [
+  { label: 'Gohir.A07G197200', value: 'Gohir.A07G197200', hint: 'JGI gene ID (RABA5E, fibre-preferential)' },
+  { label: 'LOC107955386', value: 'LOC107955386', hint: 'NCBI RefSeq ID of the same gene' },
+  { label: 'AT1G05810', value: 'AT1G05810', hint: 'Arabidopsis homolog: lists the cotton genes whose best hit it is' },
+  { label: 'RABA5E', value: 'RABA5E', hint: 'Gene symbol' },
+  { label: 'A07:86-96', value: 'A07:86-96', hint: 'Region in Mb: the A07 fiber hotspot (CHS007)' },
+  { label: 'D11:22-26', value: 'D11:22-26', hint: 'Region in Mb: the D11 fiber hotspot (CHS004)' },
+]
+
+function Examples({ onPick }: { onPick: (v: string) => void }) {
+  return (
+    <div className="flex w-full flex-wrap items-center gap-1.5 text-xs">
+      <span className="text-wheat-600">Try:</span>
+      {EXAMPLES.map((x) => (
+        <button key={x.value} type="button" title={x.hint} onClick={() => onPick(x.value)}
+          className="rounded-full border border-wheat-300 px-2 py-0.5 font-mono text-wheat-800 hover:border-accent hover:text-accent">
+          {x.label}
+        </button>
+      ))}
+    </div>
+  )
+}
+
 function GeneCard({ g }: { g: Gene }) {
   const [ivs, setIvs] = useState<Interval[] | null>(null)
   const [expr, setExpr] = useState<{ e: Expr | undefined; meta: ExprMeta } | null>(null)
@@ -139,6 +172,8 @@ function GeneCard({ g }: { g: Gene }) {
           {g.chr}:{g.start.toLocaleString()}–{g.end.toLocaleString()} ({g.strand}) · TM-1 UTX v2.1
         </span>
         <span className="flex flex-wrap gap-3 text-sm">{geneLinks(g).map((l) => <ExtLink key={l.label} href={l.url}>{l.label}</ExtLink>)}</span>
+        <HeatmapButton label="Heatmap of genes within 250 kb" id={`near-${g.id}`} title={`genes within 250 kb of ${g.id}`}
+          chr={g.chr} start={Math.max(0, g.start - 250000)} end={g.end + 250000} />
       </div>
       {g.description && <p className="text-sm text-wheat-800">{g.description}</p>}
       <dl className="grid grid-cols-[max-content_1fr] gap-x-4 gap-y-1 text-sm">
@@ -231,6 +266,7 @@ function RegionView({ chr, start, end, initialFilter }: { chr: string; start: nu
             </h3>
             <div className="flex gap-2">
               <input className="input w-56" placeholder="Filter by ID or description" value={filter} onChange={(e) => setFilter(e.target.value)} />
+              <HeatmapButton label="Expression heatmap" id={`region-${chr}-${start}-${end}`} title={`${chr}:${mb(start)}–${mb(end)} Mb`} chr={chr} start={start} end={end} />
               <button className="btn" onClick={() => downloadCSV(`genes_${chr}_${Math.round(start)}_${Math.round(end)}.csv`, csvRows())}>Download CSV</button>
             </div>
           </div>
@@ -366,6 +402,7 @@ export default function GenesPage() {
           Accepted: JGI (Gohir.*), GenBank locus tags (ERO13_*), NCBI RefSeq (LOC*, GeneID), Arabidopsis homologs (AT*G*), Swiss-Prot gene symbols,
           and candidate-gene IDs as written in the papers (NAU Gh_*, HAU Ghir_*, G. barbadense and others). Regions in Mb, kb or bp.
         </p>
+        <Examples onPick={(t) => { setText(t); setParams(parseRegion(t) ? { r: t } : { q: t }) }} />
       </form>
 
       {region && <RegionView key={`${r}|${ePar ?? ''}`} {...region} initialFilter={initialFilter} />}

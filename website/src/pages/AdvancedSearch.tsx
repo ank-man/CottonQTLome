@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
-import { useSearchParams } from 'react-router-dom'
 import { ColumnDef } from '@tanstack/react-table'
+import { Link, useSearchParams } from 'react-router-dom'
 import { Filter, RotateCcw } from 'lucide-react'
+import { HeatmapButton } from './GenesPage'
 import PageHero from '../components/PageHero'
 import DataTable from '../components/DataTable'
 import AsyncBoundary from '../components/AsyncBoundary'
@@ -63,6 +64,13 @@ const columns: ColumnDef<Row, any>[] = [
   { accessorKey: 'source', header: 'Source' },
   evidenceColumn<Row>(),
   referenceColumn<Row>(),
+]
+
+const SEARCH_EXAMPLES: { label: string; hint: string; f: Partial<Filters> }[] = [
+  { label: 'A07 fiber hotspot, 86–96 Mb', hint: 'Every QTL and GWAS locus in hotspot CHS007, with its gene heatmap', f: { chromosome: 'A07', startMb: '86', endMb: '96' } },
+  { label: 'Fiber length on D11', hint: 'Fiber-length loci on chromosome D11', f: { parameter: 'fiber length', chromosome: 'D11' } },
+  { label: 'Hotspot CHS004', hint: 'Records in the D11 fiber hotspot', f: { q: 'CHS004' } },
+  { label: 'Loci with a candidate gene, PVE ≥ 10%', hint: 'Large-effect loci whose authors named a candidate gene', f: { hasCandidateGene: true, pveMin: '10' } },
 ]
 
 export default function AdvancedSearch() {
@@ -128,6 +136,7 @@ export default function AdvancedSearch() {
     })
   }, [rows, f])
 
+  const regionSet = !!f.chromosome && parseFloat(f.startMb) >= 0 && parseFloat(f.endMb) > parseFloat(f.startMb) && parseFloat(f.endMb) - parseFloat(f.startMb) <= 30
   const set = <K extends keyof Filters>(k: K, v: Filters[K]) => setF((p) => ({ ...p, [k]: v, ...(k === 'trait' ? { parameter: '' } : {}) }))
 
   return (
@@ -200,12 +209,29 @@ export default function AdvancedSearch() {
               <Check label="Has a candidate gene" checked={f.hasCandidateGene} onChange={(v) => set('hasCandidateGene', v)} />
             </div>
           </div>
+          <div className="mt-3 flex flex-wrap items-center gap-1.5 text-xs">
+            <span className="text-wheat-600">Examples:</span>
+            {SEARCH_EXAMPLES.map((x) => (
+              <button key={x.label} type="button" title={x.hint} onClick={() => setF({ ...EMPTY, ...x.f })}
+                className="rounded-full border border-wheat-300 px-2 py-0.5 text-wheat-800 hover:border-accent hover:text-accent">
+                {x.label}
+              </button>
+            ))}
+          </div>
+          {regionSet && (
+            <div className="mt-3 flex flex-wrap items-center gap-2 rounded border border-wheat-200 bg-wheat-50/60 p-2 text-sm">
+              <span className="text-wheat-700">Genes in {f.chromosome}:{f.startMb}–{f.endMb} Mb:</span>
+              <Link className="underline" to={`/genes?r=${encodeURIComponent(`${f.chromosome}:${f.startMb}-${f.endMb}`)}`}>list and narrow by expression</Link>
+              <HeatmapButton label="Expression heatmap" id={`adv-${f.chromosome}-${f.startMb}-${f.endMb}`} title={`${f.chromosome}:${f.startMb}–${f.endMb} Mb`}
+                chr={f.chromosome} start={parseFloat(f.startMb) * 1e6} end={parseFloat(f.endMb) * 1e6} />
+            </div>
+          )}
           <p className="mt-3 text-xs text-wheat-500">
             The region filter uses positions projected onto the TM-1 UTX v2.1 axis and is approximate (a few Mb); records
             with only a genetic (cM) position never match it.
           </p>
         </div>
-        <DataTable data={filtered} columns={columns} filename="cottonqtlome_search.csv" />
+        <DataTable data={filtered} columns={columns} filename="cottonqtlome_search.csv" urlQuery={false} />
       </AsyncBoundary>
     </div>
   )
