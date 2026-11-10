@@ -137,3 +137,50 @@ export function idLink(id: string): string {
 }
 
 export const CHRS = [...'AD'].flatMap((g) => Array.from({ length: 13 }, (_, i) => `${g}${String(i + 1).padStart(2, '0')}`))
+
+/* ---- organ expression (scripts/export_expression.py) ---------------------------------------------------------- */
+
+export type ExprMeta = {
+  organs: string[]
+  organ_class: string[]
+  runs: string[]
+  classes: string[]
+  genes: number
+  expressed_share: number
+  fibre_preferential_share: number
+  source: string
+  doi: string
+  method: string
+}
+
+/** TPM per organ (meta.organs order), tau (0-1, null when not expressed), peak class (null when not expressed). */
+export type Expr = { tpm: number[]; tau: number | null; peak: string | null; fibrePref: boolean; max: number }
+
+type ExprRow = number[]
+export const exprMeta = () => getJSON<ExprMeta>('expr/meta.json')
+
+export async function expressionOn(chr: string): Promise<Map<string, Expr>> {
+  const [meta, rows] = await Promise.all([exprMeta(), getJSON<Record<string, ExprRow>>(`expr/${chr}.json`)])
+  const k = meta.organs.length
+  const out = new Map<string, Expr>()
+  for (const [id, r] of Object.entries(rows)) {
+    const tpm = r.slice(0, k)
+    out.set(id, {
+      tpm,
+      tau: r[k] < 0 ? null : r[k] / 100,
+      peak: r[k + 1] < 0 ? null : meta.classes[r[k + 1]],
+      fibrePref: r[k + 2] === 1,
+      max: Math.max(...tpm),
+    })
+  }
+  return out
+}
+
+/** [genes, expressed, fibre-preferential, peak in fibre, peak in seed] per hotspot or meta-QTL id */
+export const intervalExpression = () => getJSON<Record<string, [number, number, number, number, number]>>('expr/intervals.json')
+
+/** TPM of one organ class: mean of its organs (as in the analysis, where classes average their libraries). */
+export function classTPM(e: Expr, meta: ExprMeta, cls: string): number {
+  const v = e.tpm.filter((_, i) => meta.organ_class[i] === cls)
+  return v.length ? v.reduce((a, b) => a + b, 0) / v.length : 0
+}

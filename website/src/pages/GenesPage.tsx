@@ -4,7 +4,10 @@ import { ExternalLink, Search } from 'lucide-react'
 import PageHero from '../components/PageHero'
 import AsyncBoundary from '../components/AsyncBoundary'
 import { downloadCSV } from '../lib/csv'
-import { CHRS, Gene, Interval, SearchResult, geneLinks, genesOn, idLink, intervalsOn, overlapping, searchGene } from '../lib/genes'
+import {
+  CHRS, Expr, ExprMeta, Gene, Interval, SearchResult, classTPM, exprMeta, expressionOn, geneLinks, genesOn, idLink, intervalsOn,
+  overlapping, searchGene,
+} from '../lib/genes'
 
 const KIND: Record<Interval['kind'], { label: string; to: string }> = {
   M: { label: 'Meta-QTL', to: '/data/metaqtl' },
@@ -72,13 +75,59 @@ function IntervalTable({ items }: { items: Interval[] }) {
 // interval rows do not carry their chromosome; it is attached when they are loaded
 const chrOf = (iv: Interval) => (iv as Interval & { chr?: string }).chr ?? ''
 
+const SOURCE_NOTE = 'TM-1 organ RNA-seq (PRJNA248163; Zhang et al. 2015), one library per organ: values rank organs for a gene but are not replicated measurements.'
+
+/** One gene's TPM in the 11 organs; fibre organs in the accent colour. */
+function ExpressionPanel({ e, meta }: { e: Expr; meta: ExprMeta }) {
+  const top = Math.max(e.max, 1)
+  return (
+    <div>
+      <h4 className="mb-1 text-sm font-semibold text-wheat-900">Expression in TM-1 organs (TPM)</h4>
+      <p className="mb-2 text-sm text-wheat-700">
+        {e.peak ? (
+          <>Highest in <b>{e.peak}</b> · tissue specificity τ = {e.tau?.toFixed(2)} (0 even, 1 one organ only)
+            {e.fibrePref && <span className="ml-2 rounded bg-accent/15 px-1.5 py-0.5 text-xs font-medium text-accent-strong">fibre-preferential</span>}</>
+        ) : 'Not expressed (below 1 TPM in every organ).'}
+      </p>
+      <div className="grid max-w-xl grid-cols-[7.5rem_1fr_3.5rem] items-center gap-x-2 gap-y-1 text-xs" role="table" aria-label="TPM per organ">
+        {meta.organs.map((o, i) => (
+          <div key={o} className="contents" role="row">
+            <span className="text-wheat-700" role="rowheader">{o}</span>
+            <span className="h-3 rounded-sm bg-wheat-100" role="presentation">
+              <span className={`block h-3 rounded-sm ${meta.organ_class[i] === 'fibre' ? 'bg-accent' : 'bg-wheat-500'}`}
+                style={{ width: `${(100 * e.tpm[i]) / top}%`, minWidth: e.tpm[i] > 0 ? 2 : 0 }} />
+            </span>
+            <span className="text-right tabular-nums text-wheat-800" role="cell">{e.tpm[i]}</span>
+          </div>
+        ))}
+      </div>
+      <p className="mt-2 text-xs text-wheat-500">{SOURCE_NOTE}</p>
+    </div>
+  )
+}
+
+/** 11 small cells, log2(TPM+1) scaled to the gene's maximum; a compact profile for gene lists. */
+function ExprStrip({ e, meta }: { e: Expr; meta: ExprMeta }) {
+  const m = Math.log2(e.max + 1) || 1
+  return (
+    <span className="inline-flex gap-px align-middle" title={meta.organs.map((o, i) => `${o}: ${e.tpm[i]} TPM`).join('\n')}>
+      {e.tpm.map((t, i) => (
+        <span key={i} className={`inline-block h-3 w-2 ${meta.organ_class[i] === 'fibre' ? 'bg-accent' : 'bg-wheat-700'}`}
+          style={{ opacity: e.max < 1 ? 0.06 : 0.08 + 0.92 * (Math.log2(t + 1) / m) }} />
+      ))}
+    </span>
+  )
+}
+
 function GeneCard({ g }: { g: Gene }) {
   const [ivs, setIvs] = useState<Interval[] | null>(null)
+  const [expr, setExpr] = useState<{ e: Expr | undefined; meta: ExprMeta } | null>(null)
   useEffect(() => {
     let live = true
     intervalsOn(g.chr).then((all) => {
       if (live) setIvs(overlapping(all.map((x) => ({ ...x, chr: g.chr })), g.start, g.end, 3e8))
     })
+    Promise.all([expressionOn(g.chr), exprMeta()]).then(([m, meta]) => live && setExpr({ e: m.get(g.id), meta })).catch(() => {})
     return () => { live = false }
   }, [g])
   const order: Interval['kind'][] = ['M', 'H', 'Q', 'G']
@@ -97,6 +146,7 @@ function GeneCard({ g }: { g: Gene }) {
         {g.refseq && <><dt className="text-wheat-600">RefSeq gene</dt><dd className="font-mono"><ExtLink href={g.ncbi_gene_id ? `https://www.ncbi.nlm.nih.gov/gene/${g.ncbi_gene_id}` : idLink(g.refseq)}>{g.refseq}</ExtLink>{g.ncbi_gene_id && <span className="ml-2 text-wheat-500">GeneID {g.ncbi_gene_id}</span>}</dd></>}
         {g.arabidopsis && <><dt className="text-wheat-600">Arabidopsis best hit</dt><dd className="font-mono"><ExtLink href={idLink(g.arabidopsis)}>{g.arabidopsis}</ExtLink>{g.symbol && <span className="ml-2 font-sans text-wheat-600">({g.symbol})</span>}</dd></>}
       </dl>
+      {expr?.e && <ExpressionPanel e={expr.e} meta={expr.meta} />}
       <div>
         <h4 className="mb-1 text-sm font-semibold text-wheat-900">Loci overlapping this gene</h4>
         {ivs === null ? <p className="text-sm text-wheat-600">Loading…</p> : (
@@ -107,8 +157,18 @@ function GeneCard({ g }: { g: Gene }) {
   )
 }
 
-function RegionView({ chr, start, end }: { chr: string; start: number; end: number }) {
+type ExprFilter = 'all' | 'expressed' | 'peak' | 'fpref'
+type SortBy = 'position' | 'tpm' | 'tau'
+const CLASSES = ['root', 'stem', 'leaf', 'flower', 'seed', 'fibre']
+
+function RegionView({ chr, start, end, initialFilter }: { chr: string; start: number; end: number; initialFilter: ExprFilter }) {
   const [genes, setGenes] = useState<Gene[] | null>(null)
+  const [expr, setExpr] = useState<Map<string, Expr> | null>(null)
+  const [meta, setMeta] = useState<ExprMeta | null>(null)
+  const [ef, setEf] = useState<ExprFilter>(initialFilter)
+  const [organ, setOrgan] = useState('fibre')
+  const [minTPM, setMinTPM] = useState(0)
+  const [sortBy, setSortBy] = useState<SortBy>(initialFilter === 'all' ? 'position' : 'tpm')
   const [ivs, setIvs] = useState<Interval[] | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [filter, setFilter] = useState('')
@@ -122,12 +182,43 @@ function RegionView({ chr, start, end }: { chr: string; start: number; end: numb
         setIvs(overlapping(iv.map((x) => ({ ...x, chr })), start, end, 3e8).filter((x) => x.kind === 'M' || x.kind === 'H'))
       })
       .catch((e) => live && setError(String(e)))
+    Promise.all([expressionOn(chr), exprMeta()])
+      .then(([m, mt]) => { if (live) { setExpr(m); setMeta(mt) } })
+      .catch(() => {}) // expression is optional; the gene list works without it
     return () => { live = false }
   }, [chr, start, end])
+  const tpmOf = (id: string) => {
+    const e = expr?.get(id)
+    return e && meta ? classTPM(e, meta, organ) : 0
+  }
   const shown = useMemo(() => {
     const q = filter.trim().toLowerCase()
-    return !genes || !q ? genes ?? [] : genes.filter((g) => [g.id, g.locus_tag, g.refseq, g.arabidopsis, g.symbol, g.description].join(' ').toLowerCase().includes(q))
-  }, [genes, filter])
+    let out = !genes || !q ? genes ?? [] : genes.filter((g) => [g.id, g.locus_tag, g.refseq, g.arabidopsis, g.symbol, g.description].join(' ').toLowerCase().includes(q))
+    if (expr && meta) {
+      out = out.filter((g) => {
+        const e = expr.get(g.id)
+        if (ef !== 'all' && !e) return false
+        if (ef === 'expressed' && !e!.peak) return false
+        if (ef === 'peak' && e!.peak !== organ) return false
+        if (ef === 'fpref' && !e!.fibrePref) return false
+        return minTPM <= 0 || (!!e && classTPM(e, meta, organ) >= minTPM)
+      })
+      if (sortBy === 'tpm') out = [...out].sort((a, b) => tpmOf(b.id) - tpmOf(a.id))
+      if (sortBy === 'tau') out = [...out].sort((a, b) => (expr.get(b.id)?.tau ?? -1) - (expr.get(a.id)?.tau ?? -1))
+    }
+    return out
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [genes, filter, expr, meta, ef, organ, minTPM, sortBy])
+  const csvRows = () => shown.map((g) => {
+    const e = expr?.get(g.id)
+    const row: Record<string, unknown> = { ...g }
+    meta?.organs.forEach((o, i) => { row[`tpm_${o.replace(/ /g, '_')}`] = e?.tpm[i] ?? '' })
+    row.peak_class = e?.peak ?? ''
+    row.tau = e?.tau ?? ''
+    row.fibre_preferential = e ? e.fibrePref : ''
+    return row
+  })
+  const narrowed = ef !== 'all' || minTPM > 0
   const tooWide = end - start > 20e6
   return (
     <AsyncBoundary loading={!genes && !error} error={error}>
@@ -135,19 +226,59 @@ function RegionView({ chr, start, end }: { chr: string; start: number; end: numb
         <div className="card">
           <div className="mb-2 flex flex-wrap items-baseline justify-between gap-2">
             <h3 className="text-lg font-semibold text-wheat-900">
-              {shown.length.toLocaleString()} genes in {chr}:{mb(start)}–{mb(end)} Mb
+              {narrowed && genes ? `${shown.length.toLocaleString()} of ${genes.length.toLocaleString()}` : shown.length.toLocaleString()} genes in {chr}:{mb(start)}–{mb(end)} Mb
               <span className="ml-2 text-sm font-normal text-wheat-600">TM-1 UTX v2.1, JGI annotation</span>
             </h3>
             <div className="flex gap-2">
               <input className="input w-56" placeholder="Filter by ID or description" value={filter} onChange={(e) => setFilter(e.target.value)} />
-              <button className="btn" onClick={() => downloadCSV(`genes_${chr}_${Math.round(start)}_${Math.round(end)}.csv`, shown)}>Download CSV</button>
+              <button className="btn" onClick={() => downloadCSV(`genes_${chr}_${Math.round(start)}_${Math.round(end)}.csv`, csvRows())}>Download CSV</button>
             </div>
           </div>
+          {meta && (
+            <div className="mb-3 rounded border border-wheat-200 bg-wheat-50/60 p-2 text-sm">
+              <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
+                <span className="font-medium text-wheat-800">Narrow by expression</span>
+                <label className="flex items-center gap-1 whitespace-nowrap">Show
+                  <select className="input py-1" value={ef} onChange={(e) => setEf(e.target.value as ExprFilter)}>
+                    <option value="all">all genes</option>
+                    <option value="expressed">expressed (≥ 1 TPM)</option>
+                    <option value="peak">highest in organ</option>
+                    <option value="fpref">fibre-preferential</option>
+                  </select>
+                </label>
+                <label className="flex items-center gap-1 whitespace-nowrap">Organ
+                  <select className="input py-1" value={organ} onChange={(e) => setOrgan(e.target.value)}>
+                    {CLASSES.map((c) => <option key={c} value={c}>{c}</option>)}
+                  </select>
+                </label>
+                <label className="flex items-center gap-1 whitespace-nowrap">at least
+                  <input className="input w-20 py-1" type="number" min={0} step={1} value={minTPM} onChange={(e) => setMinTPM(Math.max(0, Number(e.target.value) || 0))} />
+                  TPM
+                </label>
+                <label className="flex items-center gap-1 whitespace-nowrap">Sort by
+                  <select className="input py-1" value={sortBy} onChange={(e) => setSortBy(e.target.value as SortBy)}>
+                    <option value="position">position</option>
+                    <option value="tpm">TPM in {organ}</option>
+                    <option value="tau">tissue specificity (τ)</option>
+                  </select>
+                </label>
+                {narrowed && <button className="text-xs underline text-wheat-600" onClick={() => { setEf('all'); setMinTPM(0); setSortBy('position') }}>reset</button>}
+              </div>
+              <p className="mt-1 text-xs text-wheat-500">
+                Fibre-preferential: highest in fibre (10 and 20 dpa) and at least twice the TPM of every other organ group ({(100 * meta.fibre_preferential_share).toFixed(1)}% of all genes).
+                Organ TPM is the mean of its libraries (leaf includes cotyledon; flower = petal, stamen, pistil; seed = ovule 10 dpa and seed). {SOURCE_NOTE}
+              </p>
+            </div>
+          )}
           {tooWide && <p className="mb-2 text-sm text-wheat-600">This interval is wider than 20 Mb; most of its genes are unlikely to be causal.</p>}
           <div className="max-h-[32rem] overflow-auto">
             <table className="min-w-full text-sm">
               <thead className="sticky top-0 bg-wheat-50 text-left text-wheat-600">
-                <tr><th className="py-1 pr-3">Gene</th><th className="pr-3">Start</th><th className="pr-3">End</th><th className="pr-3">RefSeq</th><th className="pr-3">Arabidopsis</th><th>Description</th></tr>
+                <tr>
+                  <th className="py-1 pr-3">Gene</th><th className="pr-3">Start</th><th className="pr-3">End</th>
+                  {meta && <><th className="pr-3" title={meta.organs.join(', ')}>Organs</th><th className="pr-3 text-right">{organ} TPM</th><th className="pr-3">Peak</th></>}
+                  <th className="pr-3">RefSeq</th><th className="pr-3">Arabidopsis</th><th>Description</th>
+                </tr>
               </thead>
               <tbody>
                 {shown.slice(0, 3000).map((g) => (
@@ -155,6 +286,14 @@ function RegionView({ chr, start, end }: { chr: string; start: number; end: numb
                     <td className="py-1 pr-3 font-mono"><Link className="underline" to={`/genes?q=${g.id}`}>{g.id}</Link></td>
                     <td className="pr-3 tabular-nums">{g.start.toLocaleString()}</td>
                     <td className="pr-3 tabular-nums">{g.end.toLocaleString()}</td>
+                    {meta && (() => {
+                      const e = expr?.get(g.id)
+                      return <>
+                        <td className="pr-3">{e && <ExprStrip e={e} meta={meta} />}</td>
+                        <td className="pr-3 text-right tabular-nums">{e ? (tpmOf(g.id) < 10 ? tpmOf(g.id).toFixed(1) : Math.round(tpmOf(g.id))) : ''}</td>
+                        <td className="pr-3 whitespace-nowrap">{e?.peak ?? (e ? '–' : '')}{e?.fibrePref && <span className="ml-1 rounded bg-accent/15 px-1 text-xs text-accent-strong" title="fibre-preferential">FP</span>}</td>
+                      </>
+                    })()}
                     <td className="pr-3 font-mono">{g.refseq && <ExtLink href={g.ncbi_gene_id ? `https://www.ncbi.nlm.nih.gov/gene/${g.ncbi_gene_id}` : idLink(g.refseq)}>{g.refseq}</ExtLink>}</td>
                     <td className="pr-3 font-mono">{g.arabidopsis && <ExtLink href={idLink(g.arabidopsis)}>{g.arabidopsis}</ExtLink>}</td>
                     <td className="text-wheat-700">{g.description}</td>
@@ -179,6 +318,8 @@ export default function GenesPage() {
   const q = params.get('q') ?? ''
   const r = params.get('r') ?? ''
   const region = useMemo(() => (r ? parseRegion(r) : null), [r])
+  const ePar = params.get('e')
+  const initialFilter: ExprFilter = ePar === 'fpref' || ePar === 'expressed' ? ePar : 'all'
   const [text, setText] = useState(q || r)
   const [res, setRes] = useState<SearchResult | null>(null)
   const [busy, setBusy] = useState(false)
@@ -209,7 +350,7 @@ export default function GenesPage() {
       <PageHero
         eyebrow="Search"
         title="Genes and intervals"
-        subtitle="Find a gene by any of its identifiers and see which meta-QTL, hotspots, QTL and GWAS loci cover it, or list the genes inside an interval. Genes are those of the G. hirsutum TM-1 UTX v2.1 annotation (JGI), the assembly on which every map position in CottonQTLome is drawn."
+        subtitle="Find a gene by any of its identifiers and see which meta-QTL, hotspots, QTL and GWAS loci cover it, or list the genes inside an interval and narrow them by organ expression (TM-1 RNA-seq of 11 organs). Genes are those of the G. hirsutum TM-1 UTX v2.1 annotation (JGI), the assembly on which every map position in CottonQTLome is drawn."
         variant="side"
       />
       <form onSubmit={submit} className="card mb-4 flex flex-wrap items-center gap-2">
@@ -227,7 +368,7 @@ export default function GenesPage() {
         </p>
       </form>
 
-      {region && <RegionView {...region} />}
+      {region && <RegionView key={`${r}|${ePar ?? ''}`} {...region} initialFilter={initialFilter} />}
       {r && !region && <p className="card text-sm text-red-700">Could not read “{r}” as a region. Use the form A07:90.1-91.3 (Mb).</p>}
 
       {q && (

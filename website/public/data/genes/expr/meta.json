@@ -1,0 +1,55 @@
+{
+ "organs": [
+  "root",
+  "stem",
+  "leaf",
+  "cotyledon",
+  "petal",
+  "stamen",
+  "pistil",
+  "ovule 10 dpa",
+  "seed",
+  "fibre 10 dpa",
+  "fibre 20 dpa"
+ ],
+ "organ_class": [
+  "root",
+  "stem",
+  "leaf",
+  "leaf",
+  "flower",
+  "flower",
+  "flower",
+  "seed",
+  "seed",
+  "fibre",
+  "fibre"
+ ],
+ "runs": [
+  "SRR1695173",
+  "SRR1695174",
+  "SRR1695175",
+  "SRR1695164",
+  "SRR1695177",
+  "SRR1695178",
+  "SRR1695179",
+  "SRR1695187",
+  "SRR1695160",
+  "SRR1695192",
+  "SRR1695193"
+ ],
+ "classes": [
+  "root",
+  "stem",
+  "leaf",
+  "flower",
+  "seed",
+  "fibre"
+ ],
+ "genes": 74902,
+ "expressed_share": 0.8609,
+ "fibre_preferential_share": 0.0344,
+ "source": "TM-1 organ RNA-seq, BioProject PRJNA248163 (Zhang et al. 2015, Nat Biotechnol 33:531)",
+ "doi": "10.1038/nbt.3207",
+ "method": "kallisto 0.52, 3 M single-end reads per library, one transcript per UTX v2.1 gene; one library per organ"
+}

@@ -31,7 +31,9 @@ jobs:
       - run: npm ci
       - name: Build
         env:
-          VITE_BASE: /${{ github.event.repository.name }}/
+          # repository variable SITE_BASE = / once the custom domain (cottonqtlome.org) is attached;
+          # until then the site lives under /<repo>/ on github.io
+          VITE_BASE: ${{ vars.SITE_BASE || format('/{0}/', github.event.repository.name) }}
         run: npm run build
       - name: SPA fallback for deep links
         run: cp dist/index.html dist/404.html

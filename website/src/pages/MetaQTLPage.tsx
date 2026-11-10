@@ -1,10 +1,11 @@
 import { useMemo, useState } from 'react'
-import { Link, useSearchParams } from 'react-router-dom'
+import { useSearchParams } from 'react-router-dom'
 import { ColumnDef } from '@tanstack/react-table'
 import PageHero from '../components/PageHero'
 import DataTable from '../components/DataTable'
 import AsyncBoundary from '../components/AsyncBoundary'
 import GlossaryHeader from '../components/GlossaryHeader'
+import ExprCount from '../components/ExprCount'
 import { clip, evidenceColumn, referenceColumn } from '../components/cells'
 import { useCSV } from '../lib/useCSV'
 import { MetaQTLRecord, MQTLRecord, MQTLcmRecord, TraitCoverageRecord } from '../lib/types'
@@ -20,8 +21,8 @@ const computed: ColumnDef<MQTLRecord, any>[] = [
   { id: 'position_mb', header: 'Position (Mb)', accessorFn: num('position_mb') },
   { id: 'ci', header: '95% CI (Mb)', accessorFn: (r) => `${r.ci_start_mb}–${r.ci_end_mb}`, enableSorting: false },
   {
-    id: 'genes', header: 'Genes', enableSorting: false,
-    cell: ({ row }) => <Link className="underline" to={`/genes?r=${row.original.chromosome}:${row.original.ci_start_mb}-${row.original.ci_end_mb}`}>list</Link>,
+    id: 'genes', header: () => <span title="Genes in the 95% CI · fibre-preferential genes (FP); click to list them">Genes · FP</span>, enableSorting: false,
+    cell: ({ row }) => <ExprCount id={row.original.mqtl_id} region={`${row.original.chromosome}:${row.original.ci_start_mb}-${row.original.ci_end_mb}`} />,
   },
   { id: 'n_studies', header: () => <GlossaryHeader label="Studies" term="n_studies" />, accessorFn: num('n_studies') },
   {

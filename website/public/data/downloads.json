@@ -190,6 +190,15 @@
    "bytes": 11728
   },
   {
+   "group": "Meta-QTL and hotspots",
+   "title": "Gene expression in TM-1 organs",
+   "path": "downloads/gene_expression_tm1_organs.csv.gz",
+   "description": "TPM of every UTX v2.1 gene in 11 TM-1 organs (PRJNA248163; Zhang et al. 2015), organ-group means, tissue specificity, peak organ and fibre-preferential call (scripts/export_expression.py).",
+   "rows": 74902,
+   "columns": 26,
+   "bytes": 4107262
+  },
+  {
    "group": "Genetic maps and markers",
    "title": "Consensus genetic map",
    "path": "consensus_map.csv",

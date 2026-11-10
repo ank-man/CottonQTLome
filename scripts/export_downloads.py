@@ -103,6 +103,7 @@ add(G3, "Linkage maps (index)", "maps.csv", "All genetic maps: population, paren
 add(G3, "Linkage maps (all loci)", bundles["linkage_maps_all"], "Every marker of every linkage map in one file (map, marker, type, linkage group, chromosome, cM, primers).")
 add(G3, "Trait-linked markers", "markers.csv", "Marker–trait links graded by evidence, with primers where known.")
 add(G3, "Marker primers", "marker_primers.csv", "Primer sequences collected from CottonGen and mapping papers, by marker.")
+add(G2, "Gene expression in TM-1 organs", "downloads/gene_expression_tm1_organs.csv.gz", "TPM of every UTX v2.1 gene in 11 TM-1 organs (PRJNA248163; Zhang et al. 2015), organ-group means, tissue specificity, peak organ and fibre-preferential call (scripts/export_expression.py).")
 add(G4, "Trait dictionary", bundles["traits"], "Original trait names and the harmonised trait and category assigned to each, by source.")
 add(G4, "Studies", bundles["studies"], "Studies contributing records, with sources and record counts.")
 add(G4, "Literature index", "literature.csv", "Cotton QTL / GWAS papers indexed, with study-type flags and links.")

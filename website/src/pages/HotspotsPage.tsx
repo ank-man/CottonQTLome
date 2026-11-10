@@ -1,5 +1,4 @@
 import { useMemo, useState } from 'react'
-import { Link } from 'react-router-dom'
 import { ColumnDef } from '@tanstack/react-table'
 import { Bar, BarChart, CartesianGrid, Cell, ReferenceLine, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
 import PageHero from '../components/PageHero'
@@ -7,6 +6,7 @@ import DataTable from '../components/DataTable'
 import AsyncBoundary from '../components/AsyncBoundary'
 import GlossaryHeader from '../components/GlossaryHeader'
 import HotspotKaryotype from '../components/HotspotKaryotype'
+import ExprCount from '../components/ExprCount'
 import { clip } from '../components/cells'
 import { useCSV } from '../lib/useCSV'
 import { useJSON } from '../lib/useJSON'
@@ -23,8 +23,8 @@ const columns: ColumnDef<HotspotRecord, any>[] = [
   { accessorKey: 'chromosome', header: () => <GlossaryHeader label="Chr" term="chromosome" /> },
   { id: 'region', header: 'Region (Mb)', accessorFn: (r) => `${mb(r.start)}–${mb(r.end)}` },
   {
-    id: 'genes', header: 'Genes', enableSorting: false,
-    cell: ({ row }) => <Link className="underline" to={`/genes?r=${row.original.chromosome}:${row.original.start}-${row.original.end}bp`}>list</Link>,
+    id: 'genes', header: () => <span title="Genes in the hotspot · fibre-preferential genes (FP); click to list them">Genes · FP</span>, enableSorting: false,
+    cell: ({ row }) => <ExprCount id={row.original.hotspot_id} region={`${row.original.chromosome}:${row.original.start}-${row.original.end}bp`} />,
   },
   { accessorKey: 'peak_window_studies', header: 'Peak studies / 2 Mb', sortingFn: 'alphanumeric' },
   { accessorKey: 'n_studies', header: () => <GlossaryHeader label="Studies" term="n_studies" />, sortingFn: 'alphanumeric' },

@@ -204,6 +204,7 @@ python3 scripts/export_assemblies.py
 python3 scripts/export_marker_index.py
 python3 scripts/validate_data.py            # writes analysis/tables/validation_report.md; exit 1 on a failure
 python3 scripts/export_gene_index.py
+python3 analysis/expression_overlay.py && python3 scripts/export_expression.py   # organ expression (needs ../PolyploidQTLome quantifications)
 python3 scripts/export_downloads.py         # download bundles + manifest for the Downloads page
 python3 scripts/write_readme.py
 cd website && npm run build
