@@ -11,7 +11,7 @@ import {
   CHROMOSOME_LENGTHS,
   GENOME_COLOR_CLASS,
   chromosomeLength,
-  chromosomeSortKey,
+  homoeologOrder,
 } from '../lib/map'
 import { UserItem, UserColorMode, USER_SINGLE_CLASS, filterUserItems, valueScaler } from '../lib/userData'
 import { UserTooltip } from './IdeogramMap'
@@ -146,7 +146,7 @@ export default function CircosMap({
   // chromosomes out of the ring entirely (rather than leaving empty arcs),
   // so the remaining 7 chromosomes re-fill the circle proportionally.
   const chromosomes = useMemo(() => {
-    const all = Object.keys(CHROMOSOME_LENGTHS).sort((a, b) => chromosomeSortKey(a) - chromosomeSortKey(b))
+    const all = Object.keys(CHROMOSOME_LENGTHS).sort((a, b) => homoeologOrder(a) - homoeologOrder(b))
     return genomeFilter === 'all' ? all : all.filter((c) => c.startsWith(genomeFilter))
   }, [genomeFilter])
 

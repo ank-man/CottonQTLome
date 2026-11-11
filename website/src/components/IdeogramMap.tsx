@@ -10,7 +10,7 @@ import {
   CHROMOSOME_LENGTHS,
   GENOME_COLOR_CLASS,
   chromosomeLength,
-  chromosomeSortKey,
+  homoeologOrder,
   genomeOf,
 } from '../lib/map'
 import { UserItem, UserColorMode, USER_SINGLE_CLASS, filterUserItems, valueScaler } from '../lib/userData'
@@ -56,6 +56,8 @@ const META_LANE_WIDTH = 13
 const COMPACT_META_LANE_WIDTH = 10
 const MAX_META_LANES = 4
 const QTL_BINS = 60
+// Same-trait regions closer than this are drawn as one bar (labels off).
+const JOIN_GAP_BP = 2_000_000
 // Minimum vertical gap (px, in unscaled viewBox units) between two labels in
 // the same column - "space aware": a label is only drawn when it won't
 // collide with the previous one, rather than printing every name.
@@ -104,7 +106,7 @@ export default function IdeogramMap({
   // other chromosomes out entirely instead of leaving empty columns. All
   // chromosomes are plotted in a single row, side by side.
   const chromosomes = useMemo(() => {
-    const all = Object.keys(CHROMOSOME_LENGTHS).sort((a, b) => chromosomeSortKey(a) - chromosomeSortKey(b))
+    const all = Object.keys(CHROMOSOME_LENGTHS).sort((a, b) => homoeologOrder(a) - homoeologOrder(b))
     return genomeFilter === 'all' ? all : all.filter((c) => c.startsWith(genomeFilter))
   }, [genomeFilter])
 
@@ -156,13 +158,51 @@ export default function IdeogramMap({
     return best
   }
 
+  // ~40 meta-QTL per chromosome, each ~2 Mb: drawn one by one they read as a
+  // cloud of squares. Intervals of the same trait that overlap or lie within
+  // JOIN_GAP_BP of each other are joined into
+  // one bar (member IDs kept for the tooltip), like the long MetaQTL bars of
+  // WheatQTLdb. With labels on, every region is drawn on its own.
+  const regions = useMemo(() => {
+    const metas = filtered.filter((i): i is MetaQTLItem => i.type === 'metaqtl')
+    if (showItemLabels) return metas
+    const groups = new Map<string, MetaQTLItem[]>()
+    metas.forEach((m) => {
+      const k = `${m.chromosome}|${m.trait}`
+      const g = groups.get(k)
+      if (g) g.push(m)
+      else groups.set(k, [m])
+    })
+    const out: MetaQTLItem[] = []
+    groups.forEach((list) => {
+      list.sort((a, b) => a.start - b.start)
+      let cur: MetaQTLItem | null = null
+      list.forEach((m) => {
+        if (cur && m.start <= cur.end + JOIN_GAP_BP) {
+          cur.end = Math.max(cur.end, m.end)
+          cur.members!.push(m.name)
+        } else {
+          cur = { ...m, members: [m.name] }
+          out.push(cur)
+        }
+      })
+    })
+    out.forEach((m) => {
+      if (m.members!.length > 1) {
+        m.id = `${m.id}+${m.members!.length}`
+        m.name = `${m.members!.length} clustered regions`
+        m.point = (m.start + m.end) / 2
+      }
+    })
+    return out
+  }, [filtered, showItemLabels])
+
   // Stack overlapping MetaQTL intervals into side-by-side bracket lanes, per
   // chromosome, so overlapping intervals don't collide.
   const metaLanes = useMemo(() => {
     const lanes = new Map<string, number>()
     const lastEndByChrLane = new Map<string, number[]>()
-    filtered
-      .filter((i): i is MetaQTLItem => i.type === 'metaqtl')
+    regions
       .slice()
       .sort((a, b) => a.start - b.start)
       .forEach((m) => {
@@ -177,7 +217,7 @@ export default function IdeogramMap({
         lanes.set(m.id, Math.min(lane, MAX_META_LANES - 1))
       })
     return lanes
-  }, [filtered])
+  }, [regions])
 
   const userFiltered = useMemo(() => filterUserItems(userItems, selectedTraits, search), [userItems, selectedTraits, search])
   const userByChr = useMemo(() => {
@@ -339,7 +379,7 @@ export default function IdeogramMap({
               ? GENOME_COLOR_CLASS[genome] ?? 'text-wheat-400 dark:text-wheat-500'
               :'text-wheat-300 dark:text-wheat-600'
             const qtlBins = qtlDensity.byChr.get(chr) ?? []
-            const metaqtls = filtered.filter((i): i is MetaQTLItem => i.type === 'metaqtl' && i.chromosome === chr)
+            const metaqtls = regions.filter((i) => i.chromosome === chr)
             // Shared label column for both QTL and MetaQTL name labels, past
             // all the side lanes.
             const labelX = cx + half + qtlLane + MAX_META_LANES * metaLaneWidth + 4
@@ -591,7 +631,14 @@ export default function IdeogramMap({
                   </div>
                 )}
                 <div><span className="font-medium">Position:</span> {(hover.item.point / 1_000_000).toFixed(2)} Mb</div>
-                {hover.item.raw.parameter && (
+                {hover.item.type === 'metaqtl' && hover.item.members && hover.item.members.length > 1 && (
+                  <div>
+                    <span className="font-medium">Merged:</span> {hover.item.members.slice(0, 8).join(', ')}
+                    {hover.item.members.length > 8 ? ` +${hover.item.members.length - 8} more` : ''}
+                    <div className="text-[10px] text-wheat-500 dark:text-wheat-400">Turn on “Region labels” to draw each one.</div>
+                  </div>
+                )}
+                {(!('members' in hover.item) || (hover.item.members?.length ?? 0) <= 1) && hover.item.raw.parameter && (
                   <div><span className="font-medium">Parameter:</span> {hover.item.raw.parameter}</div>
                 )}
               </div>

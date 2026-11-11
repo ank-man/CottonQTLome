@@ -3,7 +3,7 @@ import {
   CHROMOSOME_LENGTHS,
   GENOME_COLOR_CLASS,
   chromosomeLength,
-  chromosomeSortKey,
+  homoeologOrder,
   genomeOf,
 } from '../lib/map'
 
@@ -26,7 +26,7 @@ export default function MiniIdeogram({ onSelect, className = '' }: MiniIdeogramP
   const [hoverChr, setHoverChr] = useState<string | null>(null)
 
   const chromosomes = useMemo(
-    () => Object.keys(CHROMOSOME_LENGTHS).sort((a, b) => chromosomeSortKey(a) - chromosomeSortKey(b)),
+    () => Object.keys(CHROMOSOME_LENGTHS).sort((a, b) => homoeologOrder(a) - homoeologOrder(b)),
     []
   )
   const maxLen = useMemo(() => Math.max(...chromosomes.map(chromosomeLength)), [chromosomes])

@@ -574,7 +574,7 @@ export default function Map({ mode = 'database' }: { mode?: 'database' | 'upload
                 <div>
                   <p className="font-medium text-wheat-800 dark:text-wheat-100">Region brackets</p>
                   <p className="text-sm leading-relaxed text-wheat-700 dark:text-wheat-300">
-                    Meta-QTL (bracket = 95% confidence interval of the consensus position) or hotspot regions, chosen with the “Region track” selector and coloured by trait category. Enable “Region labels” to print their IDs.
+                    Meta-QTL (bracket = 95% confidence interval of the consensus position) or hotspot regions, chosen with the “Region track” selector and coloured by trait category. Regions of one trait that overlap or lie within 2 Mb are drawn as one bar (hover to list them); enable “Region labels” to draw and name each one.
                   </p>
                 </div>
                 <div>

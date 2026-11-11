@@ -125,6 +125,14 @@ export function normalizeSpecies(s: string): string {
   return s.trim()
 }
 
+/** Plot order for the karyotype views: homoeologs side by side (A01, D01,
+ *  A02, D02 ...), as WheatQTLdb lays out 1A 1B 1D. Tables keep A01-A13, D01-D13. */
+export function homoeologOrder(chromosome: string): number {
+  const m = chromosome.match(/^([AD])(\d\d)$/)
+  if (!m) return 999
+  return parseInt(m[2], 10) * 2 + (m[1] === 'A' ? 0 : 1)
+}
+
 export function chromosomeSortKey(chromosome: string): number {
   const m = chromosome.match(/^([AD])(\d\d)$/)
   if (!m) return 999
@@ -211,6 +219,8 @@ export interface MetaQTLItem {
   trait: TraitCategory
   name: string
   raw: MetaQTLRecord
+  /** IDs joined into this bar when overlapping regions of one trait are merged for display. */
+  members?: string[]
 }
 
 export type MapItem = QTLItem | MetaQTLItem
