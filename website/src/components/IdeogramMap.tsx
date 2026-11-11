@@ -50,8 +50,8 @@ const COMPACT_MAX_BAR_HEIGHT = 920
 // bar, then a stack of MetaQTL interval brackets further out - both beside
 // the chromosome rather than drawn on top of it, so the karyotype colour
 // stays legible underneath.
-const QTL_LANE = 52
-const COMPACT_QTL_LANE = 38
+const QTL_LANE = 36
+const COMPACT_QTL_LANE = 26
 const META_LANE_WIDTH = 13
 const COMPACT_META_LANE_WIDTH = 10
 const MAX_META_LANES = 4
@@ -68,7 +68,7 @@ const COMPACT_LABEL_WIDTH = 58
 const COL_GAP = 56 + QTL_LANE + META_LANE_WIDTH * MAX_META_LANES
 const COMPACT_COL_GAP = 40 + COMPACT_QTL_LANE + COMPACT_META_LANE_WIDTH * MAX_META_LANES
 // Scale ruler ticks, every N Mb.
-const SCALE_STEP_MB = 100
+const SCALE_STEP_MB = 20
 // Lane for uploaded loci, left of the bar; mark length encodes the value column.
 const USER_LANE = 22
 const COMPACT_USER_LANE = 16
@@ -231,7 +231,7 @@ export default function IdeogramMap({
   }
 
   const scaleTicks = []
-  for (let mb = 0; mb <= 900; mb += SCALE_STEP_MB) scaleTicks.push(mb)
+  for (let mb = 0; mb <= 200; mb += SCALE_STEP_MB) scaleTicks.push(mb)
 
   return (
     <div className="card overflow-hidden">
@@ -287,6 +287,16 @@ export default function IdeogramMap({
               if (y < margin.top - 2) return null
               return (
                 <g key={mb}>
+                  <line
+                    x1={margin.left - 3}
+                    x2={svgWidth - margin.right}
+                    y1={y}
+                    y2={y}
+                    stroke="currentColor"
+                    strokeWidth={0.5}
+                    strokeDasharray="2 4"
+                    className="text-wheat-300 dark:text-ink-600 pointer-events-none"
+                  />
                   <line
                     x1={margin.left - 8}
                     x2={margin.left - 3}
@@ -437,16 +447,19 @@ export default function IdeogramMap({
                       const name = m.name.length > 16 ? `${m.name.slice(0, 15)}…` : m.name
                       return (
                         <g key={m.id}>
-                          <line
+                          {/* Leader line only when a label is printed: with
+                              ~40 regions per chromosome, lines to every
+                              bracket bury the bar in hairlines. */}
+                          {canLabel && <line
                             x1={cx + half}
-                            x2={canLabel ? labelX : laneX}
+                            x2={labelX}
                             y1={yMid}
                             y2={yMid}
                             stroke={color}
                             strokeWidth={0.75}
                             strokeOpacity={0.5}
                             className="pointer-events-none"
-                          />
+                          />}
                           <rect
                             x={laneX}
                             y={yEnd}

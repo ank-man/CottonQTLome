@@ -101,11 +101,12 @@ export function chromosomeLength(chromosome: string): number {
 // like G. arboreum) and Dt (from a D-genome diploid like G. raimondii).
 // `currentColor` + a Tailwind text-* class keeps this responsive to the
 // plot's light/dark toggle without JS.
-// Neutral tones on purpose: the trait categories own the saturated hues, so a
-// blue or orange chromosome would read as "fiber quality" or "yield".
+// Same subgenome hues as WheatQTLdb v3.0 (A gold, D green), so the sister
+// databases read alike. Trait marks sit in their own lanes beside the bar, so
+// a gold bar is not mistaken for a trait colour.
 export const GENOME_COLOR_CLASS: Record<string, string> = {
-  A: 'text-[#64748b] dark:text-[#94a3b8]',
-  D: 'text-[#b08968] dark:text-[#8a6a4f]',
+  A: 'text-[#e8a33d] dark:text-[#8a6220]',
+  D: 'text-[#5fa777] dark:text-[#355e42]',
 }
 
 export const SUBGENOMES = ['A', 'D'] as const
