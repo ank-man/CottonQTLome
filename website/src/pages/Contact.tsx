@@ -1,4 +1,4 @@
-import { Github } from 'lucide-react'
+import { Github, Mail } from 'lucide-react'
 import PageHero from '../components/PageHero'
 
 export default function Contact() {
@@ -19,6 +19,16 @@ export default function Contact() {
           CottonQTLome is developed and maintained by the <strong>Peng Chee Lab, Cotton Molecular Biology Laboratory,
           University of Georgia</strong>.
         </p>
+        <div className="rounded-lg border border-wheat-200 bg-wheat-50 p-4">
+          <div className="mb-1 font-semibold text-wheat-900">Webmaster</div>
+          <div>Ankush Sharma</div>
+          <div className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1">
+            <Mail className="h-4 w-4 text-wheat-600" />
+            <a className="underline" href="mailto:Ankush.Sharma@uga.edu">Ankush.Sharma@uga.edu</a>
+            <span className="text-wheat-500">or</span>
+            <a className="underline" href="mailto:mr.ank2999@gmail.com">mr.ank2999@gmail.com</a>
+          </div>
+        </div>
         <p className="flex items-center gap-2">
           <Github className="h-4 w-4 text-wheat-600" />
           <a className="underline" href="https://github.com/ank-man" target="_blank" rel="noreferrer">github.com/ank-man</a>

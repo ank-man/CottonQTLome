@@ -156,6 +156,7 @@ export default function Layout({ children }: { children: ReactNode }) {
               <Link className="hover:underline" to="/faq">Methods and limits</Link>
               <Link className="hover:underline" to="/credits">How to cite</Link>
               <Link className="hover:underline" to="/contact">Contact</Link>
+              <a className="hover:underline" href="mailto:Ankush.Sharma@uga.edu">Webmaster: Ankush Sharma</a>
             </span>
           </div>
         </footer>
