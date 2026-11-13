@@ -62,6 +62,10 @@ const JOIN_GAP_BP = 2_000_000
 // the same column - "space aware": a label is only drawn when it won't
 // collide with the previous one, rather than printing every name.
 const MIN_LABEL_GAP = 13
+// Row height of one item label (7px text). With labels on, the plot grows tall
+// enough that every label on the densest chromosome gets its own row.
+const LABEL_ROW = 9
+const MAX_LABELLED_BAR_HEIGHT = 9000
 // Reserved horizontal room for the name-label text column. Only added to the
 // column spacing when labels are actually on, so inter-chromosome distance
 // adapts to whether labels need the space instead of always paying for it.
@@ -239,7 +243,20 @@ export default function IdeogramMap({
   const chromWidth = compact ? COMPACT_CHROM_WIDTH : CHROM_WIDTH
   const labelWidth = showItemLabels ? (compact ? COMPACT_LABEL_WIDTH : LABEL_WIDTH) : 0
   const colGap = (compact ? COMPACT_COL_GAP : COL_GAP) + labelWidth + userLane + userLabelWidth
-  const maxBarHeight = compact ? COMPACT_MAX_BAR_HEIGHT : MAX_BAR_HEIGHT
+  const baseBarHeight = compact ? COMPACT_MAX_BAR_HEIGHT : MAX_BAR_HEIGHT
+  // Labels on: make the longest bar tall enough that the chromosome with the
+  // most labels per Mb fits them all one row apart.
+  const maxBarHeight = useMemo(() => {
+    if (!showItemLabels) return baseBarHeight
+    const longest = Math.max(...chromosomes.map((c) => chromosomeLength(c)))
+    let need = Math.round(baseBarHeight * 1.5)
+    chromosomes.forEach((c) => {
+      const n = regions.filter((m) => m.chromosome === c).length +
+        (showQTL ? (qtlDensity.byChr.get(c) ?? []).filter((b) => b.only).length : 0)
+      need = Math.max(need, ((n + 2) * LABEL_ROW * longest) / chromosomeLength(c))
+    })
+    return Math.min(MAX_LABELLED_BAR_HEIGHT, Math.ceil(need))
+  }, [showItemLabels, baseBarHeight, chromosomes, regions, qtlDensity, showQTL])
   const qtlLane = compact ? COMPACT_QTL_LANE : QTL_LANE
   const metaLaneWidth = compact ? COMPACT_META_LANE_WIDTH : META_LANE_WIDTH
 
@@ -309,8 +326,8 @@ export default function IdeogramMap({
           ref={svgRef}
           width={svgWidth}
           height={svgHeight}
-          className="block h-auto"
-          style={{ width: svgWidth, maxWidth: chromosomes.length > 10 ? undefined : '100%' }}
+          className={`block h-auto ${showItemLabels || showUserLabels ? 'shrink-0' : ''}`}
+          style={{ width: svgWidth, maxWidth: showItemLabels || showUserLabels ? 'none' : '100%' }}
           viewBox={`0 0 ${svgWidth} ${svgHeight}`}
           preserveAspectRatio="xMidYMid meet"
         >
@@ -382,7 +399,8 @@ export default function IdeogramMap({
             const metaqtls = regions.filter((i) => i.chromosome === chr)
             // Shared label column for both QTL and MetaQTL name labels, past
             // all the side lanes.
-            const labelX = cx + half + qtlLane + MAX_META_LANES * metaLaneWidth + 4
+            const labelX = cx + half + qtlLane + MAX_META_LANES * metaLaneWidth + 12
+            const labels: { key: string; y: number; x0: number; color: string; text: string }[] = []
 
             return (
               <g key={chr}>
@@ -410,7 +428,6 @@ export default function IdeogramMap({
                     name to print. */}
                 {showQTL &&
                   (() => {
-                    let lastLabelY = -Infinity
                     return qtlBins.map((bin, i) => {
                       if (bin.count === 0) return null
                       const yTop = rowTop + h * (1 - (i + 1) / QTL_BINS)
@@ -423,9 +440,7 @@ export default function IdeogramMap({
                       // as a visible mark next to dozens of chromosome bars,
                       // not disappear at this zoomed-out, side-by-side scale.
                       const barLen = Math.max(6, (bin.count / qtlDensity.max) * qtlLane)
-                      const canLabel = showItemLabels && bin.only && Math.abs(yMid - lastLabelY) >= MIN_LABEL_GAP
-                      if (canLabel) lastLabelY = yMid
-                      const name = bin.only && bin.only.name.length > 16 ? `${bin.only.name.slice(0, 15)}…` : bin.only?.name
+                      if (showItemLabels && bin.only) labels.push({ key: `q${i}`, y: yMid, x0: cx + half + barLen, color, text: bin.only.name })
                       return (
                         <g key={i}>
                           <rect
@@ -441,27 +456,6 @@ export default function IdeogramMap({
                           >
                             <title>{`${bin.count.toLocaleString()} QTL(s), mostly ${trait}`}</title>
                           </rect>
-                          {canLabel && (
-                            <>
-                              <line
-                                x1={cx + half + barLen}
-                                x2={labelX}
-                                y1={yMid}
-                                y2={yMid}
-                                stroke={color}
-                                strokeWidth={0.6}
-                                strokeOpacity={0.5}
-                                className="pointer-events-none"
-                              />
-                              <text
-                                x={labelX}
-                                y={yMid + 2.5}
-                                className="fill-current text-[7px] text-wheat-700 dark:text-wheat-300"
-                              >
-                                {name}
-                              </text>
-                            </>
-                          )}
                         </g>
                       )
                     })
@@ -474,7 +468,6 @@ export default function IdeogramMap({
                     collide with the previous label on this chromosome. */}
                 {showMetaQTL &&
                   (() => {
-                    let lastLabelY = -Infinity
                     return metaqtls.map((m) => {
                       const yStart = rowTop + yFor(chr, m.start)
                       const yEnd = rowTop + yFor(chr, m.end)
@@ -482,24 +475,9 @@ export default function IdeogramMap({
                       const lane = metaLanes.get(m.id) ?? 0
                       const laneX = cx + half + qtlLane + lane * metaLaneWidth
                       const color = TRAIT_COLORS[m.trait as TraitCategory] ?? '#888'
-                      const canLabel = showItemLabels && Math.abs(yMid - lastLabelY) >= MIN_LABEL_GAP
-                      if (canLabel) lastLabelY = yMid
-                      const name = m.name.length > 16 ? `${m.name.slice(0, 15)}…` : m.name
+                      if (showItemLabels) labels.push({ key: m.id, y: yMid, x0: laneX + metaLaneWidth - 2, color, text: m.name })
                       return (
                         <g key={m.id}>
-                          {/* Leader line only when a label is printed: with
-                              ~40 regions per chromosome, lines to every
-                              bracket bury the bar in hairlines. */}
-                          {canLabel && <line
-                            x1={cx + half}
-                            x2={labelX}
-                            y1={yMid}
-                            y2={yMid}
-                            stroke={color}
-                            strokeWidth={0.75}
-                            strokeOpacity={0.5}
-                            className="pointer-events-none"
-                          />}
                           <rect
                             x={laneX}
                             y={yEnd}
@@ -515,18 +493,41 @@ export default function IdeogramMap({
                             onMouseLeave={() => setHover(null)}
                             onMouseMove={(e) => setHover({ kind: 'item', x: e.clientX, y: e.clientY, item: m })}
                           />
-                          {canLabel && (
-                            <text
-                              x={labelX}
-                              y={yMid + 2.5}
-                              className="fill-current text-[7px] text-wheat-700 dark:text-wheat-300"
-                            >
-                              {name}
-                            </text>
-                          )}
                         </g>
                       )
                     })
+                  })()}
+
+                {/* Item labels: every label is drawn, nudged apart so none
+                    overlap, with an elbow leader back to its mark. */}
+                {labels.length > 0 &&
+                  (() => {
+                    labels.sort((a, b) => a.y - b.y)
+                    const ys = labels.map((l) => l.y)
+                    for (let k = 1; k < ys.length; k++) ys[k] = Math.max(ys[k], ys[k - 1] + LABEL_ROW)
+                    const bottom = rowTop + h + LABEL_ROW
+                    if (ys[ys.length - 1] > bottom) {
+                      ys[ys.length - 1] = bottom
+                      for (let k = ys.length - 2; k >= 0; k--) ys[k] = Math.min(ys[k], ys[k + 1] - LABEL_ROW)
+                    }
+                    return (
+                      <g className="pointer-events-none">
+                        {labels.map((l, k) => (
+                          <g key={l.key}>
+                            <polyline
+                              points={`${l.x0},${l.y} ${labelX - 8},${l.y} ${labelX - 2},${ys[k]}`}
+                              fill="none"
+                              stroke={l.color}
+                              strokeWidth={0.6}
+                              strokeOpacity={0.6}
+                            />
+                            <text x={labelX} y={ys[k] + 2.5} className="fill-current text-[7px] text-wheat-700 dark:text-wheat-300">
+                              {l.text.length > 16 ? `${l.text.slice(0, 15)}…` : l.text}
+                            </text>
+                          </g>
+                        ))}
+                      </g>
+                    )
                   })()}
 
                 {/* Uploaded loci: ticks (points) or bars (intervals) left of
